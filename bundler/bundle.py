@@ -9,6 +9,7 @@ from bundle import grade_distribution, subjects
 
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
+exports_path.mkdir(exist_ok=True)
 
 export_name = exports_path / f'publicdata-bundle-{int(time())}'
 export_name.mkdir(exist_ok=True)
@@ -21,6 +22,6 @@ for fmt in documents_path.iterdir():
 
 with tarfile.open(exports_path / f'{export_name.name}.tar.gz', 'w:gz') as tar:
     for item in export_name.iterdir():
-        tar.add(name=item.resolve(), arcname=item.name)
+        tar.add(name=item, arcname=item.name)
 rmtree(export_name)
 print(exports_path.resolve() / f'{export_name.name}.tar.gz')
