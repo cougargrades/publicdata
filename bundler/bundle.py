@@ -19,9 +19,8 @@ for fmt in documents_path.iterdir():
     if(fmt.name == 'com.collegescheduler.uh.subjects'):
         subjects.process(fmt.resolve(), export_name / fmt.name)
 
-
 with tarfile.open(exports_path / f'{export_name.name}.tar.gz', 'w:gz') as tar:
     for item in export_name.iterdir():
-        tar.add(name=item, arcname=item.name)
+        tar.add(name=item.resolve(), arcname=item.name)
 rmtree(export_name)
 print(exports_path.resolve() / f'{export_name.name}.tar.gz')
