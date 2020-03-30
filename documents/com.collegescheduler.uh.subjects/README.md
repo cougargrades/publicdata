@@ -1,4 +1,4 @@
-# Subjects
+# Subjects data
 
 A map of subject abbreviations (ex: `MATH`) to the complete description (ex: `Mathematics`).
 
@@ -28,6 +28,8 @@ Identifier code: `com.collegescheduler.uh.subjects`
         "long": "CHEM (Chemistry)",
         "title": "CHEM (Chemistry) "
     }
+    ...
+]
 ```
 
 ## Data Aquisition

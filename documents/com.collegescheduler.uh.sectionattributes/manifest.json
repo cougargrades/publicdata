@@ -1,0 +1,120 @@
+{
+    "sectionAttributes": [
+        {
+            "id": "10",
+            "title": "(10) Core-Communication"
+        },
+        {
+            "id": "20",
+            "title": "(20) Core-Mathematics"
+        },
+        {
+            "id": "30",
+            "title": "(30) Core-Life & Physical Sciences"
+        },
+        {
+            "id": "40",
+            "title": "(40) Core-Language, Philosophy & Culture"
+        },
+        {
+            "id": "50",
+            "title": "(50) Core-Creative Arts"
+        },
+        {
+            "id": "60",
+            "title": "(60) Core-American History"
+        },
+        {
+            "id": "70",
+            "title": "(70) Core-Government/Political Science"
+        },
+        {
+            "id": "80",
+            "title": "(80) Core-Social & Behavioral Science"
+        },
+        {
+            "id": "81",
+            "title": "(81) Core-Writing in Discipline WID"
+        },
+        {
+            "id": "90",
+            "title": "(90) Core-Math/Reasoning, Component Area Option"
+        },
+        {
+            "id": "REQO",
+            "title": "All Required Class Materials are Open-Source"
+        },
+        {
+            "id": "DR",
+            "title": "Doctoral"
+        },
+        {
+            "id": "FR",
+            "title": "Freshman"
+        },
+        {
+            "id": "D",
+            "title": "International Studies Program"
+        },
+        {
+            "id": "JR",
+            "title": "Junior"
+        },
+        {
+            "id": "LA",
+            "title": "Law"
+        },
+        {
+            "id": "MS",
+            "title": "Master's"
+        },
+        {
+            "id": "M",
+            "title": "Mexican-American Studies"
+        },
+        {
+            "id": "NB",
+            "title": "Non Billable Hours"
+        },
+        {
+            "id": "O",
+            "title": "Off Campus"
+        },
+        {
+            "id": "OP",
+            "title": "Optometry"
+        },
+        {
+            "id": "PH",
+            "title": "Pharmacy"
+        },
+        {
+            "id": "SR",
+            "title": "Senior"
+        },
+        {
+            "id": "SO",
+            "title": "Sophomore"
+        },
+        {
+            "id": "RECO",
+            "title": "All Recommended Class Materials are Open-Source"
+        },
+        {
+            "id": "K",
+            "title": "American Cultures"
+        },
+        {
+            "id": "WEEKENDU",
+            "title": "Weekend UH Offerings"
+        },
+        {
+            "id": "W",
+            "title": "Women's Studies"
+        }
+    ],
+    "terms": [
+        "Summer 2019",
+        "Fall 2019"
+    ]
+}
