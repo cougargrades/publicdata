@@ -36,7 +36,7 @@ Subjects data is acquired from College Scheduler.
 
 The endpoint used is: `https://uh.collegescheduler.com/api/terms/Fall%202019/subjects`
 
-For simplified programmatic use of the College Scheduler API, the [@cougargrades/collegescheduler](https://github.com/cougargrades/collegescheduler) tool was used.
+The [@cougargrades/collegescheduler](https://github.com/cougargrades/collegescheduler) tool was used to consistently access the API and handle authentication.
 
 For baseline documentation of the related College Scheduler endpoints, see [@au5ton/docs](https://github.com/au5ton/docs/wiki/CollegeScheduler-(*.collegescheduler.com)).
 
