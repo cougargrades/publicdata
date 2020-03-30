@@ -1,0 +1,818 @@
+[
+    {
+        "id": "AAMS",
+        "short": "AAMS",
+        "long": "AAMS (Asian American Studies)",
+        "title": "AAMS (Asian American Studies) "
+    },
+    {
+        "id": "AAS",
+        "short": "AAS",
+        "long": "AAS (African American Studies)",
+        "title": "AAS (African American Studies) "
+    },
+    {
+        "id": "ACCT",
+        "short": "ACCT",
+        "long": "ACCT (Accounting)",
+        "title": "ACCT (Accounting) "
+    },
+    {
+        "id": "AFSC",
+        "short": "AFSC",
+        "long": "AFSC (Air Force Science)",
+        "title": "AFSC (Air Force Science) "
+    },
+    {
+        "id": "ANTH",
+        "short": "ANTH",
+        "long": "ANTH (Anthropology)",
+        "title": "ANTH (Anthropology) "
+    },
+    {
+        "id": "ARAB",
+        "short": "ARAB",
+        "long": "ARAB (Arabic)",
+        "title": "ARAB (Arabic) "
+    },
+    {
+        "id": "ARCH",
+        "short": "ARCH",
+        "long": "ARCH (Architecture)",
+        "title": "ARCH (Architecture) "
+    },
+    {
+        "id": "ARED",
+        "short": "ARED",
+        "long": "ARED (Art Education)",
+        "title": "ARED (Art Education) "
+    },
+    {
+        "id": "ARLD",
+        "short": "ARLD",
+        "long": "ARLD (Arts Leadership)",
+        "title": "ARLD (Arts Leadership) "
+    },
+    {
+        "id": "ART",
+        "short": "ART",
+        "long": "ART (Art)",
+        "title": "ART (Art) "
+    },
+    {
+        "id": "ARTH",
+        "short": "ARTH",
+        "long": "ARTH (Art History)",
+        "title": "ARTH (Art History) "
+    },
+    {
+        "id": "ASLI",
+        "short": "ASLI",
+        "long": "ASLI (Amer Sign Lang Interpre)",
+        "title": "ASLI (Amer Sign Lang Interpre) "
+    },
+    {
+        "id": "ATP",
+        "short": "ATP",
+        "long": "ATP (Athletic Training Progr)",
+        "title": "ATP (Athletic Training Progr) "
+    },
+    {
+        "id": "BCHS",
+        "short": "BCHS",
+        "long": "BCHS (Biochemical&Biophys Sci)",
+        "title": "BCHS (Biochemical&Biophys Sci) "
+    },
+    {
+        "id": "BIOE",
+        "short": "BIOE",
+        "long": "BIOE (Biomedical Engineering)",
+        "title": "BIOE (Biomedical Engineering) "
+    },
+    {
+        "id": "BIOL",
+        "short": "BIOL",
+        "long": "BIOL (Biology)",
+        "title": "BIOL (Biology) "
+    },
+    {
+        "id": "BTEC",
+        "short": "BTEC",
+        "long": "BTEC (Biotechnology)",
+        "title": "BTEC (Biotechnology) "
+    },
+    {
+        "id": "BUAF",
+        "short": "BUAF",
+        "long": "BUAF (Business Affiliated St)",
+        "title": "BUAF (Business Affiliated St) "
+    },
+    {
+        "id": "BZAN",
+        "short": "BZAN",
+        "long": "BZAN (Business Analytics)",
+        "title": "BZAN (Business Analytics) "
+    },
+    {
+        "id": "CCS",
+        "short": "CCS",
+        "long": "CCS (Comparative Cult Studies)",
+        "title": "CCS (Comparative Cult Studies) "
+    },
+    {
+        "id": "CHEE",
+        "short": "CHEE",
+        "long": "CHEE (Chemical Engineering)",
+        "title": "CHEE (Chemical Engineering) "
+    },
+    {
+        "id": "CHEM",
+        "short": "CHEM",
+        "long": "CHEM (Chemistry)",
+        "title": "CHEM (Chemistry) "
+    },
+    {
+        "id": "CHNS",
+        "short": "CHNS",
+        "long": "CHNS (Chinese)",
+        "title": "CHNS (Chinese) "
+    },
+    {
+        "id": "CIS",
+        "short": "CIS",
+        "long": "CIS (Computer Information Sys)",
+        "title": "CIS (Computer Information Sys) "
+    },
+    {
+        "id": "CIVE",
+        "short": "CIVE",
+        "long": "CIVE (Civil & Environm Engr)",
+        "title": "CIVE (Civil & Environm Engr) "
+    },
+    {
+        "id": "CLAS",
+        "short": "CLAS",
+        "long": "CLAS (Classics)",
+        "title": "CLAS (Classics) "
+    },
+    {
+        "id": "CNST",
+        "short": "CNST",
+        "long": "CNST (Construction Technology)",
+        "title": "CNST (Construction Technology) "
+    },
+    {
+        "id": "COMD",
+        "short": "COMD",
+        "long": "COMD (Communication Disorders)",
+        "title": "COMD (Communication Disorders) "
+    },
+    {
+        "id": "COMM",
+        "short": "COMM",
+        "long": "COMM (Communication)",
+        "title": "COMM (Communication) "
+    },
+    {
+        "id": "COOP",
+        "short": "COOP",
+        "long": "COOP (Cooperative Engineering)",
+        "title": "COOP (Cooperative Engineering) "
+    },
+    {
+        "id": "COSC",
+        "short": "COSC",
+        "long": "COSC (Computer Science)",
+        "title": "COSC (Computer Science) "
+    },
+    {
+        "id": "CUIN",
+        "short": "CUIN",
+        "long": "CUIN (Curriculum& Instruction)",
+        "title": "CUIN (Curriculum& Instruction) "
+    },
+    {
+        "id": "CUST",
+        "short": "CUST",
+        "long": "CUST (Cultural& Urban Studies)",
+        "title": "CUST (Cultural& Urban Studies) "
+    },
+    {
+        "id": "DAN",
+        "short": "DAN",
+        "long": "DAN (Dance)",
+        "title": "DAN (Dance) "
+    },
+    {
+        "id": "DIGM",
+        "short": "DIGM",
+        "long": "DIGM (Digital Media)",
+        "title": "DIGM (Digital Media) "
+    },
+    {
+        "id": "ECE",
+        "short": "ECE",
+        "long": "ECE (Electrical and Comp Engr)",
+        "title": "ECE (Electrical and Comp Engr) "
+    },
+    {
+        "id": "ECON",
+        "short": "ECON",
+        "long": "ECON (Economics)",
+        "title": "ECON (Economics) "
+    },
+    {
+        "id": "EDRS",
+        "short": "EDRS",
+        "long": "EDRS (Educational Research)",
+        "title": "EDRS (Educational Research) "
+    },
+    {
+        "id": "EGRP",
+        "short": "EGRP",
+        "long": "EGRP (Engineering PROMES)",
+        "title": "EGRP (Engineering PROMES) "
+    },
+    {
+        "id": "ELCS",
+        "short": "ELCS",
+        "long": "ELCS (Educ Ldrshp&Cultural St)",
+        "title": "ELCS (Educ Ldrshp&Cultural St) "
+    },
+    {
+        "id": "ELED",
+        "short": "ELED",
+        "long": "ELED (Elementary Education)",
+        "title": "ELED (Elementary Education) "
+    },
+    {
+        "id": "ELET",
+        "short": "ELET",
+        "long": "ELET (Electrical-Electron Tec)",
+        "title": "ELET (Electrical-Electron Tec) "
+    },
+    {
+        "id": "ENGI",
+        "short": "ENGI",
+        "long": "ENGI (Engineering)",
+        "title": "ENGI (Engineering) "
+    },
+    {
+        "id": "ENGL",
+        "short": "ENGL",
+        "long": "ENGL (English)",
+        "title": "ENGL (English) "
+    },
+    {
+        "id": "ENRG",
+        "short": "ENRG",
+        "long": "ENRG (Energy & Sustainability)",
+        "title": "ENRG (Energy & Sustainability) "
+    },
+    {
+        "id": "ENTR",
+        "short": "ENTR",
+        "long": "ENTR (Entrepreneurship)",
+        "title": "ENTR (Entrepreneurship) "
+    },
+    {
+        "id": "FINA",
+        "short": "FINA",
+        "long": "FINA (Finance)",
+        "title": "FINA (Finance) "
+    },
+    {
+        "id": "FORE",
+        "short": "FORE",
+        "long": "FORE (Foresight)",
+        "title": "FORE (Foresight) "
+    },
+    {
+        "id": "FREN",
+        "short": "FREN",
+        "long": "FREN (French)",
+        "title": "FREN (French) "
+    },
+    {
+        "id": "GEDS",
+        "short": "GEDS",
+        "long": "GEDS (GlobalEnergyDev&Sustain)",
+        "title": "GEDS (GlobalEnergyDev&Sustain) "
+    },
+    {
+        "id": "GENB",
+        "short": "GENB",
+        "long": "GENB (General Business Admin)",
+        "title": "GENB (General Business Admin) "
+    },
+    {
+        "id": "GEOL",
+        "short": "GEOL",
+        "long": "GEOL (Geosciences)",
+        "title": "GEOL (Geosciences) "
+    },
+    {
+        "id": "GERM",
+        "short": "GERM",
+        "long": "GERM (German)",
+        "title": "GERM (German) "
+    },
+    {
+        "id": "GREK",
+        "short": "GREK",
+        "long": "GREK (Greek)",
+        "title": "GREK (Greek) "
+    },
+    {
+        "id": "GRET",
+        "short": "GRET",
+        "long": "GRET (Global Retailing)",
+        "title": "GRET (Global Retailing) "
+    },
+    {
+        "id": "HDCS",
+        "short": "HDCS",
+        "long": "HDCS (Hum Develop & Consum Sc)",
+        "title": "HDCS (Hum Develop & Consum Sc) "
+    },
+    {
+        "id": "HDFS",
+        "short": "HDFS",
+        "long": "HDFS (Hum Develop & Fam Stds)",
+        "title": "HDFS (Hum Develop & Fam Stds) "
+    },
+    {
+        "id": "HIND",
+        "short": "HIND",
+        "long": "HIND (Hindi)",
+        "title": "HIND (Hindi) "
+    },
+    {
+        "id": "HIST",
+        "short": "HIST",
+        "long": "HIST (History)",
+        "title": "HIST (History) "
+    },
+    {
+        "id": "HLT",
+        "short": "HLT",
+        "long": "HLT (Health Education)",
+        "title": "HLT (Health Education) "
+    },
+    {
+        "id": "HON",
+        "short": "HON",
+        "long": "HON (Honors College)",
+        "title": "HON (Honors College) "
+    },
+    {
+        "id": "HRAF",
+        "short": "HRAF",
+        "long": "HRAF (HRM Affiliated Studies)",
+        "title": "HRAF (HRM Affiliated Studies) "
+    },
+    {
+        "id": "HRD",
+        "short": "HRD",
+        "long": "HRD (Human Resources Developm)",
+        "title": "HRD (Human Resources Developm) "
+    },
+    {
+        "id": "HRMA",
+        "short": "HRMA",
+        "long": "HRMA (Hotel & Restaurant Mgt)",
+        "title": "HRMA (Hotel & Restaurant Mgt) "
+    },
+    {
+        "id": "HRRE",
+        "short": "HRRE",
+        "long": "HRRE (HRM Reciprocal Exc)",
+        "title": "HRRE (HRM Reciprocal Exc) "
+    },
+    {
+        "id": "IART",
+        "short": "IART",
+        "long": "IART (Interdisciplinary Art)",
+        "title": "IART (Interdisciplinary Art) "
+    },
+    {
+        "id": "IDNS",
+        "short": "IDNS",
+        "long": "IDNS (Interdisciplinary-NSM)",
+        "title": "IDNS (Interdisciplinary-NSM) "
+    },
+    {
+        "id": "IEEM",
+        "short": "IEEM",
+        "long": "IEEM (Engineering Management)",
+        "title": "IEEM (Engineering Management) "
+    },
+    {
+        "id": "ILAS",
+        "short": "ILAS",
+        "long": "ILAS (Interdisciplinary-LASS)",
+        "title": "ILAS (Interdisciplinary-LASS) "
+    },
+    {
+        "id": "INAR",
+        "short": "INAR",
+        "long": "INAR (Interior Arch)",
+        "title": "INAR (Interior Arch) "
+    },
+    {
+        "id": "INDE",
+        "short": "INDE",
+        "long": "INDE (Industrial Engineering)",
+        "title": "INDE (Industrial Engineering) "
+    },
+    {
+        "id": "INDS",
+        "short": "INDS",
+        "long": "INDS (Industrial Design)",
+        "title": "INDS (Industrial Design) "
+    },
+    {
+        "id": "IRW",
+        "short": "IRW",
+        "long": "IRW (Integ Reading & Writing)",
+        "title": "IRW (Integ Reading & Writing) "
+    },
+    {
+        "id": "ITAL",
+        "short": "ITAL",
+        "long": "ITAL (Italian)",
+        "title": "ITAL (Italian) "
+    },
+    {
+        "id": "ITEC",
+        "short": "ITEC",
+        "long": "ITEC (Information Syst Tech)",
+        "title": "ITEC (Information Syst Tech) "
+    },
+    {
+        "id": "JPNS",
+        "short": "JPNS",
+        "long": "JPNS (Japanese)",
+        "title": "JPNS (Japanese) "
+    },
+    {
+        "id": "JWST",
+        "short": "JWST",
+        "long": "JWST (Jewish Studies)",
+        "title": "JWST (Jewish Studies) "
+    },
+    {
+        "id": "KIN",
+        "short": "KIN",
+        "long": "KIN (Kinesiology)",
+        "title": "KIN (Kinesiology) "
+    },
+    {
+        "id": "LAAF",
+        "short": "LAAF",
+        "long": "LAAF (Law Affiliated Studies)",
+        "title": "LAAF (Law Affiliated Studies) "
+    },
+    {
+        "id": "LACP",
+        "short": "LACP",
+        "long": "LACP(Liberal Arts Career Plan)",
+        "title": "LACP(Liberal Arts Career Plan) "
+    },
+    {
+        "id": "LATN",
+        "short": "LATN",
+        "long": "LATN (Latin)",
+        "title": "LATN (Latin) "
+    },
+    {
+        "id": "LAW",
+        "short": "LAW",
+        "long": "LAW (Law)",
+        "title": "LAW (Law) "
+    },
+    {
+        "id": "LSAF",
+        "short": "LSAF",
+        "long": "LSAF (LASS Affiliated Studies)",
+        "title": "LSAF (LASS Affiliated Studies) "
+    },
+    {
+        "id": "MANA",
+        "short": "MANA",
+        "long": "MANA (Management)",
+        "title": "MANA (Management) "
+    },
+    {
+        "id": "MARK",
+        "short": "MARK",
+        "long": "MARK (Marketing and Entrepren)",
+        "title": "MARK (Marketing and Entrepren) "
+    },
+    {
+        "id": "MATH",
+        "short": "MATH",
+        "long": "MATH (Mathematics)",
+        "title": "MATH (Mathematics) "
+    },
+    {
+        "id": "MECE",
+        "short": "MECE",
+        "long": "MECE (Mechanical Engineering)",
+        "title": "MECE (Mechanical Engineering) "
+    },
+    {
+        "id": "MECT",
+        "short": "MECT",
+        "long": "MECT (Mechanical Technology)",
+        "title": "MECT (Mechanical Technology) "
+    },
+    {
+        "id": "MIS",
+        "short": "MIS",
+        "long": "MIS (Management Info. Systems)",
+        "title": "MIS (Management Info. Systems) "
+    },
+    {
+        "id": "MSCI",
+        "short": "MSCI",
+        "long": "MSCI (Military Science)",
+        "title": "MSCI (Military Science) "
+    },
+    {
+        "id": "MTLS",
+        "short": "MTLS",
+        "long": "MTLS (Materials Engineering)",
+        "title": "MTLS (Materials Engineering) "
+    },
+    {
+        "id": "MUED",
+        "short": "MUED",
+        "long": "MUED (Music Education)",
+        "title": "MUED (Music Education) "
+    },
+    {
+        "id": "MUSA",
+        "short": "MUSA",
+        "long": "MUSA (Applied Music)",
+        "title": "MUSA (Applied Music) "
+    },
+    {
+        "id": "MUSI",
+        "short": "MUSI",
+        "long": "MUSI (Music)",
+        "title": "MUSI (Music) "
+    },
+    {
+        "id": "NAVY",
+        "short": "NAVY",
+        "long": "NAVY (Navy)",
+        "title": "NAVY (Navy) "
+    },
+    {
+        "id": "NSAF",
+        "short": "NSAF",
+        "long": "NSAF (NSM Affiliated Studies)",
+        "title": "NSAF (NSM Affiliated Studies) "
+    },
+    {
+        "id": "NURS",
+        "short": "NURS",
+        "long": "NURS (Nursing)",
+        "title": "NURS (Nursing) "
+    },
+    {
+        "id": "NUTR",
+        "short": "NUTR",
+        "long": "NUTR (Nutrition)",
+        "title": "NUTR (Nutrition) "
+    },
+    {
+        "id": "OPTO",
+        "short": "OPTO",
+        "long": "OPTO (Optometry)",
+        "title": "OPTO (Optometry) "
+    },
+    {
+        "id": "PCEU",
+        "short": "PCEU",
+        "long": "PCEU (Pharmaceutics)",
+        "title": "PCEU (Pharmaceutics) "
+    },
+    {
+        "id": "PCOL",
+        "short": "PCOL",
+        "long": "PCOL (Pharmacology)",
+        "title": "PCOL (Pharmacology) "
+    },
+    {
+        "id": "PEB",
+        "short": "PEB",
+        "long": "PEB (Physical Edu Basic Instr)",
+        "title": "PEB (Physical Edu Basic Instr) "
+    },
+    {
+        "id": "PEP",
+        "short": "PEP",
+        "long": "PEP (Physical Ed Professional)",
+        "title": "PEP (Physical Ed Professional) "
+    },
+    {
+        "id": "PETR",
+        "short": "PETR",
+        "long": "PETR (Petroleum Engineering)",
+        "title": "PETR (Petroleum Engineering) "
+    },
+    {
+        "id": "PHAR",
+        "short": "PHAR",
+        "long": "PHAR (Pharmacy)",
+        "title": "PHAR (Pharmacy) "
+    },
+    {
+        "id": "PHCA",
+        "short": "PHCA",
+        "long": "PHCA (Pharmacy Practice)",
+        "title": "PHCA (Pharmacy Practice) "
+    },
+    {
+        "id": "PHIL",
+        "short": "PHIL",
+        "long": "PHIL (Philosophy)",
+        "title": "PHIL (Philosophy) "
+    },
+    {
+        "id": "PHLA",
+        "short": "PHLA",
+        "long": "PHLA (Pharm Leadership Admin)",
+        "title": "PHLA (Pharm Leadership Admin) "
+    },
+    {
+        "id": "PHLS",
+        "short": "PHLS",
+        "long": "PHLS (Psych Hlth Learn Sci)",
+        "title": "PHLS (Psych Hlth Learn Sci) "
+    },
+    {
+        "id": "PHOP",
+        "short": "PHOP",
+        "long": "PHOP (Physiological Optics)",
+        "title": "PHOP (Physiological Optics) "
+    },
+    {
+        "id": "PHYS",
+        "short": "PHYS",
+        "long": "PHYS (Physics)",
+        "title": "PHYS (Physics) "
+    },
+    {
+        "id": "POLC",
+        "short": "POLC",
+        "long": "POLC (Public Policy)",
+        "title": "POLC (Public Policy) "
+    },
+    {
+        "id": "POLS",
+        "short": "POLS",
+        "long": "POLS (Political Science)",
+        "title": "POLS (Political Science) "
+    },
+    {
+        "id": "PSYC",
+        "short": "PSYC",
+        "long": "PSYC (Psychology)",
+        "title": "PSYC (Psychology) "
+    },
+    {
+        "id": "PUBL",
+        "short": "PUBL",
+        "long": "PUBL (Public Administration)",
+        "title": "PUBL (Public Administration) "
+    },
+    {
+        "id": "RELS",
+        "short": "RELS",
+        "long": "RELS (Religious Studies)",
+        "title": "RELS (Religious Studies) "
+    },
+    {
+        "id": "RUSS",
+        "short": "RUSS",
+        "long": "RUSS (Russian)",
+        "title": "RUSS (Russian) "
+    },
+    {
+        "id": "SCLT",
+        "short": "SCLT",
+        "long": "SCLT (Supply Chain Logis Tech)",
+        "title": "SCLT (Supply Chain Logis Tech) "
+    },
+    {
+        "id": "SCM",
+        "short": "SCM",
+        "long": "SCM (Supply Chain Mgmt)",
+        "title": "SCM (Supply Chain Mgmt) "
+    },
+    {
+        "id": "SEDE",
+        "short": "SEDE",
+        "long": "SEDE (Secondary Education)",
+        "title": "SEDE (Secondary Education) "
+    },
+    {
+        "id": "SOC",
+        "short": "SOC",
+        "long": "SOC (Sociology)",
+        "title": "SOC (Sociology) "
+    },
+    {
+        "id": "SOCW",
+        "short": "SOCW",
+        "long": "SOCW (Social Work)",
+        "title": "SOCW (Social Work) "
+    },
+    {
+        "id": "SPAC",
+        "short": "SPAC",
+        "long": "SPAC (Space Architecture)",
+        "title": "SPAC (Space Architecture) "
+    },
+    {
+        "id": "SPAN",
+        "short": "SPAN",
+        "long": "SPAN (Spanish)",
+        "title": "SPAN (Spanish) "
+    },
+    {
+        "id": "SPEC",
+        "short": "SPEC",
+        "long": "SPEC (Special Populations)",
+        "title": "SPEC (Special Populations) "
+    },
+    {
+        "id": "STAT",
+        "short": "STAT",
+        "long": "STAT (Statistics)",
+        "title": "STAT (Statistics) "
+    },
+    {
+        "id": "SUBS",
+        "short": "SUBS",
+        "long": "SUBS (Subsea Engineering)",
+        "title": "SUBS (Subsea Engineering) "
+    },
+    {
+        "id": "TECH",
+        "short": "TECH",
+        "long": "TECH (Technology)",
+        "title": "TECH (Technology) "
+    },
+    {
+        "id": "TEPM",
+        "short": "TEPM",
+        "long": "TEPM (Technology Project Mgt)",
+        "title": "TEPM (Technology Project Mgt) "
+    },
+    {
+        "id": "THEA",
+        "short": "THEA",
+        "long": "THEA (Theatre)",
+        "title": "THEA (Theatre) "
+    },
+    {
+        "id": "TLIM",
+        "short": "TLIM",
+        "long": "TLIM (Tech Leadersh&Innov Mgt)",
+        "title": "TLIM (Tech Leadersh&Innov Mgt) "
+    },
+    {
+        "id": "TMTH",
+        "short": "TMTH",
+        "long": "TMTH (Technical Mathematics)",
+        "title": "TMTH (Technical Mathematics) "
+    },
+    {
+        "id": "UNIV",
+        "short": "UNIV",
+        "long": "UNIV (University Studies)",
+        "title": "UNIV (University Studies) "
+    },
+    {
+        "id": "VIET",
+        "short": "VIET",
+        "long": "VIET (Vietnamese)",
+        "title": "VIET (Vietnamese) "
+    },
+    {
+        "id": "WCL",
+        "short": "WCL",
+        "long": "WCL (World Cultures& Lit)",
+        "title": "WCL (World Cultures& Lit) "
+    },
+    {
+        "id": "WGSS",
+        "short": "WGSS",
+        "long": "WGSS (WomenGendSexualitySt)",
+        "title": "WGSS (WomenGendSexualitySt) "
+    }
+]
