@@ -7,20 +7,19 @@ A CSV representation of UH's core curriculus by component area.
 Identifier code: `edu.uh.core_by_component`
 
 *Markdown table to help visualize the data*
-| Department | Catalog Number | Description                          | Core Code | FA19 Component Area | Listed (DL) | FALL 2019 CHANGE | TCCN2019  |
-| ---------- | -------------- | ------------------------------------ | --------- | ------------------- | ----------- | ---------------- | --------- |
-| ENGL       | 1303           | First Year Writing I                 | 10        | Communication       |             |                  | ENGL 1301 |
-| ENGL       | 1304           | First Year Writing II                | 10        | Communication       |             |                  | ENGL 1302 |
-| ENGL       | 1370           | Freshman Composition II - Honors     | 10        | Communication       |             |                  |           |
-| ENGL       | 2361           | Western World Literature II - Honors | 10        | Communication       |             |                  |           |
+| Department | Catalog Number | Description                          | Core Code | Component Area  | Listed (DL) | FALL 2019 CHANGE | TCCN2019  |
+| ---------- | -------------- | ------------------------------------ | --------- | --------------- | ----------- | ---------------- | --------- |
+| ENGL       | 1303           | First Year Writing I                 | 10        | Communication   |             |                  | ENGL 1301 |
+| ENGL       | 1304           | First Year Writing II                | 10        | Communication   |             |                  | ENGL 1302 |
+| ENGL       | 1370           | Freshman Composition II - Honors     | 10        | Communication   |             |                  |           |
+| ENGL       | 2361           | Western World Literature II - Honors | 10        | Communication   |             |                  |           |
 
 *Raw CSV data sample*
 ```csv
-Department,Catalog Number,Description,"Core Code",FA19 Component Area,"Listed (DL)","FALL 2019 CHANGE",TCCN2019
+Department,Catalog Number,Description,Core Code,Component Area,Listed (DL),FALL 2019 CHANGE,TCCN2019
 ENGL,1303,First Year Writing I,10,Communication,,,ENGL 1301
 ENGL,1304,First Year Writing II,10,Communication,,,ENGL 1302
 ENGL,1370,Freshman Composition II - Honors,10,Communication,,,
-ENGL,2361,Western World Literature II - Honors,10,Communication,,,
 ```
 
 ## Data Aquisition
