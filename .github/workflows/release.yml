@@ -2,8 +2,6 @@
 
 on: 
   push:
-  schedule:
-    - cron: '0 0 1 1-12 *'
 
 name: Create Release
 
