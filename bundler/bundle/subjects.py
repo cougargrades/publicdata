@@ -15,7 +15,7 @@ def unwrap(s):
 
 
 def process(source: Path, destination: Path):
-    print(source.name)
+    # print(source.name)
     destination.mkdir(exist_ok=True)
     with open(source / 'subjects.json', 'r') as f:
         data = json.loads(f.read())

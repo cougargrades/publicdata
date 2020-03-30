@@ -3,9 +3,9 @@ from pathlib import Path
 
 
 def process(source: Path, destination: Path):
-    print(source.name)
+    # print(source.name)
     destination.mkdir(exist_ok=True)
-    with open(destination / 'export.csv', 'w') as export:
+    with open(destination / 'records.csv', 'w') as export:
         # declare writer
         writer = csv.writer(export)
         # get first file in source

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 import os
+import tarfile
 from time import time
+from shutil import rmtree
 from pathlib import Path
 from bundle import grade_distribution, subjects
 
@@ -16,3 +18,10 @@ for fmt in documents_path.iterdir():
         grade_distribution.process(fmt.resolve(), export_name / fmt.name)
     if(fmt.name == 'com.collegescheduler.uh.subjects'):
         subjects.process(fmt.resolve(), export_name / fmt.name)
+
+
+with tarfile.open(exports_path / f'{export_name.name}.tar.gz', 'w:gz') as tar:
+    for item in export_name.iterdir():
+        tar.add(name=item, arcname=item.name)
+rmtree(export_name)
+print(exports_path.resolve() / f'{export_name.name}.tar.gz')
