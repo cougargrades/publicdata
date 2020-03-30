@@ -1,0 +1,2296 @@
+TERM,SUBJECT,"CATALOG NBR","CLASS SECTION","COURSE DESCR","INSTR LAST NAME","INSTR FIRST NAME",A,B,C,D,F,"TOTAL DROPPED","AVG GPA"
+"Summer 2016",ACCT,4396,1,"Accounting Internship",Newman,"Michael Ray",,,,,,,
+"Summer 2016",ACCT,7396,1,"Accounting Internship",Newman,"Michael Ray",,,,,,,
+"Summer 2016",ANTH,7199,1,Thesis,Gordon,"Andrew J",,,,,,,
+"Summer 2016",ANTH,7399,1,"Masters Thesis",Brown,"Kenneth L",,,,,,,
+"Summer 2016",BCHS,6198,10,"Special Problems",Wang,Yuhong,,,,,,,
+"Summer 2016",BCHS,6198,7,"Special Problems",Schwartz,"Robert J",,,,,,,
+"Summer 2016",BCHS,6298,2,"Special Problems",Widger,"William R",,,,,,,
+"Summer 2016",BCHS,6298,9,"Special Problems",Briggs,"James M",,,,,,,
+"Summer 2016",BCHS,6298,21,"Special Problems",Bark,Steven,,,,,,,
+"Summer 2016",BCHS,6298,22,"Special Problems",Liu,Yu,,,,,,,
+"Summer 2016",BCHS,6298,24,"Special Problems",Sen,Mehmet,,,,,,,
+"Summer 2016",BCHS,6498,2,"Special Problems",Widger,"William R",,,,,,,
+"Summer 2016",BCHS,6498,12,"Special Problems",Briggs,"James M",,,,,,,
+"Summer 2016",BCHS,6498,2,"Special Problems",Liu,Yu,,,,,,,
+"Summer 2016",BCHS,6498,21,"Special Problems",Bark,Steven,,,,,,,
+"Summer 2016",BCHS,6498,24,"Special Problems",Sen,Mehmet,,,,,,,
+"Summer 2016",BCHS,6598,4,"Special Problems",Wang,Yuhong,,,,,,,
+"Summer 2016",BCHS,6598,6,"Special Problems",Schwartz,"Robert J",,,,,,,
+"Summer 2016",BCHS,8298,8,"Doctoral Research",Bark,Steven,,,,,,,
+"Summer 2016",BCHS,8498,7,"Doctoral Research",Bark,Steven,,,,,,,
+"Summer 2016",BCHS,8698,5,"Doctoral Research",Willson,Richard,,,,,,,
+"Summer 2016",BCHS,8698,6,"Doctoral Research",Briggs,"James M",,,,,,,
+"Summer 2016",BCHS,8698,11,"Doctoral Research",Fujita,Masaya,,,,,,,
+"Summer 2016",BCHS,8698,23,"Doctoral Research",Gustafsson,Jan-Ake,,,,,,,
+"Summer 2016",BCHS,8698,24,"Doctoral Research",Wang,Yuhong,,,,,,,
+"Summer 2016",BCHS,8698,28,"Doctoral Research",Gunaratne,"Preethi H",,,,,,,
+"Summer 2016",BCHS,8698,29,"Doctoral Research",Ziburkus,Jokubas,,,,,,,
+"Summer 2016",BCHS,8698,31,"Doctoral Research",Fox,"Robert O",,,,,,,
+"Summer 2016",BCHS,8698,32,"Doctoral Research",Schwartz,"Robert J",,,,,,,
+"Summer 2016",BCHS,8698,4,"Doctoral Research",Gao,Xiaolian,,,,,,,
+"Summer 2016",BCHS,8699,20,"Doctoral Dissertation",Briggs,"James M",,,,,,,
+"Summer 2016",BIOE,6198,14,Research,Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",BIOE,6198,7,Research,Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,6298,9,Research,Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,8198,1,"Doctoral Research","Akay PhD",Metin,,,,,,,
+"Summer 2016",BIOE,8198,11,"Doctoral Research",Wu,Tianfu,,,,,,,
+"Summer 2016",BIOE,8198,12,"Doctoral Research",Shevkoplyas,Sergey,,,,,,,
+"Summer 2016",BIOE,8198,13,"Doctoral Research",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8198,14,"Doctoral Research",Abidian,"Mohammad Reza",,,,,,,
+"Summer 2016",BIOE,8198,15,"Doctoral Research",Naash,Muna,,,,,,,
+"Summer 2016",BIOE,8198,16,"Doctoral Research",Kakadiaris,"Ioannis A.",,,,,,,
+"Summer 2016",BIOE,8198,17,"Doctoral Research",Willson,Richard,,,,,,,
+"Summer 2016",BIOE,8198,18,"Doctoral Research",Porter,Jason,,,,,,,
+"Summer 2016",BIOE,8198,19,"Doctoral Research",Merchant,"Fatima Aziz",,,,,,,
+"Summer 2016",BIOE,8198,2,"Doctoral Research",Larin,Kirill,,,,,,,
+"Summer 2016",BIOE,8198,20,"Doctoral Research",Das,Mini,,,,,,,
+"Summer 2016",BIOE,8198,6,"Doctoral Research",Gifford,Howard,,,,,,,
+"Summer 2016",BIOE,8198,7,"Doctoral Research",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,8198,8,"Doctoral Research",May,"Elebeoba E",,,,,,,
+"Summer 2016",BIOE,8198,9,"Doctoral Research",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,8298,1,"Doctoral Research","Akay PhD",Metin,,,,,,,
+"Summer 2016",BIOE,8298,11,"Doctoral Research",Shevkoplyas,Sergey,,,,,,,
+"Summer 2016",BIOE,8298,13,"Doctoral Research",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8298,7,"Doctoral Research",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,8298,9,"Doctoral Research",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,8398,10,"Doctoral Research",Omurtag,Ahmet,,,,,,,
+"Summer 2016",BIOE,8398,12,"Doctoral Research",Shevkoplyas,Sergey,,,,,,,
+"Summer 2016",BIOE,8398,13,"Doctoral Research",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8398,6,"Doctoral Research",Gifford,Howard,,,,,,,
+"Summer 2016",BIOE,8398,7,"Doctoral Research",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,8398,8,"Doctoral Research",May,"Elebeoba E",,,,,,,
+"Summer 2016",BIOE,8399,2,"Doctoral Dissertation",Omurtag,Ahmet,,,,,,,
+"Summer 2016",BIOE,8498,1,"Doctoral Research","Akay PhD",Metin,,,,,,,
+"Summer 2016",BIOE,8498,13,"Doctoral Research",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8498,7,"Doctoral Research",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,8498,9,"Doctoral Research",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,8598,1,"Doctoral Research","Akay PhD",Metin,,,,,,,
+"Summer 2016",BIOE,8598,11,"Doctoral Research",Shevkoplyas,Sergey,,,,,,,
+"Summer 2016",BIOE,8598,12,"Doctoral Research",Wu,Tianfu,,,,,,,
+"Summer 2016",BIOE,8598,13,"Doctoral Research",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8598,14,"Doctoral Research",Abidian,"Mohammad Reza",,,,,,,
+"Summer 2016",BIOE,8598,15,"Doctoral Research",Naash,Muna,,,,,,,
+"Summer 2016",BIOE,8598,16,"Doctoral Research",Kakadiaris,"Ioannis A.",,,,,,,
+"Summer 2016",BIOE,8598,17,"Doctoral Research",Willson,Richard,,,,,,,
+"Summer 2016",BIOE,8598,18,"Doctoral Research",Porter,Jason,,,,,,,
+"Summer 2016",BIOE,8598,19,"Doctoral Research",Merchant,"Fatima Aziz",,,,,,,
+"Summer 2016",BIOE,8598,2,"Doctoral Research",Larin,Kirill,,,,,,,
+"Summer 2016",BIOE,8598,20,"Doctoral Research",Das,Mini,,,,,,,
+"Summer 2016",BIOE,8598,6,"Doctoral Research",Gifford,Howard,,,,,,,
+"Summer 2016",BIOE,8598,7,"Doctoral Research",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,8598,8,"Doctoral Research",May,"Elebeoba E",,,,,,,
+"Summer 2016",BIOE,8598,9,"Doctoral Research",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOL,4298,2,"Independent Study",Williams,Lawrence,,,,,,,
+"Summer 2016",BIOL,6298,7,"Special Problems",Sater,Amy,,,,,,,
+"Summer 2016",BIOL,6298,10,"Special Problems",Dryer,"Stuart E",,,,,,,
+"Summer 2016",BIOL,6298,12,"Special Problems",Roman,"Gregg W",,,,,,,
+"Summer 2016",BIOL,6298,20,"Special Problems",Cole,"Blaine J",,,,,,,
+"Summer 2016",BIOL,6298,26,"Special Problems",Weihua,Zhang,,,,,,,
+"Summer 2016",BIOL,6298,35,"Special Problems",Bawa-Khalfe,Tasneem,,,,,,,
+"Summer 2016",BIOL,6298,36,"Special Problems",Crawford,"Kerri M",,,,,,,
+"Summer 2016",BIOL,6298,38,"Special Problems","Kelleher Meisel","Erin S",,,,,,,
+"Summer 2016",BIOL,6298,39,"Special Problems",Chung,Sang-Hyuk,,,,,,,
+"Summer 2016",BIOL,6398,30,"Special Problems",Azevedo,Ricardo,,,,,,,
+"Summer 2016",BIOL,6498,4,"Special Problems",Dryer,"Stuart E",,,,,,,
+"Summer 2016",BIOL,6498,5,"Special Problems",Azevedo,Ricardo,,,,,,,
+"Summer 2016",BIOL,6498,7,"Special Problems",Roman,"Gregg W",,,,,,,
+"Summer 2016",BIOL,6498,1,"Special Problems",Cooper,"Timothy F",,,,,,,
+"Summer 2016",BIOL,6498,16,"Special Problems",Sater,Amy,,,,,,,
+"Summer 2016",BIOL,6498,24,"Special Problems",Weihua,Zhang,,,,,,,
+"Summer 2016",BIOL,6498,34,"Special Problems",Bawa-Khalfe,Tasneem,,,,,,,
+"Summer 2016",BIOL,6498,35,"Special Problems",Crawford,"Kerri M",,,,,,,
+"Summer 2016",BIOL,6498,37,"Special Problems","Kelleher Meisel","Erin S",,,,,,,
+"Summer 2016",BIOL,6498,38,"Special Problems",Chung,Sang-Hyuk,,,,,,,
+"Summer 2016",BIOL,6498,39,"Special Problems",Cole,"Blaine J",,,,,,,
+"Summer 2016",BIOL,8198,3,"Doctoral Research",Chung,Sang-Hyuk,,,,,,,
+"Summer 2016",BIOL,8298,7,"Doctoral Research",Dryer,"Stuart E",,,,,,,
+"Summer 2016",BIOL,8298,16,"Doctoral Research",Pennings,"Steven C",,,,,,,
+"Summer 2016",BIOL,8298,17,"Doctoral Research",Sater,Amy,,,,,,,
+"Summer 2016",BIOL,8298,19,"Doctoral Research",Lin,Chin-Yo,,,,,,,
+"Summer 2016",BIOL,8298,20,"Doctoral Research",Chung,Sang-Hyuk,,,,,,,
+"Summer 2016",BIOL,8298,21,"Doctoral Research",Khurana,Seema,,,,,,,
+"Summer 2016",BIOL,8298,22,"Doctoral Research",Khurana,Seema,,,,,,,
+"Summer 2016",BIOL,8298,25,"Doctoral Research",Zufall,"Rebecca A",,,,,,,
+"Summer 2016",BIOL,8298,26,"Doctoral Research",Gustafsson,Jan-Ake,,,,,,,
+"Summer 2016",BIOL,8298,27,"Doctoral Research",Meisel,"Richard P",,,,,,,
+"Summer 2016",BIOL,8298,28,"Doctoral Research",Liu,Yu,,,,,,,
+"Summer 2016",BIOL,8298,29,"Doctoral Research",Fujita,Masaya,,,,,,,
+"Summer 2016",BIOL,8298,40,"Doctoral Research","Kelleher Meisel","Erin S",,,,,,,
+"Summer 2016",BIOL,8298,41,"Doctoral Research",Bawa-Khalfe,Tasneem,,,,,,,
+"Summer 2016",BIOL,8398,21,"Doctoral Research",Chung,Sang-Hyuk,,,,,,,
+"Summer 2016",BIOL,8399,46,"Doctoral Dissertation",Zufall,"Rebecca A",,,,,,,
+"Summer 2016",BIOL,8498,7,"Doctoral Research",Sater,Amy,,,,,,,
+"Summer 2016",BIOL,8498,10,"Doctoral Research",Pennings,"Steven C",,,,,,,
+"Summer 2016",BIOL,8498,18,"Doctoral Research",Dryer,"Stuart E",,,,,,,
+"Summer 2016",BIOL,8498,19,"Doctoral Research",Lin,Chin-Yo,,,,,,,
+"Summer 2016",BIOL,8498,23,"Doctoral Research",Khurana,Seema,,,,,,,
+"Summer 2016",BIOL,8498,24,"Doctoral Research",Khurana,Seema,,,,,,,
+"Summer 2016",BIOL,8498,3,"Doctoral Research",Gustafsson,Jan-Ake,,,,,,,
+"Summer 2016",BIOL,8498,32,"Doctoral Research","Kelleher Meisel","Erin S",,,,,,,
+"Summer 2016",BIOL,8498,33,"Doctoral Research",Meisel,"Richard P",,,,,,,
+"Summer 2016",BIOL,8498,34,"Doctoral Research",Liu,Yu,,,,,,,
+"Summer 2016",BIOL,8498,35,"Doctoral Research",Fujita,Masaya,,,,,,,
+"Summer 2016",BIOL,8498,39,"Doctoral Research",Bawa-Khalfe,Tasneem,,,,,,,
+"Summer 2016",BIOL,8698,5,"Doctoral Research",Roman,"Gregg W",,,,,,,
+"Summer 2016",BIOL,8698,6,"Doctoral Research",Graur,Dan,,,,,,,
+"Summer 2016",BIOL,8698,9,"Doctoral Research",Azevedo,Ricardo,,,,,,,
+"Summer 2016",BIOL,8698,10,"Doctoral Research",Zufall,"Rebecca A",,,,,,,
+"Summer 2016",BIOL,8698,11,"Doctoral Research",Wiernasz,"Diane C",,,,,,,
+"Summer 2016",BIOL,8698,13,"Doctoral Research",Gustafsson,Jan-Ake,,,,,,,
+"Summer 2016",BIOL,8698,18,"Doctoral Research",Dauwalder,Brigitte,,,,,,,
+"Summer 2016",BIOL,8698,20,"Doctoral Research",Ziburkus,Jokubas,,,,,,,
+"Summer 2016",BIOL,8698,24,"Doctoral Research",Weihua,Zhang,,,,,,,
+"Summer 2016",BIOL,8698,28,"Doctoral Research",Cooper,"Timothy F",,,,,,,
+"Summer 2016",BIOL,8698,31,"Doctoral Research",Frigo,"Daniel Edward",,,,,,,
+"Summer 2016",BIOL,8698,32,"Doctoral Research",Schwartz,"Robert J",,,,,,,
+"Summer 2016",BIOL,8698,36,"Doctoral Research",Ostrowski,"Elizabeth A",,,,,,,
+"Summer 2016",BIOL,8698,39,"Doctoral Research",Zhang,"Shaun Xiaoliu",,,,,,,
+"Summer 2016",BIOL,8698,40,"Doctoral Research",Khurana,Seema,,,,,,,
+"Summer 2016",BIOL,8699,33,"Doctoral Dissertation",Cooper,"Timothy F",,,,,,,
+"Summer 2016",CHEE,8198,1,"Doctoral Research",Economou,"Demetre J",,,,,,,
+"Summer 2016",CHEE,8198,2,"Doctoral Research",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8198,3,"Doctoral Research",Donnelly,"Vincent M.",,,,,,,
+"Summer 2016",CHEE,8198,4,"Doctoral Research",Myers,"Michael Tolbert",,,,,,,
+"Summer 2016",CHEE,8198,6,"Doctoral Research",Balakotaiah,Vemuri,,,,,,,
+"Summer 2016",CHEE,8198,7,"Doctoral Research",Krishnamoorti,Ramanan,,,,,,,
+"Summer 2016",CHEE,8198,8,"Doctoral Research",Nikolaou,Michael,,,,,,,
+"Summer 2016",CHEE,8198,9,"Doctoral Research",Vekilov,Peter,,,,,,,
+"Summer 2016",CHEE,8198,15,"Doctoral Research",Cirino,"Patrick C",,,,,,,
+"Summer 2016",CHEE,8298,1,"Doctoral Research",Donnelly,"Vincent M.",,,,,,,
+"Summer 2016",CHEE,8298,2,"Doctoral Research",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8298,3,"Doctoral Research",Luss,Dan,,,,,,,
+"Summer 2016",CHEE,8298,4,"Doctoral Research",Stein,"Gila E",,,,,,,
+"Summer 2016",CHEE,8298,5,"Doctoral Research",Nikolaou,Michael,,,,,,,
+"Summer 2016",CHEE,8298,6,"Doctoral Research",Balakotaiah,Vemuri,,,,,,,
+"Summer 2016",CHEE,8298,7,"Doctoral Research",Krishnamoorti,Ramanan,,,,,,,
+"Summer 2016",CHEE,8298,8,"Doctoral Research",Harold,"Michael P",,,,,,,
+"Summer 2016",CHEE,8298,9,"Doctoral Research",Willson,Richard,,,,,,,
+"Summer 2016",CHEE,8298,10,"Doctoral Research",Vekilov,Peter,,,,,,,
+"Summer 2016",CHEE,8298,11,"Doctoral Research",Varadarajan,Navin,,,,,,,
+"Summer 2016",CHEE,8298,12,"Doctoral Research",Palmer,Jeremy,,,,,,,
+"Summer 2016",CHEE,8298,13,"Doctoral Research",Cirino,"Patrick C",,,,,,,
+"Summer 2016",CHEE,8298,14,"Doctoral Research",Qin,Guan,,,,,,,
+"Summer 2016",CHEE,8298,15,"Doctoral Research",Robertson,"Megan L",,,,,,,
+"Summer 2016",CHEE,8298,16,"Doctoral Research",Conrad,"Jacinta C",,,,,,,
+"Summer 2016",CHEE,8298,17,"Doctoral Research",Grabow,"Lars C",,,,,,,
+"Summer 2016",CHEE,8298,18,"Doctoral Research",Epling,"William S",,,,,,,
+"Summer 2016",CHEE,8298,20,"Doctoral Research",Kostarelos,Konstantinos,,,,,,,
+"Summer 2016",CHEE,8298,21,"Doctoral Research",Economou,"Demetre J",,,,,,,
+"Summer 2016",CHEE,8398,1,"Doctoral Research",Conrad,"Jacinta C",,,,,,,
+"Summer 2016",CHEE,8398,4,"Doctoral Research",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8398,8,"Doctoral Research",Nikolaou,Michael,,,,,,,
+"Summer 2016",CHEE,8398,12,"Doctoral Research",Donnelly,"Vincent M.",,,,,,,
+"Summer 2016",CHEE,8498,1,"Doctoral Research",Harold,"Michael P",,,,,,,
+"Summer 2016",CHEE,8498,2,"Doctoral Research",Willson,Richard,,,,,,,
+"Summer 2016",CHEE,8498,4,"Doctoral Research",Donnelly,"Vincent M.",,,,,,,
+"Summer 2016",CHEE,8498,5,"Doctoral Research",Vekilov,Peter,,,,,,,
+"Summer 2016",CHEE,8498,6,"Doctoral Research",Stein,"Gila E",,,,,,,
+"Summer 2016",CHEE,8498,7,"Doctoral Research",Kostarelos,Konstantinos,,,,,,,
+"Summer 2016",CHEE,8498,8,"Doctoral Research",Economou,"Demetre J",,,,,,,
+"Summer 2016",CHEE,8498,9,"Doctoral Research",Cirino,"Patrick C",,,,,,,
+"Summer 2016",CHEE,8498,10,"Doctoral Research",Krishnamoorti,Ramanan,,,,,,,
+"Summer 2016",CHEE,8498,12,"Doctoral Research",Varadarajan,Navin,,,,,,,
+"Summer 2016",CHEE,8498,13,"Doctoral Research",Balakotaiah,Vemuri,,,,,,,
+"Summer 2016",CHEE,8498,14,"Doctoral Research",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8498,15,"Doctoral Research",Robertson,"Megan L",,,,,,,
+"Summer 2016",CHEE,8498,16,"Doctoral Research",Qin,Guan,,,,,,,
+"Summer 2016",CHEE,8498,17,"Doctoral Research",Conrad,"Jacinta C",,,,,,,
+"Summer 2016",CHEE,8498,18,"Doctoral Research",Grabow,"Lars C",,,,,,,
+"Summer 2016",CHEE,8498,19,"Doctoral Research",Epling,"William S",,,,,,,
+"Summer 2016",CHEE,8498,20,"Doctoral Research",Palmer,Jeremy,,,,,,,
+"Summer 2016",CHEE,8598,1,"Doctoral Research",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8598,3,"Doctoral Research",Krishnamoorti,Ramanan,,,,,,,
+"Summer 2016",CHEE,8598,4,"Doctoral Research",Economou,"Demetre J",,,,,,,
+"Summer 2016",CHEE,8598,6,"Doctoral Research",Myers,"Michael Tolbert",,,,,,,
+"Summer 2016",CHEE,8598,9,"Doctoral Research",Harold,"Michael P",,,,,,,
+"Summer 2016",CHEM,6698,1,"Special Problems",Baldelli,Steve,,,,,,,
+"Summer 2016",CHEM,6698,4,"Special Problems",Cai,Chengzhi,,,,,,,
+"Summer 2016",CHEM,6698,5,"Special Problems",Daugulis,Olafs,,,,,,,
+"Summer 2016",CHEM,6698,6,"Special Problems",Gilbertson,"Scott R",,,,,,,
+"Summer 2016",CHEM,6698,7,"Special Problems",Guloy,"Arnold M",,,,,,,
+"Summer 2016",CHEM,6698,8,"Special Problems",Halasyamani,"P Shiv",,,,,,,
+"Summer 2016",CHEM,6698,13,"Special Problems",Lee,"T Randall",,,,,,,
+"Summer 2016",CHEM,6698,14,"Special Problems",Lubchenko,Vassiliy,,,,,,,
+"Summer 2016",CHEM,6698,15,"Special Problems",May,"Jeremy A",,,,,,,
+"Summer 2016",CHEM,6698,16,"Special Problems",Miljanic,"Ognjen S",,,,,,,
+"Summer 2016",CHEM,6698,19,"Special Problems",Xu,Shoujun,,,,,,,
+"Summer 2016",CHEM,6698,20,"Special Problems",Do,"Loi H",,,,,,,
+"Summer 2016",CHEM,6698,22,"Special Problems",Yang,Ding-Shyue,,,,,,,
+"Summer 2016",CHEM,6698,23,"Special Problems",Coltart,"Don M.",,,,,,,
+"Summer 2016",CHEM,6698,24,"Special Problems",Teets,Thomas,,,,,,,
+"Summer 2016",CHEM,6698,25,"Special Problems",Brgoch,Jakoah,,,,,,,
+"Summer 2016",CHEM,6698,26,"Special Problems",Wu,Judy,,,,,,,
+"Summer 2016",CHEM,6698,27,"Special Problems",Ren,Zhifeng,,,,,,,
+"Summer 2016",CHEM,8398,1,"Doctoral Research",Baldelli,Steve,,,,,,,
+"Summer 2016",CHEM,8398,4,"Doctoral Research",Cai,Chengzhi,,,,,,,
+"Summer 2016",CHEM,8398,6,"Doctoral Research",Gilbertson,"Scott R",,,,,,,
+"Summer 2016",CHEM,8398,7,"Doctoral Research",Guloy,"Arnold M",,,,,,,
+"Summer 2016",CHEM,8398,10,"Doctoral Research",Jacobson,"Allan J",,,,,,,
+"Summer 2016",CHEM,8398,19,"Doctoral Research",Xu,Shoujun,,,,,,,
+"Summer 2016",CHEM,8398,21,"Doctoral Research",Cuny,"Gregory D",,,,,,,
+"Summer 2016",CHEM,8398,22,"Doctoral Research",Do,"Loi H",,,,,,,
+"Summer 2016",CHEM,8399,1,"Doctoral Dissertation",Baldelli,Steve,,,,,,,
+"Summer 2016",CHEM,8399,4,"Doctoral Dissertation",Cai,Chengzhi,,,,,,,
+"Summer 2016",CHEM,8399,20,"Doctoral Dissertation",Cuny,"Gregory D",,,,,,,
+"Summer 2016",CHEM,8698,1,"Doctoral Research",Baldelli,Steve,,,,,,,
+"Summer 2016",CHEM,8698,2,"Doctoral Research",Bittner,"Eric R",,,,,,,
+"Summer 2016",CHEM,8698,5,"Doctoral Research",Daugulis,Olafs,,,,,,,
+"Summer 2016",CHEM,8698,6,"Doctoral Research",Gilbertson,"Scott R",,,,,,,
+"Summer 2016",CHEM,8698,7,"Doctoral Research",Guloy,"Arnold M",,,,,,,
+"Summer 2016",CHEM,8698,9,"Doctoral Research",Hoffman,"David M",,,,,,,
+"Summer 2016",CHEM,8698,10,"Doctoral Research",Jacobson,"Allan J",,,,,,,
+"Summer 2016",CHEM,8698,13,"Doctoral Research",Lee,"T Randall",,,,,,,
+"Summer 2016",CHEM,8698,14,"Doctoral Research",Lubchenko,Vassiliy,,,,,,,
+"Summer 2016",CHEM,8698,15,"Doctoral Research",May,"Jeremy A",,,,,,,
+"Summer 2016",CHEM,8698,16,"Doctoral Research",Miljanic,"Ognjen S",,,,,,,
+"Summer 2016",CHEM,8698,19,"Doctoral Research",Xu,Shoujun,,,,,,,
+"Summer 2016",CHEM,8698,20,"Doctoral Research",Do,"Loi H",,,,,,,
+"Summer 2016",CHEM,8698,31,"Doctoral Research",Yang,Ding-Shyue,,,,,,,
+"Summer 2016",CHEM,8698,32,"Doctoral Research",Cuny,"Gregory D",,,,,,,
+"Summer 2016",CHEM,8698,33,"Doctoral Research",Coltart,"Don M.",,,,,,,
+"Summer 2016",CHEM,8698,34,"Doctoral Research",Brgoch,Jakoah,,,,,,,
+"Summer 2016",CHEM,8699,5,"Doctoral Dissertation",Daugulis,Olafs,,,,,,,
+"Summer 2016",CHEM,8699,10,"Doctoral Dissertation",Jacobson,"Allan J",,,,,,,
+"Summer 2016",CIVE,6198,9,Research,Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,6398,3,Research,Belarbi,Abdeldjelil,,,,,,,
+"Summer 2016",CIVE,6398,18,Research,Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",CIVE,6598,9,Research,Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8198,1,"Doctoral Research",Belarbi,Abdeldjelil,,,,,,,
+"Summer 2016",CIVE,8198,3,"Doctoral Research",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8198,5,"Doctoral Research",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8198,9,"Doctoral Research",Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8198,11,"Doctoral Research",Mo,Yi-Lung,,,,,,,
+"Summer 2016",CIVE,8198,12,"Doctoral Research",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",CIVE,8198,14,"Doctoral Research",Rixey,"William G",,,,,,,
+"Summer 2016",CIVE,8198,18,"Doctoral Research",Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",CIVE,8298,1,"Doctoral Research",Belarbi,Abdeldjelil,,,,,,,
+"Summer 2016",CIVE,8298,3,"Doctoral Research",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8298,5,"Doctoral Research",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8298,7,"Doctoral Research",Hu,Yandi,,,,,,,
+"Summer 2016",CIVE,8298,9,"Doctoral Research",Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8298,11,"Doctoral Research",Mo,Yi-Lung,,,,,,,
+"Summer 2016",CIVE,8298,12,"Doctoral Research",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",CIVE,8298,13,"Doctoral Research",Rifai,"Hanadi S",,,,,,,
+"Summer 2016",CIVE,8298,15,"Doctoral Research",Rodrigues,"Debora Frigi",,,,,,,
+"Summer 2016",CIVE,8298,18,"Doctoral Research",Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",CIVE,8298,19,"Doctoral Research",Wang,Keh-Han,,,,,,,
+"Summer 2016",CIVE,8298,21,"Doctoral Research",Gencturk,Bora,,,,,,,
+"Summer 2016",CIVE,8398,3,"Doctoral Research",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8398,4,"Doctoral Research",Gencturk,Bora,,,,,,,
+"Summer 2016",CIVE,8398,5,"Doctoral Research",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8398,9,"Doctoral Research",Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8398,12,"Doctoral Research",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",CIVE,8398,14,"Doctoral Research",Rixey,"William G",,,,,,,
+"Summer 2016",CIVE,8398,18,"Doctoral Research",Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",CIVE,8399,14,"Doctoral Dissertation",Rixey,"William G",,,,,,,
+"Summer 2016",CIVE,8498,1,"Doctoral Research",Belarbi,Abdeldjelil,,,,,,,
+"Summer 2016",CIVE,8498,3,"Doctoral Research",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8498,5,"Doctoral Research",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8498,7,"Doctoral Research",Hu,Yandi,,,,,,,
+"Summer 2016",CIVE,8498,11,"Doctoral Research",Mo,Yi-Lung,,,,,,,
+"Summer 2016",CIVE,8498,12,"Doctoral Research",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",CIVE,8498,13,"Doctoral Research",Rifai,"Hanadi S",,,,,,,
+"Summer 2016",CIVE,8498,15,"Doctoral Research",Rodrigues,"Debora Frigi",,,,,,,
+"Summer 2016",CIVE,8498,19,"Doctoral Research",Wang,Keh-Han,,,,,,,
+"Summer 2016",CIVE,8498,21,"Doctoral Research",Gencturk,Bora,,,,,,,
+"Summer 2016",CIVE,8598,1,"Doctoral Research",Belarbi,Abdeldjelil,,,,,,,
+"Summer 2016",CIVE,8598,5,"Doctoral Research",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8598,9,"Doctoral Research",Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8598,11,"Doctoral Research",Mo,Yi-Lung,,,,,,,
+"Summer 2016",CIVE,8598,12,"Doctoral Research",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",CIVE,8598,14,"Doctoral Research",Rixey,"William G",,,,,,,
+"Summer 2016",CIVE,8598,18,"Doctoral Research",Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",CIVE,8699,3,"Doctoral Dissertation",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8699,5,"Doctoral Dissertation",Glennie,"Craig Len",,,,,,,
+"Summer 2016",CIVE,8699,7,"Doctoral Dissertation",Hu,Yandi,,,,,,,
+"Summer 2016",CIVE,8699,9,"Doctoral Dissertation",Lee,Hyongki,,,,,,,
+"Summer 2016",CIVE,8699,20,"Doctoral Dissertation",Willam,Kaspar,,,,,,,
+"Summer 2016",CIVE,8699,21,"Doctoral Dissertation",Song,Gangbing,,,,,,,
+"Summer 2016",COMM,6398,1,"SP-Comprehensive Exams",Vardeman,"Jennifer E",,,,,,,
+"Summer 2016",COSC,6398,33,"Special Problems",Shah,Shishir,,,,,,,
+"Summer 2016",COSC,6398,38,"Special Problems","Solorio  Martinez","Thamar Ivette",,,,,,,
+"Summer 2016",COSC,6399,1,"Masters Thesis",Chapman,Barbara,,,,,,,
+"Summer 2016",COSC,6399,7,"Masters Thesis",Kakadiaris,"Ioannis A.",,,,,,,
+"Summer 2016",COSC,7398,7,"Masters Research",Chapman,Barbara,,,,,,,
+"Summer 2016",COSC,7399,6,"Masters Thesis",Eick,"Christoph F",,,,,,,
+"Summer 2016",COSC,7399,12,"Masters Thesis",Verma,"Rakesh M",,,,,,,
+"Summer 2016",COSC,7399,20,"Masters Thesis",Johnson,"Olin G",,,,,,,
+"Summer 2016",COSC,7399,31,"Masters Thesis",Chapman,Barbara,,,,,,,
+"Summer 2016",COSC,8698,3,"Doctoral Research",Pavlidis,"Ioannis T",,,,,,,
+"Summer 2016",COSC,8698,5,"Doctoral Research",Kakadiaris,"Ioannis A.",,,,,,,
+"Summer 2016",COSC,8698,6,"Doctoral Research",Eick,"Christoph F",,,,,,,
+"Summer 2016",COSC,8698,8,"Doctoral Research",Cheng,"Albert M K",,,,,,,
+"Summer 2016",COSC,8698,11,"Doctoral Research",Ordonez,Carlos,,,,,,,
+"Summer 2016",COSC,8698,13,"Doctoral Research",Verma,"Rakesh M",,,,,,,
+"Summer 2016",COSC,8698,18,"Doctoral Research","Solorio  Martinez","Thamar Ivette",,,,,,,
+"Summer 2016",COSC,8698,19,"Doctoral Research",Shah,Shishir,,,,,,,
+"Summer 2016",COSC,8698,2,"Doctoral Research",Vilalta,Ricardo,,,,,,,
+"Summer 2016",COSC,8698,20,"Doctoral Research",Deng,Zhigang,,,,,,,
+"Summer 2016",COSC,8698,23,"Doctoral Research",Gurkan,Deniz,,,,,,,
+"Summer 2016",COSC,8698,29,"Doctoral Research",Gnawali,"Omprakash D",,,,,,,
+"Summer 2016",COSC,8698,33,"Doctoral Research",Subhlok,Jaspal,,,,,,,
+"Summer 2016",COSC,8698,34,"Doctoral Research",Pandurangan,Gopal,,,,,,,
+"Summer 2016",COSC,8698,35,"Doctoral Research",Chen,Guoning,,,,,,,
+"Summer 2016",COSC,8698,36,"Doctoral Research",Mukherjee,Arjun,,,,,,,
+"Summer 2016",CUIN,7301,1,"CUIN Capstone Seminar",Hawkins,"Jacqueline McLean",,,,,,,
+"Summer 2016",CUIN,7301,3,"CUIN Capstone Seminar",Brower,"Samuel Richard",,,,,,,
+"Summer 2016",CUIN,8310,2,"Laboratory of Practice",Hutchison,"Laveria F",,,,,,,
+"Summer 2016",CUIN,8690,6,"Doctoral Thesis",Rolle,"R Anthony",,,,,,,
+"Summer 2016",ECE,6392,1,"Internship I",Ruchhoeft,Paul,,,,,,,
+"Summer 2016",ECE,6398,31,Research,Long,"Stuart A",,,,,,,
+"Summer 2016",ECE,6498,36,Research,Ogmen,Haluk,,,,,,,
+"Summer 2016",ECE,7392,1,"Internship II",Ruchhoeft,Paul,,,,,,,
+"Summer 2016",ECE,7393,1,"Special Projects II",Sheth,"Bhavin R.",,,,,,,
+"Summer 2016",ECE,7399,2,"Masters Thesis",Becker,"Aaron T",,,,,,,
+"Summer 2016",ECE,7399,21,"Masters Thesis",Shireen,Wajiha,,,,,,,
+"Summer 2016",ECE,7399,32,"Masters Thesis",Wolfe,"John C",,,,,,,
+"Summer 2016",ECE,8198,2,"Doctoral Research",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8198,3,"Doctoral Research",Pei,"Shin-Shem Steven",,,,,,,
+"Summer 2016",ECE,8198,5,"Doctoral Research",Freundlich,Alexandre,,,,,,,
+"Summer 2016",ECE,8198,8,"Doctoral Research",Becker,"Aaron T",,,,,,,
+"Summer 2016",ECE,8198,9,"Doctoral Research",Ruchhoeft,Paul,,,,,,,
+"Summer 2016",ECE,8198,15,"Doctoral Research",Pan,Miao,,,,,,,
+"Summer 2016",ECE,8198,16,"Doctoral Research",Merchant,"Fatima Aziz",,,,,,,
+"Summer 2016",ECE,8198,19,"Doctoral Research",Shih,Wei-Chuan,,,,,,,
+"Summer 2016",ECE,8198,20,"Doctoral Research",Chen,Ji,,,,,,,
+"Summer 2016",ECE,8198,23,"Doctoral Research",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",ECE,8198,25,"Doctoral Research",Prasad,Saurabh,,,,,,,
+"Summer 2016",ECE,8198,26,"Doctoral Research",Wolfe,"John C",,,,,,,
+"Summer 2016",ECE,8198,27,"Doctoral Research",Chen,Yuhua,,,,,,,
+"Summer 2016",ECE,8198,33,"Doctoral Research",Mayerich,"David Matthew",,,,,,,
+"Summer 2016",ECE,8298,3,"Doctoral Research",Freundlich,Alexandre,,,,,,,
+"Summer 2016",ECE,8298,4,"Doctoral Research",Zouridakis,George,,,,,,,
+"Summer 2016",ECE,8298,6,"Doctoral Research",Pan,Miao,,,,,,,
+"Summer 2016",ECE,8298,7,"Doctoral Research",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8298,9,"Doctoral Research",Bao,Jiming,,,,,,,
+"Summer 2016",ECE,8298,12,"Doctoral Research",Chen,Jiefu,,,,,,,
+"Summer 2016",ECE,8298,13,"Doctoral Research",Chen,Ji,,,,,,,
+"Summer 2016",ECE,8298,15,"Doctoral Research",Yao,Yan,,,,,,,
+"Summer 2016",ECE,8298,16,"Doctoral Research",Zagozdzon-Wosik,Wanda,,,,,,,
+"Summer 2016",ECE,8298,20,"Doctoral Research",Becker,"Aaron T",,,,,,,
+"Summer 2016",ECE,8298,21,"Doctoral Research",Chen,Jinghong,,,,,,,
+"Summer 2016",ECE,8298,22,"Doctoral Research",Roysam,Badrinath,,,,,,,
+"Summer 2016",ECE,8298,23,"Doctoral Research",Shih,Wei-Chuan,,,,,,,
+"Summer 2016",ECE,8298,24,"Doctoral Research",Ogmen,Haluk,,,,,,,
+"Summer 2016",ECE,8298,26,"Doctoral Research",Fu,Xin,,,,,,,
+"Summer 2016",ECE,8298,27,"Doctoral Research",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",ECE,8398,1,"Doctoral Research",Roysam,Badrinath,,,,,,,
+"Summer 2016",ECE,8398,2,"Doctoral Research",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8398,3,"Doctoral Research",Brankovic,"Stanko R",,,,,,,
+"Summer 2016",ECE,8398,5,"Doctoral Research",Song,Gangbing,,,,,,,
+"Summer 2016",ECE,8398,6,"Doctoral Research",Becker,"Aaron T",,,,,,,
+"Summer 2016",ECE,8398,7,"Doctoral Research",Litvinov,Dmitri,,,,,,,
+"Summer 2016",ECE,8398,9,"Doctoral Research",Chen,Jinghong,,,,,,,
+"Summer 2016",ECE,8398,10,"Doctoral Research",Shih,Wei-Chuan,,,,,,,
+"Summer 2016",ECE,8398,11,"Doctoral Research",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",ECE,8398,16,"Doctoral Research",Pan,Miao,,,,,,,
+"Summer 2016",ECE,8398,17,"Doctoral Research",Jackson,"David R",,,,,,,
+"Summer 2016",ECE,8398,20,"Doctoral Research",Wosik,Jaroslaw,,,,,,,
+"Summer 2016",ECE,8398,27,"Doctoral Research",Chen,Ji,,,,,,,
+"Summer 2016",ECE,8398,31,"Doctoral Research",Freundlich,Alexandre,,,,,,,
+"Summer 2016",ECE,8399,6,"Doctoral Dissertation",Litvinov,Dmitri,,,,,,,
+"Summer 2016",ECE,8399,12,"Doctoral Dissertation",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8399,17,"Doctoral Dissertation",Wosik,Jaroslaw,,,,,,,
+"Summer 2016",ECE,8399,24,"Doctoral Dissertation",Song,Gangbing,,,,,,,
+"Summer 2016",ECE,8498,1,"Doctoral Research",Zouridakis,George,,,,,,,
+"Summer 2016",ECE,8498,4,"Doctoral Research",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8498,5,"Doctoral Research",Bao,Jiming,,,,,,,
+"Summer 2016",ECE,8498,10,"Doctoral Research",Becker,"Aaron T",,,,,,,
+"Summer 2016",ECE,8498,13,"Doctoral Research",Chen,Jinghong,,,,,,,
+"Summer 2016",ECE,8498,14,"Doctoral Research",Fu,Xin,,,,,,,
+"Summer 2016",ECE,8498,16,"Doctoral Research",Zagozdzon-Wosik,Wanda,,,,,,,
+"Summer 2016",ECE,8498,18,"Doctoral Research",Roysam,Badrinath,,,,,,,
+"Summer 2016",ECE,8498,19,"Doctoral Research",Chen,Jiefu,,,,,,,
+"Summer 2016",ECE,8498,20,"Doctoral Research",Shih,Wei-Chuan,,,,,,,
+"Summer 2016",ECE,8498,22,"Doctoral Research",Yao,Yan,,,,,,,
+"Summer 2016",ECE,8498,23,"Doctoral Research",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",ECE,8498,26,"Doctoral Research",Ogmen,Haluk,,,,,,,
+"Summer 2016",ECE,8498,36,"Doctoral Research",Pan,Miao,,,,,,,
+"Summer 2016",ECE,8598,5,"Doctoral Research",Wolfe,"John C",,,,,,,
+"Summer 2016",ECE,8598,13,"Doctoral Research",Mayerich,"David Matthew",,,,,,,
+"Summer 2016",ECE,8598,21,"Doctoral Research",Shih,Wei-Chuan,,,,,,,
+"Summer 2016",ECE,8598,22,"Doctoral Research",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",ECE,8598,24,"Doctoral Research",Merchant,"Fatima Aziz",,,,,,,
+"Summer 2016",ECE,8598,26,"Doctoral Research",Pei,"Shin-Shem Steven",,,,,,,
+"Summer 2016",ECE,8598,27,"Doctoral Research",Prasad,Saurabh,,,,,,,
+"Summer 2016",ECE,8598,28,"Doctoral Research",Chen,Yuhua,,,,,,,
+"Summer 2016",ECE,8598,29,"Doctoral Research",Ruchhoeft,Paul,,,,,,,
+"Summer 2016",ECON,8699,4,"Doctoral Dissertation",Kohlhase,"Janet E",,,,,,,
+"Summer 2016",ECON,8699,6,"Doctoral Dissertation",Yi,Kei-Mu,,,,,,,
+"Summer 2016",ECON,8699,9,"Doctoral Dissertation",Chin,Aimee,,,,,,,
+"Summer 2016",ECON,8699,15,"Doctoral Dissertation",Murray,Christian,,,,,,,
+"Summer 2016",ELCS,8199,8,Dissertation,Emerson,"Michael Wayne",,,,,,,
+"Summer 2016",ELCS,8397,1,"Sem Top Ed Ldshp&Cul St",Rolle,"R Anthony",,,,,,,
+"Summer 2016",ELCS,8399,8,"Doctoral Dissertation",Rolle,"R Anthony",,,,,,,
+"Summer 2016",ENGI,4398,2,"Independent Study",Holley,"Thomas K",,,,,,,
+"Summer 2016",ENGL,1300,1,"Fundamentals of Engl",Liparulo,"Steve P",,,,,,,
+"Summer 2016",ENGL,1300,2,"Fundamentals of Engl",Liparulo,"Steve P",,,,,,,
+"Summer 2016",ENGL,4390,1,"Professional Internship",Gonzalez,"Maria C",,,,,,,
+"Summer 2016",ENGL,4390,2,"Professional Internship",Gonzalez,"Maria C",,,,,,,
+"Summer 2016",EPSY,7393,1,"Internship and Practicum",Arbona,Consuelo,,,,,,,
+"Summer 2016",EPSY,7393,2,"Internship and Practicum",Ellis,"Patrick J",,,,,,,
+"Summer 2016",EPSY,8193,1,"Internship in Psychology",Nutt,"Roberta L",,,,,,,
+"Summer 2016",EPSY,8393,1,"Doctoral Practicum in Psy",Nutt,"Roberta L",,,,,,,
+"Summer 2016",EPSY,8393,2,"Doctoral Practicum in Psy",Smith,Bradley,,,,,,,
+"Summer 2016",EPSY,8399,2,"Doctoral Dissertation",Smith,Bradley,,,,,,,
+"Summer 2016",EPSY,8399,5,"Doctoral Dissertation",Schwartz,"Jonathan P",,,,,,,
+"Summer 2016",EPSY,8399,6,"Doctoral Dissertation",Arbona,Consuelo,,,,,,,
+"Summer 2016",EPSY,8399,8,"Doctoral Dissertation",Schwartz,"Jonathan P",,,,,,,
+"Summer 2016",EPSY,8399,9,"Doctoral Dissertation",Smith,"Nathan G",,,,,,,
+"Summer 2016",EPSY,8399,12,"Doctoral Dissertation",Wiesner,"Margit F",,,,,,,
+"Summer 2016",EPSY,8699,1,"Doctoral Dissertation",Lopez,Frederick,,,,,,,
+"Summer 2016",FINA,4396,1,"Finance Internship",Kumar,Praveen,,,,,,,
+"Summer 2016",FINA,4396,2,"Finance Internship",Kumar,Praveen,,,,,,,
+"Summer 2016",FINA,8395,1,"Teaching Practicum",Kumar,Praveen,,,,,,,
+"Summer 2016",FINA,8699,3,"Doctoral Dissertation",George,"Thomas J",,,,,,,
+"Summer 2016",GENB,4396,1,"Business Internship",Hopkins,"Troy D",,,,,,,
+"Summer 2016",GENB,4396,2,"Business Internship",Hopkins,"Troy D",,,,,,,
+"Summer 2016",GENB,4396,3,"Business Internship",Newman,"Michael Ray",,,,,,,
+"Summer 2016",GEOL,4398,13,"Independent Study",Khan,"Shuhab D.",,,,,,,
+"Summer 2016",GEOL,6398,31,"Special Problems","Van Nieuwenhuise","Donald S",,,,,,,
+"Summer 2016",GEOL,6398,32,"Special Problems","Van Nieuwenhuise","Donald S",,,,,,,
+"Summer 2016",GEOL,7399,3,"Masters Thesis",Murphy,Michael,,,,,,,
+"Summer 2016",GEOL,7399,24,"Masters Thesis",Khan,"Shuhab D.",,,,,,,
+"Summer 2016",GEOL,8398,8,"Doctoral Research",Murphy,Michael,,,,,,,
+"Summer 2016",GEOL,8398,16,"Doctoral Research",Stewart,"Robert R",,,,,,,
+"Summer 2016",GEOL,8398,20,"Doctoral Research",Wang,Guoquan,,,,,,,
+"Summer 2016",GEOL,8399,3,"Doctoral Dissertation",Murphy,Michael,,,,,,,
+"Summer 2016",GEOL,8698,3,"Doctoral Research",Chafetz,"Henry S",,,,,,,
+"Summer 2016",GEOL,8698,6,"Doctoral Research",Hilterman,Fred,,,,,,,
+"Summer 2016",GEOL,8698,7,"Doctoral Research",Khan,"Shuhab D.",,,,,,,
+"Summer 2016",GEOL,8698,8,"Doctoral Research",Castagna,"John P",,,,,,,
+"Summer 2016",GEOL,8698,10,"Doctoral Research",Lapen,"Thomas J",,,,,,,
+"Summer 2016",GEOL,8698,11,"Doctoral Research",Murphy,Michael,,,,,,,
+"Summer 2016",GEOL,8698,16,"Doctoral Research",Zhou,Hua-Wei,,,,,,,
+"Summer 2016",GEOL,8698,21,"Doctoral Research",Zhou,Hua-Wei,,,,,,,
+"Summer 2016",GEOL,8698,23,"Doctoral Research",Casey,"John F",,,,,,,
+"Summer 2016",GEOL,8698,35,"Doctoral Research",Choi,Yunsoo,,,,,,,
+"Summer 2016",GEOL,8698,37,"Doctoral Research",Jadamec,Margarete,,,,,,,
+"Summer 2016",GEOL,8699,19,"Doctoral Dissertation",Choi,Yunsoo,,,,,,,
+"Summer 2016",GEOL,8699,20,"Doctoral Dissertation",Lapen,"Thomas J",,,,,,,
+"Summer 2016",HIST,8399,1,"Doctoral Dissertation",Vaughn,"Sally N",,,,,,,
+"Summer 2016",HIST,8677,1,"Reading for Comps Exams",Melosi,"Martin V",,,,,,,
+"Summer 2016",HIST,8699,1,"Doctoral Dissertation",Vaughn,"Sally N",,,,,,,
+"Summer 2016",HIST,8699,2,"Doctoral Dissertation",Young,"Nancy Beck",,,,,,,
+"Summer 2016",HIST,8699,3,"Doctoral Dissertation",Hart,"John M",,,,,,,
+"Summer 2016",HRMA,2160,1,"Hospitality Practicum I",Guchait,Priyanko,,,,,,,
+"Summer 2016",HRMA,3160,1,"Hospitality Practicum II",Guchait,Priyanko,,,,,,,
+"Summer 2016",HRMA,3362,1,"Mgt Training Work Experience I",Gleeson,"Colleen C",,,,,,,
+"Summer 2016",HRMA,4132,1,"Bev Mgmt & Mktg Internship",Gleeson,"Colleen C",,,,,,,
+"Summer 2016",HRMA,4362,1,"Mgt Training Work Exper. II",Gleeson,"Colleen C",,,,,,,
+"Summer 2016",HRMA,6290,4,"Professional Paper I",Cordua,"Glenn D",,,,,,,
+"Summer 2016",HRMA,6299,2,"Professional Paper II","Boger Jr","Carl A",,,,,,,
+"Summer 2016",HRMA,6299,3,"Professional Paper II",Guchait,Priyanko,,,,,,,
+"Summer 2016",IDNS,2197,1,"Top-Natrl Sci & Mth",Hamilton,"Andrew L",,,,,,,
+"Summer 2016",ILAS,2198,1,"Independent Study",Behr,"Thomas C",,,,,,,
+"Summer 2016",INDE,6198,7,Research,Feng,Qianmei,,,,,,,
+"Summer 2016",INDE,6398,7,Research,Khator,"Suresh K",,,,,,,
+"Summer 2016",INDE,8298,1,"Doctoral Research","Peng PhD","Jiming Ouyang",,,,,,,
+"Summer 2016",INDE,8298,5,"Doctoral Research",Lim,"Gino Jinho",,,,,,,
+"Summer 2016",INDE,8398,7,"Doctoral Research",Lim,"Gino Jinho",,,,,,,
+"Summer 2016",INDE,8398,8,"Doctoral Research","Peng PhD","Jiming Ouyang",,,,,,,
+"Summer 2016",INDE,8498,1,"Doctoral Research","Peng PhD","Jiming Ouyang",,,,,,,
+"Summer 2016",INDE,8498,3,"Doctoral Research",Lim,"Gino Jinho",,,,,,,
+"Summer 2016",LAW,5104,1,"Houston Business/Tax Journal",Streng,"William P",,,,,,,
+"Summer 2016",LAW,5105,1,"Interscholastic Mock Trial",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5105,2,"Interscholastic Mock Trial",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5106,1,"Interscholastic Moot Court",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5109,1,"Advocates-Negotiation-Curr. Yr",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5111,1,"Advocates-Blakely Moot Court",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5112,1,"Advocates-Hipp Mock Trial",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5113,1,Advocates,Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5119,1,Advocates-Negotiation-Retro,Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5119,2,Advocates-Negotiation-Retro,Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5210,1,"Law Review",Sanders,Joseph,,,,,,,
+"Summer 2016",LAW,5283,1,"Mediation Externship",Willis,"Tasha L",,,,,,,
+"Summer 2016",LAW,5289,1,"Interscholastic Mock Trial",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5290,1,"Interscholastic Moot Court",Lawrence,"Jim E",,,,,,,
+"Summer 2016",LAW,5297,3,"Selected Topics",Glockner-Dow,"Katja Brigitte",,,,,,,
+"Summer 2016",LAW,5297,12,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,13,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,14,"Selected Topics",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5297,14,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,14,"Selected Topics",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5297,17,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,19,"Selected Topics",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5297,19,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,19,"Selected Topics",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5297,20,"Selected Topics",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5297,20,"Selected Topics",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5297,20,"Selected Topics",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5328,1,"Judicial Externship I",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5328,1,"Judicial Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5328,1,"Judicial Externship I",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5328,2,"Judicial Externship I",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5328,2,"Judicial Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5328,2,"Judicial Externship I",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5329,2,"Judicial Externship II",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5329,2,"Judicial Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5329,2,"Judicial Externship II",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5329,3,"Judicial Externship II",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5329,3,"Judicial Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5329,3,"Judicial Externship II",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5400,2,"Clinic Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5407,10,"Judicial Externship I",Archer,"Anna M",,,,,,,
+"Summer 2016",LAW,5407,10,"Judicial Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5407,10,"Judicial Externship I",Worrell,"Carey Ann",,,,,,,
+"Summer 2016",LAW,5415,3,"Clinic Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5500,1,"Clinic Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5514,1,"Judicial Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5602,1,"Clinic Externship I",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,5603,1,"Clinic Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,6211,1,"Houston Buiness/Tax Journal",Streng,"William P",,,,,,,
+"Summer 2016",LAW,6300,2,"Clinic Externship",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,6300,3,"Clinic Externship",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,6318,1,"Houston Business/Tax Journal",Streng,"William P",,,,,,,
+"Summer 2016",LAW,6354,1,"Houston Journal of Int'l Law",Paust,"Jordan J",,,,,,,
+"Summer 2016",LAW,6354,2,"Houston Journal of Int'l Law",Paust,"Jordan J",,,,,,,
+"Summer 2016",LAW,6355,3,"Clinic Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",LAW,6358,1,"Health Law Journal",Chandler,"Seth J",,,,,,,
+"Summer 2016",LAW,6500,1,"Clinic Externship II",Bonadero,"Erma C",,,,,,,
+"Summer 2016",MANA,4396,1,"Management Internship",Carlin,"Barbara A",,,,,,,
+"Summer 2016",MARK,4396,1,"Marketing Internship",Krishnamurthy,Parthasarathy,,,,,,,
+"Summer 2016",MATH,1300,1,"Fundamentals of Math",Alvarez,"Angelynn Reario",,,,,,,
+"Summer 2016",MATH,6298,7,"Special Problems",Pan,Tsorng-Whay,,,,,,,
+"Summer 2016",MATH,6298,10,"Special Problems",Tomforde,"Mark L",,,,,,,
+"Summer 2016",MATH,6298,21,"Special Problems",Ji,Shanyu,,,,,,,
+"Summer 2016",MATH,6398,10,"Special Problems",Ji,Shanyu,,,,,,,
+"Summer 2016",MATH,6398,25,"Special Problems",Blecher,"David P",,,,,,,
+"Summer 2016",MATH,6398,27,"Special Problems",Josic,Kresimir,,,,,,,
+"Summer 2016",MATH,6398,31,"Special Problems",Azencott,"Robert Guy",,,,,,,
+"Summer 2016",MATH,6398,38,"Special Problems",Blecher,"David P",,,,,,,
+"Summer 2016",MATH,6398,41,"Special Problems",Papadakis,"Emanuel Ioannis",,,,,,,
+"Summer 2016",MATH,6398,47,"Special Problems",Ji,Shanyu,,,,,,,
+"Summer 2016",MATH,6398,55,"Special Problems",Azencott,"Robert Guy",,,,,,,
+"Summer 2016",MATH,6398,57,"Special Problems",Timofeyev,Ilya,,,,,,,
+"Summer 2016",MATH,6498,9,"Special Problems",Tomforde,"Mark L",,,,,,,
+"Summer 2016",MATH,6498,16,"Special Problems",Ji,Shanyu,,,,,,,
+"Summer 2016",MATH,6498,33,"Special Problems",Pan,Tsorng-Whay,,,,,,,
+"Summer 2016",MATH,8398,20,"Doctoral Research",Timofeyev,Ilya,,,,,,,
+"Summer 2016",MATH,8398,26,"Doctoral Research",Blecher,"David P",,,,,,,
+"Summer 2016",MATH,8398,33,"Doctoral Research",Heier,Gordon,,,,,,,
+"Summer 2016",MATH,8398,35,"Doctoral Research",Azencott,"Robert Guy",,,,,,,
+"Summer 2016",MATH,8398,37,"Doctoral Research",Papadakis,"Emanuel Ioannis",,,,,,,
+"Summer 2016",MATH,8398,38,"Doctoral Research",Ru,Min,,,,,,,
+"Summer 2016",MATH,8399,28,"Doctoral Dissertation",Josic,Kresimir,,,,,,,
+"Summer 2016",MATH,8399,42,"Doctoral Dissertation",Heier,Gordon,,,,,,,
+"Summer 2016",MATH,8698,1,"Doctoral Research",Josic,Kresimir,,,,,,,
+"Summer 2016",MATH,8698,2,"Doctoral Research",Kilpatrick,"Zachary P",,,,,,,
+"Summer 2016",MATH,8698,3,"Doctoral Research",Gorb,Yuliya,,,,,,,
+"Summer 2016",MATH,8698,4,"Doctoral Research",Ru,Min,,,,,,,
+"Summer 2016",MATH,8698,5,"Doctoral Research",Olshanskiy,"Maxim Alexandrovich",,,,,,,
+"Summer 2016",MATH,8698,6,"Doctoral Research",Timofeyev,Ilya,,,,,,,
+"Summer 2016",MATH,8698,7,"Doctoral Research",Bodmann,"Bernhard G",,,,,,,
+"Summer 2016",MATH,8698,8,"Doctoral Research",Quaini,Annalisa,,,,,,,
+"Summer 2016",MATH,8698,9,"Doctoral Research",Fu,Wenjiang,,,,,,,
+"Summer 2016",MATH,8698,10,"Doctoral Research",Auchmuty,"James F G",,,,,,,
+"Summer 2016",MATH,8698,11,"Doctoral Research",Ott,"William R",,,,,,,
+"Summer 2016",MATH,8699,10,"Doctoral Dissertation",Glowinski,Roland,,,,,,,
+"Summer 2016",MECE,6399,10,"Masters Thesis",Song,Gangbing,,,,,,,
+"Summer 2016",MECE,8198,2,"Doctoral Research",Ryou,Jae-Hyun,,,,,,,
+"Summer 2016",MECE,8198,3,"Doctoral Research",Franchek,Matthew,,,,,,,
+"Summer 2016",MECE,8198,4,"Doctoral Research",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8198,7,"Doctoral Research",Song,Gangbing,,,,,,,
+"Summer 2016",MECE,8198,9,"Doctoral Research",White,"Kenneth W",,,,,,,
+"Summer 2016",MECE,8198,12,"Doctoral Research",Kulkarni,Yashashree,,,,,,,
+"Summer 2016",MECE,8198,13,"Doctoral Research",Wang,"Su Su",,,,,,,
+"Summer 2016",MECE,8198,14,"Doctoral Research",Masson,"Philippe J.",,,,,,,
+"Summer 2016",MECE,8198,15,"Doctoral Research",Agrawal,Ashutosh,,,,,,,
+"Summer 2016",MECE,8198,17,"Doctoral Research",Ardebili,Haleh,,,,,,,
+"Summer 2016",MECE,8298,1,"Doctoral Research",Franchek,Matthew,,,,,,,
+"Summer 2016",MECE,8298,3,"Doctoral Research",Chen,Yi-Chao,,,,,,,
+"Summer 2016",MECE,8298,6,"Doctoral Research",Song,Gangbing,,,,,,,
+"Summer 2016",MECE,8298,7,"Doctoral Research",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8298,8,"Doctoral Research",Ryou,Jae-Hyun,,,,,,,
+"Summer 2016",MECE,8298,9,"Doctoral Research",White,"Kenneth W",,,,,,,
+"Summer 2016",MECE,8298,16,"Doctoral Research",Wang,"Su Su",,,,,,,
+"Summer 2016",MECE,8298,17,"Doctoral Research",Masson,"Philippe J.",,,,,,,
+"Summer 2016",MECE,8298,19,"Doctoral Research",Yu,Cunjiang,,,,,,,
+"Summer 2016",MECE,8298,20,"Doctoral Research",Sharma,Pradeep,,,,,,,
+"Summer 2016",MECE,8298,21,"Doctoral Research",Mavrokefalos,Anastassios,,,,,,,
+"Summer 2016",MECE,8398,5,"Doctoral Research",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8398,6,"Doctoral Research",Sun,Li,,,,,,,
+"Summer 2016",MECE,8398,13,"Doctoral Research",Masson,"Philippe J.",,,,,,,
+"Summer 2016",MECE,8398,15,"Doctoral Research",Ardebili,Haleh,,,,,,,
+"Summer 2016",MECE,8398,16,"Doctoral Research",Liu,Dong,,,,,,,
+"Summer 2016",MECE,8398,17,"Doctoral Research",Yang,Di,,,,,,,
+"Summer 2016",MECE,8398,18,"Doctoral Research",Kulkarni,Yashashree,,,,,,,
+"Summer 2016",MECE,8398,9,"Doctoral Research",Franchek,Matthew,,,,,,,
+"Summer 2016",MECE,8498,1,"Doctoral Research",Chen,Yi-Chao,,,,,,,
+"Summer 2016",MECE,8498,3,"Doctoral Research",Ryou,Jae-Hyun,,,,,,,
+"Summer 2016",MECE,8498,4,"Doctoral Research",Sharma,Pradeep,,,,,,,
+"Summer 2016",MECE,8498,8,"Doctoral Research",White,"Kenneth W",,,,,,,
+"Summer 2016",MECE,8498,14,"Doctoral Research",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8498,15,"Doctoral Research",Wang,"Su Su",,,,,,,
+"Summer 2016",MECE,8498,16,"Doctoral Research",Masson,"Philippe J.",,,,,,,
+"Summer 2016",MECE,8498,18,"Doctoral Research",Yu,Cunjiang,,,,,,,
+"Summer 2016",MECE,8498,19,"Doctoral Research",Mavrokefalos,Anastassios,,,,,,,
+"Summer 2016",MECE,8598,2,"Doctoral Research",White,"Kenneth W",,,,,,,
+"Summer 2016",MECE,8598,7,"Doctoral Research",Ryou,Jae-Hyun,,,,,,,
+"Summer 2016",MECE,8598,8,"Doctoral Research",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8598,9,"Doctoral Research",Franchek,Matthew,,,,,,,
+"Summer 2016",MECE,8598,17,"Doctoral Research",Wang,"Su Su",,,,,,,
+"Summer 2016",MECE,8598,18,"Doctoral Research",Masson,"Philippe J.",,,,,,,
+"Summer 2016",MECE,8598,19,"Doctoral Research",Agrawal,Ashutosh,,,,,,,
+"Summer 2016",MECE,8598,20,"Doctoral Research",Ardebili,Haleh,,,,,,,
+"Summer 2016",NURS,6346,1,"Mgmt of Hlth Dsordrs in Wo/Ch",Reeve,"Kathleen D",,,,,,,
+"Summer 2016",OPTO,5198,4,"Spec Prob Phys Optics",Johnston,"Kassaundra Lee",,,,,,,
+"Summer 2016",OPTO,5198,7,"Spec Prob Phys Optics",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,5198,8,"Spec Prob Phys Optics",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,6115,1,"Clinical Integration",Gostovic,"Anita Ticak",,,,,,,
+"Summer 2016",OPTO,7493,1,"General Clinic IIIA",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,7495,1,"General Clinic IIIc",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,8696,1,"General Clinic IV",Parker,Katrina,,,,,,,
+"Summer 2016",OPTO,8990,1,"Community Health Clinic",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,8991,1,"Community Health Clinic",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,8992,1,"Community Health Clinic",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",OPTO,8993,1,"Community Health Clinic",Herring,"Ralph Jay",,,,,,,
+"Summer 2016",PCEU,6698,1,"Special Problems",Hu,Ming,,,,,,,
+"Summer 2016",PCEU,6698,2,"Special Problems",Tam,"Vincent H",,,,,,,
+"Summer 2016",PCEU,6698,3,"Special Problems",Ghose,Romi,,,,,,,
+"Summer 2016",PCEU,6698,4,"Special Problems",Chow,"Diana Shu-Lian",,,,,,,
+"Summer 2016",PCEU,8698,1,"Doctoral Research",Chow,"Diana Shu-Lian",,,,,,,
+"Summer 2016",PCEU,8698,2,"Doctoral Research",Hu,Ming,,,,,,,
+"Summer 2016",PCEU,8698,3,"Doctoral Research",Tam,"Vincent H",,,,,,,
+"Summer 2016",PCOL,6298,1,"Special Problems",Eriksen,Jason,,,,,,,
+"Summer 2016",PCOL,6298,12,"Special Problems",Udugamasooriya,"Damith Gomika",,,,,,,
+"Summer 2016",PCOL,6298,2,"Special Problems",Hussain,Tahir,,,,,,,
+"Summer 2016",PCOL,6298,3,"Special Problems",Ruan,Ke-He,,,,,,,
+"Summer 2016",PCOL,6298,5,"Special Problems",Salim,Samina,,,,,,,
+"Summer 2016",PCOL,6298,6,"Special Problems",McConnell,"Bradley K",,,,,,,
+"Summer 2016",PCOL,6298,8,"Special Problems",Bond,"Richard A",,,,,,,
+"Summer 2016",PCOL,6498,21,"Special Problems",McConnell,"Bradley K",,,,,,,
+"Summer 2016",PCOL,6498,24,"Special Problems",Bond,"Richard A",,,,,,,
+"Summer 2016",PCOL,6498,30,"Special Problems",Ruan,Ke-He,,,,,,,
+"Summer 2016",PCOL,6498,31,"Special Problems",Salim,Samina,,,,,,,
+"Summer 2016",PCOL,6498,32,"Special Problems",Hussain,Tahir,,,,,,,
+"Summer 2016",PCOL,6498,42,"Special Problems",Eriksen,Jason,,,,,,,
+"Summer 2016",PCOL,6498,45,"Special Problems",Udugamasooriya,"Damith Gomika",,,,,,,
+"Summer 2016",PCOL,8698,10,"Doctoral Research",Cuny,"Gregory D",,,,,,,
+"Summer 2016",PCOL,8698,2,"Doctoral Research",McConnell,"Bradley K",,,,,,,
+"Summer 2016",PCOL,8698,4,"Doctoral Research",Asghar,Mohammad,,,,,,,
+"Summer 2016",PCOL,8698,7,"Doctoral Research",Bond,"Richard A",,,,,,,
+"Summer 2016",PCOL,8698,8,"Doctoral Research",Salim,Samina,,,,,,,
+"Summer 2016",PCOL,8699,9,"Doctoral Dissertation",Tejada-Simon,"Maria Victoria",,,,,,,
+"Summer 2016",PCOL,8699,13,"Doctoral Dissertation",Ruan,Ke-He,,,,,,,
+"Summer 2016",PCOL,8699,26,"Doctoral Dissertation",Salim,Samina,,,,,,,
+"Summer 2016",PCOL,8699,27,"Doctoral Dissertation",Eriksen,Jason,,,,,,,
+"Summer 2016",PEP,7399,3,"Masters Thesis",Cottingham,Michael,,,,,,,
+"Summer 2016",PEP,8399,1,"Doctoral Dissertation",Layne,"Charles S",,,,,,,
+"Summer 2016",PEP,8699,1,"Doctoral Dissertation",Layne,"Charles S",,,,,,,
+"Summer 2016",PETR,6398,1,Research,Holley,"Thomas K",,,,,,,
+"Summer 2016",PETR,7399,3,"Masters Thesis",Myers,"Michael Tolbert",,,,,,,
+"Summer 2016",PETR,8198,1,"Doctoral Research",Holley,"Thomas K",,,,,,,
+"Summer 2016",PETR,8198,2,"Doctoral Research",Nikolaou,Michael,,,,,,,
+"Summer 2016",PETR,8198,5,"Doctoral Research",Qin,Guan,,,,,,,
+"Summer 2016",PETR,8198,6,"Doctoral Research",Kostarelos,Konstantinos,,,,,,,
+"Summer 2016",PETR,8398,7,"Doctoral Research",Economides,Christine,,,,,,,
+"Summer 2016",PETR,8598,1,"Doctoral Research",Holley,"Thomas K",,,,,,,
+"Summer 2016",PETR,8598,2,"Doctoral Research",Nikolaou,Michael,,,,,,,
+"Summer 2016",PETR,8598,5,"Doctoral Research",Qin,Guan,,,,,,,
+"Summer 2016",PETR,8598,6,"Doctoral Research",Kostarelos,Konstantinos,,,,,,,
+"Summer 2016",PHAR,5213,1,"Pharmacy Base Immunizatn Deliv",Wallace,"David A",,,,,,,
+"Summer 2016",PHAR,5297,1,"Selected Topics in Pharmacy",Hatfield,"Catherine L",,,,,,,
+"Summer 2016",PHAR,5297,3,"Selected Topics in Pharmacy",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHAR,5297,4,"Selected Topics in Pharmacy",Ruan,Ke-He,,,,,,,
+"Summer 2016",PHAR,5297,5,"Selected Topics in Pharmacy","Trivedi PhD",Meghana,,,,,,,
+"Summer 2016",PHAR,5493,1,"Intro Community Pharmacy",Hatfield,"Catherine L",,,,,,,
+"Summer 2016",PHCA,8199,5,"Doctoral Dissertation Defense",Chen,Hua,,,,,,,
+"Summer 2016",PHCA,8199,7,"Doctoral Dissertation Defense",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHCA,8298,2,"Doctoral Dissertation Research",Chen,Hua,,,,,,,
+"Summer 2016",PHCA,8398,1,"Doctoral Dissertation Research",Aparasu,"Rajender R",,,,,,,
+"Summer 2016",PHCA,8398,6,"Doctoral Dissertation Research",Chen,Hua,,,,,,,
+"Summer 2016",PHCA,8398,7,"Doctoral Dissertation Research",Essien,"Ekere James",,,,,,,
+"Summer 2016",PHCA,8698,1,"Doctoral Dissertation Research",Aparasu,"Rajender R",,,,,,,
+"Summer 2016",PHCA,8698,2,"Doctoral Dissertation Research",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHCA,8698,3,"Doctoral Dissertation Research",Johnson,"Michael L",,,,,,,
+"Summer 2016",PHCA,8698,8,"Doctoral Dissertation Research",Abughosh,"Susan M",,,,,,,
+"Summer 2016",PHCA,8698,6,"Doctoral Dissertation Research",Fleming,"Marc L",,,,,,,
+"Summer 2016",PHCA,8698,7,"Doctoral Dissertation Research",Essien,"Ekere James",,,,,,,
+"Summer 2016",PHOP,6160,1,"Gen Sem Visual Sciences",Porter,Jason,,,,,,,
+"Summer 2016",PHOP,8399,4,"Doctoral Dissertation",Frishman,"Laura J",,,,,,,
+"Summer 2016",PHYS,6198,7,"Special Problems",Renshaw,Andrew,,,,,,,
+"Summer 2016",PHYS,6198,10,"Special Problems",Chen,Shuo,,,,,,,
+"Summer 2016",PHYS,6198,11,"Special Problems",Bellwied,Rene,,,,,,,
+"Summer 2016",PHYS,6198,14,"Special Problems",Freundlich,Alexandre,,,,,,,
+"Summer 2016",PHYS,6198,17,"Special Problems",Miller,"John H",,,,,,,
+"Summer 2016",PHYS,6198,21,"Special Problems",Das,Mini,,,,,,,
+"Summer 2016",PHYS,6198,22,"Special Problems",Kouri,"Donald J",,,,,,,
+"Summer 2016",PHYS,6198,27,"Special Problems",Bassler,"Kevin E",,,,,,,
+"Summer 2016",PHYS,6198,29,"Special Problems",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,6198,35,"Special Problems",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,6198,43,"Special Problems",Ting,"Chin Sen",,,,,,,
+"Summer 2016",PHYS,6298,19,"Special Problems",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,6298,34,"Special Problems",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,6398,70,"Special Problems",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,6498,21,"Special Problems",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,6498,33,"Special Problems",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,6598,5,"Special Problems",Chen,Shuo,,,,,,,
+"Summer 2016",PHYS,6598,12,"Special Problems",Freundlich,Alexandre,,,,,,,
+"Summer 2016",PHYS,6598,14,"Special Problems",Bellwied,Rene,,,,,,,
+"Summer 2016",PHYS,6598,20,"Special Problems",Renshaw,Andrew,,,,,,,
+"Summer 2016",PHYS,6598,22,"Special Problems",Bassler,"Kevin E",,,,,,,
+"Summer 2016",PHYS,6598,23,"Special Problems",Das,Mini,,,,,,,
+"Summer 2016",PHYS,6598,26,"Special Problems",Miller,"John H",,,,,,,
+"Summer 2016",PHYS,6598,28,"Special Problems",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,6598,33,"Special Problems",Kouri,"Donald J",,,,,,,
+"Summer 2016",PHYS,6598,36,"Special Problems",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,6598,38,"Special Problems",Ting,"Chin Sen",,,,,,,
+"Summer 2016",PHYS,8198,1,"Doctoral Research",Ignatiev,Alex,,,,,,,
+"Summer 2016",PHYS,8198,2,"Doctoral Research",Chu,"Ching Wu",,,,,,,
+"Summer 2016",PHYS,8198,3,"Doctoral Research",Pinsky,"Lawrence S",,,,,,,
+"Summer 2016",PHYS,8198,4,"Doctoral Research",Ting,"Chin Sen",,,,,,,
+"Summer 2016",PHYS,8198,6,"Doctoral Research",Ordonez,Carlos,,,,,,,
+"Summer 2016",PHYS,8198,7,"Doctoral Research",Miller,"John H",,,,,,,
+"Summer 2016",PHYS,8198,8,"Doctoral Research",Hungerford,"Ed V",,,,,,,
+"Summer 2016",PHYS,8198,9,"Doctoral Research",Gunaratne,Gemunu,,,,,,,
+"Summer 2016",PHYS,8198,10,"Doctoral Research",Chen,Shuo,,,,,,,
+"Summer 2016",PHYS,8198,13,"Doctoral Research",Bassler,"Kevin E",,,,,,,
+"Summer 2016",PHYS,8198,15,"Doctoral Research",Freundlich,Alexandre,,,,,,,
+"Summer 2016",PHYS,8198,17,"Doctoral Research",Hor,Pei-Herng,,,,,,,
+"Summer 2016",PHYS,8198,18,"Doctoral Research",Curran,"Seamus A",,,,,,,
+"Summer 2016",PHYS,8198,20,"Doctoral Research",Weglein,"Arthur B",,,,,,,
+"Summer 2016",PHYS,8198,21,"Doctoral Research",Renshaw,Andrew,,,,,,,
+"Summer 2016",PHYS,8198,23,"Doctoral Research",Bellwied,Rene,,,,,,,
+"Summer 2016",PHYS,8198,26,"Doctoral Research",Lau,"Kwong Hon",,,,,,,
+"Summer 2016",PHYS,8198,27,"Doctoral Research",Kouri,"Donald J",,,,,,,
+"Summer 2016",PHYS,8198,28,"Doctoral Research",Su,Wu-Pei,,,,,,,
+"Summer 2016",PHYS,8198,30,"Doctoral Research",Chu,Wei-Kan,,,,,,,
+"Summer 2016",PHYS,8198,32,"Doctoral Research",Ratti,Claudia,,,,,,,
+"Summer 2016",PHYS,8198,35,"Doctoral Research",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,8198,37,"Doctoral Research",Ting,"Chin Sen",,,,,,,
+"Summer 2016",PHYS,8198,44,"Doctoral Research",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,8198,45,"Doctoral Research",Timmins,"Anthony Robert",,,,,,,
+"Summer 2016",PHYS,8198,46,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8198,48,"Doctoral Research",Varghese,"Oomman K",,,,,,,
+"Summer 2016",PHYS,8198,50,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8298,41,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8398,12,"Doctoral Research",Su,Wu-Pei,,,,,,,
+"Summer 2016",PHYS,8398,22,"Doctoral Research",Cai,Dong,,,,,,,
+"Summer 2016",PHYS,8398,41,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8598,1,"Doctoral Research",Pinsky,"Lawrence S",,,,,,,
+"Summer 2016",PHYS,8598,2,"Doctoral Research",Chu,"Ching Wu",,,,,,,
+"Summer 2016",PHYS,8598,3,"Doctoral Research",Ignatiev,Alex,,,,,,,
+"Summer 2016",PHYS,8598,5,"Doctoral Research",Renshaw,Andrew,,,,,,,
+"Summer 2016",PHYS,8598,6,"Doctoral Research",Ting,"Chin Sen",,,,,,,
+"Summer 2016",PHYS,8598,8,"Doctoral Research",Curran,"Seamus A",,,,,,,
+"Summer 2016",PHYS,8598,10,"Doctoral Research",Chen,Shuo,,,,,,,
+"Summer 2016",PHYS,8598,11,"Doctoral Research",Ratti,Claudia,,,,,,,
+"Summer 2016",PHYS,8598,12,"Doctoral Research",Bassler,"Kevin E",,,,,,,
+"Summer 2016",PHYS,8598,14,"Doctoral Research",Su,Wu-Pei,,,,,,,
+"Summer 2016",PHYS,8598,15,"Doctoral Research",Hor,Pei-Herng,,,,,,,
+"Summer 2016",PHYS,8598,17,"Doctoral Research",Bellwied,Rene,,,,,,,
+"Summer 2016",PHYS,8598,18,"Doctoral Research",Kouri,"Donald J",,,,,,,
+"Summer 2016",PHYS,8598,19,"Doctoral Research",Miller,"John H",,,,,,,
+"Summer 2016",PHYS,8598,20,"Doctoral Research",Freundlich,Alexandre,,,,,,,
+"Summer 2016",PHYS,8598,21,"Doctoral Research",Lau,"Kwong Hon",,,,,,,
+"Summer 2016",PHYS,8598,22,"Doctoral Research",Weglein,"Arthur B",,,,,,,
+"Summer 2016",PHYS,8598,23,"Doctoral Research",Hungerford,"Ed V",,,,,,,
+"Summer 2016",PHYS,8598,26,"Doctoral Research",Koerner,"Lisa Whitehead",,,,,,,
+"Summer 2016",PHYS,8598,27,"Doctoral Research",Chu,Wei-Kan,,,,,,,
+"Summer 2016",PHYS,8598,31,"Doctoral Research",Gunaratne,Gemunu,,,,,,,
+"Summer 2016",PHYS,8598,33,"Doctoral Research",Ordonez,Carlos,,,,,,,
+"Summer 2016",PHYS,8598,35,"Doctoral Research",Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,8598,42,"Doctoral Research",Timmins,"Anthony Robert",,,,,,,
+"Summer 2016",PHYS,8598,43,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8598,45,"Doctoral Research",Varghese,"Oomman K",,,,,,,
+"Summer 2016",PHYS,8598,48,"Doctoral Research",Ren,Zhifeng,,,,,,,
+"Summer 2016",PHYS,8699,5,"Doctoral Dissertation",Chu,Wei-Kan,,,,,,,
+"Summer 2016",PHYS,8699,16,"Doctoral Dissertation",Hungerford,"Ed V",,,,,,,
+"Summer 2016",PHYS,8699,24,"Doctoral Dissertation",Gunaratne,Gemunu,,,,,,,
+"Summer 2016",PHYS,8699,48,"Doctoral Dissertation",Varghese,"Oomman K",,,,,,,
+"Summer 2016",POLS,8699,2,"Doctoral Dissertation",Zhu,Ling,,,,,,,
+"Summer 2016",POLS,8699,3,"Doctoral Dissertation",Kennedy,"Ryan P",,,,,,,
+"Summer 2016",POLS,8699,4,"Doctoral Dissertation",Aleman,Eduardo,,,,,,,
+"Summer 2016",PSYC,6392,1,"Clinical Practicum",Alfano,"Candice A",,,,,,,
+"Summer 2016",PSYC,6392,3,"Clinical Practicum",Harris,"Gerald E",,,,,,,
+"Summer 2016",PSYC,6392,4,"Clinical Practicum",Weill,Robin,,,,,,,
+"Summer 2016",PSYC,6398,12,"Independent Studies",Spitzmuller,Christiane,,,,,,,
+"Summer 2016",PSYC,6398,13,"Independent Studies",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,6399,2,"Masters Thesis",Cirino,Paul,,,,,,,
+"Summer 2016",PSYC,6399,4,"Masters Thesis",Woods,"Steven Paul",,,,,,,
+"Summer 2016",PSYC,6399,6,"Masters Thesis",Eisenberger,"Robert W",,,,,,,
+"Summer 2016",PSYC,6399,7,"Masters Thesis",Babcock,Julia,,,,,,,
+"Summer 2016",PSYC,7390,1,"Clin Neuropsychology Practicum",Woods,"Steven Paul",,,,,,,
+"Summer 2016",PSYC,7392,1,"Psychology Practicum",Knee,"Clifford R",,,,,,,
+"Summer 2016",PSYC,7393,1,"Field Practicum in Psychology",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,7397,1,"Selected Topics in Psychology",Fletcher,"Jack M",,,,,,,
+"Summer 2016",PSYC,7397,2,"Selected Topics in Psychology",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,7399,6,"Masters Thesis",Spitzmuller,Christiane,,,,,,,
+"Summer 2016",PSYC,8121,1,"Clinical Psychology Internship",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,8321,1,"Clinical Psyc Internship",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,8390,1,"Clinical Neuropsyc Internship",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,8392,1,"Advanced Clinical Practicum",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,8399,1,"Doctoral Dissertation",Alfano,"Candice A",,,,,,,
+"Summer 2016",PSYC,8399,2,"Doctoral Dissertation",Massman,"Paul J",,,,,,,
+"Summer 2016",PSYC,8399,11,"Doctoral Dissertation",Leasure,"Jennifer Leigh",,,,,,,
+"Summer 2016",PSYC,8399,12,"Doctoral Dissertation",Woods,"Steven Paul",,,,,,,
+"Summer 2016",PSYC,8399,13,"Doctoral Dissertation",Zvolensky,"Michael J",,,,,,,
+"Summer 2016",PSYC,8699,1,"Doctoral Dissertation",Leasure,"Jennifer Leigh",,,,,,,
+"Summer 2016",PSYC,8699,4,"Doctoral Dissertation",Fletcher,"Jack M",,,,,,,
+"Summer 2016",SCM,8399,1,"Doctoral Dissertation in SCM","Robinson Jr","Powell Ersell",,,,,,,
+"Summer 2016",SOC,7399,7,"Masters Thesis",Katz,Sheila,,,,,,,
+"Summer 2016",SOCW,6194,1,"Field Practicum I - Foundation",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,6194,1,"Field Practicum I - Foundation",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,6194,5,"Field Practicum I - Foundation",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,6194,5,"Field Practicum I - Foundation",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,6393,1,"Field Practicum II",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,6393,2,"Field Practicum II",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7384,1,"Field Practicum III - Clinical",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,7384,1,"Field Practicum III - Clinical",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7384,13,"Field Practicum III - Clinical",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7385,1,"Field Practicum IV- Clinical",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,7385,1,"Field Practicum IV- Clinical",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7385,14,"Field Practicum IV- Clinical",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,7385,14,"Field Practicum IV- Clinical",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7388,15,"Field Pract III-Macro Practice",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7389,16,"Field Pract IV-Macro Practice",Griffin,Jacqueline,,,,,,,
+"Summer 2016",SOCW,7389,16,"Field Pract IV-Macro Practice",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SOCW,7391,17,"Field Practicum Elective III",Parker,"Jamie Lynne",,,,,,,
+"Summer 2016",SPAN,7398,2,"Reading & Research",Ventura,"Gabriela Baeza",,,,,,,
+"Summer 2016",SPAN,7398,7,"Reading & Research","De Los Reyes Heredia","Jose Guillermo",,,,,,,
+"Summer 2016",COSC,6310,1,"Fundamentals of Operating Syst",Paris,Jehan-Francois,,,,,,,
+"Summer 2016",BIOE,7399,2,"Masters Thesis",Contreras-Vidal,"Jose Luis",,,,,,,
+"Summer 2016",FINA,4398,3,"Independent Study",Ramchand,Latha,,,,,,,
+"Summer 2016",FINA,7380,1,"Real Estate Finance",Adams,"James s",,,,,,,
+"Summer 2016",FORE,6398,1,"Special Problems in Foresight",Hines,"Andrew Lewis",,,,,,,
+"Summer 2016",GEOL,3396,1,"Senior Research Project",Rappenglueck,Bernhard,,,,,,,
+"Summer 2016",HDCS,4398,1,"Independent Study",Norwood,"Marcella L",,,,,,,
+"Summer 2016",LAW,5205,1,"Immigration Clinic II",Beck,"Janet B",,,,,,,
+"Summer 2016",LAW,5297,11,"Selected Topics",McElvaney,"Richard M",,,,,,,
+"Summer 2016",LAW,5298,3,"Special Rsch & Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,5301,1,"Immigration Clinic II",Beck,"Janet B",,,,,,,
+"Summer 2016",LAW,5398,1,"Special Research and Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,5398,2,"Special Research and Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,6349,1,"Consumer Law Clinic",McElvaney,"Richard M",,,,,,,
+"Summer 2016",MECT,6198,1,"Special Problems","El Nahas","Medhat A",,,,,,,
+"Summer 2016",PHAR,5675,4,"Disease State Management",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHAR,5675,4,"Disease State Management",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5675,4,"Disease State Management",Ordonez,"Nancy D",,,,,,,
+"Summer 2016",PHAR,5692,2,"Advanced Hospital Pharmacy",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHOP,6257,4,"Research Practicum B",Otteson,"Deborah C",,,,,,,
+"Summer 2016",LAW,6324,75,"Transactional Clinic",Heard,"Christopher D",,,,,,,
+"Summer 2016",ACCT,4330,2,"Advanced Accounting",Gamble,"George O",,,,,,,
+"Summer 2016",PETR,2111,4,"Petroleum Petrophysics Lab",Wang,"Huai Da",,,,,,,
+"Summer 2016",LAW,5183,1,"Mediation Process",Willis,"Tasha L",,,,,,,
+"Summer 2016",LAW,5218,1,"Human Trafficking Law",Chandler,Anne,,,,,,,
+"Summer 2016",LAW,5419,1,"Consumer Law Clinic",McElvaney,"Richard M",,,,,,,
+"Summer 2016",MIS,4397,1,"Selected Topics in MIS",Panahi,"Hesam Mike",,,,,,,
+"Summer 2016",ILAS,6397,2,"Selected Topics",Christiansen,"Jack H",,,,,,,
+"Summer 2016",ILAS,6397,2,"Selected Topics",Klieman,Kairn,,,,,,,
+"Summer 2016",ILAS,6397,2,"Selected Topics",Mitro,"Thomas M",,,,,,,
+"Summer 2016",ILAS,6397,2,"Selected Topics",Spitzmuller,Christiane,,,,,,,
+"Summer 2016",LAW,5405,1,"Immigration Clinic",Beck,"Janet B",,,,,,,
+"Summer 2016",ACCT,5330,1,"Advanced Accounting",Gamble,"George O",0,4,8,3,1,2,1.958
+"Summer 2016",GENB,5304,1,"Business Ethics for Accountant",Spartalis,"Emmanuel Michael",,,,,,,
+"Summer 2016",MECT,3331,20,"Applied Thermodynamics","Vega Arroyo",Manuel,0,6,10,1,0,0,2.391
+"Summer 2016",NURS,4520,1,"Cncpt Intgrtn in Pat Care Mgmt",Kirk,"Terry D",,,,,,,
+"Summer 2016",GEOL,3355,1,"Field Geology I",Kalakay,"Thomas J",0,8,6,0,0,0,2.548
+"Summer 2016",COMM,3369,1,"Public Relations Writing",Fix,"Julie B",0,11,0,0,0,0,2.94
+"Summer 2016",DIGM,2351,1,"Web Design",Hargrove,"Mark Stephen",0,12,4,1,0,1,2.628
+"Summer 2016",ACCT,4398,1,"Independent Study",Newman,"Michael Ray",,,,,,,
+"Summer 2016",ACCT,4398,7,"Independent Study",Newman,"Michael Ray",,,,,,,
+"Summer 2016",ACCT,7398,1,Research,Newman,"Michael Ray",,,,,,,
+"Summer 2016",ACCT,8399,2,"Doctoral Dissertation",Khumawala,"Saleha B",,,,,,,
+"Summer 2016",ACCT,8399,3,"Doctoral Dissertation",Gamble,"George O",,,,,,,
+"Summer 2016",ACCT,8399,5,"Doctoral Dissertation",Newberry,"Kaye J",,,,,,,
+"Summer 2016",ANTH,4398,1,"Independent Study",Storey,Rebecca,,,,,,,
+"Summer 2016",ANTH,6392,2,"Research Practicum I",Brown,"Kenneth L",,,,,,,
+"Summer 2016",ANTH,6399,7,"Masters Thesis",Rasmussen,"Susan J",,,,,,,
+"Summer 2016",ANTH,7390,1,"Archaeological Field Work II",Brown,"Kenneth L",,,,,,,
+"Summer 2016",ARCH,1198,5,"Special Problems",Robbins,"Joshua Daniel",,,,,,,
+"Summer 2016",ARCH,3198,2,"Independent Study",Self,"Ronnie L",,,,,,,
+"Summer 2016",ARCH,3398,1,"Independent Study",Zweig,"Peter J",,,,,,,
+"Summer 2016",ARCH,6380,1,"Architecture Plus Film",Froehlich,Dietmar,,,,,,,
+"Summer 2016",ARCH,6397,1,"Sel Tpcs-Arc/Urbn Desgn",Froehlich,Dietmar,,,,,,,
+"Summer 2016",ARCH,7600,1,"Architecture Design Studio V",Froehlich,Dietmar,,,,,,,
+"Summer 2016",ARLD,6398,1,"Special Prob in Arts Leadrshp",Fernando,"Fleurette S",,,,,,,
+"Summer 2016",ART,4398,1,"Independent Study",Politzer,David,,,,,,,
+"Summer 2016",ART,4398,2,"Independent Study",Hanna,"John H",,,,,,,
+"Summer 2016",ART,4398,3,"Independent Study",Hanna,"John H",,,,,,,
+"Summer 2016",ART,4398,4,"Independent Study",Duncan,Shannon,,,,,,,
+"Summer 2016",BIOE,6399,1,"Masters Thesis",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,7399,3,"Masters Thesis",Ince,"Nuri Firat",,,,,,,
+"Summer 2016",BIOE,7399,4,"Masters Thesis",Mohan,Chandra,,,,,,,
+"Summer 2016",BIOE,8399,5,"Doctoral Dissertation",Zhang,Yingchun,,,,,,,
+"Summer 2016",BIOE,8399,6,"Doctoral Dissertation",Gifford,Howard,,,,,,,
+"Summer 2016",BIOE,8399,7,"Doctoral Dissertation",Shevkoplyas,Sergey,,,,,,,
+"Summer 2016",BIOL,3396,5,"Senior Research Project",Zufall,"Rebecca A",,,,,,,
+"Summer 2016",BIOL,3399,4,"Senior Honors Thesis",Williams,Lawrence,,,,,,,
+"Summer 2016",BIOL,6298,16,"Special Problems",Azevedo,Ricardo,,,,,,,
+"Summer 2016",BIOL,7699,27,"Masters Thesis",Frigo,"Daniel Edward",,,,,,,
+"Summer 2016",BIOL,8399,45,"Doctoral Dissertation",Pennings,"Steven C",,,,,,,
+"Summer 2016",BIOL,8699,18,"Doctoral Dissertation",Colbert,"Anne D",,,,,,,
+"Summer 2016",BIOL,8699,31,"Doctoral Dissertation",Gustafsson,Jan-Ake,,,,,,,
+"Summer 2016",BTEC,4398,1,"Independent Study",Iyer,"Rupa S",,,,,,,
+"Summer 2016",CHEE,6399,6,"Masters Thesis",Willson,Richard,,,,,,,
+"Summer 2016",CHEE,7399,13,"Masters Thesis",Willson,Richard,,,,,,,
+"Summer 2016",CHEE,8399,2,"Doctoral Dissertation",Willson,Richard,,,,,,,
+"Summer 2016",CHEE,8399,4,"Doctoral Dissertation",Rimer,Jeffrey,,,,,,,
+"Summer 2016",CHEE,8399,15,"Doctoral Dissertation",Vekilov,Peter,,,,,,,
+"Summer 2016",CHEE,8699,2,"Doctoral Dissertation",Balakotaiah,Vemuri,,,,,,,
+"Summer 2016",CHEM,6399,11,"Masters Thesis",Kadish,"Karl M",,,,,,,
+"Summer 2016",CHEM,8399,6,"Doctoral Dissertation",Gilbertson,"Scott R",,,,,,,
+"Summer 2016",CHEM,8399,7,"Doctoral Dissertation",Guloy,"Arnold M",,,,,,,
+"Summer 2016",CHEM,8399,10,"Doctoral Dissertation",Jacobson,"Allan J",,,,,,,
+"Summer 2016",CHEM,8399,19,"Doctoral Dissertation",Xu,Shoujun,,,,,,,
+"Summer 2016",CHEM,8399,21,"Doctoral Dissertation",Do,"Loi H",,,,,,,
+"Summer 2016",CHEM,8699,13,"Doctoral Dissertation",Lee,"T Randall",,,,,,,
+"Summer 2016",CIVE,7399,3,"Masters Thesis",Dawood,"Mina M.R.",,,,,,,
+"Summer 2016",CIVE,8399,4,"Doctoral Dissertation",Gencturk,Bora,,,,,,,
+"Summer 2016",CIVE,8399,19,"Doctoral Dissertation",Wang,Keh-Han,,,,,,,
+"Summer 2016",CNST,4198,1,"Special Problems",Song,Lingguang,,,,,,,
+"Summer 2016",COMD,6399,3,"Masters Thesis",Maher,"Lynn M",,,,,,,
+"Summer 2016",COMD,6399,4,"Masters Thesis",Johnson,Kia,,,,,,,
+"Summer 2016",COMD,6399,5,"Masters Thesis",Castilla-Earls,Anny,,,,,,,
+"Summer 2016",COMM,4398,2,"Independent Study",Polk,"Randy C.",,,,,,,
+"Summer 2016",COSC,6306,1,"Data Structures",Hilford,Victoria,,,,,,,
+"Summer 2016",COSC,8399,15,"Doctoral Dissertation",Chapman,Barbara,,,,,,,
+"Summer 2016",COSC,8699,3,"Doctoral Dissertation",Chapman,Barbara,,,,,,,
+"Summer 2016",CUIN,7398,1,"Independent Study",Turchi,Laura,,,,,,,
+"Summer 2016",CUIN,7398,3,"Independent Study",Brower,"Samuel Richard",,,,,,,
+"Summer 2016",CUIN,8198,1,"Independent Study",McNeil,"Sara G",,,,,,,
+"Summer 2016",CUIN,8199,1,Dissertation,McNeil,"Sara G",,,,,,,
+"Summer 2016",CUIN,8393,1,"Adv Internship & Prac",Hutchison,"Laveria F",,,,,,,
+"Summer 2016",CUIN,8398,1,"Independent Study",Hutchison,"Laveria F",,,,,,,
+"Summer 2016",CUIN,8699,2,"Doctoral Dissertation",Andrews,"Nicole M",,,,,,,
+"Summer 2016",CUIN,8699,3,"Doctoral Dissertation",McNeil,"Sara G",,,,,,,
+"Summer 2016",ECE,6393,1,"Special Projects I",Chen,Jinghong,,,,,,,
+"Summer 2016",ECE,6393,2,"Special Projects I",Fu,Xin,,,,,,,
+"Summer 2016",ECE,6399,28,"Masters Thesis",Prasad,Saurabh,,,,,,,
+"Summer 2016",ECE,6399,29,"Masters Thesis",Chen,Ji,,,,,,,
+"Summer 2016",ECE,6399,35,"Masters Thesis",Mayerich,"David Matthew",,,,,,,
+"Summer 2016",ECE,7399,37,"Masters Thesis",Sheth,"Bhavin R.",,,,,,,
+"Summer 2016",ECE,8399,4,"Doctoral Dissertation",Roysam,Badrinath,,,,,,,
+"Summer 2016",ECE,8699,5,"Doctoral Dissertation",Han,Zhu,,,,,,,
+"Summer 2016",ECE,8699,9,"Doctoral Dissertation",Fu,Xin,,,,,,,
+"Summer 2016",ECE,8699,10,"Doctoral Dissertation",Mayerich,"David Matthew",,,,,,,
+"Summer 2016",ECE,8699,11,"Doctoral Dissertation",Roysam,Badrinath,,,,,,,
+"Summer 2016",ECE,8699,23,"Doctoral Dissertation",Pei,"Shin-Shem Steven",,,,,,,
+"Summer 2016",ECE,8699,25,"Doctoral Dissertation",Brankovic,"Stanko R",,,,,,,
+"Summer 2016",ECON,4390,1,"Economics Internship","Melendez Lugo",Joel,,,,,,,
+"Summer 2016",ECON,4390,2,"Economics Internship","Melendez Lugo",Joel,,,,,,,
+"Summer 2016",ECON,4390,3,"Economics Internship","Melendez Lugo",Joel,,,,,,,
+"Summer 2016",ECON,4398,1,"Independent Study","Cubas Norando",German,,,,,,,
+"Summer 2016",ELCS,6199,1,Thesis,Rolle,"R Anthony",,,,,,,
+"Summer 2016",ELCS,6320,3,"Instruct Supervision I",McClellan,Anne,,,,,,,
+"Summer 2016",ELCS,6350,1,"School Leadership",McClellan,Anne,,,,,,,
+"Summer 2016",ELED,6315,1,"Literature for Children",Tyson,"Eleanore S",,,,,,,
+"Summer 2016",ELET,6198,1,"Spec Probs in Microcomp. Systm",Benhaddou,Driss,,,,,,,
+"Summer 2016",ELET,6199,1,Thesis,Zouridakis,George,,,,,,,
+"Summer 2016",ENGL,3399,3,"Senior Honors Thesis",Reynolds,"Aaron E",,,,,,,
+"Summer 2016",ENGL,7398,7,"Special Problems",Wood,"Barry Albert",,,,,,,
+"Summer 2016",ENRG,4398,1,"Indep Stdy-Enrgy & Sustainblty",Pratt,"Joseph Allen",,,,,,,
+"Summer 2016",EPSY,6398,3,"Special Problems",Jones,"Sara Jolly",,,,,,,
+"Summer 2016",EPSY,7193,1,"Internship and Practicum",Nutt,"Roberta L",,,,,,,
+"Summer 2016",EPSY,7399,2,"Masters Thesis",Day,"Susan X",,,,,,,
+"Summer 2016",EPSY,8199,6,Dissertation,Lopez,Frederick,,,,,,,
+"Summer 2016",EPSY,8398,1,"Special Problems",Day,"Susan X",,,,,,,
+"Summer 2016",EPSY,8398,2,"Special Problems",Smith,"Nathan G",,,,,,,
+"Summer 2016",EPSY,8398,4,"Special Problems",McKinney,"Lonnie Lyle",,,,,,,
+"Summer 2016",EPSY,8398,7,"Special Problems",Margulis,"Milena A",,,,,,,
+"Summer 2016",EPSY,8398,8,"Special Problems",Olvera,"Norma E",,,,,,,
+"Summer 2016",EPSY,8398,9,"Special Problems",Frankel,"Leslie Ann",,,,,,,
+"Summer 2016",EPSY,8399,4,"Doctoral Dissertation",Lopez,Frederick,,,,,,,
+"Summer 2016",FINA,6398,1,Research,Langberg,Nisan,,,,,,,
+"Summer 2016",FINA,6398,3,Research,Khumawala,"Saleha B",,,,,,,
+"Summer 2016",FINA,8395,2,"Teaching Practicum",Jacobs,Kris,,,,,,,
+"Summer 2016",FINA,8396,1,"Research Practicum",Susmel,Raul,,,,,,,
+"Summer 2016",FINA,8398,11,"Special Problems",Jacobs,Kris,,,,,,,
+"Summer 2016",FORE,6395,1,"Master's Project in Foresight",Hines,"Andrew Lewis",,,,,,,
+"Summer 2016",FORE,6396,1,Internship,Hines,"Andrew Lewis",,,,,,,
+"Summer 2016",GENB,6398,3,Research,Koch,"Steven F.",,,,,,,
+"Summer 2016",GEOL,3396,3,"Senior Research Project",Khan,"Shuhab D.",,,,,,,
+"Summer 2016",GEOL,7399,4,"Masters Thesis",Mann,Paul,,,,,,,
+"Summer 2016",GEOL,8399,19,"Doctoral Dissertation",Talbot,Robert,,,,,,,
+"Summer 2016",GEOL,8699,3,"Doctoral Dissertation",Chafetz,"Henry S",,,,,,,
+"Summer 2016",GIS,3396,1,"Selected Topics Global Studies",Kanojia,"Anjali H",,,,,,,
+"Summer 2016",HDFS,4398,1,"Independent Study",Frankel,"Leslie Ann",,,,,,,
+"Summer 2016",HDFS,4398,2,"Independent Study",Schwartz,"Jonathan P",,,,,,,
+"Summer 2016",HDFS,4398,3,"Independent Study",Hein,"Sascha Daniel",,,,,,,
+"Summer 2016",HIST,6398,1,"Special Problems",Klieman,Kairn,,,,,,,
+"Summer 2016",HIST,6399,1,"Masters Thesis",Vaughn,"Sally N",,,,,,,
+"Summer 2016",HIST,6651,1,"Public History Internship",Perales,Monica,,,,,,,
+"Summer 2016",HIST,7399,1,"Masters Thesis",Vaughn,"Sally N",,,,,,,
+"Summer 2016",HLT,4398,3,"Independent Study",Murillo,Rosenda,,,,,,,
+"Summer 2016",HLT,6392,1,"Field Work in Hlth Ed",Kim,Mijin,,,,,,,
+"Summer 2016",HON,4198,3,"Independent Study",Hallmark,"Terrell L",,,,,,,
+"Summer 2016",HON,4198,4,"Independent Study",Hamilton,"Andrew L",,,,,,,
+"Summer 2016",HON,4298,1,"Independent Study",Hallmark,"Terrell L",,,,,,,
+"Summer 2016",HON,4398,3,"Independent Study",Rhoden,Brenda,,,,,,,
+"Summer 2016",HON,4398,7,"Independent Study",Valier,"Helen K",,,,,,,
+"Summer 2016",HON,4398,10,"Independent Study",Guenther,"Irene V",,,,,,,
+"Summer 2016",HRMA,4198,2,"Independent Study",Cheatham,"Cathy A",,,,,,,
+"Summer 2016",HRMA,6197,1,"Selected Topics",Graves,Nancy,,,,,,,
+"Summer 2016",HRMA,6398,4,"Special Problems",Taylor,"David C",,,,,,,
+"Summer 2016",HRMA,6398,2,"Special Problems",Bowen,"John T",,,,,,,
+"Summer 2016",INDE,8399,6,"Doctoral Dissertation",Lim,"Gino Jinho",,,,,,,
+"Summer 2016",INDE,8699,6,"Doctoral Dissertation",Feng,Qianmei,,,,,,,
+"Summer 2016",INDS,4180,2,"Design Internship",Kwon,Eunsook,,,,,,,
+"Summer 2016",INDS,4180,1,"Design Internship",Kwon,Eunsook,,,,,,,
+"Summer 2016",INDS,4380,1,"Design Internship",Kwon,Eunsook,,,,,,,
+"Summer 2016",INTB,4397,1,"Selected Topics in Inb",Barrett,"Beverly F",,,,,,,
+"Summer 2016",KIN,4198,1,"Independent Study",Cottingham,Michael,,,,,,,
+"Summer 2016",KIN,4398,2,"Adaptive Athletics Leadership",Cottingham,Michael,,,,,,,
+"Summer 2016",KIN,4690,3,"Internship in Sport Admin",Walsh,"David W",,,,,,,
+"Summer 2016",LAW,5198,1,"Special Rsch & Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,5198,2,"Special Rsch & Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,5298,1,"Special Rsch & Writing",Burke,Marcilynn,,,,,,,
+"Summer 2016",LAW,5414,1,"Immigration Clinic II",Beck,"Janet B",,,,,,,
+"Summer 2016",LAW,5427,1,"Consumer Dispute Resolution",McElvaney,"Richard M",,,,,,,
+"Summer 2016",MANA,8399,5,"Doctoral Dissertation",Atwater,"Leanne E",,,,,,,
+"Summer 2016",MARK,8399,1,"Doctoral Dissertation",Hess,"James D",,,,,,,
+"Summer 2016",MARK,8399,6,"Doctoral Dissertation",Ahearne,Michael,,,,,,,
+"Summer 2016",MATH,4396,7,"Senior Research Project",Gorb,Yuliya,,,,,,,
+"Summer 2016",MATH,6315,16,"Masters Tutorial",Josic,Kresimir,,,,,,,
+"Summer 2016",MATH,6315,17,"Masters Tutorial",Ji,Shanyu,,,,,,,
+"Summer 2016",MATH,6315,37,"Masters Tutorial",Azencott,"Robert Guy",,,,,,,
+"Summer 2016",MATH,8399,2,"Doctoral Dissertation",Azencott,"Robert Guy",,,,,,,
+"Summer 2016",MATH,8399,8,"Doctoral Dissertation",Ru,Min,,,,,,,
+"Summer 2016",MATH,8399,26,"Doctoral Dissertation",Torok,"Andrei S",,,,,,,
+"Summer 2016",MECE,6399,14,"Masters Thesis",Agrawal,Ashutosh,,,,,,,
+"Summer 2016",MECE,7399,15,"Masters Thesis",Agrawal,Ashutosh,,,,,,,
+"Summer 2016",MECE,8399,6,"Doctoral Dissertation",Sun,Li,,,,,,,
+"Summer 2016",MECE,8399,11,"Doctoral Dissertation",Song,Gangbing,,,,,,,
+"Summer 2016",MECE,8399,12,"Doctoral Dissertation",Kulkarni,Yashashree,,,,,,,
+"Summer 2016",MECE,8399,14,"Doctoral Dissertation",Liu,Dong,,,,,,,
+"Summer 2016",MECE,8399,15,"Doctoral Dissertation",Selvamanickam,Venkat,,,,,,,
+"Summer 2016",MECE,8699,4,"Doctoral Dissertation",Sun,Li,,,,,,,
+"Summer 2016",MSCI,3491,1,"Leader Dev & Assessment Course",Chaffee,"Neil T",,,,,,,
+"Summer 2016",MUED,6433,2,"Kodaly Certification Level III",Bertman,"David Garry",,,,,,,
+"Summer 2016",MUED,7399,1,"Music Education Final Project",Kastner,"Julie D",,,,,,,
+"Summer 2016",MUSI,6398,1,"Research_In Music History",Snyder,"John L",,,,,,,
+"Summer 2016",MUSI,7399,1,"Masters Thesis",Pollack,"Howard J",,,,,,,
+"Summer 2016",PCEU,8699,2,"Doctoral Dissertation",Ghose,Romi,,,,,,,
+"Summer 2016",PEP,6198,1,"Special Problems in Human Perf",Ledoux,"Tracey A",,,,,,,
+"Summer 2016",PEP,6399,1,"Masters Thesis",Cottingham,Michael,,,,,,,
+"Summer 2016",PEP,7398,1,"HHP Candidacy Project Research",Lee,"Beom Chan",,,,,,,
+"Summer 2016",PEP,8350,1,"HHP Candidacy Project Research",Lee,"Beom Chan",,,,,,,
+"Summer 2016",PETR,7399,6,"Masters Thesis",Economides,Christine,,,,,,,
+"Summer 2016",PHAR,5662,2,"Academic Scholarship",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHAR,5662,2,"Academic Scholarship",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5662,2,"Academic Scholarship",Ordonez,"Nancy D",,,,,,,
+"Summer 2016",PHAR,5662,2,"Academic Scholarship",Pitman,"Elizabeth Paige",,,,,,,
+"Summer 2016",PHAR,5672,2,"Clinical Pharmaceutical Resch",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHAR,5672,2,"Clinical Pharmaceutical Resch",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5672,2,"Clinical Pharmaceutical Resch",Ordonez,"Nancy D",,,,,,,
+"Summer 2016",PHAR,5672,2,"Clinical Pharmaceutical Resch",Tam,"Vincent H",,,,,,,
+"Summer 2016",PHAR,5681,5,"Infectious Diseases",Garey,"Kevin W",,,,,,,
+"Summer 2016",PHAR,5681,5,"Infectious Diseases",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHAR,5681,5,"Infectious Diseases",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5681,5,"Infectious Diseases",Ordonez,"Nancy D",,,,,,,
+"Summer 2016",PHAR,5686,1,Psychiatry,Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHCA,6198,69,"Special Problems",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHCA,6396,2,"Masters Project",Fernandez,"Julianna M",,,,,,,
+"Summer 2016",PHCA,6396,4,"Masters Project",Garey,"Kevin W",,,,,,,
+"Summer 2016",PHCA,6398,1,"SP- Outcomes Research",Garey,"Kevin W",,,,,,,
+"Summer 2016",PHCA,6398,2,"SP- Outcomes Research",Aparasu,"Rajender R",,,,,,,
+"Summer 2016",PHCA,6398,5,"SP- Outcomes Research",Hatfield,"Catherine L",,,,,,,
+"Summer 2016",PHCA,6398,66,"Special Problems",Johnson,"Michael L",,,,,,,
+"Summer 2016",PHCA,7398,2,"SP in Pharmacy Admin Doctoral",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHCA,7398,4,"SP in Pharmacy Admin Doctoral",Essien,"Ekere James",,,,,,,
+"Summer 2016",PHCA,7398,5,"SP in Pharmacy Admin Doctoral",Johnson,"Michael L",,,,,,,
+"Summer 2016",PHIL,3398,1,"Independent Study",Luttrell,Johanna,,,,,,,
+"Summer 2016",PHOP,6157,1,"Research Practicum B",Rump,Rachel,,,,,,,
+"Summer 2016",PHOP,6157,2,"Research Practicum B",Cheng,Han,,,,,,,
+"Summer 2016",PHOP,6167,1,"Research Practicum A",Frishman,"Laura J",,,,,,,
+"Summer 2016",PHOP,6167,3,"Research Practicum A",Ostrin,Lisa,,,,,,,
+"Summer 2016",PHOP,6257,1,"Research Practicum B",Burns,"Alan R",,,,,,,
+"Summer 2016",PHOP,6267,1,"Research Practicum A",Patel,"Nimesh Bhikhu",,,,,,,
+"Summer 2016",PHOP,6267,5,"Research Practicum A",Rump,Rachel,,,,,,,
+"Summer 2016",PHOP,6267,6,"Research Practicum A",Marsack,Jason,,,,,,,
+"Summer 2016",PHOP,6357,10,"Research Practicum B",Ostrin,Lisa,,,,,,,
+"Summer 2016",PHOP,6357,2,"Research Practicum B",Burns,"Alan R",,,,,,,
+"Summer 2016",PHOP,6357,3,"Research Practicum B",Porter,Jason,,,,,,,
+"Summer 2016",PHOP,6357,5,"Research Practicum B",Cheng,Han,,,,,,,
+"Summer 2016",PHOP,6357,8,"Research Practicum B",Patel,"Nimesh Bhikhu",,,,,,,
+"Summer 2016",PHOP,6357,9,"Research Practicum B",Applegate,"Raymond A",,,,,,,
+"Summer 2016",PHOP,8198,7,"Doctoral Research",Ostrin,Lisa,,,,,,,
+"Summer 2016",PHOP,8198,9,"Doctoral Research",Otteson,"Deborah C",,,,,,,
+"Summer 2016",PHOP,8498,3,"Doctoral Research",Porter,Jason,,,,,,,
+"Summer 2016",PHOP,8598,9,"Doctoral Research",Stevenson,"Scott Bailli",,,,,,,
+"Summer 2016",PHOP,8599,2,"Doctoral Dissertation",Otteson,"Deborah C",,,,,,,
+"Summer 2016",PHOP,8699,1,"Doctoral Dissertation",Frishman,"Laura J",,,,,,,
+"Summer 2016",PHYS,8199,5,Dissertation,Cheung-Wyker,"Margaret S",,,,,,,
+"Summer 2016",PHYS,8699,30,"Doctoral Dissertation",Weglein,"Arthur B",,,,,,,
+"Summer 2016",PHYS,8699,41,"Doctoral Dissertation",Weglein,"Arthur B",,,,,,,
+"Summer 2016",PHYS,8699,46,"Doctoral Dissertation",Ren,Zhifeng,,,,,,,
+"Summer 2016",POLS,6198,1,"Special Problems",Bagashka,"Tanya G",,,,,,,
+"Summer 2016",POLS,6359,1,"Bibliographic Essay",Bagashka,"Tanya G",,,,,,,
+"Summer 2016",POLS,8399,1,"Doctoral Dissertation",Pinto,"Pablo M",,,,,,,
+"Summer 2016",POLS,8399,8,"Doctoral Dissertation",Kennedy,"Ryan P",,,,,,,
+"Summer 2016",POLS,8399,5,"Doctoral Dissertation",Clark,"Jennifer H",,,,,,,
+"Summer 2016",PSYC,4398,1,"Independent Study",Foss,"Donald J",,,,,,,
+"Summer 2016",PSYC,4398,2,"Independent Study",Alfano,"Candice A",,,,,,,
+"Summer 2016",PSYC,4398,3,"Independent Study",Knee,"Clifford R",,,,,,,
+"Summer 2016",PSYC,4398,4,"Independent Study",Foss,"Donald J",,,,,,,
+"Summer 2016",PSYC,4598,1,"Independent Study",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,6298,2,"Special Problems",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,6298,3,"Special Problems",Grigorenko,"Elena L",,,,,,,
+"Summer 2016",PSYC,6298,4,"Special Problems",Neighbors,"Clayton T",,,,,,,
+"Summer 2016",PSYC,6352,1,"Directed Rsch in I/O Psyc",Campion,"James E",,,,,,,
+"Summer 2016",PSYC,6352,3,"Directed Rsch in I/O Psyc",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,6398,2,"Independent Studies",Campion,"James E",,,,,,,
+"Summer 2016",PSYC,6398,8,"Independent Studies",Kosten,"Therese A",,,,,,,
+"Summer 2016",PSYC,6398,10,"Independent Studies",Foss,"Donald J",,,,,,,
+"Summer 2016",PSYC,6398,11,"Independent Studies",Yoshida,Hanako,,,,,,,
+"Summer 2016",PSYC,6399,1,"Masters Thesis",Leasure,"Jennifer Leigh",,,,,,,
+"Summer 2016",PSYC,6399,3,"Masters Thesis",Hannay,"Hilda Julia",,,,,,,
+"Summer 2016",PSYC,6399,8,"Masters Thesis",Zvolensky,"Michael J",,,,,,,
+"Summer 2016",PSYC,6399,10,"Masters Thesis",Massman,"Paul J",,,,,,,
+"Summer 2016",PSYC,6498,2,"Special Problems",Grigorenko,"Elena L",,,,,,,
+"Summer 2016",PSYC,7399,2,"Masters Thesis",Leasure,"Jennifer Leigh",,,,,,,
+"Summer 2016",PSYC,7399,3,"Masters Thesis",Cirino,Paul,,,,,,,
+"Summer 2016",PSYC,7399,4,"Masters Thesis",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,7399,5,"Masters Thesis",Hannay,"Hilda Julia",,,,,,,
+"Summer 2016",PSYC,7399,7,"Masters Thesis",Kosten,"Therese A",,,,,,,
+"Summer 2016",PSYC,7399,8,"Masters Thesis",Campion,"James E",,,,,,,
+"Summer 2016",PSYC,8399,3,"Doctoral Dissertation",Vincent,"John P",,,,,,,
+"Summer 2016",PSYC,8399,5,"Doctoral Dissertation",Spitzmuller,Christiane,,,,,,,
+"Summer 2016",PSYC,8399,6,"Doctoral Dissertation",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,8399,9,"Doctoral Dissertation",Sharp,Carla,,,,,,,
+"Summer 2016",PSYC,8399,10,"Doctoral Dissertation",Cirino,Paul,,,,,,,
+"Summer 2016",PSYC,8399,14,"Doctoral Dissertation",Breitmeyer,"Bruno G",,,,,,,
+"Summer 2016",PSYC,8399,15,"Doctoral Dissertation",Hannay,"Hilda Julia",,,,,,,
+"Summer 2016",PSYC,8699,2,"Doctoral Dissertation",Witt,"Lawrence A",,,,,,,
+"Summer 2016",SCM,8396,1,"Research Practicum",Peng,Xiaosong,,,,,,,
+"Summer 2016",SOC,7399,8,"Masters Thesis",Kwan,"Samantha S",,,,,,,
+"Summer 2016",SOCW,7360,2,"Intl SW:A Comparative Approach",Gearing,"Robin Edward",,,,,,,
+"Summer 2016",SOCW,7360,2,"Intl SW:A Comparative Approach",Leung,Patrick,,,,,,,
+"Summer 2016",SOCW,7360,3,"Intl SW:A Comparative Approach",Leung,Patrick,,,,,,,
+"Summer 2016",SOCW,7397,4,"Selected Topics in Social Work",Torres-Hostos,"Luis R",,,,,,,
+"Summer 2016",SOCW,7397,6,"Selected Topics in Social Work",Leal,"Roberta M",,,,,,,
+"Summer 2016",SOCW,7397,6,"Selected Topics in Social Work",Torres-Hostos,"Luis R",,,,,,,
+"Summer 2016",SOCW,8304,2,"Research Internship IV",Leung,Patrick,,,,,,,
+"Summer 2016",SOCW,8398,1,"Independent Study",Narendorf,"Sarah C.",,,,,,,
+"Summer 2016",SOCW,8398,2,"Independent Study",Cheung,Monit,,,,,,,
+"Summer 2016",SOCW,8398,3,"Independent Study",Torres-Hostos,"Luis R",,,,,,,
+"Summer 2016",SOCW,8398,4,"Independent Study",Dearing,"Ronda L",,,,,,,
+"Summer 2016",SOCW,8399,1,Dissertation,Pritzker,Suzanne,,,,,,,
+"Summer 2016",SPAN,6398,9,"Special Problems",Ventura,"Gabriela Baeza",,,,,,,
+"Summer 2016",SPAN,6398,10,"Special Problems",Solino,"Maria Elena",,,,,,,
+"Summer 2016",SPAN,8399,2,Dissertation,"De Los Reyes Heredia","Jose Guillermo",,,,,,,
+"Summer 2016",SPAN,8399,6,Dissertation,Gutierrez,"Manuel J",,,,,,,
+"Summer 2016",SPAN,8699,7,Dissertation,Solino,"Maria Elena",,,,,,,
+"Summer 2016",TELS,4398,1,"Independent Study",Mehring,"Brian George",,,,,,,
+"Summer 2016",THEA,4398,3,"Independent Study",Middents,"Jonathan Mark",,,,,,,
+"Summer 2016",ARCH,6397,4,"Sel Tpcs-Arc/Urbn Desgn",Johnson,"Matthew W",,,,,,,
+"Summer 2016",ARCH,6397,5,"Sel Tpcs-Arc/Urbn Desgn",Logan,Jason,,,,,,,
+"Summer 2016",GEOL,1130,3,"Physical Geology Lab",Hauptvogel,"Daniel William",,,,,,,
+"Summer 2016",GEOL,1130,3,"Physical Geology Lab",Sisson,"Virginia B",,,,,,,
+"Summer 2016",HON,3397,1,"Honors Selected Topics",Reynolds,"Aaron E",,,,,,,
+"Summer 2016",PHAR,5681,2,"Infectious Diseases",Sofjan,"Amelia Kartikasari",,,,,,,
+"Summer 2016",PHAR,5690,3,"Internal Medicine",Fernandez,"Julianna M",,,,,,,
+"Summer 2016",PSYC,6398,9,"Independent Studies",Eisenberger,"Robert W",,,,,,,
+"Summer 2016",CHEM,4229,1,"Instrmntl Mthd-Anly Lab",Czader,Arkadiusz,,,,,,,
+"Summer 2016",COSC,4390,1,"Intro To Internet Computing",Subramaniam,Venkat,,,,,,,
+"Summer 2016",CIVE,5397,1,"Selected Topics",Norris,"Debra B",,,,,,,
+"Summer 2016",HRMA,6368,1,"Career Capstone Project",Back,KiJoon,,,,,,,
+"Summer 2016",MUSI,6341,1,"Grad Music Theory Review I",Koozin,Timothy,,,,,,,
+"Summer 2016",PHAR,5690,2,"Internal Medicine",Sherer,"Jeffrey T",,,,,,,
+"Summer 2016",RELS,3375,1,"Christianity and Ethics",Ott,"Aaron Frederick",,,,,,,
+"Summer 2016",BIOL,1153,2,"Pre-Nursng Microbio Lab",Knapp,"Richard D",,,,,,,
+"Summer 2016",BIOL,1153,1,"Pre-Nursng Microbio Lab",Knapp,"Richard D",1,3,7,1,0,0,2.306
+"Summer 2016",CHEM,4272,1,"Physical Chemistry Lab II",Czader,Arkadiusz,,,,,,,
+"Summer 2016",COMM,3311,2,"Editing Print & Digital Media",Crixell,"Charles A",1,4,7,0,0,0,2.5
+"Summer 2016",MECT,3318,20,"Fluid Mechanics Applications",IzarraGarcia,"Rafael A",1,4,11,0,0,4,2.231
+"Summer 2016",LAW,5470,1,"Innocence Investigations",Dow,"David R",,,,,,,
+"Summer 2016",LAW,5470,1,"Innocence Investigations",Jeu,Cassandra,,,,,,,
+"Summer 2016",LAW,6347,1,"Secured Financing",Dole,"Richard F",,,,,,,
+"Summer 2016",WGSS,2350,2,"Intro To Women's Studies",Butler,"Tracy A",,,,,,,
+"Summer 2016",CIS,4375,1,"Project Management & Practice",Detillier,"Bret James",,,,,,,
+"Summer 2016",OPTO,6434,1,"General Pharmacology",Onofrey,"Bruce E",,,,,,,
+"Summer 2016",CHEM,3119,1,"Anlytical Chemistry Lab",Czader,Arkadiusz,1,7,3,1,1,0,2.512
+"Summer 2016",COMM,3311,3,"Editing Print & Digital Media",Crixell,"Charles A",1,7,4,0,0,0,2.75
+"Summer 2016",SPAN,2302,7,"Intermediate Spanish II",Balestra,Alejandra,1,7,4,1,0,0,2.692
+"Summer 2016",SCLT,3381,20,"Industrial and Consumer Sales",Cassler,Daniel,,,,,,,
+"Summer 2016",LAW,5297,23,"Selected Topics",Hunt,"Lee Burton",,,,,,,
+"Summer 2016",MECT,3342,1,"Elements of Plant Design","El Nahas","Medhat A",1,10,1,0,0,0,3.028
+"Summer 2016",ENGL,1304,3,"First Year Writing II",Lee,Jessica,1,10,4,1,1,1,2.568
+"Summer 2016",SCLT,3381,1,"Industrial and Consumer Sales",Cassler,Daniel,1,12,1,0,0,0,3.047
+"Summer 2016",GEOL,3360,1,"Field Geology II",Lapen,"Thomas J",1,13,1,0,0,0,2.934
+"Summer 2016",NURS,3636,1,"Nur Process for Colabrtive Prc",Schrader,"Patricia K",1,42,18,6,0,2,2.836
+"Summer 2016",ANTH,4392,1,"Archaeological Field Work II",Brown,"Kenneth L",,,,,,,
+"Summer 2016",ARCH,7600,5,"Architecture Design Studio V",Zweig,"Peter J",,,,,,,
+"Summer 2016",ATP,6193,1,"Clinical Education III",Knoblauch,"Mark Alan",,,,,,,
+"Summer 2016",BIOE,8399,3,"Doctoral Dissertation",May,"Elebeoba E",,,,,,,
+"Summer 2016",CHEE,8699,6,"Doctoral Dissertation",Vekilov,Peter,,,,,,,
+"Summer 2016",CHEE,8699,13,"Doctoral Dissertation",Epling,"William S",,,,,,,
+"Summer 2016",CHNS,3352,2,"Chin Cul & Soc Thru Mod Lit",Wen,"Xiaohong Sharon",,,,,,,
+"Summer 2016",CIVE,8699,18,"Doctoral Dissertation",Vipulanandan,Cumaraswamy,,,,,,,
+"Summer 2016",COMM,4398,1,"Independent Study",Fix,"Julie B",,,,,,,
+"Summer 2016",COMM,6398,2,"Special Problems",Vardeman,"Jennifer E",,,,,,,
+"Summer 2016",COSC,8699,1,"Doctoral Dissertation",Pavlidis,"Ioannis T",,,,,,,
+"Summer 2016",COSC,8699,7,"Doctoral Dissertation",Vilalta,Ricardo,,,,,,,
+"Summer 2016",CUIN,8310,46,"Laboratory of Practice",Watson,Margaret,,,,,,,
+"Summer 2016",CUIN,8399,1,"Doctoral Dissertation",Pierson,"Melissa E",,,,,,,
+"Summer 2016",DIGM,3152,32,"Graph Prod Process Ctrl II Lab",Halliday,"Harold W",,,,,,,
+"Summer 2016",ECE,7399,22,"Masters Thesis",Abolhassani,Mehdi,,,,,,,
+"Summer 2016",ECE,8699,2,"Doctoral Dissertation",Litvinov,Dmitri,,,,,,,
+"Summer 2016",ECON,8699,8,"Doctoral Dissertation",Papell,"David H",,,,,,,
+"Summer 2016",ECON,8699,14,"Doctoral Dissertation",Sorensen,"Bent E",,,,,,,
+"Summer 2016",ELCS,8199,7,Dissertation,Rolle,"R Anthony",,,,,,,
+"Summer 2016",ENRG,4397,1,"Sel Topics-Enrgy & Sustainblty",El-Badawi,Emran,,,,,,,
+"Summer 2016",EPSY,7393,10,"Internship and Practicum",Gomez,"Mertie M",,,,,,,
+"Summer 2016",EPSY,7393,3,"Internship and Practicum",Gomez,"Mertie M",,,,,,,
+"Summer 2016",EPSY,8398,3,"Special Problems",Day,"Susan X",,,,,,,
+"Summer 2016",EPSY,8399,18,"Doctoral Dissertation",Day,"Susan X",,,,,,,
+"Summer 2016",HRD,6396,1,"Internship in Human Res. Dev.",Waight,"Consuelo L",,,,,,,
+"Summer 2016",INDE,8699,4,"Doctoral Dissertation",Lim,"Gino Jinho",,,,,,,
+"Summer 2016",LAW,5402,60,"Transactional Clinic I",Heard,"Christopher D",,,,,,,
+"Summer 2016",MANA,8399,2,"Doctoral Dissertation",Vera,"Dusya M",,,,,,,
+"Summer 2016",MECE,6399,13,"Masters Thesis",Ghasemi,Hadi,,,,,,,
+"Summer 2016",MECE,7399,14,"Masters Thesis",Ghasemi,Hadi,,,,,,,
+"Summer 2016",MECE,8699,1,"Doctoral Dissertation",Sharma,Pradeep,,,,,,,
+"Summer 2016",OPTO,5198,5,"Spec Prob Phys Optics","Pate Jr","Lloyd D",,,,,,,
+"Summer 2016",OPTO,5198,6,"Spec Prob - Clerkship",Lambreghts,Kimberly,,,,,,,
+"Summer 2016",PETR,7399,1,"Masters Thesis",Holley,"Thomas K",,,,,,,
+"Summer 2016",PHAR,5675,2,"Disease State Management",Crutchley,"Rustin D",,,,,,,
+"Summer 2016",PHAR,5679,1,"Women's Health Therapeutics",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5683,2,Cardiology,Wanat,"Matthew A",,,,,,,
+"Summer 2016",PHCA,6398,1,"Special Problems",Aparasu,"Rajender R",,,,,,,
+"Summer 2016",PHCA,7398,1,"SP in Pharmacy Admin Doctoral",Aparasu,"Rajender R",,,,,,,
+"Summer 2016",PHOP,6198,17,"Spec Prob-Physio Optics",Chino,"Yuzo M",,,,,,,
+"Summer 2016",PHOP,6198,22,"Spec Prob-Physio Optics",Das,"Vallabh E",,,,,,,
+"Summer 2016",PHOP,6257,2,"Research Practicum B",Frishman,"Laura J",,,,,,,
+"Summer 2016",PHOP,6257,3,"Research Practicum B",Das,"Vallabh E",,,,,,,
+"Summer 2016",PHOP,6357,6,"Research Practicum B",Das,"Vallabh E",,,,,,,
+"Summer 2016",PHOP,8398,9,"Doctoral Research",Frishman,"Laura J",,,,,,,
+"Summer 2016",PHOP,8398,11,"Doctoral Research",Burns,"Alan R",,,,,,,
+"Summer 2016",PHOP,8399,14,"Doctoral Dissertation",Burns,"Alan R",,,,,,,
+"Summer 2016",PHYS,1305,1,"Intro Astronomy-Sol Sys",Bittner,"Eric R",,,,,,,
+"Summer 2016",POLS,4398,1,"Independent Study",Cross,"Renee D",,,,,,,
+"Summer 2016",PSYC,6298,1,"Special Problems",Derrick,"Jaye L",,,,,,,
+"Summer 2016",PSYC,6352,2,"Directed Rsch in I/O Psyc",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,6398,5,"Independent Studies",Leasure,"Jennifer Leigh",,,,,,,
+"Summer 2016",PSYC,6398,6,"Independent Studies",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,6399,5,"Masters Thesis",Witt,"Lawrence A",,,,,,,
+"Summer 2016",PSYC,6498,1,"Special Problems",Derrick,"Jaye L",,,,,,,
+"Summer 2016",PSYC,7399,1,"Masters Thesis",Walker-Obasi,"Rheeda Lynette",,,,,,,
+"Summer 2016",PSYC,8399,4,"Doctoral Dissertation",Babcock,Julia,,,,,,,
+"Summer 2016",PSYC,8399,7,"Doctoral Dissertation",Hernandez,"Arturo E",,,,,,,
+"Summer 2016",PSYC,8399,8,"Doctoral Dissertation",Walker-Obasi,"Rheeda Lynette",,,,,,,
+"Summer 2016",SCM,8397,1,"Selected Topics in SCM",Sahin,Funda,,,,,,,
+"Summer 2016",SOCW,7397,5,"Selected Topics in Social Work",Lewis,"Brunessia W",,,,,,,
+"Summer 2016",WGSS,4360,1,"Capstone Internship Course","De Los Reyes Heredia","Jose Guillermo",,,,,,,
+"Summer 2016",PEP,7393,1,"Internship & Practicum",Walsh,"David W",,,,,,,
+"Summer 2016",ECON,6693,1,"Master's Research Project",Boul,Ruxandra,,,,,,,
+"Summer 2016",ECON,6693,1,"Master's Research Project",Zhivan,"Natalia A.",,,,,,,
+"Summer 2016",COMM,1302,3,"Intro To Comm Theory",Haun,"Martha J",,,,,,,
+"Summer 2016",CHNS,4301,1,"Public Speaking in Chinese",Wen,"Xiaohong Sharon",,,,,,,
+"Summer 2016",HDCS,4380,1,Merchandising,Tellegen,Margaret,,,,,,,
+"Summer 2016",CHNS,3301,1,"Advanced Mandarin Chinese I",Wen,"Xiaohong Sharon",,,,,,,
+"Summer 2016",NURS,6333,1,"Population Health",Reeve,"Kathleen D",,,,,,,
+"Summer 2016",BIOL,3132,1,"Elementary Microbiology Lab",Knapp,"Richard D",,,,,,,
+"Summer 2016",ANTH,3360,1,"Human Variation",Hutchinson,"Janice Faye",,,,,,,
+"Summer 2016",MECT,4372,1,"Materials Technology","Robles Hernandez","Francisco C",,,,,,,
+"Summer 2016",ECE,3355,1,Electronics,Shattuck,"David P",,,,,,,
+"Summer 2016",BIOL,1134,5,"Hum Anat Physiol Lab I",Gill,Tejendra,,,,,,,
+"Summer 2016",MIS,3360,1,"Systems Analysis and Design",Porra,Jaana,,,,,,,
+"Summer 2016",MECT,1330,1,"Engineering Graphics","Azari Dehkordi",Forood,2,4,4,1,1,1,2.444
+"Summer 2016",ARAB,3397,1,"Selected Topics Arab Studies",El-Badawi,Emran,,,,,,,
+"Summer 2016",KIN,4340,1,"Sport Governance",Walsh,"David W",2,6,4,2,1,0,2.356
+"Summer 2016",ARCH,5500,7,"Architecture Design Studio IX",Johnson,"Matthew W",,,,,,,
+"Summer 2016",BIOL,1153,3,"Pre-Nursng Microbio Lab",Knapp,"Richard D",2,7,2,0,0,0,3
+"Summer 2016",LAW,5397,1,"Selected Topics",Hoffman,"Geoffrey A",2,7,2,0,0,0,3.03
+"Summer 2016",GEOL,3355,3,"Field Geology I",Lindline,Jennifer,2,7,4,1,0,0,2.714
+"Summer 2016",ACCT,5367,1,"Intermediate Accounting I",Kuruvilla,Mohan,2,7,4,2,0,3,2.71
+"Summer 2016",ACCT,3367,1,"Intermediate Accounting I",Gamble,"George O",2,7,11,10,0,4,2.165
+"Summer 2016",LAW,6257,1,"Legal Negotiations",Lawrence,"Jim E",,,,,,,
+"Summer 2016",FINA,4380,1,"Real Estate Financial Analysis",Adams,"James s",2,8,1,0,0,1,3.061
+"Summer 2016",BIOL,1162,6,"Intro To Biol Science Lab",Hanke,"Marc H",2,8,2,0,0,1,2.945
+"Summer 2016",ECON,3332,1,"Intermed Microeconomics",Udupa,"Gautham Benegal",2,9,3,0,0,0,2.929
+"Summer 2016",GEOL,3355,2,"Field Geology I",Saylor,"Joel E",2,9,4,1,0,0,2.729
+"Summer 2016",LAW,5397,2,"Selected Topics",Willis,"Tasha L",2,10,0,0,0,0,3.249
+"Summer 2016",CHEM,1111,19,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",2,10,6,0,0,0,2.833
+"Summer 2016",CHEM,1111,3,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",2,12,1,0,0,1,3.155
+"Summer 2016",INDE,6336,2,"Reliability Engineering",Sitton,"Randal W.",2,13,2,1,0,0,2.889
+"Summer 2016",GEOL,3360,2,"Field Geology II",Thomas,"Robert C",2,14,1,0,0,0,3.078
+"Summer 2016",PHYS,1102,1,"General Physics Laboratory II",Wood,"Lowell T",2,15,5,0,0,0,2.849
+"Summer 2016",PHYS,1101,1,"General Physics Laboratory I",Wood,"Lowell T",2,15,7,0,0,0,2.737
+"Summer 2016",BIOL,1134,2,"Hum Anat Physiol Lab I",Gill,Tejendra,2,16,3,0,0,0,3.031
+"Summer 2016",ANTH,6390,1,"Archaeological Field Work I",Brown,"Kenneth L",,,,,,,
+"Summer 2016",CHEE,8699,3,"Doctoral Dissertation",Holley,"Thomas K",,,,,,,
+"Summer 2016",CHEE,8699,3,"Doctoral Dissertation",Qin,Guan,,,,,,,
+"Summer 2016",CHNS,3350,2,"Chinese Culture Through Films",Zhang,Jing,,,,,,,
+"Summer 2016",CHNS,3396,1,"Selected Topics",Zhang,Jing,,,,,,,
+"Summer 2016",CIVE,8699,4,"Doctoral Dissertation",Gencturk,Bora,,,,,,,
+"Summer 2016",CIVE,8699,12,"Doctoral Dissertation",Nakshatrala,Kalyana,,,,,,,
+"Summer 2016",COMD,7391,2,"Clinic in Speech Lang Disorder",Ivey,"Michelle L",,,,,,,
+"Summer 2016",COMD,7391,3,"Clinic in Speech Lang Disorder",Reed,"Patricia G",,,,,,,
+"Summer 2016",COMD,7391,4,"Clinic in Speech Lang Disorder",Reed,"Patricia G",,,,,,,
+"Summer 2016",COMD,7391,6,"Clinic in Speech Lang Disorder",Fertman,Sandye,,,,,,,
+"Summer 2016",COMD,7391,7,"Clinic in Speech Lang Disorder",Robinson,"Michelle Kimberly",,,,,,,
+"Summer 2016",COMD,7391,8,"Clinic in Speech Lang Disorder",Ross,"Byron L",,,,,,,
+"Summer 2016",COMD,7391,9,"Clinic in Speech Lang Disorder",Pettis,"Brittney Donielle",,,,,,,
+"Summer 2016",COMD,7391,10,"Clinic in Speech Lang Disorder",Sims,"Frankie B",,,,,,,
+"Summer 2016",COMD,7391,12,"Clinic in Speech Lang Disorder",Gibson,Shulunda,,,,,,,
+"Summer 2016",COMD,7391,13,"Clinic in Speech Lang Disorder",Townsend,Alayna,,,,,,,
+"Summer 2016",COMD,7391,14,"Clinic in Speech Lang Disorder",Nelson,"Christina Ann",,,,,,,
+"Summer 2016",CUIN,6301,1,"The Teaching Profession",Hawkins,"Jacqueline McLean",,,,,,,
+"Summer 2016",CUIN,7361,1,"Master Reading Teacher",Hutchison,"Laveria F",,,,,,,
+"Summer 2016",CUIN,8310,45,"Laboratory of Practice",McNeil,"Sara G",,,,,,,
+"Summer 2016",CUIN,8310,47,"Laboratory of Practice",Robin,"Bernard R",,,,,,,
+"Summer 2016",ECE,8699,27,"Doctoral Dissertation",Yao,Yan,,,,,,,
+"Summer 2016",ELCS,6393,1,"Internship in Educ Leadership",Munson,"William F",,,,,,,
+"Summer 2016",EPSY,7193,2,"Internship and Practicum",Smith,Bradley,,,,,,,
+"Summer 2016",GEOL,6397,1,"Selected Topics in Geology",Wang,Guoquan,,,,,,,
+"Summer 2016",HRMA,6324,1,"Hosp. Busn Strategies in Amer",Back,KiJoon,,,,,,,
+"Summer 2016",INDS,2397,1,"Selected Topics",Kimbrough,"Mark S",,,,,,,
+"Summer 2016",KIN,4398,1,"Adaptive Athletics Management",Cottingham,Michael,,,,,,,
+"Summer 2016",MATH,7315,20,"Masters Tutorial",Ji,Shanyu,,,,,,,
+"Summer 2016",NURS,6316,1,"Healthcare Organizatn Behavior",Kirk,"Terry D",,,,,,,
+"Summer 2016",OPTO,5198,3,"Spec Prob Phys Optics",Wensveen,Janice,,,,,,,
+"Summer 2016",PHAR,5683,1,Cardiology,Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5691,1,"Drug Information",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PHCA,6310,1,"Sas Applications in Statistics",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHCA,6398,27,"Special Problems",Sansgiry,"Sujit Sharad",,,,,,,
+"Summer 2016",PHOP,6198,29,"Spec Prob-Physio Optics",Patel,"Nimesh Bhikhu",,,,,,,
+"Summer 2016",PHOP,6267,4,"Research Practicum A",Porter,Jason,,,,,,,
+"Summer 2016",PSYC,6398,3,"Independent Studies",Hernandez,"Arturo E",,,,,,,
+"Summer 2016",SOC,7399,1,"Masters Thesis",Brown,"Jessica A",,,,,,,
+"Summer 2016",ACCT,4332,1,"Corporate Taxation",Fernandez,Ramon,,,,,,,
+"Summer 2016",ARCH,7600,3,"Architecture Design Studio V",Longoria,"Rafael R",,,,,,,
+"Summer 2016",CHNS,4302,1,"Integrated Chinese",Wen,"Xiaohong Sharon",,,,,,,
+"Summer 2016",COSC,4397,1,"Sel Top-Computer Science",Subramaniam,Venkat,,,,,,,
+"Summer 2016",ECE,3155,1,"Electronics Laboratory",Shattuck,"David P",,,,,,,
+"Summer 2016",ELCS,6380,3,"Educational Planning & Policy",Holcombe,"Walter Lee",,,,,,,
+"Summer 2016",LAW,5297,22,"Selected Topics",Foteh,"Samir Jabra",,,,,,,
+"Summer 2016",PETR,2111,1,"Petroleum Petrophysics Lab",Wang,"Huai Da",,,,,,,
+"Summer 2016",COSC,6390,1,"Internet Computing",Subramaniam,Venkat,,,,,,,
+"Summer 2016",FREN,2302,1,"Intermediate French",Early,"Rachel Elizabeth",3,1,7,3,0,0,2.191
+"Summer 2016",INDE,6365,1,"Engineering Economy II",Akladios,Magdy,,,,,,,
+"Summer 2016",CHEE,6369,1,"Chemical Process Economics II",Kaushik,"Krishna R",,,,,,,
+"Summer 2016",MECE,6397,2,"Selected Topics",Ebrahimi,Behrouz,,,,,,,
+"Summer 2016",MECE,6397,2,"Selected Topics",Franchek,Matthew,,,,,,,
+"Summer 2016",PEP,7308,1,"Sports Facility Administration",Pearson,"Demetrius W",,,,,,,
+"Summer 2016",PHAR,5685,1,"Critical Care",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",ARCH,5500,9,"Architecture Design Studio IX",Logan,Jason,,,,,,,
+"Summer 2016",BIOL,1144,6,"Hum Anat Physiol Lab II",Gill,Tejendra,,,,,,,
+"Summer 2016",PSYC,3341,2,"Physiological Psy",Warren,"Emily A",3,3,4,1,1,3,2.5
+"Summer 2016",MATH,3338,1,Probability,Perepelitsa,"Mikhail Antolyevic",3,3,5,1,1,1,2.335
+"Summer 2016",LAW,5297,4,"Selected Topics",Hamdani,Alamdar,,,,,,,
+"Summer 2016",LAW,5297,4,"Selected Topics",Martinez,Abran,,,,,,,
+"Summer 2016",MATH,4389,1,"Survey of Undergraduate Math",Peters,"Burnis Charles",3,4,1,1,2,0,2.485
+"Summer 2016",COMM,4397,4,"Selected Topics Communication",Bridges,"Deborah L",,,,,,,
+"Summer 2016",COMM,4397,4,"Selected Topics Communication",Buck,Suzanne,,,,,,,
+"Summer 2016",MECT,3367,1,"Quality Control Technology",Singh,Navdeep,3,4,2,2,0,1,2.637
+"Summer 2016",ARCH,1500,1,"Design Studio I",Huynh,"Chan Q",,,,,,,
+"Summer 2016",PSYC,2301,3,"Intro To Methods in Psychology",Anderson,"Jill Annette",3,4,6,1,0,3,2.666
+"Summer 2016",BIOL,3132,2,"Elementary Microbiology Lab",Knapp,"Richard D",3,5,3,0,0,0,3.03
+"Summer 2016",COMM,2320,2,"Fundamentals of Media Productn",Polk,"Randy C.",,,,,,,
+"Summer 2016",ENGL,1304,6,"First Year Writing II",Lee,Jessica,3,6,6,3,1,1,2.421
+"Summer 2016",GEOL,3360,3,"Field Geology II",Murphy,Michael,3,7,4,1,0,0,2.8
+"Summer 2016",BIOL,1134,3,"Hum Anat Physiol Lab I",Gill,Tejendra,3,8,8,0,0,0,2.615
+"Summer 2016",BIOL,1134,1,"Hum Anat Physiol Lab I",Gill,Tejendra,3,9,0,0,0,0,3.333
+"Summer 2016",PHIL,1334,4,"Intro To the Mind",Weisberg,Joshua,3,9,3,0,0,1,3.022
+"Summer 2016",CHEM,1112,8,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",3,9,5,0,0,0,2.882
+"Summer 2016",ILAS,6397,1,"Selected Topics",Golden,"Rebecca Lynne",3,10,0,0,0,0,0.205
+"Summer 2016",ILAS,6397,1,"Selected Topics",Klieman,Kairn,3,10,0,0,0,0,0.205
+"Summer 2016",ILAS,6397,1,"Selected Topics",Weaver,"Jacqueline L",3,10,0,0,0,0,0.205
+"Summer 2016",ILAS,6397,1,"Selected Topics",Woldu,"Dawit Okubatsion",3,10,0,0,0,0,0.205
+"Summer 2016",GEOL,3355,4,"Field Geology I",Byrd,John,3,10,1,0,0,0,3.072
+"Summer 2016",GEOL,3360,4,"Field Geology II",Weber,John,3,10,1,0,0,0,3.237
+"Summer 2016",MECT,2354,1,"Introduction To Mechanics",Moghaddam,Hassan,3,10,10,0,0,0,2.653
+"Summer 2016",MUSI,1311,1,"Theory II",Maroney,"Marcus K",3,11,2,3,1,0,2.6
+"Summer 2016",ASLI,1302,1,"Elementary Amer Sign Lang II",Brittain,"Robyn Michelle",3,11,4,1,1,0,2.601
+"Summer 2016",COMM,2310,5,"Print and Digital Writing",Crixell,"Charles A",3,12,2,0,2,0,2.719
+"Summer 2016",MECT,3362,1,"Industrial Work Measurement",Attia,"Farouk G",3,12,18,0,1,0,2.49
+"Summer 2016",CHEM,1112,2,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",3,14,2,0,0,0,3.07
+"Summer 2016",ACCT,7330,1,"Advanced Accounting",Gamble,"George O",3,14,28,5,2,8,2.294
+"Summer 2016",BIOL,1144,3,"Hum Anat Physiol Lab II",Gill,Tejendra,3,15,0,0,0,2,3.24
+"Summer 2016",ELET,3405,1,"Microprocessor Architecture",Moges,"Mequanint A",3,15,9,0,0,0,2.741
+"Summer 2016",CHEM,1112,12,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",3,17,1,0,0,0,3.017
+"Summer 2016",LAW,5305,1,"Business Torts",Moll,"Douglas Keith",3,25,1,0,0,0,3.137
+"Summer 2016",ANTH,4391,1,"Archaeological Field Work I",Brown,"Kenneth L",,,,,,,
+"Summer 2016",ARCH,6343,1,"Latin America Architecture",Longoria,"Rafael R",,,,,,,
+"Summer 2016",ARCH,6397,2,"Sel Tpcs-Arc/Urbn Desgn",Longoria,"Rafael R",,,,,,,
+"Summer 2016",ARLD,6691,1,"Internship in Arts Organizatn",Fernando,"Fleurette S",,,,,,,
+"Summer 2016",COMD,7391,1,"Clinic in Speech Lang Disorder",Cizek,"Laura S",,,,,,,
+"Summer 2016",COMD,7391,5,"Clinic in Speech Lang Disorder",Cizek,"Laura S",,,,,,,
+"Summer 2016",CUIN,7692,1,Internship,Markello,"Carol M",,,,,,,
+"Summer 2016",CUIN,8310,1,"Laboratory of Practice",White,"Cameron Scott",,,,,,,
+"Summer 2016",ECE,8399,16,"Doctoral Dissertation",Jackson,"David R",,,,,,,
+"Summer 2016",EPSY,8366,2,"Assmt Child/Adol Aff, Beh, Per",Booth,"Carol A",,,,,,,
+"Summer 2016",HLT,4393,1,"Field Wrk in Com Hlth",Kim,Mijin,,,,,,,
+"Summer 2016",INAR,4500,1,"Interior Arch Studio VII",Froehlich,Dietmar,,,,,,,
+"Summer 2016",INDS,6397,1,"Selected Topics",Kimbrough,"Mark S",,,,,,,
+"Summer 2016",MECE,8399,13,"Doctoral Dissertation",Ardebili,Haleh,,,,,,,
+"Summer 2016",OPTO,5298,4,"Spec Prob Phys Optics",Quintero,Sam,,,,,,,
+"Summer 2016",PETR,6397,1,"Selected Topics",Samuel,Robello,,,,,,,
+"Summer 2016",PHAR,5214,1,"Oncology Pharmacotherapy",Mach,Claire,,,,,,,
+"Summer 2016",PHAR,5678,1,"Transplant Therapeutics",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PSYC,6398,7,"Independent Studies",Neighbors,"Clayton T",,,,,,,
+"Summer 2016",SOCW,7360,11,"Intl SW:A Comparative Approach",Torres-Hostos,"Luis R",,,,,,,
+"Summer 2016",CHNS,3302,1,"Advanced Chinese Conversation",Wen,"Xiaohong Sharon",,,,,,,
+"Summer 2016",DIGM,4397,31,"Selected Tops in Digital Media",Baez-Franceschi,"Jose A",,,,,,,
+"Summer 2016",HRMA,4344,1,"California Wine Experience",Simon,"Kevin S",,,,,,,
+"Summer 2016",PHAR,5297,2,"Selected Topics in Pharmacy",Crutchley,"Rustin D",,,,,,,
+"Summer 2016",PHAR,5297,2,"Selected Topics in Pharmacy","Trivedi PhD",Meghana,,,,,,,
+"Summer 2016",FREN,2301,2,"Intermediate French",Early,"Rachel Elizabeth",4,1,2,3,1,1,2.334
+"Summer 2016",ENGL,3328,1,"British Literature, II",Wood,"Barry Albert",4,1,3,0,3,1,2.213
+"Summer 2016",EPSY,8351,3,"Hist & Philosophy of Psyc Syst",Jones,"Sara Jolly",,,,,,,
+"Summer 2016",EPSY,8376,1,"Res Meth Low Incid Pop",Santi,"Kristi L",,,,,,,
+"Summer 2016",GENB,5305,1,"Commercial Law",Hopkins,"Troy D",,,,,,,
+"Summer 2016",SPAN,2302,1,"Intermediate Spanish II",Pina,"Sarah Elisabeth",,,,,,,
+"Summer 2016",FINA,"   7A97",1,"Selected Topics in Finance",Turnbull,Stuart,,,,,,,
+"Summer 2016",PUBL,6321,1,"Seminar in Urban Politics",Thurmond,"James H",,,,,,,
+"Summer 2016",BIOL,1144,5,"Hum Anat Physiol Lab II",Gill,Tejendra,,,,,,,
+"Summer 2016",NURS,6345,1,"Mgmt of Hlth Dsordrs in Wom/Ch",Reeve,"Kathleen D",,,,,,,
+"Summer 2016",ARCH,1501,1,"Design Studio II",Huynh,"Chan Q",4,3,5,0,0,0,2.807
+"Summer 2016",ECE,3331,1,"Program Appl in Elec Comp Engr",Hebert,"Thomas James",4,3,11,2,0,4,2.599
+"Summer 2016",BIOL,3132,3,"Elementary Microbiology Lab",Knapp,"Richard D",,,,,,,
+"Summer 2016",COMM,2310,3,"Print and Digital Writing",Fuller,"Annette M.",,,,,,,
+"Summer 2016",GENB,5303,1,"Prof Acct Communication",Newman,"Michael Ray",,,,,,,
+"Summer 2016",MATH,3334,1,"Adv Multivariable Calculus",Johnson,"Gordon G",4,4,3,3,0,1,2.596
+"Summer 2016",BIOL,1161,1,"Intro To Biol Science Lab",Medrano,"Ana I",4,4,4,0,0,0,3.028
+"Summer 2016",MATH,3333,2,"Intermediate Analysis",Blecher,"David P",4,4,5,2,0,2,2.667
+"Summer 2016",ARCH,6602,1,"Arch Design/Build Workshop",Dehlavi,Cynthia,,,,,,,
+"Summer 2016",ARCH,6602,1,"Arch Design/Build Workshop",Peters,"Patrick A",,,,,,,
+"Summer 2016",SPAN,2301,3,"Intermediate Spanish I",Rozo,"Juan Carlos",,,,,,,
+"Summer 2016",ECE,3441,1,"Digital Logic Design",Marpaung,Julius,4,5,5,0,0,0,2.834
+"Summer 2016",PSYC,2380,4,"Intro To Social Psy",Anderson,"Jill Annette",4,5,6,1,0,0,2.647
+"Summer 2016",BTEC,4301,1,"Principles of Bioprocessing",Iyer,"Rupa S",,,,,,,
+"Summer 2016",EPSY,4353,1,"Technology in Special Educ",Goodrich,"Elizabeth A",4,6,4,0,1,0,2.8
+"Summer 2016",PHYS,1102,2,"General Physics Laboratory II",Wood,"Lowell T",4,6,8,0,0,2,2.814
+"Summer 2016",MATH,1330,3,Precalculus,Weber,"Thomas Christian",4,7,12,5,11,3,1.625
+"Summer 2016",CHEM,1112,4,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,8,2,0,2,1,2.833
+"Summer 2016",MUSI,1171,1,"Aural Skills II",Maroney,"Marcus K",4,8,3,0,0,1,3.177
+"Summer 2016",CHEM,1111,4,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,8,3,0,2,1,2.725
+"Summer 2016",BIOL,1162,5,"Intro To Biol Science Lab",Hanke,"Marc H",4,8,5,0,0,2,2.961
+"Summer 2016",PHYS,1101,4,"General Physics Laboratory I",Wood,"Lowell T",4,8,7,0,0,2,2.79
+"Summer 2016",PHYS,1102,3,"General Physics Laboratory II",Wood,"Lowell T",4,8,7,0,0,1,2.755
+"Summer 2016",MATH,4377,1,"Advanced Linear Algebra I",Kaiser,"Klaus H",4,8,16,3,1,5,2.323
+"Summer 2016",SPAN,2302,12,"Intermediate Spanish II","Cesar Suarez",Natasha,4,9,3,0,0,0,3.145
+"Summer 2016",HIST,3383,1,"World Revolutions",Butler,"Tracy A",4,9,3,3,2,0,2.476
+"Summer 2016",HDCS,4375,1,"Strategies in E-Tailing",Park,Jungkun,4,9,4,0,2,0,2.615
+"Summer 2016",CHNS,3350,1,"Chinese Culture Through Films",McArthur,"Charles M",4,10,0,0,0,0,3.356
+"Summer 2016",CHEM,3221,2,"Fund of Organic Chem. Lab I",Zaitsev,"Vladimir G",4,10,3,1,0,2,2.999
+"Summer 2016",BIOL,1134,6,"Hum Anat Physiol Lab I",Gill,Tejendra,4,10,3,1,1,1,2.703
+"Summer 2016",CHEE,2331,2,"Chemical Processes",Cirino,"Patrick C",4,10,10,5,6,7,1.944
+"Summer 2016",COMM,1302,1,"Intro To Comm Theory",Haun,"Martha J",4,10,11,6,7,11,1.904
+"Summer 2016",CHEM,1111,17,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,11,2,0,0,1,3.098
+"Summer 2016",LAW,5200,1,Depositions,Carpenter,"Benjamin S",4,12,0,0,0,0,3.168
+"Summer 2016",LAW,5200,1,Depositions,Daw,Willie,4,12,0,0,0,0,3.168
+"Summer 2016",LAW,5200,1,Depositions,Kerin,"Anita M",4,12,0,0,0,0,3.168
+"Summer 2016",CHEM,1111,20,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,12,3,1,0,0,3.099
+"Summer 2016",ELET,1401,1,"Circuit Theory and Lab II",Moges,"Mequanint A",4,12,11,1,0,0,2.643
+"Summer 2016",CHEM,1111,2,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,14,1,0,0,0,3.088
+"Summer 2016",CHEM,1112,9,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,14,1,0,0,0,3.227
+"Summer 2016",BIOL,1134,4,"Hum Anat Physiol Lab I",Gill,Tejendra,4,14,1,2,0,0,2.89
+"Summer 2016",BIOL,1161,6,"Intro To Biol Science Lab",Medrano,"Ana I",4,14,2,0,0,0,3.084
+"Summer 2016",CHEM,1112,7,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",4,15,0,1,0,0,3.1
+"Summer 2016",LAW,5297,5,"Selected Topics",Braley,"Timothy Shawn",4,17,0,0,0,0,3.222
+"Summer 2016",ARCH,5500,5,"Architecture Design Studio IX",Zweig,"Peter J",,,,,,,
+"Summer 2016",ART,6394,1,"Sel Tops in Contemporary Art",Meza,Abinadi,,,,,,,
+"Summer 2016",BIOL,2397,1,"Selected Topics in Biology",Cheek,"Ann Oliver",,,,,,,
+"Summer 2016",COMM,4365,1,"Digital Pr and Advertising",Choi,"Ho Joon",,,,,,,
+"Summer 2016",COMM,4397,3,"Selected Topics Communication",Northup,"Christopher Temple",,,,,,,
+"Summer 2016",FINA,7397,8,"Selected Topics in Finance",Miljanic,"Andra Olivia",,,,,,,
+"Summer 2016",HRMA,6344,1,"California Wine Experience",Simon,"Kevin S",,,,,,,
+"Summer 2016",MATH,6397,1,"Selected Topics in Math",Torok,"Andrei S",,,,,,,
+"Summer 2016",MECE,6368,4,"Mechanical Design Proj",Ardebili,Haleh,,,,,,,
+"Summer 2016",PSYC,6398,4,"Independent Studies",Knee,"Clifford R",,,,,,,
+"Summer 2016",THEA,6180,2,"Applying Methods Acting/Voice",deMontmollin,"Jacquelynn S",,,,,,,
+"Summer 2016",CIVE,7397,1,"Selected Topics",Norris,"Debra B",,,,,,,
+"Summer 2016",KIN,4390,1,"Internship in PE",Betts,"Randi Jill",,,,,,,
+"Summer 2016",ELCS,6332,5,"Student Develop/Student Affair",Thomas,"Jackie C",,,,,,,
+"Summer 2016",EPSY,6353,1,"Technology in Special Educ",Goodrich,"Elizabeth A",,,,,,,
+"Summer 2016",NURS,6332,1,Biostatistics,Brohard,"Cheryl L",,,,,,,
+"Summer 2016",PETR,6351,1,"Intro to Petroleum Engineering",Adams,"Wilton T",,,,,,,
+"Summer 2016",PHAR,5642,1,"Emergency Medicine",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHAR,5694,1,Pediatrics,Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",GENB,5303,2,"Prof Acct Communication",Newman,"Michael Ray",,,,,,,
+"Summer 2016",POLS,3356,1,"Intro-Constitutionl Law",Abshire,"Roger P",,,,,,,
+"Summer 2016",ELCS,6332,4,"Student Develop/Student Affair",Thomas,"Jackie C",,,,,,,
+"Summer 2016",PETR,6362,1,"Reservoir Engineering I",Adams,"Wilton T",,,,,,,
+"Summer 2016",BIOL,1161,4,"Intro To Biol Science Lab",Medrano,"Ana I",,,,,,,
+"Summer 2016",DIGM,2353,1,"Page Layout and Design",Pierce,"Jean Terio",5,3,2,3,1,0,2.571
+"Summer 2016",POLS,3316,1,"Stats for Political Scientists",Antenangeli,"Leonardo Augusto",5,3,3,1,0,0,2.945
+"Summer 2016",DIGM,2352,1,"Digital Photography",Snyder,"Philip Charles",5,3,3,1,1,0,2.693
+"Summer 2016",LAW,5397,1,"Selected Topics",Brennan,Daniel,,,,,,,
+"Summer 2016",ECON,3332,2,"Intermed Microeconomics",Vu,"Thuy Ngoc",5,4,7,0,3,1,2.543
+"Summer 2016",PHAR,5696,2,"Ambulatory Care - Primary Care",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",HIST,3395,1,"Sel Top-European Hist",Rainbow,David,5,5,0,1,0,1,3.333
+"Summer 2016",MAS,3340,1,"Mexican Amer Urban Communities",Cano,Lorenzo,5,5,1,0,0,0,3.484
+"Summer 2016",SOC,3390,1,"Sociology of Gender",Chandra,Monalisa,5,5,1,3,2,0,2.521
+"Summer 2016",ACCT,5337,1,"Management Accounting",Serrato,"Darlene Marie  Bohac",5,5,3,0,0,1,3.078
+"Summer 2016",FINA,6335,1,"Managerial Finance",Ramchand,Latha,5,6,0,0,0,0,3.425
+"Summer 2016",MECT,4172,1,"Materials Tech Lab","Robles Hernandez","Francisco C",5,6,1,0,0,0,3.306
+"Summer 2016",POLS,3313,1,"Intro Internatl Relatns",Pinto,"Pablo M",5,6,1,0,0,0,3.306
+"Summer 2016",PSYC,3325,1,"Psychology of Personality",Anderson,"Jill Annette",5,6,4,2,1,1,2.575
+"Summer 2016",HDCS,4303,1,"Merchandising Systems","Colombi PhD",Chiara,5,6,8,2,2,0,2.392
+"Summer 2016",FINA,4397,1,"Selected Topics in Finance",Kapatos,"Nick Gus",5,7,0,0,0,0,3.417
+"Summer 2016",BIOL,1161,5,"Intro To Biol Science Lab",Medrano,"Ana I",5,7,1,0,0,0,3.206
+"Summer 2016",CHEM,1112,11,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",5,7,2,0,0,2,3.167
+"Summer 2016",COSC,2410,1,"Computer Organization & Prog",Rizk,"Nouhad J",5,7,4,2,1,1,2.702
+"Summer 2016",PHYS,1101,3,"General Physics Laboratory I",Wood,"Lowell T",5,8,7,1,1,0,2.637
+"Summer 2016",BIOL,1344,1,"Hum Anat Physiol",Vida,"Thomas A",5,8,9,7,3,5,2.167
+"Summer 2016",ARCH,3397,4,"Selected Topics",Johnson,"Matthew W",5,9,0,0,0,0,3.286
+"Summer 2016",ACCT,5331,1,"Federal Income Tax-Individual",Fernandez,Ramon,5,9,1,0,0,0,3.377
+"Summer 2016",BIOL,1162,3,"Intro To Biol Science Lab",Hanke,"Marc H",5,9,4,0,0,0,3.019
+"Summer 2016",CHEM,1112,5,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",5,9,4,0,2,0,2.734
+"Summer 2016",MATH,3363,1,"Introduction To Pde",Perepelitsa,"Mikhail Antolyevic",5,9,9,4,2,3,2.288
+"Summer 2016",MATH,1330,4,Precalculus,Alvarez,"Angelynn Reario",5,9,11,4,7,6,2.037
+"Summer 2016",GEOL,6363,1,"Carbonate Sedimentalogy",Dravis,"Jeffrey James",5,10,0,0,0,0,3.355
+"Summer 2016",CHEM,1112,1,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",5,10,2,0,0,1,3.176
+"Summer 2016",POLS,3335,1,"Political Terrorism",Vardy,"Ronald V",5,10,2,0,1,0,2.927
+"Summer 2016",CHEM,1112,3,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",5,10,3,1,0,2,3
+"Summer 2016",CHEM,3222,1,"Fund of Organic Chem. Lab II",Zaitsev,"Vladimir G",5,10,3,1,0,1,3.052
+"Summer 2016",MATH,4378,1,"Advanced Linear Algebra II",Torok,"Andrei S",5,10,8,1,0,0,2.682
+"Summer 2016",ACCT,5376,1,"Adv Fin Statement Auditing",Kuruvilla,Mohan,5,11,2,0,0,2,3.258
+"Summer 2016",MUSI,2342,6,"Music for Children",Chapa,"Julissa Y",5,11,4,0,0,0,3.1
+"Summer 2016",CHEM,3221,1,"Fund of Organic Chem. Lab I",Zaitsev,"Vladimir G",5,11,5,1,0,0,2.924
+"Summer 2016",PHYS,1101,2,"General Physics Laboratory I",Wood,"Lowell T",5,11,7,0,0,1,2.784
+"Summer 2016",HDCS,3301,1,"Consumer Science",Stewart,"Barbara L",5,11,8,3,4,2,2.301
+"Summer 2016",COSC,4211,1,"Computer Scientists & Society",Leiss,"Ernst L",5,12,1,0,0,0,3.241
+"Summer 2016",CHEM,3222,3,"Fund of Organic Chem. Lab II",Zaitsev,"Vladimir G",5,12,3,1,0,0,2.859
+"Summer 2016",SCM,"   7A97",1,"Selected Topics in SCM",Tibodeau,Dale,5,14,0,0,0,0,3.211
+"Summer 2016",SCM,3301,2,"Service & Manufacturing Operat",Khumawala,"Basheer M",5,21,12,4,2,1,2.56
+"Summer 2016",COMM,3356,1,"Business-Professional Comm",Buck,Suzanne,5,43,20,8,14,14,2.226
+"Summer 2016",COSC,6397,1,"Topics Computer Science",Subramaniam,Venkat,,,,,,,
+"Summer 2016",ELCS,6334,1,"Assessment & Eval in Higher Ed",Ramos,"Miguel A",,,,,,,
+"Summer 2016",GENB,8301,1,"Communication of Academic Rese",Gelb,"Betsy L",,,,,,,
+"Summer 2016",GEOL,4397,1,"Selected Topics-Geology",Wang,Guoquan,,,,,,,
+"Summer 2016",MANA,4354,1,"Issues Equal Employment Opport",Carlin,"Barbara A",,,,,,,
+"Summer 2016",MATH,5378,2,"Axiomatic Geometry",Hollyer,"Virginia Leigh",,,,,,,
+"Summer 2016",PHAR,5644,1,"Amb C-Medication Therapy Mgmt",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",PSYC,7362,1,Interviewing,Campion,"James E",,,,,,,
+"Summer 2016",SAER,8388,1,"Sem-Res Ed Ldshp Pol St",Horn,"Catherine Lynn",,,,,,,
+"Summer 2016",HRMA,3154,1,"Rest. Mrktg Chicago Style",Graves,Nancy,,,,,,,
+"Summer 2016",AAS,6300,1,"Africana Study Theory & Method",Conyers,"James l",,,,,,,
+"Summer 2016",CUIN,7305,1,"Design,Dev & Eval Presentation",Gronseth,"Susie L B",,,,,,,
+"Summer 2016",HLT,6320,1,"Allied Health Education",Esparza,Angelina,,,,,,,
+"Summer 2016",MANA,"   6A25",2,"Ethical Leadrshp & Crit Reason",Walker,"William A",,,,,,,
+"Summer 2016",KIN,1352,3,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",,,,,,,
+"Summer 2016",MATH,2303,1,"Concepts in Algebra",Johnson,"Gordon G",6,1,5,0,1,0,2.897
+"Summer 2016",COSC,1304,1,"C Programming",Hilford,Victoria,,,,,,,
+"Summer 2016",GEOL,4355,6,"Geophysical Field Camp",Khan,"Shuhab D.",,,,,,,
+"Summer 2016",HRMA,4323,1,"Advance Food & Beverage Manage",Haskell,"Rebecca Erin",,,,,,,
+"Summer 2016",KIN,4190,1,"Sport Administration Seminar",Walsh,"David W",,,,,,,
+"Summer 2016",ARCH,3343,1,"Latin American Architecture",Longoria,"Rafael R",,,,,,,
+"Summer 2016",PEP,6309,1,"Policies & Govt of Sport Org.",Lam,Tak-Ching,,,,,,,
+"Summer 2016",ITEC,1301,4,"Intro To Computer Appl Tech",Golovko,Anastasia,6,3,4,0,3,3,2.563
+"Summer 2016",BTEC,4101,1,"Principle of Bioprocessing Lab",Iyer,"Rupa S",,,,,,,
+"Summer 2016",SCLT,2362,20,"Intro To Logistics Technology",Jankovic,James,,,,,,,
+"Summer 2016",CIVE,2330,1,"Mechanics I (Statics)",Herman,Reagan,6,4,9,0,2,0,2.634
+"Summer 2016",PETR,6330,1,"Fund. of Hydraulic Fracturing",Daneshy,"Abbas Ali",6,5,0,0,0,0,3.605
+"Summer 2016",HIST,3375,1,"Cia in the 3Rd World","O Brien","Thomas F",6,5,4,1,6,2,2.137
+"Summer 2016",HDFS,4393,2,"Internship in HDFS",Johnson,"Sharon A",6,7,3,0,0,1,3.188
+"Summer 2016",PSYC,3341,3,"Physiological Psy",Leasure,"Jennifer Leigh",6,7,6,2,2,1,2.522
+"Summer 2016",CHEM,1111,18,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",6,8,1,0,0,0,3.333
+"Summer 2016",CNST,4315,1,"Steel Construction",Chang,"Chi Chung",6,8,1,0,0,0,3.355
+"Summer 2016",GEOL,6372,1,"Petroleum Geochemistry",Bissada,"Kadry K",6,8,2,0,0,0,3.25
+"Summer 2016",CHEM,1111,6,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",6,8,2,0,1,0,3.078
+"Summer 2016",CHEM,1112,10,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",6,8,4,0,0,0,3.074
+"Summer 2016",PSYC,4321,1,"Abnormal Psychology",Anderson,"Jill Annette",6,9,0,0,0,2,3.356
+"Summer 2016",ARCH,3397,3,"Selected Topics",Logan,Jason,6,9,1,0,0,0,3.209
+"Summer 2016",BIOL,1162,1,"Intro To Biol Science Lab",Hanke,"Marc H",6,9,1,0,0,0,3.333
+"Summer 2016",MIS,3360,2,"Systems Analysis and Design",Porra,Jaana,6,9,2,0,1,0,3.001
+"Summer 2016",MECT,1364,1,"Materials & Processes",Ahmad,"Salah Uddin",6,9,3,0,0,1,3.093
+"Summer 2016",CHEM,1111,14,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",6,9,3,0,2,0,2.834
+"Summer 2016",COMM,4355,1,"Organizational Comm",Lee,Jaesub,6,9,4,0,0,1,3.018
+"Summer 2016",PHYS,1102,4,"General Physics Laboratory II",Wood,"Lowell T",6,9,5,0,0,0,2.935
+"Summer 2016",CHEM,1112,6,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",6,10,1,0,0,1,3.255
+"Summer 2016",HIST,3394,1,"Sel Tops-Us History",Hopkins,"Kelly Y",6,10,3,0,0,0,3.123
+"Summer 2016",KIN,4370,2,"Exercise Testing",Markofski,Melissa,6,11,4,0,1,0,2.835
+"Summer 2016",ECE,3337,1,"Signals and Systems Analysis",Hebert,"Thomas James",6,11,8,0,0,2,2.841
+"Summer 2016",MECT,3341,20,"Computer-Aided Drafting I",Mott,"David M",6,12,2,1,0,0,3.032
+"Summer 2016",KIN,4350,1,"Sport Marketing",Walsh,"David W",6,14,14,6,1,1,2.375
+"Summer 2016",LAW,5378,74,"Statutory Interpretation & Rea",Bush,Darren,6,21,4,0,0,0,3.065
+"Summer 2016",PETR,2311,1,"Reservoir Petrophysics",Holley,"Thomas K",6,22,6,1,1,0,2.806
+"Summer 2016",NURS,4200,2,"Special Topic in Nursing",Obey,"Faye B",6,25,3,0,0,0,3.176
+"Summer 2016",EPSY,8357,1,"Clinical Interventions",Nutt,"Roberta L",,,,,,,
+"Summer 2016",PEB,1151,1,"Weight Training",Gray,"Jon Phillip",,,,,,,
+"Summer 2016",PHAR,5663,2,"Pharmacy Management",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",PHCA,6320,1,"Medicatn Safety & Quality Impr",Birtcher,Kimberly,,,,,,,
+"Summer 2016",GEOL,6397,4,"Selected Topics in Geology","Van Nieuwenhuise","Donald S",,,,,,,
+"Summer 2016",ILAS,4350,1,"Liberal Studies Senior Seminar",Behr,"Thomas C",,,,,,,
+"Summer 2016",MAS,2340,1,"Intro Mexican American Studies",Rodriguez,Andre',,,,,,,
+"Summer 2016",MECE,6397,1,"Selected Topics",Ebrahimi,Behrouz,,,,,,,
+"Summer 2016",MECE,6397,1,"Selected Topics",Franchek,Matthew,,,,,,,
+"Summer 2016",MUSI,6309,1,"Variation Forms & Techniques",Snyder,"John L",,,,,,,
+"Summer 2016",PHAR,5695,1,Geriatrics,Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",ARCH,3397,2,"Selected Topics",Longoria,"Rafael R",,,,,,,
+"Summer 2016",FINA,6335,2,"Managerial Finance",Ramchand,Latha,,,,,,,
+"Summer 2016",PEP,7309,1,"Sport Finance",Lee,"Dong Hun",7,2,2,0,0,0,3.395
+"Summer 2016",COMM,3360,1,"Principles of Advertising",Ashley,"Laura B",7,3,1,0,0,0,3.485
+"Summer 2016",COMM,4397,2,"Selected Topics Communication",Ciszek,"Erica L",7,3,1,0,0,0,3.605
+"Summer 2016",MECE,6387,1,"Intelligent Structural Systems",Song,Gangbing,7,4,0,0,0,0,3.636
+"Summer 2016",MATH,2303,2,"Concepts in Algebra",Tucker,"Charles T",7,4,1,0,0,0,3.473
+"Summer 2016",SPAN,2301,4,"Intermediate Spanish I",Sanchez-Moneny,Josefina,7,4,2,0,1,0,3.214
+"Summer 2016",HDCS,3304,1,"Visual Merchandising",Stewart,"Barbara L",7,4,3,1,0,0,3.001
+"Summer 2016",POLS,3357,1,"Constitutnl Law-Civ Lib","Abbott Jr","Kenneth Wayne",7,5,0,0,0,0,3.583
+"Summer 2016",ILAS,3350,1,"Power Writing",Bruton,"Alexander A",7,5,0,1,0,0,3.359
+"Summer 2016",THEA,1331,1,"Introduction To Theatre",Verheyen,"Claremarie H",7,5,2,1,0,0,3.266
+"Summer 2016",POLS,1336,6,"US and Texas Const/Politics",Hunt,"Bruce A",7,6,2,1,0,0,3.084
+"Summer 2016",INDE,3333,1,"Engineering Economy I",Sitton,"Randal W.",7,6,4,1,1,0,2.929
+"Summer 2016",ECE,2300,1,"Circuit Analysis",Trombetta,"Leonard P",7,6,9,4,2,13,2.358
+"Summer 2016",ACCT,5371,1,"Accounting Information Systems",Leavins,"Johnny R",7,7,0,0,0,0,3.524
+"Summer 2016",MECT,4330,1,"Valve Design",Afrin,Samia,7,7,1,0,0,0,3.378
+"Summer 2016",CHEM,1111,13,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",7,7,3,0,0,0,3.196
+"Summer 2016",CHEM,1111,16,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",7,7,3,1,0,1,3.093
+"Summer 2016",LAW,5297,21,"Selected Topics",Bolon,"Emily Rose",7,7,4,0,0,2,3.112
+"Summer 2016",LAW,5297,21,"Selected Topics",Kelly,"Tara Kay",7,7,4,0,0,2,3.112
+"Summer 2016",BIOL,1144,1,"Hum Anat Physiol Lab II",Gill,Tejendra,7,7,4,0,2,0,2.801
+"Summer 2016",MANA,3335,1,"Intro Org Behavior and Mgmt",DeFrank,"Richard S",7,7,6,3,0,0,2.725
+"Summer 2016",KIN,3306,2,"Physiology-Human Performance",Park,Yoonjung,7,8,3,1,1,0,2.95
+"Summer 2016",KIN,3305,1,"Soc/Cultural Aspects of Sport",Pearson,"Demetrius W",7,8,9,2,0,1,2.795
+"Summer 2016",KIN,3304,2,"Human Structure & Phys Perform",LaVoy,"Emily Claire-Pyle",7,9,5,1,1,1,2.927
+"Summer 2016",DIGM,3353,30,"Visual Communications Tech",Alters,"Monika Joanna",7,9,7,2,1,0,2.68
+"Summer 2016",MECT,3355,1,"Strength of Materials","El Nahas","Medhat A",7,9,10,0,8,3,2.099
+"Summer 2016",TELS,3363,30,"Technical Communications",Tangeman,"Anthony C",7,10,2,0,2,1,3.015
+"Summer 2016",SOC,1300,3,"Introduction To Sociology",Salinas,"Luis L",7,10,5,6,0,1,2.643
+"Summer 2016",CHEM,1111,9,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",7,11,1,0,0,1,3.281
+"Summer 2016",COMM,2310,1,"Print and Digital Writing",Crixell,"Charles A",7,11,2,0,0,1,3.168
+"Summer 2016",CHEM,3221,3,"Fund of Organic Chem. Lab I",Zaitsev,"Vladimir G",7,11,3,0,0,0,3.143
+"Summer 2016",TELS,3363,20,"Technical Communications",Pyka,"Jerry A",7,12,1,0,1,1,3.253
+"Summer 2016",NUTR,3330,1,"Mgmt in Food & Nutr Systems",Haubrick,Kevin,7,12,2,0,0,0,3.191
+"Summer 2016",HIST,3380,1,"World Civ Since 1500","O Brien","Thomas F",7,12,7,2,1,6,2.724
+"Summer 2016",ENTR,4397,2,"Sel Topics in Entrepreneurship",Ortega,"Carlos A.",7,14,1,1,1,0,3.097
+"Summer 2016",COSC,3360,1,"Operating Systems",Paris,Jehan-Francois,7,14,2,1,3,2,2.839
+"Summer 2016",MANA,3335,2,"Intro Org Behavior and Mgmt",DeFrank,"Richard S",7,14,9,2,3,0,2.543
+"Summer 2016",HIST,4323,1,"Witchcraft in Old & New World",Romero,Todd,7,17,5,1,1,2,2.839
+"Summer 2016",SCM,3301,1,"Service & Manufacturing Operat",Khumawala,"Basheer M",7,17,10,4,0,1,2.754
+"Summer 2016",COMM,1301,1,"Media and Society",Olson,"Beth M",7,25,26,2,6,3,2.379
+"Summer 2016",HRD,6354,30,"Facilitating Adult Group Proc.",Greer,Tomika,,,,,,,
+"Summer 2016",OPTO,5198,1,"Spec Prob Phys Optics",Piccolo,"Marcus G",,,,,,,
+"Summer 2016",PHAR,5681,1,"Infectious Diseases",Nguyen,"Kimberly A",,,,,,,
+"Summer 2016",SOC,3343,1,"Social Movements",Brailey,Carla,,,,,,,
+"Summer 2016",COMM,3327,1,"Desktop Publishing",Economou-Clarke,"Ann M",,,,,,,
+"Summer 2016",SPAN,4397,2,"Topics in Hispanic Writing",Cuesta,Mabel,,,,,,,
+"Summer 2016",EPSY,4367,1,"Collaborative Consultation",Harydzak,"Heather Natasha",,,,,,,
+"Summer 2016",DIGM,4397,30,"Selected Tops in Digital Media",Baez-Franceschi,"Jose A",,,,,,,
+"Summer 2016",ELCS,7371,1,"Higher Educ Law",Bentley,Eric,,,,,,,
+"Summer 2016",GENB,4320,1,"Commercial Law",Hopkins,"Troy D",,,,,,,
+"Summer 2016",GEOL,4355,4,"Geophysical Field Camp",Sager,"William W",,,,,,,
+"Summer 2016",MUSI,1161,1,"Group Piano II",Chen,Chien-Jung,,,,,,,
+"Summer 2016",PHAR,5670,1,"Community Pharmaceutical Care",Masilamani,Kamalasanthi,,,,,,,
+"Summer 2016",POLC,6391,1,"Internship in Public Policy",Granato,"James S",,,,,,,
+"Summer 2016",PHIL,3355,1,"Political Philosophy",Luttrell,Johanna,8,1,2,0,0,0,3.515
+"Summer 2016",SOC,3324,1,"Hispanic Identity",Lomeli,Hilario,8,2,1,0,0,0,3.576
+"Summer 2016",COMM,3368,1,"Principles of Public Relations","Emery II","Philip M",8,3,0,0,0,0,3.817
+"Summer 2016",GEOL,1130,1,"Physical Geology Lab",Hauptvogel,"Daniel William",8,3,0,0,0,0,3.787
+"Summer 2016",GEOL,1130,1,"Physical Geology Lab",Sisson,"Virginia B",8,3,0,0,0,0,3.787
+"Summer 2016",HRD,6397,30,"Selected Topics in Hrd",Hutchins,"Holly M.",8,3,0,0,0,0,3.637
+"Summer 2016",MATH,3321,1,"Engineering Mathematics",Etgen,"Garret J",8,3,2,0,4,0,2.628
+"Summer 2016",POLS,1336,10,"US and Texas Const/Politics",Tedin,"Kent L",8,3,4,1,1,0,2.961
+"Summer 2016",CUIN,3313,2,"Learning and Development Tech",Tran,"Thanh P",8,3,6,1,0,1,2.963
+"Summer 2016",ACCT,5368,1,"Intermediate Accounting II",Yampuler,Michael,8,3,8,1,0,1,2.933
+"Summer 2016",SOC,3397,1,"Sel-Topics in Sociology",Brown,"Jessica A",8,4,0,0,0,0,3.667
+"Summer 2016",HIST,4394,1,"Sel Top-United States History",Hopkins,"Kelly Y",8,4,4,1,3,1,2.601
+"Summer 2016",SCLT,3385,30,"Transport Economics and Policy",Lamb,"James L",8,5,0,0,0,0,3.565
+"Summer 2016",MATH,2331,1,"Linear Algebra",He,Jiwen,8,5,1,0,1,4,3.399
+"Summer 2016",ENGL,3330,1,"Beg Creative Writing-Fiction",Salesses,"Matthew Edward",8,6,0,0,0,0,3.595
+"Summer 2016",HIST,3363,1,"Pirate & Smuggler in Mod World",Butler,"Tracy A",8,6,0,0,1,1,3.223
+"Summer 2016",ITEC,1301,5,"Intro To Computer Appl Tech",Miertschin,"Susan L",8,6,4,0,1,1,3.035
+"Summer 2016",SPAN,1501,5,"Elementary Spanish I","Luevano Ortega",Sabino,8,6,4,0,2,1,2.851
+"Summer 2016",ECON,2305,1,"Macroeconomic Principles",Nguyen,"Tung Thanh",8,7,2,1,0,0,3.204
+"Summer 2016",CHEM,1111,1,"Fundamentals of Chm Lab",Zaitsev,"Vladimir G",8,7,3,0,0,1,3.241
+"Summer 2016",ASLI,1301,1,"Elementary Amer Sign Lang I",Brittain,Terrell,8,7,5,1,0,1,2.922
+"Summer 2016",ELET,3425,1,"Embedded Systems",Benhaddou,Driss,8,7,11,1,0,0,2.766
+"Summer 2016",ENGL,3324,1,"The Development of the Novel",Rothman,"Irving N",8,8,1,1,1,0,3.071
+"Summer 2016",BIOL,1162,2,"Intro To Biol Science Lab",Hanke,"Marc H",8,8,2,0,0,1,3.297
+"Summer 2016",PETR,2111,2,"Petroleum Petrophysics Lab",Wang,"Huai Da",8,9,1,0,0,0,3.352
+"Summer 2016",CIVE,2330,2,"Mechanics I (Statics)",Herman,Reagan,8,9,7,0,2,1,2.744
+"Summer 2016",SOC,1300,4,"Introduction To Sociology",Singh,"Sheila Kaur",8,10,4,2,0,0,3.069
+"Summer 2016",SPAN,2301,2,"Intermediate Spanish I",Rozo,"Juan Carlos",8,11,3,0,0,0,3.197
+"Summer 2016",MATH,3331,2,"Differential Equations",Papadakis,"Emanuel Ioannis",8,12,1,0,2,1,3.072
+"Summer 2016",CHEM,3221,4,"Fund of Organic Chem. Lab I",Zaitsev,"Vladimir G",8,12,4,0,0,0,3.139
+"Summer 2016",CHEM,3222,2,"Fund of Organic Chem. Lab II",Zaitsev,"Vladimir G",8,13,1,0,0,1,3.198
+"Summer 2016",TELS,4341,20,"Production & Service Operation",Ding,Xin,8,13,4,0,0,0,3.16
+"Summer 2016",COMM,4303,1,"Communication Law & Ethics",Kirkland,"Steven Earl",8,13,10,0,0,1,2.999
+"Summer 2016",TELS,3363,1,"Technical Communications",Tangeman,"Anthony C",8,14,2,0,0,0,3.264
+"Summer 2016",ACCT,3368,2,"Intermediate Accounting II",Yampuler,Michael,8,14,14,0,0,7,2.833
+"Summer 2016",POLS,3385,1,"Introduction to Law",Sutter,"J Ramsey",8,18,4,0,1,1,2.936
+"Summer 2016",MECE,5388,1,"Intelligent Structural Systems",Song,Gangbing,8,22,1,1,0,0,3.156
+"Summer 2016",ACCT,7375,1,"Corporate Taxation",Fernandez,Ramon,8,24,0,0,0,0,3.405
+"Summer 2016",CHEM,3332,1,"Fund of Organic Chemistry II",Coltart,"Don M.",8,27,23,8,4,3,2.419
+"Summer 2016",ARCH,1200,1,"Introduction to Design",Huynh,"Chan Q",,,,,,,
+"Summer 2016",ARCH,5500,1,"Architecture Design Studio IX",Froehlich,Dietmar,,,,,,,
+"Summer 2016",ARCH,5500,3,"Architecture Design Studio IX",Longoria,"Rafael R",,,,,,,
+"Summer 2016",ARCH,6397,3,"Sel Tpcs-Arc/Urbn Desgn",Ng,"Zui Lig",,,,,,,
+"Summer 2016",ART,1304,1,Fundamntls-Painting,Vance,"Kelli S",,,,,,,
+"Summer 2016",GEOL,4355,1,"Geophysical Field Camp",Stewart,"Robert R",,,,,,,
+"Summer 2016",GEOL,4355,5,"Geophysical Field Camp",Wiley,"Robert W",,,,,,,
+"Summer 2016",GEOL,7323,1,"Borehole Geophysics",Hardage,"Bob A",,,,,,,
+"Summer 2016",GEOL,7324,1,"Rock Physics",Spikes,Kyle,,,,,,,
+"Summer 2016",MATH,5336,1,"Discrete Mathematics",Kaiser,"Klaus H",,,,,,,
+"Summer 2016",OPTO,5297,1,"Selected Topics in Opt",Johnston,"Kassaundra Lee",,,,,,,
+"Summer 2016",OPTO,5298,6,"Spec Prob Phys Optics",Cheng,Han,,,,,,,
+"Summer 2016",EDRS,8381,2,"Rsch Mthds in Educ","Long III",Robert,,,,,,,
+"Summer 2016",NUTR,3335,2,"Commercial Food Production II",Svendsen-Sanchez,"Ann Carol",,,,,,,
+"Summer 2016",FINA,6335,3,"Managerial Finance",Ramchand,Latha,9,2,0,0,0,0,3.848
+"Summer 2016",NURS,4212,1,"Informatics in Health Care",Brohard,"Cheryl L",9,3,0,0,0,0,3.75
+"Summer 2016",FINA,4397,4,"Selected Topics in Finance",Nix,"Trudy Campbell",9,3,1,0,0,0,3.412
+"Summer 2016",PSYC,1300,5,"Intro To Psychology",Capuozzo,"Kristen Irene",9,3,1,0,0,0,3.692
+"Summer 2016",ECON,2370,1,"Intro to Econ Data Analysis",Zhivan,"Natalia A.",9,3,3,3,5,2,2.276
+"Summer 2016",SPAN,2301,1,"Intermediate Spanish I",Chavez,"Maria M",9,4,2,0,1,1,3.229
+"Summer 2016",MATH,1314,2,"Calc for Bus/Life Sciences",Gross,"Dianne Lynn",9,5,0,0,0,0,3.666
+"Summer 2016",HDCS,3303,1,"Retailing and Consumer Science",Rifai,"Rana Ihsan",9,5,0,0,2,1,3.146
+"Summer 2016",THEA,1331,2,"Introduction To Theatre",Verheyen,"Claremarie H",9,5,2,0,0,0,3.499
+"Summer 2016",POLS,1336,4,"US and Texas Const/Politics",Hallmark,"Terrell L",9,5,3,0,0,1,3.411
+"Summer 2016",MANA,4341,1,"Leading Organizational Change",Sebastijanovic,Marina,9,6,0,0,0,1,3.578
+"Summer 2016",POLS,3310,1,"Intro to Political Theory",Hofer,"Scott J",9,6,1,0,0,1,3.376
+"Summer 2016",COMM,3311,1,"Editing Print & Digital Media",Crixell,"Charles A",9,7,0,0,0,0,3.48
+"Summer 2016",GEOL,6358,1,"Terrigenous Depositional Systm",Dupre,"William Roark",9,7,1,0,0,0,3.432
+"Summer 2016",ECON,4389,1,"Tops-Contmporary Economics",Collins,"Taylor Adam",9,7,4,2,3,1,2.614
+"Summer 2016",GEOL,1330,4,"Physical Geology",Lytwyn,"Jennifer N",9,7,9,2,2,1,2.655
+"Summer 2016",PHYS,1322,1,"University Physics II",Gandhi,"Jateen S",9,8,23,6,7,4,2.088
+"Summer 2016",ATP,6301,1,"Anatomical Basis of Ath Injury",Yellen,"Joshua B",9,9,0,0,0,0,3.5
+"Summer 2016",ECON,2304,2,"Microeconomic Principles",Chakravorty,Arpita,9,9,6,2,0,0,2.987
+"Summer 2016",WCL,2352,1,"World Cinema",Kleinheider,"Julia D",9,10,3,2,1,3,2.934
+"Summer 2016",ATP,7301,1,"Head, Neck & Spine Evaluation",Maloney,"Kevin M",9,11,0,0,0,0,3.45
+"Summer 2016",PHIL,1321,1,"Logic I",Haaga,"Curtis W",9,11,6,2,0,2,2.929
+"Summer 2016",BIOL,1161,3,"Intro To Biol Science Lab",Medrano,"Ana I",9,12,0,1,0,0,3.318
+"Summer 2016",KIN,4370,1,"Exercise Testing",Markofski,Melissa,9,12,1,0,0,0,3.379
+"Summer 2016",KIN,4345,1,"Econ and Finc Aspects of Sport",Lee,"Dong Hun",9,12,7,0,1,0,2.988
+"Summer 2016",POLS,1337,3,"US Govt: Congress,Pres & Crts",Mallams,"Sarah Arlene",9,13,4,1,0,0,3.001
+"Summer 2016",MATH,1330,1,Precalculus,Almus,Melahat,9,13,13,6,15,18,1.875
+"Summer 2016",TELS,3355,1,"Project Leadership",Moore,"George P",9,15,5,0,1,1,3.011
+"Summer 2016",KIN,4310,1,"Measurement Tech Human Perf",Thrasher,"Timothy Adam",9,15,22,18,2,4,2.142
+"Summer 2016",COMM,3353,1,"Information & Comm Tech I",Liu,Youmei,9,17,3,0,0,3,3.207
+"Summer 2016",DIGM,2350,1,"Graphics for Digital Media",Alters,"Monika Joanna",9,17,6,4,2,3,2.684
+"Summer 2016",MATH,3336,1,"Discrete Mathematics",Perepelitsa,"Mikhail Antolyevic",9,18,7,2,2,2,2.711
+"Summer 2016",ELCS,6310,1,"Interpersonal Communications",McClellan,Anne,,,,,,,
+"Summer 2016",ELCS,7354,1,"Leadership for Change",Cuellar,"Kregg Alan",,,,,,,
+"Summer 2016",ENTR,7397,1,"Sel Topics in Entrepreneurship",Lindenberg,"Martin Herbert",,,,,,,
+"Summer 2016",GENB,7397,3,"Selected Topics",Currie,Daniel,,,,,,,
+"Summer 2016",GEOL,1130,4,"Physical Geology Lab",Hauptvogel,"Daniel William",,,,,,,
+"Summer 2016",GEOL,1130,4,"Physical Geology Lab",Sisson,"Virginia B",,,,,,,
+"Summer 2016",GEOL,4355,3,"Geophysical Field Camp",Wang,Guoquan,,,,,,,
+"Summer 2016",HRMA,6397,2,"Selected Topics",Taylor,"David C",,,,,,,
+"Summer 2016",HRD,6359,30,"Trends in Organizational Learn",Evans,"Mark J",10,0,1,0,0,0,3.818
+"Summer 2016",GEOL,4355,2,"Geophysical Field Camp",Hall,"Stuart Andrew",10,1,0,0,0,0,3.759
+"Summer 2016",HRD,6303,30,"Assessment & Evaluation in Hrd","Alston PhD","Carmen M.",10,1,0,0,0,0,3.909
+"Summer 2016",POLS,1337,9,"US Govt: Congress,Pres & Crts",Belco,"Michelle Helene",10,1,0,0,0,0,3.819
+"Summer 2016",WGSS,2360,1,"Introduction to GLBT Studies",Alonso,"Carolina E.",10,1,0,0,0,0,3.849
+"Summer 2016",RELS,3370,1,"The Bible and Modern Science",Ott,"Aaron Frederick",10,1,0,2,0,0,3.36
+"Summer 2016",ACCT,2332,3,"Acct Principles 2-Managerial",Newman,"Michael Ray",10,2,0,0,0,0,3.778
+"Summer 2016",SOC,3397,2,"Sel-Topics in Sociology",Grigorian,Stella,10,2,0,0,0,0,3.696
+"Summer 2016",THEA,6297,2,"Selected Topics",Noble,"Adam S",10,2,0,0,0,0,3.668
+"Summer 2016",MECT,3155,2,"Strength Materials Lab","El Nahas","Medhat A",10,2,1,0,0,0,3.642
+"Summer 2016",KIN,1352,1,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",10,2,3,0,0,0,3.467
+"Summer 2016",KIN,3301,1,"Design/Eval Phys Activity Prog",Alastuey,"Lisa L",10,3,1,0,0,0,3.596
+"Summer 2016",ECON,3334,1,"Intermed Macroeconomics",Kazinnik,Sophia,10,3,1,0,1,1,3.29
+"Summer 2016",MATH,1310,4,"College Algebra",Gross,"Dianne Lynn",10,4,1,1,0,1,3.417
+"Summer 2016",COMM,3380,1,"Electronic Field Production",Crowe,"Craig Warren",10,5,1,0,0,0,3.604
+"Summer 2016",WGSS,2350,1,"Intro To Women's Studies",Stonebrook,Rachel,10,5,1,0,0,0,3.563
+"Summer 2016",ENGL,3350,1,"Am Lit To 1865",Wood,"Barry Albert",10,5,2,2,2,0,2.826
+"Summer 2016",MECT,3155,1,"Strength Materials Lab","El Nahas","Medhat A",10,5,3,0,1,0,3.089
+"Summer 2016",KIN,1352,7,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",10,5,4,0,0,1,3.368
+"Summer 2016",COMM,3356,3,"Business-Professional Comm",Ashley,"Laura B",10,6,1,0,0,0,3.491
+"Summer 2016",TELS,3345,20,"Human Resources in Technology",Lattier,"Gregory Jeff",10,6,1,1,0,0,3.242
+"Summer 2016",BIOL,1144,2,"Hum Anat Physiol Lab II",Gill,Tejendra,10,6,3,1,0,0,3.267
+"Summer 2016",MATH,3338,2,Probability,Branton,"Sheena D",10,6,5,3,1,9,2.84
+"Summer 2016",CUIN,3313,1,"Learning and Development Tech",Zhao,"George Z",10,7,1,0,0,1,3.518
+"Summer 2016",COMM,3353,2,"Information & Comm Tech I",Liu,Youmei,10,7,4,1,2,1,2.917
+"Summer 2016",BIOL,1144,4,"Hum Anat Physiol Lab II",Gill,Tejendra,10,8,0,0,0,0,3.409
+"Summer 2016",SCLT,2380,30,"Distribution Channels",Czarnecka,Agnieszka,10,8,2,0,0,0,3.4
+"Summer 2016",ACCT,2332,2,"Acct Principles 2-Managerial",Cho,Hyunkwon,10,8,8,2,1,3,2.907
+"Summer 2016",ATP,7302,1,"General Medical Conditions",Bhojani,"Rehal A",10,9,1,0,0,0,3.45
+"Summer 2016",DIGM,3353,3,"Visual Communications Tech",Pierce,"Jean Terio",10,10,3,0,4,1,2.778
+"Summer 2016",HRD,3351,30,"Instructional Design for HRD",Natividad,"Lycell Ching",10,15,3,1,0,0,3.036
+"Summer 2016",LAW,5303,32,"Criminal Law",Crump,"David L",10,17,5,0,0,0,3.084
+"Summer 2016",NUTR,4333,1,"Med Nutr Therapy-Cardiovascula",Scott,"Claudia W",10,22,10,0,0,0,2.976
+"Summer 2016",ART,1371,1,"Fundamentals of Photo/DM",Duncan,Shannon,11,0,0,0,0,2,3.88
+"Summer 2016",GENB,7397,2,"Selected Topics",Currie,Daniel,11,0,0,0,0,0,4
+"Summer 2016",GEOL,1130,2,"Physical Geology Lab",Hauptvogel,"Daniel William",11,0,0,0,0,0,3.94
+"Summer 2016",GEOL,1130,2,"Physical Geology Lab",Sisson,"Virginia B",11,0,0,0,0,0,3.94
+"Summer 2016",HRD,6355,1,"Designing OL Interventions",Fierro,Alonso,11,0,0,0,0,0,4
+"Summer 2016",HRD,6355,1,"Designing OL Interventions",Waight,"Consuelo L",11,0,0,0,0,0,4
+"Summer 2016",HRD,6358,30,"Global Human Resource Devel",Waight,"Consuelo L",11,0,0,0,0,0,4
+"Summer 2016",ENGL,1304,1,"First Year Writing II",Sicinski,"Michael J",11,0,0,0,1,2,3.639
+"Summer 2016",GENB,7303,1,"Prof Accounting Communication",Newman,"Michael Ray",11,1,0,0,0,0,3.834
+"Summer 2016",MATH,5382,1,Probability,Peters,"Burnis Charles",11,1,0,0,0,0,3.862
+"Summer 2016",OPTO,5298,2,"Spec Prob - Clerkship",Lambreghts,Kimberly,11,1,0,0,0,0,3.917
+"Summer 2016",SCLT,3385,20,"Transport Economics and Policy",Elliott,"Stephen Dwight",11,1,0,0,0,0,3.724
+"Summer 2016",THEA,6183,2,"Applying Methods Prgm Mngmnt",Cook,"Rena R",11,1,0,0,0,0,3.917
+"Summer 2016",THEA,6183,2,"Applying Methods Prgm Mngmnt",deMontmollin,"Jacquelynn S",11,1,0,0,0,0,3.917
+"Summer 2016",THEA,6386,2,"Drama in Context",Shimko,"Robert B",11,1,0,0,0,0,3.862
+"Summer 2016",ART,3331,1,"Graphic Design Software",So,"Tom W",11,2,0,0,0,0,3.694
+"Summer 2016",OPTO,6250,1,"Decision Making:Optometrc Prac",Quintero,Sam,11,2,0,0,0,0,3.846
+"Summer 2016",OPTO,6250,1,"Decision Making:Optometrc Prac",Stafford,"Kristin Michele",11,2,0,0,0,0,3.846
+"Summer 2016",ENGL,1303,4,"First Year Writing I",Uscinski,"Izabela Anna",11,2,3,0,2,1,3.001
+"Summer 2016",GENB,7305,1,"Commercial Law",Hopkins,"Troy D",11,3,0,0,0,0,3.809
+"Summer 2016",ACCT,2331,1,"Acct Principles I - Financial",Newman,"Michael Ray",11,4,0,0,0,0,3.755
+"Summer 2016",KIN,3360,1,"Professional Prep for Sp Admin",Lam,Tak-Ching,11,4,0,0,0,0,3.645
+"Summer 2016",ECON,3334,2,"Intermed Macroeconomics",Kasyanenko,Sergiy,11,4,3,2,4,4,2.57
+"Summer 2016",PHIL,1321,2,"Logic I",Haaga,"Curtis W",11,4,7,1,1,4,3
+"Summer 2016",HIST,1378,7,"The U S Since 1877",Harwell,"Debbie Z",11,5,1,0,0,0,3.588
+"Summer 2016",POLS,3312,1,"Intro-Research Methods",Ward,"Matthew Michael",11,5,1,0,1,1,3.334
+"Summer 2016",SCLT,2362,1,"Intro To Logistics Technology",Cassler,Daniel,11,7,1,0,0,0,3.544
+"Summer 2016",SOC,3315,2,"Sexuality and Society",Colbert,"Sharla Stettnisch",11,8,11,2,3,2,2.629
+"Summer 2016",COSC,4353,1,"Software Design",Singh,"Raj Kumar",11,9,0,0,0,0,3.534
+"Summer 2016",TELS,4372,1,"Proposal and Project Writing",Barnwell,Tracy,11,9,1,1,0,2,3.334
+"Summer 2016",MIS,4378,1,"Admin of Computer-Based MIS",Vanover,"Larry David",11,9,2,0,0,1,3.409
+"Summer 2016",HIST,3394,2,"Sel Tops-Us History","Mizelle Jr","Richard M.",11,9,4,2,2,2,2.81
+"Summer 2016",CNST,3372,1,"Soil Mechanics & Foundations",Meyer,"Joseph Ray",11,9,13,4,1,1,2.693
+"Summer 2016",ECON,3370,1,"Introduction To Econometrics",Boul,Ruxandra,11,10,8,0,1,1,2.868
+"Summer 2016",FINA,4397,3,"Selected Topics in Finance",Kapatos,"Nick Gus",11,11,0,0,0,0,3.5
+"Summer 2016",KIN,4315,1,"Motor Learning and Control",Layne,"Charles S",11,13,13,5,2,1,2.561
+"Summer 2016",ACCT,4331,1,"Federal Income Tax-Individual",Lee,"Sung Sil",11,14,14,4,0,1,2.829
+"Summer 2016",TELS,3345,1,"Human Resources in Technology",Mehring,"Brian George",11,16,3,0,1,1,3.215
+"Summer 2016",PSYC,3310,1,"Indstrl-Orgnztnl Psy",Bok,"Cody James",11,16,8,2,3,2,2.725
+"Summer 2016",HRD,4344,1,"Designing E-Learning",Pritchett,"Harriett J",11,18,0,0,1,0,3.201
+"Summer 2016",MATH,3321,2,"Engineering Mathematics",West,"James David",11,18,10,5,12,8,2.196
+"Summer 2016",TMTH,3360,2,"Applied Technical Statistics",Schroeder,"Susan L",11,19,7,2,0,0,3.034
+"Summer 2016",BIOL,1334,1,"Hum Anat Physiol",Wayne,"Chad M",11,25,28,6,0,4,2.59
+"Summer 2016",NUTR,3336,1,"Nutritional Pathophysiology",Haubrick,Kevin,11,26,3,1,0,1,3.106
+"Summer 2016",MECE,3336,1,"Mechanics II",Chang,Christiana,11,30,28,6,1,6,2.54
+"Summer 2016",EPSY,6335,2,"Intro To Grp Couns Thry",Potthoff,"Andrea L",12,0,0,0,0,0,4
+"Summer 2016",GENB,7297,2,"Selected Topics",Koch,"Steven F.",12,0,0,0,0,0,3.945
+"Summer 2016",GENB,7397,1,"Selected Topics",Currie,Daniel,12,0,0,0,0,0,4
+"Summer 2016",HRD,6352,1,"Inst Design for Training Envir",Waight,"Consuelo L",12,0,0,0,0,0,3.89
+"Summer 2016",MIS,6341,2,"Information Systems",Silva,"Leiser O",12,0,0,0,0,0,3.973
+"Summer 2016",OPTO,6251,1,"Spanish for Optometrists",Cruz,Maria-Cristina,12,0,0,0,0,0,4
+"Summer 2016",PHOP,6372,1,"Experimental Quant in VS",Benoit,"Julia S",12,0,0,0,0,0,4
+"Summer 2016",THEA,6181,2,"Applying Method Des/Dramaturgy",Rigdon,"Kevin L",12,0,0,0,0,0,3.918
+"Summer 2016",THEA,6181,2,"Applying Method Des/Dramaturgy",Shimko,"Robert B",12,0,0,0,0,0,3.918
+"Summer 2016",THEA,6182,2,"Applying Methods Light/Costume",Willson,"Paige A",12,0,0,0,0,0,4
+"Summer 2016",THEA,6280,2,"The teaching of Acting",deMontmollin,"Jacquelynn S",12,0,0,0,0,0,3.973
+"Summer 2016",THEA,6281,2,"The teaching of Voice",Lopez-Rios,"Irma Michelle",12,0,0,0,0,0,4
+"Summer 2016",THEA,6282,1,"Field Work London",deMontmollin,"Jacquelynn S",12,0,0,0,0,0,4
+"Summer 2016",THEA,6282,3,"Field Work London",deMontmollin,"Jacquelynn S",12,0,0,0,0,0,4
+"Summer 2016",THEA,6282,6,"Field Work London",deMontmollin,"Jacquelynn S",12,0,0,0,0,0,4
+"Summer 2016",THEA,6284,2,"Program Management",Allen,"Robert Scott",12,0,0,0,0,0,4
+"Summer 2016",THEA,6284,2,"Program Management",Springfield,Travis,12,0,0,0,0,0,4
+"Summer 2016",THEA,6381,2,"Scenic Des for H.S. Director",Rigdon,"Kevin L",12,0,0,0,0,0,4
+"Summer 2016",THEA,6382,2,"Dramaturgy for H.S. Director",Shimko,"Robert B",12,0,0,0,0,0,3.945
+"Summer 2016",THEA,6383,2,"Light/Cost Des for HS Director",Rigdon,"Kevin L",12,0,0,0,0,0,4
+"Summer 2016",THEA,6383,2,"Light/Cost Des for HS Director",Willson,"Paige A",12,0,0,0,0,0,4
+"Summer 2016",THEA,6384,2,Directing,Cook,"Rena R",12,0,0,0,0,0,4
+"Summer 2016",THEA,6384,2,Directing,deMontmollin,"Jacquelynn S",12,0,0,0,0,0,4
+"Summer 2016",THEA,6385,2,"Technical Direction/Shop Maint",Middents,"Jonathan Mark",12,0,0,0,0,0,4
+"Summer 2016",KIN,1352,15,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",12,0,1,1,0,0,3.643
+"Summer 2016",MIS,6341,1,"Information Systems",Silva,"Leiser O",12,1,0,0,0,0,3.948
+"Summer 2016",SCM,4351,1,"Stratgic Sourcing & Spend Anal",Wayhan,"Victor Brian",12,1,0,0,0,0,3.898
+"Summer 2016",ART,3374,1,"Computer Imaging",Garcia,"Elicia E",12,1,0,0,2,0,3.378
+"Summer 2016",COMM,3326,1,"Graphics Applications",Economou-Clarke,"Ann M",12,2,2,0,0,0,3.563
+"Summer 2016",MATH,5383,2,"Number Theory",Ru,Min,12,3,0,0,0,1,3.734
+"Summer 2016",MUSI,2342,7,"Music for Children",Whaley,"Emily Elizabeth",12,3,0,0,0,0,3.69
+"Summer 2016",INDE,2333,1,"Egr Statistics I",Kamrani,"Ali K",12,3,1,0,0,0,3.626
+"Summer 2016",CHNS,2301,1,"Intermediate Chinese I",Wen,"Xiaohong Sharon",12,4,0,0,0,0,3.709
+"Summer 2016",CHNS,2301,1,"Intermediate Chinese I",Zhang,Jing,12,4,0,0,0,0,3.709
+"Summer 2016",COMM,3383,1,"Non-linear Editing",Crowe,"Craig Warren",12,4,1,0,0,0,3.531
+"Summer 2016",FORE,6397,1,"Selected Topics in Foresight",Hines,"Andrew Lewis",12,4,1,0,0,0,3.608
+"Summer 2016",FORE,6397,1,"Selected Topics in Foresight",Schultz,"Wendy L",12,4,1,0,0,0,3.608
+"Summer 2016",KIN,4690,1,"Internship in Sport Admin",Walsh,"David W",12,4,1,0,0,0,3.666
+"Summer 2016",KIN,4691,1,"Internship in Sport Admin",Walsh,"David W",12,4,2,0,0,0,3.592
+"Summer 2016",ENGL,1304,5,"First Year Writing II",Wingard,"Jennifer L",12,4,2,0,1,0,3.351
+"Summer 2016",KIN,1352,6,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",12,4,4,0,0,0,3.433
+"Summer 2016",DIGM,3351,30,"Graphic Prod Process Control I",Waite,"Jerry J",12,5,0,0,1,1,3.445
+"Summer 2016",ENGL,1303,5,"First Year Writing I",Anderson,"Claire F",12,5,0,0,1,2,3.5
+"Summer 2016",PSYC,3341,1,"Physiological Psy",Alverson,"William Alexander",12,5,1,1,0,0,3.404
+"Summer 2016",ENGI,1100,1,"Introduction To Engineering",McCave,"Erin J",12,5,1,2,0,1,3.367
+"Summer 2016",MIS,3376,1,"Busn Appls Database Mgmt I",Ramirez,"Jose Pablo",12,5,4,0,1,0,3.197
+"Summer 2016",HRD,4396,30,"Internship in HRD",Greer,Tomika,12,6,0,0,0,0,3.612
+"Summer 2016",KIN,1352,9,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",12,7,1,0,0,0,3.649
+"Summer 2016",SPAN,3306,3,"Intro Study Span Language",Fairclough,"Marta A",12,7,1,0,1,2,3.334
+"Summer 2016",ECON,2305,2,"Macroeconomic Principles",Dong,Yilin,12,7,2,0,0,0,3.492
+"Summer 2016",INDE,6336,1,"Reliability Engineering",Sitton,"Randal W.",12,7,3,0,0,0,3.364
+"Summer 2016",HDCS,3300,2,"Org Decisions",Norwood,"Marcella L",12,8,9,0,3,1,2.751
+"Summer 2016",ACCT,3371,1,"Accounting Information Systems",Leavins,"Johnny R",12,11,8,0,0,0,3.076
+"Summer 2016",HIST,3338,1,"Native American History",Romero,Todd,12,12,2,0,1,2,3.21
+"Summer 2016",ACCT,3368,1,"Intermediate Accounting II",Yampuler,Michael,12,13,4,0,0,1,3.219
+"Summer 2016",ECON,2305,3,"Macroeconomic Principles",Khatry,Subash,12,13,4,6,3,1,2.667
+"Summer 2016",ACCT,4335,2,"Financial Statement Auditing",Goble,Samuel,12,14,6,1,0,0,3.211
+"Summer 2016",TMTH,3360,30,"Applied Technical Statistics",Tellegen,Margaret,12,15,3,3,2,0,2.839
+"Summer 2016",NUTR,3334,1,"Advanced Nutrition",Haubrick,Kevin,12,17,10,0,1,2,2.942
+"Summer 2016",MARK,4362,1,"Applied Buyer Behavior",Noriega,"Jaime L",12,19,10,1,3,1,2.756
+"Summer 2016",HRMA,4343,1,"Financial Admin for Hosp.Ind.",Koh,Yoon,12,20,7,2,1,0,2.945
+"Summer 2016",ECON,2304,3,"Microeconomic Principles",Pham,"Vinh Thanh",12,21,6,0,2,3,3.016
+"Summer 2016",LAW,5357,2,Evidence,Houlette,"Jaqueline M",12,23,7,0,0,1,3.119
+"Summer 2016",ARCH,3380,1,"Architecture Plus Film",Froehlich,Dietmar,13,0,0,0,0,0,4
+"Summer 2016",ARCH,3397,1,"Selected Topics",Froehlich,Dietmar,13,0,0,0,0,0,3.924
+"Summer 2016",ELCS,6397,4,"Selected Topics in Elcs",Emerson,"Michael Wayne",13,0,0,0,0,0,4
+"Summer 2016",ELCS,7392,2,"Internship in Superintendent",McGowen,"Robert Scott",13,0,0,0,0,0,4
+"Summer 2016",ELCS,7392,3,"Internship in Superintendent",Tiemann,"Virgil Dean",13,0,0,0,0,0,4
+"Summer 2016",EPSY,7326,2,"Counseling in the Schools",Baker,Richard,13,0,0,0,0,0,4
+"Summer 2016",HRD,3340,30,"Intro to Training & Developmen",Hausmann,"Robert Carl",13,0,0,0,0,1,4
+"Summer 2016",OPTO,5250,1,"Seminar Scientific Investigatn",Frishman,"Laura J",13,0,0,0,0,0,4
+"Summer 2016",EPSY,6345,1,"Atypical Growth & Behavior",Crofts,Jennifer,13,0,1,0,1,0,3.512
+"Summer 2016",SCLT,4312,20,"Inventory & Materials Handling",Trawick,"Timothy H",13,1,0,0,0,0,3.929
+"Summer 2016",ENGI,2304,6,"Technical Communications",Devonish,Emme,13,1,1,0,0,0,3.668
+"Summer 2016",ENGI,2304,6,"Technical Communications",Wilson,"Chad A",13,1,1,0,0,0,3.668
+"Summer 2016",MARK,4365,1,"Internet Marketing",Lu,Chongyu,13,2,0,0,0,0,3.801
+"Summer 2016",POLS,1336,8,"US and Texas Const/Politics",Belco,"Michelle Helene",13,2,0,0,0,1,3.867
+"Summer 2016",FINA,4397,2,"Selected Topics in Finance",Barrett,"Beverly F",13,2,1,0,0,0,3.626
+"Summer 2016",MIS,"   6A41",3,"Information Systems",Vanover,"Larry David",13,3,0,0,0,0,3.813
+"Summer 2016",CHNS,2302,1,"Intermediate Chinese II",Wen,"Xiaohong Sharon",13,4,0,0,0,0,3.765
+"Summer 2016",MUSI,2302,1,"Listening to Jazz",Marmolejo,"Noe J",13,4,0,0,0,1,3.706
+"Summer 2016",ENGL,3329,1,"Beg Crea Writ:Fiction & Poetry",Bracken,"Conor James",13,4,0,1,0,0,3.556
+"Summer 2016",SPAN,1501,1,"Elementary Spanish I","Enriquez Burria","Nuria Montserrat",13,4,3,0,1,0,3.239
+"Summer 2016",ATP,6302,1,"Emer Mgmt & Prevntn of Injury",Knoblauch,"Mark Alan",13,5,0,0,0,0,3.722
+"Summer 2016",ELED,3320,1,"Survey Literature Child Adol",Tyson,"Eleanore S",13,5,0,0,0,0,3.612
+"Summer 2016",MATH,5310,2,"History of Mathematics",Ji,Shanyu,13,5,0,0,0,0,3.722
+"Summer 2016",SPAN,2302,6,"Intermediate Spanish II","Campos Gonzalez","Lilia Cristina",13,6,0,0,0,0,3.667
+"Summer 2016",ENGI,2304,8,"Technical Communications",Wilson,"Chad A",13,7,1,0,0,0,3.634
+"Summer 2016",ACCT,3377,1,"Cost Accounting",Serrato,"Darlene Marie  Bohac",13,8,6,0,2,2,3.046
+"Summer 2016",SOC,3313,2,Criminology,Colbert,"Sharla Stettnisch",13,8,6,3,0,2,3.033
+"Summer 2016",MATH,1312,2,"Intro to Math Reasoning",Tucker,"Charles T",13,8,7,4,3,2,2.648
+"Summer 2016",MATH,1431,1,"Calculus I",Almus,Melahat,13,8,10,5,22,27,1.741
+"Summer 2016",ELET,3301,1,"Linear Systems Analysis",Darayan,Shahryar,13,9,4,0,0,0,3.27
+"Summer 2016",POLS,1336,5,"US and Texas Const/Politics",Davis,"Sharon M",13,10,7,2,2,1,2.844
+"Summer 2016",HDCS,4386,1,"Communication Strategies",Norwood,"Marcella L",13,10,9,0,3,2,2.829
+"Summer 2016",ACCT,3367,2,"Intermediate Accounting I",Kuruvilla,Mohan,13,17,12,4,5,6,2.569
+"Summer 2016",HRMA,2350,1,"Managing in Service Environmt",Whalen,"Elizabeth Ann",13,18,5,2,2,1,2.868
+"Summer 2016",MANA,4353,1,"Mgmt Training and Career Devel",Bozeman,Dennis,13,22,0,1,0,0,3.379
+"Summer 2016",MECE,3245,1,"Materials Science Laboratory",Sun,Li,13,22,8,1,0,0,3.038
+"Summer 2016",ELET,2300,1,"Introductn To C++ Programming",Tsegaye,Mikias,13,23,9,4,1,0,2.979
+"Summer 2016",MECE,2334,1,Thermodynamics,Chen,Xuemei,13,30,18,9,4,1,2.478
+"Summer 2016",AAS,3307,1,"Africana Spirit Trans Soc Sci","Chiles IV","John Ritchie",14,0,0,0,0,0,4
+"Summer 2016",AAS,4300,1,"African Philosophy","Chiles IV","John Ritchie",14,0,0,0,0,0,4
+"Summer 2016",ELCS,6301,1,"Ed Admin: Basic Concepts",McClellan,Anne,14,0,0,0,0,0,4
+"Summer 2016",ELCS,6302,1,"Stat & Rsch for School Leader",Rolle,"R Anthony",14,0,0,0,0,0,4
+"Summer 2016",ELCS,6320,2,"Instruct Supervision I",Martinez,Roberto,14,0,0,0,0,0,4
+"Summer 2016",ELCS,6370,1,"Research for Educatnal Leaders",McGary,Ostova,14,0,0,0,0,0,3.953
+"Summer 2016",MANA,"   6A83",1,"Strategic Analysis",Carlin,"Barbara A",14,0,0,0,0,0,3.788
+"Summer 2016",NURS,4200,3,"Special Topic in Nursing",Kirk,"Terry D",14,0,0,0,0,0,4
+"Summer 2016",SOCW,7323,1,"Organizatnl Behavior & Change",Pang,"Melanie E",14,0,0,0,0,0,3.859
+"Summer 2016",KIN,1352,2,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",14,0,2,1,0,0,3.588
+"Summer 2016",EPSY,8360,1,"Instructn Prob in Special Educ",Kent,"Shawn Christopher",14,2,0,0,0,0,3.854
+"Summer 2016",HON,3301,2,"Readings in Medicine & Society",Reynolds,"Aaron E",14,3,0,0,0,0,3.824
+"Summer 2016",MIS,"   6A41",1,"Information Systems",Silva,"Leiser O",14,3,0,0,0,0,3.765
+"Summer 2016",ITEC,1301,2,"Intro To Computer Appl Tech",Golovko,Anastasia,14,3,1,0,1,1,3.544
+"Summer 2016",ATP,6101,1,"Anat Basis of Ath Injury Lab",Yellen,"Joshua B",14,4,0,0,0,0,3.778
+"Summer 2016",MIS,"   6A41",4,"Information Systems",Vanover,"Larry David",14,4,1,0,0,0,3.684
+"Summer 2016",NUTR,4349,1,"Public Policy in Nutrition",Hernandez,Daphne,14,4,1,0,0,0,3.493
+"Summer 2016",SCLT,3389,20,"Transportation Law",Melasky,"David Hillel",14,4,2,0,0,0,3.584
+"Summer 2016",SPAN,2307,1,"Span for Heritage Learners I","Alamillo Olivas","Rosalva Angelica",14,5,1,0,0,0,3.634
+"Summer 2016",SCLT,2362,30,"Intro To Logistics Technology",Czarnecka,Agnieszka,14,5,4,0,0,0,3.435
+"Summer 2016",MATH,1314,3,"Calc for Bus/Life Sciences",Perepelitsa,Irina,14,6,0,0,2,1,3.379
+"Summer 2016",PHAR,5208,1,"Infect Disease Pharmacotherapy",Prince,"Randall A",14,6,3,0,0,1,3.478
+"Summer 2016",HRMA,4361,1,"Marketing Strategies",Taylor,"David C",14,6,4,0,2,0,3.154
+"Summer 2016",DIGM,3353,1,"Visual Communications Tech",Schuh,"Lloyd E",14,7,3,2,2,2,3
+"Summer 2016",ENGL,1303,1,"First Year Writing I",Uscinski,"Izabela Anna",14,9,3,1,0,0,3.284
+"Summer 2016",COMM,2300,1,"Communication Research Methods",Lee,Jaesub,14,10,5,2,0,2,3.119
+"Summer 2016",CIS,3355,1,"Integrated Information Systems",Miertschin,"Susan L",14,11,4,0,3,1,2.99
+"Summer 2016",MECE,3338,1,"Dynamic & Control of Mech Syst",Rao,"Jagannatha R",14,12,2,0,0,0,3.381
+"Summer 2016",ACCT,3366,2,"Financial Reporting Frameworks",Harris,"Kathleen L",14,13,5,2,4,14,2.851
+"Summer 2016",CUST,6370,1,"Cultural Found Amer Edu",Waltrip,"Laura H",15,0,0,0,0,0,3.978
+"Summer 2016",ECON,6691,1,"Master's Internship",Rizvanoghlu,Islam,15,0,0,0,0,0,4
+"Summer 2016",EPSY,8364,2,"Prof Prac Psy: Eth,Law,& Iss",Reitzel,"Lorraine R",15,0,0,0,0,0,4
+"Summer 2016",FINA,7397,7,"Selected Topics in Finance",Lilly,Meredith,15,0,0,0,0,0,4
+"Summer 2016",HRMA,6360,1,"Graduate Directed Practicum",Back,KiJoon,15,0,0,0,0,0,4
+"Summer 2016",NUTR,3335,1,"Commercial Food Production II",Svendsen-Sanchez,"Ann Carol",15,0,0,0,0,0,4
+"Summer 2016",PHAR,5663,1,"Pharmacy Management",Masilamani,Kamalasanthi,15,0,0,0,0,0,4
+"Summer 2016",CUIN,7356,2,"Issues in Distance Education",Jones,"Chad M",15,1,0,0,0,0,3.896
+"Summer 2016",ENGL,1304,4,"First Year Writing II",Sicinski,"Michael J",15,1,0,0,1,1,3.609
+"Summer 2016",COSC,6353,1,"Software Design",Singh,"Raj Kumar",15,2,0,0,0,0,3.805
+"Summer 2016",ELET,4315,1,Telecommunications,Gundrum,"Russell F",15,2,0,0,0,0,3.882
+"Summer 2016",ENGI,2304,3,"Technical Communications",Estrada,Carl,15,2,0,0,0,0,3.785
+"Summer 2016",DIGM,3354,30,"Video Production 1",Snyder,"Philip Charles",15,3,0,0,0,0,3.76
+"Summer 2016",PHAR,5693,1,"Advanced Community Pharmacy",Masilamani,Kamalasanthi,15,4,0,0,0,0,3.789
+"Summer 2016",PHAR,5693,1,"Advanced Community Pharmacy",Nguyen,"Kimberly A",15,4,0,0,0,0,3.789
+"Summer 2016",TELS,3345,30,"Human Resources in Technology",Wagoner,Lawrence,15,4,2,0,0,0,3.556
+"Summer 2016",ENGL,1303,3,"First Year Writing I",Stapleton,"Kristiane Ruth",15,5,0,0,0,1,3.651
+"Summer 2016",MATH,1310,3,"College Algebra",Branton,"Sheena D",15,7,3,2,3,2,2.967
+"Summer 2016",HRD,3310,2,"Intro Career Devel & Planning",Greenwood,"Katy Brown",15,8,2,1,0,1,3.448
+"Summer 2016",MATH,1330,5,Precalculus,Constante,Beatrice,15,11,6,5,4,6,2.659
+"Summer 2016",GEOL,1330,2,"Physical Geology",Lytwyn,"Jennifer N",15,14,12,9,4,7,2.5
+"Summer 2016",MATH,3339,3,"Statistics for the Sciences",Papadakis,"Emanuel Ioannis",15,20,4,1,1,0,3.138
+"Summer 2016",PSYC,2350,1,"Child Development",Hatkevich,"Claire E",15,24,10,3,1,3,2.887
+"Summer 2016",HDFS,3318,1,"Human Ecol of Adult Developmt",Schoger,Kimberly,15,25,6,1,2,1,2.967
+"Summer 2016",COMD,4489,1,"Clinical Procedures",Cizek,"Laura S",16,0,0,0,0,0,4
+"Summer 2016",HDFS,4394,1,"Internship in HDFS",Irwin,"Lauren Elizabeth",16,0,0,0,0,1,4
+"Summer 2016",KIN,1352,5,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",16,0,0,0,0,1,4
+"Summer 2016",FINA,7397,1,"Selected Topics in Finance",George,"Thomas J",16,1,0,0,0,0,3.961
+"Summer 2016",SCLT,4312,30,"Inventory & Materials Handling",Trawick,"Timothy H",16,1,0,0,0,0,3.941
+"Summer 2016",ART,3300,1,"Intermediate Drawing",Hanna,"John H",16,2,0,0,0,1,3.779
+"Summer 2016",HRMA,1367,1,"Lodging Management",Cheatham,"Cathy A",16,2,0,0,0,0,3.926
+"Summer 2016",HLT,4307,2,"Measrmnt Techniqs-Hlt",Alexander,"Manju Elizabeth",16,2,0,0,1,0,3.684
+"Summer 2016",COMD,5341,1,"Comps & Strategies for SLPA I",Bolling,Kenyetta,16,3,0,0,0,0,3.773
+"Summer 2016",KIN,1352,8,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",16,3,1,0,0,0,3.783
+"Summer 2016",ILAS,2350,1,"Introductn to Liberal Studies",Tiwari,Bhavya,16,3,5,0,4,6,2.964
+"Summer 2016",KIN,1352,16,"Foundations of KIN, HLT, FIT",Breslin,"Whitney L",16,4,0,0,0,0,3.833
+"Summer 2016",MATH,5389,1,"Survey of Mathematics",Etgen,"Garret J",16,4,0,0,0,0,3.734
+"Summer 2016",SCLT,3387,30,Procurement,Taylor,"Carl E",16,4,1,0,0,0,3.667
+"Summer 2016",TELS,4371,1,"Leading Change in the Wrkplace",Evans,"Gerald S",16,4,3,0,0,0,3.522
+"Summer 2016",EPSY,3360,1,"Individuals with Disabilities",Hassett,"Kristen Spring",16,5,6,1,2,1,2.979
+"Summer 2016",MANA,"   6A32",2,"Organizational Behavior & Mgt",Rude,Dale,16,6,0,0,0,0,3.727
+"Summer 2016",POLS,1337,6,"US Govt: Congress,Pres & Crts",Ouardi,Karim,16,6,0,0,0,2,3.757
+"Summer 2016",MECT,4188,20,"Ethics in Engineering Tech",Pascali,Raresh,16,7,3,0,0,0,3.5
+"Summer 2016",EPSY,3360,2,"Individuals with Disabilities",Villarreal,"Leticia Christine",16,7,3,0,2,0,3.215
+"Summer 2016",COSC,3320,1,"Algorithms and Data Structures",Leiss,"Ernst L",16,8,6,1,1,5,3.084
+"Summer 2016",MIS,3371,1,"Transaction Processing Sys I",Parks,"Michael Sydney",16,9,14,8,1,10,2.646
+"Summer 2016",MATH,1310,5,"College Algebra",Branton,"Sheena D",16,10,7,2,2,3,2.964
+"Summer 2016",PHYS,1302,1,"Intro General Physics II",Gandhi,"Jateen S",16,12,32,5,9,10,2.239
+"Summer 2016",HDCS,3369,2,Entrepreneurship,Norwood,"Marcella L",16,13,6,0,2,2,2.992
+"Summer 2016",PHAR,5690,1,"Internal Medicine",Nguyen,"Kimberly A",16,15,2,0,0,0,3.424
+"Summer 2016",MATH,1313,5,"Finite Math with Applications",Perepelitsa,Irina,16,16,10,9,1,3,2.661
+"Summer 2016",MARK,3337,1,"Professional Selling",Zahn,"William J",16,23,2,0,0,0,3.341
+"Summer 2016",COMD,7383,2,"Pediatric SLP Seminar",Cantu,"Amy K",17,0,0,0,0,0,3.961
+"Summer 2016",COMD,7383,2,"Pediatric SLP Seminar",Ivey,"Michelle L",17,0,0,0,0,0,3.961
+"Summer 2016",COMD,7383,2,"Pediatric SLP Seminar",Turk,"Catherine L",17,0,0,0,0,0,3.961
+"Summer 2016",GENB,7297,1,"Selected Topics",Randall,"Scott William",17,0,0,0,0,0,3.922
+"Summer 2016",GENB,7297,1,"Selected Topics",Taylor,"Ramona Lynn",17,0,0,0,0,0,3.922
+"Summer 2016",NURS,4200,1,"Special Topic in Nursing",Quintana,Danielle,17,0,0,0,0,0,4
+"Summer 2016",OPTO,5298,3,"Spec Prob Phys Optics",Onofrey,"Bruce E",17,0,0,0,0,0,4
+"Summer 2016",SOCW,7397,3,"Selected Topics in Social Work",Torres,"Melissa Irene",17,0,0,0,0,0,4
+"Summer 2016",MUSI,2342,5,"Music for Children",Langley,"Anna C",17,1,0,0,0,0,3.889
+"Summer 2016",COMD,5346,1,"SP/Lang Dis Adults for SLPA",Wells,Meredith,17,2,0,0,0,0,3.843
+"Summer 2016",MUSI,2342,2,"Music for Children",McGregor,"Laura Louise",17,2,0,0,0,0,3.86
+"Summer 2016",GENB,3300,4,"Introductn to Personal Finance",Ostlund,"Andrew J",17,3,0,0,0,0,3.834
+"Summer 2016",SCLT,3387,20,Procurement,Lamb,"James L",17,3,0,0,0,0,3.817
+"Summer 2016",COMM,1301,2,"Media and Society",Leydon,"Joseph P",17,6,0,0,0,0,3.739
+"Summer 2016",ENGL,1304,2,"First Year Writing II",Villines,Jeffrey,17,6,2,0,1,0,3.398
+"Summer 2016",SPAN,2308,1,"Span for Heritage Learners II","Chadez Ibarra","Rusquin Roberto",17,8,3,0,0,1,3.429
+"Summer 2016",HRMA,3372,1,"Convention and Meeting Mgmt",Goodell,"Erin Oeser",17,8,3,2,0,0,3.3
+"Summer 2016",TELS,3340,30,"Org Leadership & Supervision",Wagoner,Lawrence,17,10,1,1,0,1,3.426
+"Summer 2016",ACCT,3366,1,"Financial Reporting Frameworks",Harris,"Kathleen L",17,12,8,3,2,10,2.96
+"Summer 2016",PSYC,2380,2,"Intro To Social Psy",Steers,"Mai-Ly Nguyen",17,17,7,3,2,7,2.935
+"Summer 2016",PSYC,1300,4,"Intro To Psychology",Pirozzolo,"Joseph W",17,18,9,3,4,3,2.797
+"Summer 2016",MECT,4188,2,"Ethics in Engineering Tech",Moghaddam,Hassan,17,20,2,0,1,0,3.284
+"Summer 2016",CHEM,3331,1,"Fund of Organic Chemistry I",Gilbertson,"Scott R",17,29,47,12,12,18,2.217
+"Summer 2016",ACCT,4331,2,"Federal Income Tax-Individual",Fernandez,Ramon,17,32,2,0,0,3,3.411
+"Summer 2016",NURS,3337,1,"Rdg/Interpreting Sci Lit",Lee,"Sandra Scott",17,49,7,4,0,1,3.117
+"Summer 2016",HIST,1377,1,"The U S To 1877",Clavin,"Matthew J",17,51,16,4,3,3,2.81
+"Summer 2016",ATP,6102,1,"Emer Mgmt & Prevntn Injury Lab",Knoblauch,"Mark Alan",18,0,0,0,0,0,4
+"Summer 2016",ATP,6191,1,"Clinical Education I",Knoblauch,"Mark Alan",18,0,0,0,0,0,4
+"Summer 2016",COMD,7381,1,"Medical SLP Seminar",Daniels,"Stephanie K",18,0,0,0,0,0,3.963
+"Summer 2016",COMD,7381,1,"Medical SLP Seminar",Hutcheson,"Katherine A",18,0,0,0,0,0,3.963
+"Summer 2016",EPSY,7391,1,"Consultation and Coaching",Hassett,"Kristen Spring",18,0,0,0,0,0,4
+"Summer 2016",GENB,7397,4,"Selected Topics",Currie,Daniel,18,0,0,0,0,0,4
+"Summer 2016",MUSI,2342,3,"Music for Children",Day,"Kiana Noelle",18,0,0,0,0,0,3.982
+"Summer 2016",MIS,4477,1,"Network & Security Infrastruct",Messinger,"Jacob Nelson",18,1,0,0,0,0,3.93
+"Summer 2016",CUIN,7376,2,"New Tools Create Online Matls",Jones,"Chad M",18,2,0,0,0,0,3.851
+"Summer 2016",MARK,3339,1,"Marketing Strategy & Planning",Bommaraju,"Raghu Ram",18,2,0,0,0,0,3.884
+"Summer 2016",ENGI,2304,4,"Technical Communications",Ellis,"Kelly Ann",18,3,0,0,0,0,3.857
+"Summer 2016",ENGI,2304,4,"Technical Communications",Wilson,"Chad A",18,3,0,0,0,0,3.857
+"Summer 2016",SOCW,7326,6,"Disparities in Health",Torres,Isabel,18,4,0,0,0,1,3.653
+"Summer 2016",SOCW,7356,2,"Groups in Clinical Settings",Courville,Travis,18,4,0,0,0,0,3.803
+"Summer 2016",SCLT,3384,20,"Logistics Tech and Processes",Hollis,"Thomas Edward",18,5,1,0,0,1,3.708
+"Summer 2016",HRD,3310,1,"Intro Career Devel & Planning",Greenwood,"Katy Brown",18,7,2,1,1,0,3.379
+"Summer 2016",HDCS,1300,1,"Human Ecosystems & Tech Change",Rifai,"Rana Ihsan",18,7,3,3,2,1,3.121
+"Summer 2016",MANA,"   6A25",3,"Ethical Leadrshp & Crit Reason",Carlin,"Barbara A",18,8,0,0,0,0,3.616
+"Summer 2016",FINA,7397,3,"Selected Topics in Finance",Berkowitz,Jeremy,18,9,0,0,0,0,3.593
+"Summer 2016",HRMA,4354,1,"Adv Hospitality Operation Mgmt",Titz,Karl,18,9,0,0,1,0,3.583
+"Summer 2016",NUTR,4347,1,"Med Nutritn Therapy-Metabolic",Ferrell,"Carla Denise",18,17,2,0,0,0,3.397
+"Summer 2016",HLT,3304,1,"Adol Health Issues",Drenner,"Kelli Linn",18,26,12,2,2,1,2.862
+"Summer 2016",HLT,3301,1,"HLT Behavior Theory & Practice",Drenner,"Kelli Linn",18,37,14,8,1,1,2.803
+"Summer 2016",CUIN,3347,1,"Reading in the Content Area",Logan,"Kayla Davenport",19,0,0,0,0,0,3.948
+"Summer 2016",CUIN,7376,1,"New Tools Create Online Matls",Robin,"Bernard R",19,2,0,0,0,0,3.826
+"Summer 2016",MANA,"   6A25",1,"Ethical Leadrshp & Crit Reason",Walker,"William A",19,4,2,0,0,0,3.72
+"Summer 2016",RELS,1301,1,"Intro To Religious Studies",Cox,Whitney,19,5,0,0,0,0,3.668
+"Summer 2016",MANA,4355,1,"Selection and Staffing",Bozeman,Dennis,19,7,0,0,0,0,3.693
+"Summer 2016",POLS,3318,1,"Intro To Public Policy",Belco,"Michelle Helene",19,7,2,0,0,0,3.56
+"Summer 2016",DIGM,3353,20,"Visual Communications Tech",Charleville,"Patrice E",19,8,0,0,1,0,3.442
+"Summer 2016",ACCT,5335,1,"Financial Statement Auditing",Goble,Samuel,19,8,1,0,0,0,3.666
+"Summer 2016",ACCT,4335,1,"Financial Statement Auditing",Goble,Samuel,19,10,3,0,0,0,3.572
+"Summer 2016",MANA,4331,1,"Current Issues Human Res Mgmt",Walker,"William A",19,10,3,2,0,2,3.343
+"Summer 2016",HLT,4310,1,"Program Plan Health Prof","Solari Williams","Kayce D.",19,11,3,0,0,0,3.355
+"Summer 2016",MATH,2311,3,"Intro To Prob & Statistics",Perepelitsa,Irina,19,15,9,6,6,5,2.636
+"Summer 2016",MECE,3360,1,"Experimental Methods",Chen,Xuemei,19,18,7,0,0,0,3.258
+"Summer 2016",GENB,3300,1,"Introductn to Personal Finance",Coleman,"Alfred G",19,22,7,0,0,0,3.25
+"Summer 2016",NUTR,4396,1,"Selected Topics in Nutrition",Haubrick,Kevin,19,32,5,3,1,2,3.089
+"Summer 2016",CHEM,1301,1,"Foundations of Chem",Bott,"Simon G",19,40,0,2,2,1,3.159
+"Summer 2016",ATP,7101,1,"Head, Neck & Spine Eval Lab",Yellen,"Joshua B",20,0,0,0,0,0,4
+"Summer 2016",ATP,7194,1,"Clinical Education IV",Knoblauch,"Mark Alan",20,0,0,0,0,0,4
+"Summer 2016",FINA,6335,4,"Managerial Finance",Taylor,"Ramona Lynn",20,0,0,0,0,0,4
+"Summer 2016",FINA,6335,4,"Managerial Finance",Wu,Guojun,20,0,0,0,0,0,4
+"Summer 2016",FINA,7397,5,"Selected Topics in Finance",Ross,"Christopher E",20,0,0,0,0,0,3.767
+"Summer 2016",MIS,4397,3,"Selected Topics in MIS",Decarlo,"Paul Jarrod",20,0,0,0,0,1,4
+"Summer 2016",MUSI,2342,4,"Music for Children",Day,"Kiana Noelle",20,0,0,0,0,0,3.951
+"Summer 2016",PEB,1107,1,"Hatha Yoga",Wheeler,Jessica,20,0,0,0,0,0,3.778
+"Summer 2016",SOCW,7397,1,"Selected Topics in Social Work",Washburn,"Michelle E",20,0,0,0,0,0,3.819
+"Summer 2016",CUIN,7356,1,"Issues in Distance Education",McNeil,"Sara G",20,1,0,0,0,0,3.858
+"Summer 2016",ENGI,2304,15,"Technical Communications",Salvo,"Deborah C",20,1,0,0,0,1,3.968
+"Summer 2016",ENGI,2304,15,"Technical Communications",Wilson,"Chad A",20,1,0,0,0,1,3.968
+"Summer 2016",SPAN,1502,3,"Elementary Spanish II",Ferrer,"Tatiana Ines",20,2,2,0,0,2,3.709
+"Summer 2016",ENGL,3306,1,"Shakespeare-Major Works",Stapleton,"Kristiane Ruth",20,4,0,1,1,2,3.564
+"Summer 2016",ENGL,1303,2,"First Year Writing I",Rolater,"Sara C",20,4,1,0,0,0,3.641
+"Summer 2016",SPAN,1502,1,"Elementary Spanish II",Naranjo,"Carlos Raidel",20,6,0,0,0,0,3.718
+"Summer 2016",EPSY,3300,2,"Educational Psychology",Conston,Toya,20,8,2,0,0,1,3.611
+"Summer 2016",HDFS,1300,3,"Dev of Contemporary Families",Jordan,"Erica F",20,9,3,0,0,1,3.49
+"Summer 2016",MATH,2311,2,"Intro To Prob & Statistics",Poliak,"Cathy Dawn",20,10,3,0,3,2,3.222
+"Summer 2016",MATH,1313,2,"Finite Math with Applications",Perepelitsa,Irina,20,11,8,2,2,2,3.039
+"Summer 2016",KIN,3306,1,"Physiology-Human Performance",Breslin,"Whitney L",20,15,10,2,2,1,3.074
+"Summer 2016",NUTR,4312,1,"Nutrition Assessmnt & Planning",Ferrell,"Carla Denise",20,20,4,0,0,0,3.386
+"Summer 2016",ENGI,1331,1,"Computers and Problem Solving",Burleson,"Daniel W",20,20,20,15,7,10,2.398
+"Summer 2016",GEOL,1330,1,"Physical Geology",Lytwyn,"Jennifer N",20,23,13,5,6,9,2.716
+"Summer 2016",GENB,4350,2,"Business Law and Ethics",Williams,"John M",20,25,2,0,1,0,3.381
+"Summer 2016",MARK,7397,1,"Selected Topics in Marketing",Herman,Carl,21,0,0,0,0,0,3.827
+"Summer 2016",MANA,7343,1,"Intl Legal Environment of Mgmt",Abbott,"Jeanna L",21,1,0,0,0,0,3.925
+"Summer 2016",MANA,7346,1,"Global Human Resource Mgmt",Werner,Steve,21,1,0,0,0,0,3.94
+"Summer 2016",MUSI,2342,1,"Music for Children",Bigwood,"Cora Morgan",21,1,0,0,0,0,3.925
+"Summer 2016",PHAR,5675,1,"Disease State Management",Masilamani,Kamalasanthi,21,1,0,0,0,0,3.955
+"Summer 2016",MANA,7353,1,"Regional Issues in Global Mgmt",Werner,Steve,21,1,1,0,0,0,3.884
+"Summer 2016",MATH,3330,1,"Abstract Algebra",Singh,"Pankaj Kumar",21,5,1,0,0,1,3.741
+"Summer 2016",ACCT,7385,1,"Fraud Examination",Ramey,"Dan T",21,7,1,0,0,0,3.747
+"Summer 2016",MATH,1310,1,"College Algebra",Hafeez,Shahinda,21,8,9,3,5,11,2.783
+"Summer 2016",HLT,4302,2,"Hlt Aspect Human Sexuality",Trier,"Jasmine Lenise",21,13,0,0,0,0,3.491
+"Summer 2016",MARK,4367,1,"Advertising and Promotion Mgt",Noriega,"Jaime L",21,16,2,1,0,0,3.334
+"Summer 2016",GEOL,1340,2,"Earth Systems",Lytwyn,"Jennifer N",21,25,7,3,4,6,2.922
+"Summer 2016",PSYC,2301,5,"Intro To Methods in Psychology",Martir,"Allison Blair",21,33,12,5,8,6,2.688
+"Summer 2016",STAT,3331,1,"Statistical Anal Bus Appl I",Caceres,"Miguel A",21,34,45,52,23,14,1.846
+"Summer 2016",EPSY,8337,1,"Multicul Iss Coun Psych",Coleman,"Madelyn N",22,0,0,0,0,0,4
+"Summer 2016",MARK,7376,1,"Brand Management",McKeever,"John M",22,0,0,0,0,0,4
+"Summer 2016",PEB,1102,1,"Indoor Cycling",Gray,"Jon Phillip",22,0,0,0,0,0,3.985
+"Summer 2016",SOCW,6304,1,"Women's Issues",McPhail,Beverly,22,0,0,0,0,0,4
+"Summer 2016",ENGI,2304,2,"Technical Communications",Downey,"Carlton M",22,2,0,0,0,0,3.93
+"Summer 2016",ENGI,2304,9,"Technical Communications",Chatham,"Donna Marie",22,2,0,0,0,0,3.917
+"Summer 2016",ENGL,2305,3,"Intro To Fiction",Anderson,"Claire F",22,3,0,1,0,0,3.782
+"Summer 2016",FINA,4320,1,"Investment Management",Hu,Guanglian,22,4,0,0,0,0,3.795
+"Summer 2016",TELS,3340,20,"Org Leadership & Supervision",Smith,"John E",22,5,0,0,0,0,3.741
+"Summer 2016",TELS,4390,1,"Current Issues Org Ldshp & Sup",Mehring,"Brian George",22,5,1,0,1,2,3.564
+"Summer 2016",MANA,4348,1,"Global Leadership",Walker,"William A",22,5,2,0,0,1,3.656
+"Summer 2016",SCLT,3384,30,"Logistics Tech and Processes",Hollis,"Thomas Edward",22,5,3,0,0,0,3.611
+"Summer 2016",AAS,2320,1,"Intro To African American Stdy",Crawford,"Malachi D",22,7,4,0,0,0,3.575
+"Summer 2016",ACCT,2331,3,"Acct Principles I - Financial",Sykes,"Mary Reeves",22,8,10,3,2,5,3.073
+"Summer 2016",MANA,7392,1,"Managerial Issues",Sebastijanovic,Marina,22,10,2,0,0,0,3.501
+"Summer 2016",ECON,3363,1,"Environmental Economics",Boulenger,Celine,22,11,1,3,0,1,3.388
+"Summer 2016",HRMA,3361,1,"Hospitality Marketing",Kaser,"Kenneth J",22,16,4,0,1,0,3.341
+"Summer 2016",ENTR,3312,2,"Corporate Entrepreneurship",Karonika,"John R",22,22,1,1,1,1,3.242
+"Summer 2016",GEOL,1340,1,"Earth Systems",Lytwyn,"Jennifer N",22,24,10,3,3,3,2.941
+"Summer 2016",EPSY,8397,2,"Selected Topics",Mire,"Sarah Stanford",23,0,0,0,0,0,3.928
+"Summer 2016",TELS,3363,2,"Technical Communications",Murphey,Jimidene,23,0,0,0,0,1,3.943
+"Summer 2016",ECE,2100,1,"Circuit Analysis Laboratory",Lim,"Jung Uk",23,1,0,0,0,11,3.903
+"Summer 2016",ENGI,2304,1,"Technical Communications",Chatham,"Donna Marie",23,1,0,0,0,0,3.876
+"Summer 2016",MANA,7397,1,"Selected Topics in Management",Vera,"Dusya M",23,1,0,0,0,0,3.945
+"Summer 2016",HRD,4352,1,"Facilitation Strategies","Del Grande",Lisa,23,1,10,0,0,1,3.305
+"Summer 2016",HRMA,4340,1,"Hotel Operations",Johnson,"Tucker A",23,3,7,1,0,0,3.363
+"Summer 2016",OPTO,8338,1,"Recent Developments/Round",Holdeman,"Nicky Ray",23,4,1,0,0,0,3.656
+"Summer 2016",OPTO,8338,1,"Recent Developments/Round",Onofrey,"Bruce E",23,4,1,0,0,0,3.656
+"Summer 2016",OPTO,8338,1,"Recent Developments/Round",Walters,"James W",23,4,1,0,0,0,3.656
+"Summer 2016",SOCW,7309,1,"Contemporary Issues in MH",Battle,"Jennifer Alene",23,5,0,0,0,0,3.763
+"Summer 2016",TELS,4342,30,"Quality Improvement Methods",Chance,"Michael Dean",23,6,0,0,1,0,3.612
+"Summer 2016",HRD,3340,1,"Intro to Training & Developmen",Gillette,Estella,23,6,1,0,0,0,3.7
+"Summer 2016",FINA,7397,4,"Selected Topics in Finance",Berkowitz,Jeremy,23,11,0,0,0,0,3.599
+"Summer 2016",PHAR,5218,1,"Critical Care Therapeutics","Tucker PhD","Anne M",23,16,1,0,0,0,3.55
+"Summer 2016",PHAR,5218,1,"Critical Care Therapeutics",Wanat,"Matthew A",23,16,1,0,0,0,3.55
+"Summer 2016",PSYC,3350,1,"Intro-Cognitv Psy",Vaughn,"Kelly A",23,25,5,5,5,2,2.826
+"Summer 2016",ENGI,2304,5,"Technical Communications",Bridges,"Yolanda Marie",24,0,0,0,0,0,3.973
+"Summer 2016",COSC,1306,1,"Computer Science & Program",Bal,"Bal Krishna",24,2,2,2,0,0,3.578
+"Summer 2016",HIST,3349,1,"War, Globalization, and Terror",Buzzanco,Robert,24,5,0,0,1,2,3.711
+"Summer 2016",ECON,2304,1,"Microeconomic Principles",Nguyen,"Tung Thanh",24,7,4,1,1,3,3.343
+"Summer 2016",MATH,1431,3,"Calculus I",Sosa,Moses,24,19,13,4,8,18,2.691
+"Summer 2016",POLS,1337,4,"US Govt: Congress,Pres & Crts",Contractor,Cyrus,24,24,14,14,5,2,2.572
+"Summer 2016",FINA,3332,1,"Prin of Financial Managment",Chisholm,Darla,24,24,21,5,3,6,2.758
+"Summer 2016",COSC,3340,1,"Int To Automata & Comp",Leiss,"Ernst L",24,46,13,0,1,6,3.083
+"Summer 2016",ELCS,8310,2,"The Superintendency",McGowen,"Robert Scott",25,1,0,0,0,0,3.962
+"Summer 2016",HDFS,1311,1,"Dev Self-Regulated Learning",Jacobs,"Laura A Taylor",25,3,0,0,0,1,3.905
+"Summer 2016",PETR,6325,1,"Integrated Resrv Characterztn",Yarus,"Jeffrey M",25,4,0,0,0,0,3.805
+"Summer 2016",SOC,3328,1,"Race-Ethnicity World Perspctv",Menon-Chembottil,"Sarath Kumar",25,4,1,1,0,1,3.603
+"Summer 2016",GENB,7303,2,"Prof Accounting Communication",Newman,"Michael Ray",25,4,3,0,0,0,3.636
+"Summer 2016",TELS,3340,2,"Org Leadership & Supervision",Evans,"Gerald S",25,7,0,0,0,0,3.73
+"Summer 2016",PSYC,4321,2,"Abnormal Psychology",Iyican,Susan,25,8,10,5,1,2,3.054
+"Summer 2016",ACCT,2332,1,"Acct Principles 2-Managerial",Weber,"Catherine K",25,10,19,3,3,3,2.889
+"Summer 2016",EPSY,3300,3,"Educational Psychology",Conston,Toya,25,11,2,0,0,0,3.571
+"Summer 2016",MATH,2331,3,"Linear Algebra",Morgan,Jeffrey,25,11,3,8,13,6,2.439
+"Summer 2016",FINA,4330,1,"Corporate Finance",Venugopal,Buvaneshwaran,25,11,4,0,0,2,3.459
+"Summer 2016",ACCT,2331,2,"Acct Principles I - Financial",Sykes,"Mary Reeves",25,11,6,5,1,0,3.201
+"Summer 2016",HRMA,3343,1,"Hospitality Cost Controls",Morosan,Cristian,25,19,1,3,0,0,3.32
+"Summer 2016",POLS,1337,7,"US Govt: Congress,Pres & Crts",Contractor,Cyrus,25,25,17,6,8,2,2.605
+"Summer 2016",NUTR,2332,5,"Intro To Human Nutrition",Alastuey,"Lisa L",25,28,18,8,5,4,2.687
+"Summer 2016",EPSY,7329,1,"Counseling Women",Stevens,"Genevieve Dee",26,0,0,0,0,0,4
+"Summer 2016",OPTO,5398,1,"Spec Prob Phys Optics",Perrigin,"Judith A",26,0,0,0,0,0,4
+"Summer 2016",SOCW,7339,7,"Prof. Grant Writing for SW",Stagg,"Helen Ruth",26,0,0,0,0,0,4
+"Summer 2016",MANA,7356,1,"Diversity Management",Walker,"William A",26,3,0,1,0,1,3.822
+"Summer 2016",HIST,3322,1,"The Vietnam War",Buzzanco,Robert,26,4,1,0,1,3,3.708
+"Summer 2016",HDFS,3350,1,"Observation and Assessment",Schroder,"Kathleen Anne",26,5,2,0,1,1,3.559
+"Summer 2016",TECH,3365,1,"Appl of Discrete Mthds in Tech",Schroeder,"Susan L",26,6,3,0,4,0,3.257
+"Summer 2016",HRMA,3358,1,"Hospitality Industry Law",Abbott,"Jeanna L",26,7,2,0,2,0,3.486
+"Summer 2016",MIS,3300,1,"Intro to Computers and MIS",Felvegi,Emese,26,13,4,1,2,0,3.333
+"Summer 2016",COMM,4392,1,"Professional Internship",Ashley,"Laura B",27,0,0,0,0,0,3.988
+"Summer 2016",ELCS,8361,2,"Public & Community Relations",Milon,"Lannie Mckelvin",27,0,0,0,0,0,4
+"Summer 2016",GENB,7390,1,"Books an MBA Should Read",Gelb,"Betsy L",27,2,0,0,0,0,3.84
+"Summer 2016",OPTO,8384,1,"Practice Management II",Davis,"Mark K",27,2,0,0,0,0,3.806
+"Summer 2016",POLS,1336,3,"US and Texas Const/Politics",Cole,"Jeffrey Bryan",27,7,2,0,1,0,3.523
+"Summer 2016",MATH,1314,1,"Calc for Bus/Life Sciences",Constante,Beatrice,27,8,3,3,2,11,3.317
+"Summer 2016",MUSI,2302,2,"Listening to Jazz",Marmolejo,"Noe J",27,11,3,1,3,1,3.201
+"Summer 2016",PSYC,3301,2,"Intro Psych Stats",Dirr,"Bobbie A",27,23,17,4,10,8,2.642
+"Summer 2016",SOCW,7368,1,"Trauma Treatment for Children",Amtsberg,"Donna K.",28,1,0,0,0,1,3.909
+"Summer 2016",SOCW,7368,1,"Trauma Treatment for Children",Taylor,"Patricia G",28,1,0,0,0,1,3.909
+"Summer 2016",FINA,7397,6,"Selected Topics in Finance",Broxson,"John Robert",28,3,0,0,0,1,3.861
+"Summer 2016",MANA,7375,2,"Global Leadership",Vera,"Dusya M",28,3,0,0,0,0,3.861
+"Summer 2016",ENTR,3312,1,"Corporate Entrepreneurship",Karonika,"John R",28,17,2,0,0,0,3.525
+"Summer 2016",GENB,7304,1,"Business Ethics for Accountant",Spartalis,"Emmanuel Michael",28,23,1,0,0,0,3.545
+"Summer 2016",CUIN,4304,5,"La/Read Meth in Span",Gauna-Gago,"Leslie Michel",29,0,0,0,0,0,4
+"Summer 2016",MANA,"   6A32",1,"Organizational Behavior & Mgt",Rude,Dale,29,3,2,0,0,0,3.746
+"Summer 2016",TELS,3340,1,"Org Leadership & Supervision",Moore,"George P",29,10,2,0,0,0,3.586
+"Summer 2016",MATH,2311,1,"Intro To Prob & Statistics",Poliak,"Cathy Dawn",29,13,7,1,13,8,2.698
+"Summer 2016",PSYC,2301,1,"Intro To Methods in Psychology",Villanueva,"Lynda S",29,14,11,2,2,1,3.212
+"Summer 2016",GEOL,1330,3,"Physical Geology",Hauptvogel,"Daniel William",29,15,5,1,0,0,3.427
+"Summer 2016",MARK,3336,1,"Introduction to Marketing",Zahn,"William J",29,27,13,0,0,3,3.227
+"Summer 2016",ELCS,6320,1,"Instruct Supervision I",McClellan,Anne,30,0,0,0,0,0,4
+"Summer 2016",ELCS,6350,1,"School Leadership",McClellan,Anne,30,0,0,0,0,0,4
+"Summer 2016",MIS,4397,2,"Selected Topics in MIS",Decarlo,"Paul Jarrod",30,0,0,0,0,0,4
+"Summer 2016",MANA,7375,1,"Global Leadership",Vera,"Dusya M",30,2,0,0,0,0,3.907
+"Summer 2016",HRMA,2315,1,"Introduction to SPA Management",Doudna,"Simone P",30,9,2,1,1,1,3.504
+"Summer 2016",HDFS,2317,1,"Human Dev and Interventions",Schoger,Kimberly,30,9,3,0,4,2,3.326
+"Summer 2016",MATH,1313,6,"Finite Math with Applications",Sosa,Moses,30,11,12,2,3,7,3.069
+"Summer 2016",MATH,1432,3,"Calculus II",Branton,"Sheena D",30,17,10,3,3,4,3.079
+"Summer 2016",ACCT,7363,1,"Contemporary Accounting Topics",Kuruvilla,Mohan,31,1,0,0,0,0,3.855
+"Summer 2016",MANA,3335,3,"Intro Org Behavior and Mgmt",Salaiz,"Ashley Marie",31,2,2,0,0,0,3.819
+"Summer 2016",POLS,1337,10,"US Govt: Congress,Pres & Crts","Abbott Jr","Kenneth Wayne",31,7,1,0,0,0,3.693
+"Summer 2016",MATH,2433,1,"Calculus III",Weber,"Thomas Christian",31,11,5,2,2,3,3.314
+"Summer 2016",PHYS,1321,1,"University Physics I",Varghese,"Oomman K",31,17,18,0,0,2,3.202
+"Summer 2016",COSC,1320,1,"Intro Computer Science II",Rizk,"Nouhad J",31,18,8,0,1,4,3.356
+"Summer 2016",FINA,3332,3,"Prin of Financial Managment",Chisholm,Darla,31,39,50,19,2,5,2.527
+"Summer 2016",PHAR,5692,1,"Advanced Hospital Pharmacy",Nguyen,"Kimberly A",32,4,0,0,0,0,3.889
+"Summer 2016",SCM,"   6A01",1,"Production & Operations Mgt","Robinson Jr","Powell Ersell",32,10,1,0,0,0,3.59
+"Summer 2016",KIN,4300,1,"Phys Activity in Older Adults",Alastuey,"Lisa L",32,22,5,0,2,1,3.339
+"Summer 2016",MATH,1432,1,"Calculus II",Weber,"Thomas Christian",32,26,19,10,19,9,2.396
+"Summer 2016",SOCW,7397,2,"Selected Topics in Social Work",Brown,"C Brene",32,29,1,0,0,2,3.425
+"Summer 2016",SOCW,7397,2,"Selected Topics in Social Work",Dearing,"Ronda L",32,29,1,0,0,2,3.425
+"Summer 2016",OPTO,6230,1,"Contact Lens Pathology",Bergmanson,"Jan Pg",33,0,0,0,0,0,4
+"Summer 2016",MIS,"   6A41",2,"Information Systems",Silva,"Leiser O",33,0,1,0,0,0,3.931
+"Summer 2016",SOCW,7344,1,"Family Violence",Amtsberg,"Donna K.",33,7,1,0,0,0,3.756
+"Summer 2016",ENTR,3310,2,Entrepreneurship,Karonika,"John R",33,10,3,1,0,1,3.575
+"Summer 2016",DAN,2307,3,"Aesthetics of Movement",Nalett,"Jacqueline A",33,14,5,2,2,2,3.316
+"Summer 2016",PHIL,1305,1,"Intro To Ethics",Voss,"Vanessa Ann",34,9,3,1,0,0,3.434
+"Summer 2016",CNST,3205,1,"Construction Safety Management",Hart,"Lee J",36,3,1,0,0,0,3.875
+"Summer 2016",HRMA,3352,1,"Human Resource Management",Madera,"Juan Manuel",36,7,1,1,2,1,3.532
+"Summer 2016",CHEM,1331,1,"Fundamentals of Chemistry",Bott,"Simon G",36,85,102,42,9,28,2.306
+"Summer 2016",MANA,"   6A25",4,"Ethical Leadrshp & Crit Reason",Walker,"William A",37,1,0,0,0,0,3.982
+"Summer 2016",PEB,1153,2,Conditioning,Gray,"Jon Phillip",37,2,1,0,3,3,3.437
+"Summer 2016",NUTR,3101,1,"Dietetics As a Profession",Scott,"Claudia W",37,4,1,0,0,0,3.818
+"Summer 2016",KIN,3350,1,"Psych Aspects Sport Exercise",Alastuey,"Lisa L",37,6,3,3,1,1,3.408
+"Summer 2016",POLS,1336,2,"US and Texas Const/Politics",Cole,"Jeffrey Bryan",37,14,2,1,1,1,3.497
+"Summer 2016",MATH,3339,1,"Statistics for the Sciences",Poliak,"Cathy Dawn",37,18,7,4,4,6,3.143
+"Summer 2016",PSYC,2380,1,"Intro To Social Psy",Baker,Zachary,37,20,6,3,1,0,3.294
+"Summer 2016",NURS,3634,1,"Clinical Nursing Practice II",Schrader,"Patricia K",37,27,3,1,0,1,3.515
+"Summer 2016",PEB,1153,1,Conditioning,Gray,"Jon Phillip",38,6,0,0,0,0,3.8
+"Summer 2016",COMM,2320,1,"Fundamentals of Media Productn",Crowe,"Craig Warren",38,20,0,0,0,0,3.61
+"Summer 2016",COSC,2320,1,"Data Structures",Hilford,Victoria,38,26,9,2,0,0,3.32
+"Summer 2016",CHEM,1332,1,"Fundamentals of Chemistry",Bott,"Simon G",38,90,93,38,9,41,2.382
+"Summer 2016",BIOL,1362,1,"Intro To Biological Science",Farmer,"Lisa M",39,23,13,2,3,4,3.142
+"Summer 2016",HIST,1378,1,"The U S Since 1877",Deyle,"Steven H",39,28,12,4,3,3,3.07
+"Summer 2016",HRMA,2220,1,"Food Service Productn & Ops II",Haskell,"Rebecca Erin",40,11,3,0,1,0,3.594
+"Summer 2016",COMM,4378,1,"Impact of Info Tech",Ashley,"Laura B",40,16,0,0,1,0,3.556
+"Summer 2016",ENTR,3310,1,Entrepreneurship,Karonika,"John R",41,6,1,1,0,0,3.708
+"Summer 2016",HLT,3303,1,"Health of Elem Sch Child",Bloom,"Joel A",41,32,6,2,0,2,3.285
+"Summer 2016",MARK,3337,2,"Professional Selling",Tueffert,"Curt F",42,8,0,0,0,1,3.84
+"Summer 2016",MATH,1313,1,"Finite Math with Applications",Constante,Beatrice,42,36,15,17,20,12,2.434
+"Summer 2016",NUTR,3340,1,"Nutrition in the Life Cycle",Svendsen-Sanchez,"Ann Carol",43,14,5,0,0,0,3.624
+"Summer 2016",POLS,1336,7,"US and Texas Const/Politics","Abbott Jr","Kenneth Wayne",43,20,4,2,1,0,3.41
+"Summer 2016",PSYC,3301,1,"Intro Psych Stats",Rhodes,"Dena Hurwitz",43,24,11,9,8,3,2.961
+"Summer 2016",PSYC,2344,2,"Cultural Psychology",Tou,"Yu Wen",44,16,7,1,6,3,3.207
+"Summer 2016",PSYC,1300,3,"Intro To Psychology",Petit,"Whitney E",44,23,9,2,2,0,3.267
+"Summer 2016",ENGL,3327,1,"Masterpieces of British Lit I",McNamara,"John F",45,21,2,0,6,2,3.222
+"Summer 2016",HLT,4392,1,"Field Wrk in Com Hlth",Kim,Mijin,46,0,0,0,0,0,4
+"Summer 2016",PHYS,1301,1,"Intro General Physics I",Miller,"John H",49,41,22,1,0,5,3.189
+"Summer 2016",MATH,2433,5,"Calculus III",George,"Rebecca Ann",50,9,9,8,9,13,2.976
+"Summer 2016",INTB,3354,1,"Introductn to Global Business",Miljanic,"Andra Olivia",50,26,6,1,0,0,3.454
+"Summer 2016",PSYC,3350,2,"Intro-Cognitv Psy",Gorges,"Madeleine V",50,30,4,1,2,0,3.441
+"Summer 2016",HLT,2320,1,"Introduction to Public Health","Solari Williams","Kayce D.",51,22,4,3,0,0,3.463
+"Summer 2016",PSYC,2351,1,"Psychology of Adolescence",Cowie,"Jennifer Michelle",52,17,6,1,3,2,3.422
+"Summer 2016",BIOL,1361,1,"Intro To Biological Science",Farmer,"Lisa M",53,22,13,4,1,3,3.273
+"Summer 2016",HLT,1353,1,"Personal Health",Rafique,"Kiran Sajid",55,22,2,1,0,1,3.617
+"Summer 2016",PSYC,1300,1,"Intro To Psychology",Zhang,Jing,60,13,2,1,3,1,3.553
+"Summer 2016",PSYC,2344,1,"Cultural Psychology",Thomas,Candice,62,2,2,1,1,3,3.785
+"Summer 2016",PSYC,3325,2,"Psychology of Personality","Burris Garner","Elizabeth A",62,20,6,5,3,3,3.382
+"Summer 2016",HLT,3325,1,"Medical Terminology",Bloom,"Joel A",65,30,5,2,1,0,3.524
+"Summer 2016",NURS,3331,1,"Nur Prof Role II",Kirk,"Terry D",70,7,0,0,0,1,3.909
+"Summer 2016",HLT,1353,2,"Personal Health",McLeod,"Jessica Ann",71,6,2,0,1,0,3.796
+"Summer 2016",MECE,3400,1,"Intro To Mechanics",Chang,Christiana,72,67,19,7,0,10,3.252
+"Summer 2016",HLT,3381,1,"Hlt Promotn & Disease Preventn",Proctor,"Robin Ann",74,3,3,0,0,0,3.846
+"Summer 2016",PSYC,3339,1,"Intro To Clinical Psychology",Szafranski,"Derek D",75,18,4,2,0,0,3.607
+"Summer 2016",GENB,4350,1,"Business Law and Ethics",Currie,Daniel,75,19,3,2,0,0,3.65
+"Summer 2016",NUTR,4334,1,"Community Nutrition",Svendsen-Sanchez,"Ann Carol",77,11,5,0,2,3,3.639
+"Summer 2016",INTB,3355,1,"Global Environment of Business",Miljanic,"Andra Olivia",81,20,5,1,1,1,3.566
+"Summer 2016",OPTO,7150,1,"Developmental Optometry",Currie,"Debra C",84,18,0,0,0,0,3.824
+"Summer 2016",KIN,1304,3,"Public Hlt Issues in Phys/Obes",Breslin,"Whitney L",138,24,2,0,0,0,3.827
+"Summer 2016",KIN,1304,1,"Public Hlt Issues in Phys/Obes",Breslin,"Whitney L",228,38,2,0,3,2,3.82
