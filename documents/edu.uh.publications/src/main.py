@@ -4,7 +4,8 @@ import os
 import csv
 import argparse
 from pathlib import Path
-from scraper import CatalogIterator
+from scraper import CatalogIterator, scrapeCourse
+from to_filename import clean_filename
 from alive_progress import alive_bar
 from colorama import init
 init()
@@ -16,6 +17,7 @@ args = parser.parse_args()
 
 OUTDIR = Path(args.outdir)
 OUTDIR.mkdir(exist_ok=True)
+TOTAL_ROWS = 111
 
 print(f'{Fore.CYAN}[1 / 2]{Style.RESET_ALL} Scraping http://publications.uh.edu for all possible coid values: ')
 print(f'\t{Style.DIM}=> {(OUTDIR / "index.csv")}{Style.RESET_ALL}')
@@ -36,5 +38,20 @@ with open(OUTDIR / 'index.csv', 'w') as outfile:
           result[0], # coid
           result[1] # course_title
         ])
+        TOTAL_ROWS += 1
       # progress bar is per-page
+      bar()
+
+print(f'{Fore.CYAN}[2 / 2]{Style.RESET_ALL} Downloading rich HTML by coid value: ')
+with open(OUTDIR / 'index.csv', 'r') as infile:
+  reader = csv.DictReader(infile)
+  with alive_bar(TOTAL_ROWS) as bar:
+    for line in reader:
+      # create out/<catoid> - <catalog_title>/<coid> - <course_title>
+      CATDIR = OUTDIR / clean_filename(f'{line["catoid"]} - {line["catalog_title"]}')
+      CATDIR.mkdir(exist_ok=True)
+      OUTPATH = CATDIR / clean_filename(f'{line["coid"]} - {line["course_title"]}.html')
+      # write to disk
+      with open(OUTPATH, 'w') as outfile:
+        outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
       bar()
