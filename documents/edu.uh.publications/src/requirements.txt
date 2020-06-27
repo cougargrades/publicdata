@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.1
+httpx==0.13.3
+alive-progress==1.5.1
+colorama==0.4.3
