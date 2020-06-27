@@ -2,6 +2,7 @@
 
 import os
 import csv
+import time
 import argparse
 from pathlib import Path
 from scraper import CatalogIterator, scrapeCourse
@@ -13,7 +14,10 @@ from colorama import Fore, Back, Style
 
 parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('outdir', type=str, help='Directory where you want the generated files to appear.')
+parser.add_argument('--delay', type=int, default=0, help='Manually add a delay (in milliseconds) between scraping requests to prevent HTTP timeouts.')
 args = parser.parse_args()
+print(args)
+exit(0)
 
 OUTDIR = Path(args.outdir)
 OUTDIR.mkdir(exist_ok=True)
@@ -30,6 +34,8 @@ with open(OUTDIR / 'index.csv', 'w') as outfile:
   # use a progress bar CUI
   with alive_bar(len(iterator)) as bar:
     for page in iterator:
+      # optional delay
+      time.sleep(args.delay / 1000.0)
       for result in page:
         writer.writerow([
           iterator.catoid, # catoid
@@ -47,6 +53,8 @@ with open(OUTDIR / 'index.csv', 'r') as infile:
   reader = csv.DictReader(infile)
   with alive_bar(TOTAL_ROWS) as bar:
     for line in reader:
+      # optional delay
+      time.sleep(args.delay / 1000.0)
       # create out/<catoid> - <catalog_title>/<coid> - <course_title>
       CATDIR = OUTDIR / clean_filename(f'{line["catoid"]} - {line["catalog_title"]}')
       CATDIR.mkdir(exist_ok=True)
