@@ -21,6 +21,7 @@ args = parser.parse_args()
 iterator = CatalogIterator()
 
 # prepare some globals
+Path(args.outdir).mkdir(exist_ok=True)
 OUTDIR = Path(args.outdir) / iterator.catoid 
 OUTDIR.mkdir(exist_ok=True)
 TOTAL_ROWS = 0
@@ -37,13 +38,14 @@ with open(OUTDIR / 'index.csv', 'w') as outfile:
       # optional delay
       time.sleep(args.delay / 1000.0)
       for result in page:
-        writer.writerow([
-          iterator.catoid, # catoid
-          iterator.title, # catalog_title
-          iterator.i, # page_number
-          result[0], # coid
-          result[1] # course_title
-        ])
+        if result[0] != None:
+          writer.writerow([
+            iterator.catoid, # catoid
+            iterator.title, # catalog_title
+            iterator.i, # page_number
+            result[0], # coid
+            result[1] # course_title
+          ])
         TOTAL_ROWS += 1
       # progress bar is per-page
       bar()
