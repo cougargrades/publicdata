@@ -16,21 +16,21 @@ parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('outdir', type=str, help='Directory where you want the generated files to appear.')
 parser.add_argument('--delay', type=int, default=0, help='Manually add a delay (in milliseconds) between scraping requests to prevent HTTP timeouts.')
 args = parser.parse_args()
-print(args)
-exit(0)
 
-OUTDIR = Path(args.outdir)
+# custom iterator
+iterator = CatalogIterator()
+
+# prepare some globals
+OUTDIR = Path(args.outdir) / iterator.catoid 
 OUTDIR.mkdir(exist_ok=True)
-TOTAL_ROWS = 111
+TOTAL_ROWS = 0
 
 print(f'{Fore.CYAN}[1 / 2]{Style.RESET_ALL} Scraping http://publications.uh.edu for all possible coid values: ')
 print(f'\t{Style.DIM}=> {(OUTDIR / "index.csv")}{Style.RESET_ALL}')
 with open(OUTDIR / 'index.csv', 'w') as outfile:
   writer = csv.writer(outfile)
   # write header
-  writer.writerow(['catoid', 'catalog_title', 'page_number', 'coid', 'course_title'])
-  # custom iterator
-  iterator = CatalogIterator()
+  writer.writerow(['catoid', 'catalog_title', 'page_number', 'coid', 'course_title']) 
   # use a progress bar CUI
   with alive_bar(len(iterator)) as bar:
     for page in iterator:
@@ -55,11 +55,7 @@ with open(OUTDIR / 'index.csv', 'r') as infile:
     for line in reader:
       # optional delay
       time.sleep(args.delay / 1000.0)
-      # create out/<catoid> - <catalog_title>/<coid> - <course_title>
-      CATDIR = OUTDIR / clean_filename(f'{line["catoid"]} - {line["catalog_title"]}')
-      CATDIR.mkdir(exist_ok=True)
-      OUTPATH = CATDIR / clean_filename(f'{line["coid"]} - {line["course_title"]}.html')
       # write to disk
-      with open(OUTPATH, 'w') as outfile:
+      with open(OUTDIR / clean_filename(f'{line["coid"]}.html'), 'w') as outfile:
         outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
       bar()
