@@ -38,7 +38,7 @@ print(f'\t{Style.DIM}=> {(OUTDIR / (undergrad.catoid+".csv"))}{Style.RESET_ALL}'
 with open(OUTDIR / (undergrad.catoid+".csv"), 'w') as outfile:
   writer = csv.writer(outfile)
   # write header
-  writer.writerow(['catoid', 'catalog_title', 'page_number', 'coid', 'course_title']) 
+  writer.writerow(['catoid', 'catalog_title', 'classification', 'page_number', 'coid', 'course_title']) 
   # use a progress bar CUI
   with alive_bar(len(undergrad)) as bar:
     for page in undergrad:
@@ -49,6 +49,7 @@ with open(OUTDIR / (undergrad.catoid+".csv"), 'w') as outfile:
           writer.writerow([
             undergrad.catoid, # catoid
             undergrad.title, # catalog_title
+            'undergraduate', # classification
             undergrad.i, # page_number
             result[0], # coid
             result[1] # course_title
@@ -61,7 +62,7 @@ print(f'\t{Style.DIM}=> {(OUTDIR / (grad.catoid+".csv"))}{Style.RESET_ALL}')
 with open(OUTDIR / (grad.catoid+".csv"), 'w') as outfile:
   writer = csv.writer(outfile)
   # write header
-  writer.writerow(['catoid', 'catalog_title', 'page_number', 'coid', 'course_title']) 
+  writer.writerow(['catoid', 'catalog_title', 'classification', 'page_number', 'coid', 'course_title']) 
   # use a progress bar CUI
   with alive_bar(len(grad)) as bar:
     for page in grad:
@@ -72,6 +73,7 @@ with open(OUTDIR / (grad.catoid+".csv"), 'w') as outfile:
           writer.writerow([
             grad.catoid, # catoid
             grad.title, # catalog_title
+            'graduate', # classification
             grad.i, # page_number
             result[0], # coid
             result[1] # course_title

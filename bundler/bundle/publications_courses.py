@@ -2,6 +2,9 @@ import csv
 from bundle import util
 from pathlib import Path
 from alive_progress import alive_bar
+from colorama import init
+init()
+from colorama import Fore, Back, Style
 
 
 
@@ -24,9 +27,10 @@ def process(source: Path, destination: Path):
   
   # create the output file
   with open(destination / 'pairs.csv', 'w') as outfile:
-    writer = csv.DictWriter(outfile, ['catoid', 'coid', 'department', 'catalogNumber'])
-    # for every catalog's index.csv file
-    for p in source.glob('**/index.csv'):
+    writer = csv.DictWriter(outfile, ['catoid', 'coid', 'classification', 'department', 'catalogNumber'])
+    writer.writeheader()
+    for p in source.glob('*.csv'):
+      print(f'\t{Style.DIM}{Path(p).name}{Style.RESET_ALL}')
       with alive_bar(util.file_len(p)) as bar:
         with open(p, 'r') as infile:
           reader = csv.DictReader(infile)
@@ -38,6 +42,7 @@ def process(source: Path, destination: Path):
                 writer.writerow({
                   "catoid": row["catoid"],
                   "coid": row["coid"],
+                  "classification": row["classification"],
                   "department": course.split(' ')[0],
                   "catalogNumber": course.split(' ')[1]
                 })
