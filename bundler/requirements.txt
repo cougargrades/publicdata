@@ -1,0 +1,2 @@
+alive-progress==1.5.1
+colorama==0.4.3

@@ -10,7 +10,7 @@ Generating a Patch file can be easy:
 
 '''
 
-class Patch:
+class Patchfile:
   '''A simple class'''
   def __init__(self, path: str, archetype="document"):
     if archetype not in ['document', 'collection']:

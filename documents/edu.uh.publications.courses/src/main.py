@@ -51,6 +51,10 @@ with open(OUTDIR / 'index.csv', 'w') as outfile:
       bar()
 
 print(f'{Fore.CYAN}[2 / 2]{Style.RESET_ALL} Downloading rich HTML by coid value: ')
+print(f'\t{Style.DIM}Skipped{Style.RESET_ALL}')
+exit(0)
+
+# This will be skipped, for now
 with open(OUTDIR / 'index.csv', 'r') as infile:
   reader = csv.DictReader(infile)
   with alive_bar(TOTAL_ROWS) as bar:

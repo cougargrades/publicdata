@@ -13,7 +13,21 @@ def unwrap(s):
     d['description'] = parenthesis[0][1:-1]
     return d
 
+'''
+Processes subject.json to be more accessible
+by generating 2 alternative files:
+- entries.json
+    generate a large array of objects with the properties:
+    - abbreviation
+    - description
+    ex: [{"abbreviation": "ARCH", "description": "Architecture"}, ...]
 
+- dictionary.json
+    generate a large dictionary where they the abbreviation
+    is used as the key and the value corresponds to the description
+    ex: {"ARCH": "Architecture", ...}
+ 
+'''
 def process(source: Path, destination: Path):
     # print(source.name)
     destination.mkdir(exist_ok=True)

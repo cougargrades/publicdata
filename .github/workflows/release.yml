@@ -19,14 +19,17 @@ jobs:
       - name: Run script
         id: makebundle
         run: |
-          VAR=$(python bundler/bundle.py)
+          pip install -r bundler/requirements.txt
+          mkdir -p exports/
+          VAR=$PWD/exports/publicdata-bundle-$(date +'%Y-%m-%d-%H%M%S').tar.gz
+          python bundler/bundle.py -o "$VAR"
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Get current date and timestamp
         id: timestamp
         run: | 
-          echo "::set-output name=timestamp::$(date +'%Y-%m-%d-%H:%M')"
-          echo "::set-output name=timestamptag::$(date +'%Y-%m-%d-%H-%M')"
+          echo "::set-output name=timestamp::$(date +'%Y-%m-%d-%H%M%S')"
+          echo "::set-output name=timestamptag::$(date +'%Y-%m-%d-%H%M%S')"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1

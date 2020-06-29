@@ -1,4 +1,3 @@
 # local working copies
 exports/
 **/__pycache__/
-documents/edu.uh.publications.courses/raw/**/*.html
