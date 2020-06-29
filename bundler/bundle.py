@@ -36,7 +36,7 @@ for fmt in documents_path.iterdir():
     publications_courses.process(fmt.resolve(), export_name / fmt.name)
 
 print(f'{Fore.CYAN}[4 / 4] Compressing tarfile: {export_name}{Style.RESET_ALL}')
-with tarfile.open(exports_path / f'{export_name.name}.tar.gz', 'w:gz') as tar:
+with tarfile.open(exports_path / args.tarloc, 'w:gz') as tar:
   for item in export_name.iterdir():
     tar.add(name=item, arcname=item.name)
 rmtree(export_name)
