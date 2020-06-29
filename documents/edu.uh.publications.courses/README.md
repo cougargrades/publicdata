@@ -28,7 +28,7 @@ catoid,catalog_title,page_number,coid,course_title
 
 Data was acquired via the use of the Python program available at `src/main.py`.
 
-It was executed like so: `./main.py ../ --delay 1000`
+It was executed like so: `./main.py ../raw --delay 1000`
 
 ## Manifest
 

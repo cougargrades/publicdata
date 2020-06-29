@@ -24,4 +24,6 @@ with tarfile.open(exports_path / f'{export_name.name}.tar.gz', 'w:gz') as tar:
     for item in export_name.iterdir():
         tar.add(name=item, arcname=item.name)
 rmtree(export_name)
+# necessary for Github Actions
+# this should be the only print statement!
 print(exports_path.resolve() / f'{export_name.name}.tar.gz')
