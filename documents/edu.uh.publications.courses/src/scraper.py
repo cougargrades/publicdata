@@ -6,41 +6,51 @@ import time
 
 MAX_RETRIES = 5
 
+def getCurrentUndergraduateCatalog() -> (str, str):
+  # get currently available catalog
+  res = httpx.get('https://uh.edu/catalog-redirects/catalog-undergraduate')
+  soup = BeautifulSoup(res.text, 'html.parser')
+  # detect redirect
+  redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=34"
+  # extract the url specifically, then process the querystring
+  qs = parse_qs(urlparse(redirection[(len("0;url=")):]).query)
+  CATOID = qs["catoid"][0] # "34"
+  # extract the url specifically, then go to it
+  res = httpx.get(redirection[(len("0;url=")):])
+  soup = BeautifulSoup(res.text, 'html.parser')
+  # 2019-2020 Undergraduate Catalog
+  TITLE = soup.select_one('select[name=catalog] option[selected]').string
+  return (CATOID, TITLE)
+
+def getCurrentGraduateCatalog() -> (str, str):
+  # get currently available catalog
+  res = httpx.get('https://uh.edu/catalog-redirects/catalog-graduate')
+  soup = BeautifulSoup(res.text, 'html.parser')
+  # detect redirect
+  redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=33"
+  # extract the url specifically, then process the querystring
+  qs = parse_qs(urlparse(redirection[(len("0;url=")):]).query)
+  CATOID = qs["catoid"][0] # "34"
+  # extract the url specifically, then go to it
+  res = httpx.get(redirection[(len("0;url=")):])
+  soup = BeautifulSoup(res.text, 'html.parser')
+  # 2019-2020 Undergraduate Catalog
+  TITLE = soup.select_one('select[name=catalog] option[selected]').string
+  return (CATOID, TITLE)
+
+
 class CatalogIterator(object):
-  def __init__(self):
+  def __init__(self, catoid, title):
     self.i = 0
-    self.catoid = self.getCurrentCatalogId()
+    self.catoid = catoid
+    self.title = title
     self.n = self.getPageCount()
-    self.title = self.getCurrentCatalogTitle()
   
   def __iter__(self):
     return self
   
   def __len__(self):
     return self.n
-
-  # get the currently active catalogId
-  def getCurrentCatalogId(self) -> str:
-    # get currently available catalog
-    res = httpx.get('https://uh.edu/catalog-redirects/catalog-undergraduate')
-    soup = BeautifulSoup(res.text, 'html.parser')
-    # detect redirect
-    redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=34"
-    # extract the url specifically, then process the querystring
-    qs = parse_qs(urlparse(redirection[(len("0;url=")):]).query)
-    return qs["catoid"][0] # "34"
-
-  def getCurrentCatalogTitle(self) -> str:
-    # get currently available catalog
-    res = httpx.get('https://uh.edu/catalog-redirects/catalog-undergraduate')
-    soup = BeautifulSoup(res.text, 'html.parser')
-    # detect redirect
-    redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=34"
-    # extract the url specifically, then go to it
-    res = httpx.get(redirection[(len("0;url=")):])
-    soup = BeautifulSoup(res.text, 'html.parser')
-    # 2019-2020 Undergraduate Catalog
-    return soup.select_one('select[name=catalog] option[selected]').string
 
   # determine the number of pages to process
   def getPageCount(self) -> int:
@@ -87,51 +97,4 @@ class CatalogIterator(object):
         raise Exception()
     else:
       raise StopIteration()
-
-def scrapeCourse(catoid: str, coid: str, catalog_title: str) -> str:
-  # course info
-  # see: http://xion.io/post/code/python-retry-idiom.html
-  for _ in range(MAX_RETRIES):
-    try:
-      res = httpx.get(f'http://publications.uh.edu/ajax/preview_course.php?catoid={catoid}&coid={coid}&show')
-      soup = BeautifulSoup(res.text, 'html.parser')
-      ## remove UH spam
-      # <br> after the first link
-      soup.select_one('a.link-open + br').decompose()
-      # first link
-      soup.select_one('a.link-open').decompose()
-      # social media junk
-      soup.select_one('.social-media-ajax').decompose()
-      
-      scrape_url = f'http://publications.uh.edu/preview_course_nopop.php?catoid={catoid}&coid={coid}'
-      scrape_date = datetime.now()
-      
-      return str(BeautifulSoup(
-        f'''
-        <div class="edu-uh-publications-wrapper">
-          <div style="display: none;" class="edu-uh-publications-metadata">
-            <span title="catoid">{catoid}</span>
-            <span title="coid">{coid}</span>
-            <span title="catalog_title">{catalog_title}</span>
-            <span title="scrape_url">{scrape_url}</span>
-            <span title="scrape_date">{scrape_date.isoformat()}</span>
-          </div>
-          <div class="edu-uh-publications-primary-content">
-            {str(soup)}
-            <small><em>From: <a href="{scrape_url}">{catalog_title}</a></em></small>
-            <br/>
-            <small><em>Scraped: {scrape_date.strftime('%B %d, %Y @ %I:%M %p')}</em></small>
-          </div>
-        </div>
-        ''',
-        'html.parser').prettify())
-    except Exception:
-      # in the event of a failure, wait 10 seconds before trying again
-      time.sleep(10)
-      continue
-    else:
-      break
-  else:
-    raise Exception()
-  
   
