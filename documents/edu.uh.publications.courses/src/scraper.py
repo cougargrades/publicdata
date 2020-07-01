@@ -98,3 +98,50 @@ class CatalogIterator(object):
     else:
       raise StopIteration()
   
+def scrapeCourse(catoid: str, coid: str, catalog_title: str) -> str:
+  # course info
+  # see: http://xion.io/post/code/python-retry-idiom.html
+  for _ in range(MAX_RETRIES):
+    try:
+      res = httpx.get(f'http://publications.uh.edu/ajax/preview_course.php?catoid={catoid}&coid={coid}&show')
+      soup = BeautifulSoup(res.text, 'html.parser')
+      ## remove UH spam
+      # <br> after the first link
+      soup.select_one('a.link-open + br').decompose()
+      # first link
+      soup.select_one('a.link-open').decompose()
+      # social media junk
+      soup.select_one('.social-media-ajax').decompose()
+      
+      scrape_url = f'http://publications.uh.edu/preview_course_nopop.php?catoid={catoid}&coid={coid}'
+      scrape_date = datetime.now()
+      
+      return str(BeautifulSoup(
+        f'''
+        <div class="edu-uh-publications-wrapper">
+          <div style="display: none;" class="edu-uh-publications-metadata">
+            <span title="catoid">{catoid}</span>
+            <span title="coid">{coid}</span>
+            <span title="catalog_title">{catalog_title}</span>
+            <span title="scrape_url">{scrape_url}</span>
+            <span title="scrape_date">{scrape_date.isoformat()}</span>
+          </div>
+          <div class="edu-uh-publications-primary-content">
+            {str(soup)}
+            <small><em>From: <a href="{scrape_url}">{catalog_title}</a></em></small>
+            <br/>
+            <small><em>Scraped: {scrape_date.strftime('%B %d, %Y @ %I:%M %p')}</em></small>
+          </div>
+        </div>
+        ''',
+        'html.parser').prettify())
+    except Exception:
+      # in the event of a failure, wait 10 seconds before trying again
+      time.sleep(10)
+      continue
+    else:
+      break
+  else:
+    raise Exception()
+  
+  
