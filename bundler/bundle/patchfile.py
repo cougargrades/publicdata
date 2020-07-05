@@ -12,7 +12,7 @@ Generating a Patch file can be easy:
 
 class Patchfile:
   '''A simple class'''
-  def __init__(self, path: str, archetype="document"):
+  def __init__(self, path: str, archetype='document'):
     if archetype not in ['document', 'collection']:
       raise ValueError("for constructor, parameter `archetype` must be one of: document, collection")
     self.format = 'io.cougargrades.publicdata.patch'
@@ -22,10 +22,10 @@ class Patchfile:
     }
     self.actions = []
 
-  '''
-  Add an action. Returns itself for chaining.
-  '''
   def add_action(self, operation: str, payload, arrayfield=None, field=None, datatype=None):
+    '''
+    Add an action. Returns itself for chaining.
+    '''
     # check optionals
     # enforce archetype/operation pair
     if self.target["archetype"] == "document" and operation not in ['write', 'merge', 'append', 'increment']:
@@ -61,6 +61,47 @@ class Patchfile:
       "payload": payload
     }]
     return self
+
+  def write(self, payload):
+    '''
+    Shorthand for add_action(operation='write')
+    
+    Overwrites the Firestore document with the provided payload (destructive).
+    '''
+    return self.add_action(operation='write', payload=payload)
+  
+  def merge(self, payload):
+    '''
+    Shorthand for add_action(operation='merge')
+    
+    Merges the Firestore document with the provided payload.
+    Only the provided fields are replaced, the rest of the document is kept intact.
+    '''
+    return self.add_action(operation='merge', payload=payload)
+  
+  def append(self, arrayfield, datatype, payload):
+    '''
+    Shorthand for add_action(operation='append')
+    
+    Adds the payload to the end of the an array within an existing Document
+    '''
+    return self.add_action(operation='append', payload=payload, arrayfield=arrayfield, datatype=datatype)
+
+  def increment(self, field: str, payload):
+    '''
+    Shorthand for add_action(operation='increment')
+    
+    Updates the value of a numeric type on an existing Document
+    '''
+    return self.add_action(operation='increment', payload=payload, field=field)
+  
+  def create(self, payload):
+    '''
+    Shorthand for add_action(operation='create')
+    
+    Creates a document with a generated, unique identifier that contains the properties of the payload.
+    '''
+    return self.add_action(operation='create', payload=payload)
 
   def __str__(self):
     return json.dumps(self.__dict__)
