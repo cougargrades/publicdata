@@ -4,9 +4,9 @@ import os
 import tarfile
 import argparse
 from time import time
-from shutil import rmtree
+from shutil import rmtree, copyfile
 from pathlib import Path
-from bundle.patch import subjects, publications_courses
+from bundle.patch import subjects, publications_courses, groups
 from bundle import patch
 from bundle import grade_distribution, subjects, publications_courses
 from colorama import init
@@ -18,7 +18,7 @@ parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to
 args = parser.parse_args()
 
 # total tasks
-N = 6
+N = 8
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -36,7 +36,7 @@ M += 1
 # process the raw data, generate intermediary format
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups']):
     print(f'{Fore.CYAN}[{M} / {N}] Bundling {fmt.name}{Style.RESET_ALL}')
     M += 1
   # actually do
@@ -44,11 +44,16 @@ for fmt in documents_path.iterdir():
     subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.courses'):
     publications_courses.process(fmt.resolve(), export_name / fmt.name)
+  if(fmt.name == 'io.cougargrades.groups'):
+    (export_name / fmt.name).mkdir(exist_ok=True)
+    copyfile(fmt / 'defaults.json', export_name / fmt.name / 'defaults.json')
+    print('\t✔')
+    
 
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   # actually do
@@ -56,6 +61,8 @@ for fmt in documents_path.iterdir():
     patch.subjects.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
   if(fmt.name == 'edu.uh.publications.courses'):
     patch.publications_courses.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
+  if(fmt.name == 'io.cougargrades.groups'):
+    patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')

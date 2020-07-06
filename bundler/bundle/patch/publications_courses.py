@@ -1,15 +1,29 @@
+import csv
 from pathlib import Path
+from . import util
+from .patchfile import Patchfile
+from time import time_ns
+from alive_progress import alive_bar
 
+'''
+Generates Patchfiles for connections to the UH Publications official course catalog
+'''
 def generate(source: Path, destination: Path):
-    print(source.name)
-    # destination.mkdir(exist_ok=True)
-    # with open(source / 'subjects.json', 'r') as f:
-    #     data = json.loads(f.read())
-    #     entries = [unwrap(s) for s in data]
-    #     results = dict()
-    #     for e in entries:
-    #         results[e['abbreviation']] = e['description']
-    #     with open(destination / 'entries.json', 'w') as ex:
-    #         ex.write(json.dumps(entries))
-    #     with open(destination / 'dictionary.json', 'w') as ex:
-    #         ex.write(json.dumps(results))
+  destination.mkdir(exist_ok=True)
+  with open(source / 'pairs.csv', 'r') as infile:
+    with alive_bar(util.file_len((source / 'pairs.csv').resolve())-1) as bar:
+      reader = csv.DictReader(infile)
+      for row in reader:
+        with open(destination / f'patch-2-{time_ns()}.json', 'w') as out:
+          out.write(str(
+            Patchfile(f'/catalog/{row["department"]} {row["catalogNumber"]}').merge({
+              "publication": {
+                "title": row["title"],
+                "catoid": row["catoid"],
+                "coid": row["coid"],
+                "classification": row["classification"],
+                "url": f'http://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else ""
+              }
+            })
+          ))
+          bar()

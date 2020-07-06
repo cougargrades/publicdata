@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Communication",
+    "identifier": "10",
+    "description": "Courses which satisfy the \"Communication\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Mathematics",
+    "identifier": "20",
+    "description": "Courses which satisfy the \"Mathematics\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Life & Physical Sciences",
+    "identifier": "30",
+    "description": "Courses which satisfy the \"Life & Physical Sciences\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Language, Philosophy, & Culture",
+    "identifier": "40",
+    "description": "Courses which satisfy the \"Language, Philosophy, & Culture\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Creative Arts",
+    "identifier": "50",
+    "description": "Courses which satisfy the \"Creative Arts\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "American History",
+    "identifier": "60",
+    "description": "Courses which satisfy the \"American History\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Government/Political Science",
+    "identifier": "70",
+    "description": "Courses which satisfy the \"Government/Political Science\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Social & Behavioral Sciences",
+    "identifier": "80",
+    "description": "Courses which satisfy the \"Social & Behavioral Sciences\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Writing in the Disciplines",
+    "identifier": "81",
+    "description": "Courses which satisfy the \"Writing in the Disciplines\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  },
+  {
+    "name": "Math/Reasoning",
+    "identifier": "91",
+    "description": "Courses which satisfy the \"Math/Reasoning\" component in the UH Core Curriculum.",
+    "keywords": [],
+    "courses": [],
+    "courses_count": 0
+  }
+]

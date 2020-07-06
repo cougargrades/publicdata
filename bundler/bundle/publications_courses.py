@@ -27,11 +27,11 @@ def process(source: Path, destination: Path):
   
   # create the output file
   with open(destination / 'pairs.csv', 'w') as outfile:
-    writer = csv.DictWriter(outfile, ['catoid', 'coid', 'classification', 'department', 'catalogNumber'])
+    writer = csv.DictWriter(outfile, ['catoid', 'coid', 'classification', 'department', 'catalogNumber', 'title'])
     writer.writeheader()
     for p in source.glob('*.csv'):
       print(f'\t{Style.DIM}{Path(p).name}{Style.RESET_ALL}')
-      with alive_bar(util.file_len(p)) as bar:
+      with alive_bar(util.file_len(p)-1) as bar:
         with open(p, 'r') as infile:
           reader = csv.DictReader(infile)
           # for every row in this index.csv file
@@ -44,6 +44,7 @@ def process(source: Path, destination: Path):
                   "coid": row["coid"],
                   "classification": row["classification"],
                   "department": course.split(' ')[0],
-                  "catalogNumber": course.split(' ')[1]
+                  "catalogNumber": course.split(' ')[1],
+                  "title": row["catalog_title"]
                 })
             bar()
