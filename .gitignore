@@ -1,3 +1,4 @@
 # local working copies
 exports/
 **/__pycache__/
+.DS_Store
