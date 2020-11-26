@@ -5,7 +5,8 @@
     "description": "Courses which satisfy the \"Communication\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Mathematics",
@@ -13,7 +14,8 @@
     "description": "Courses which satisfy the \"Mathematics\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Life & Physical Sciences",
@@ -21,7 +23,8 @@
     "description": "Courses which satisfy the \"Life & Physical Sciences\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Language, Philosophy, & Culture",
@@ -29,7 +32,8 @@
     "description": "Courses which satisfy the \"Language, Philosophy, & Culture\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Creative Arts",
@@ -37,7 +41,8 @@
     "description": "Courses which satisfy the \"Creative Arts\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "American History",
@@ -45,7 +50,8 @@
     "description": "Courses which satisfy the \"American History\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Government/Political Science",
@@ -53,7 +59,8 @@
     "description": "Courses which satisfy the \"Government/Political Science\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Social & Behavioral Sciences",
@@ -61,7 +68,8 @@
     "description": "Courses which satisfy the \"Social & Behavioral Sciences\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Writing in the Disciplines",
@@ -69,7 +77,8 @@
     "description": "Courses which satisfy the \"Writing in the Disciplines\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   },
   {
     "name": "Math/Reasoning",
@@ -77,6 +86,7 @@
     "description": "Courses which satisfy the \"Math/Reasoning\" component in the UH Core Curriculum.",
     "keywords": [],
     "courses": [],
-    "courses_count": 0
+    "courses_count": 0,
+    "categories": ["UH Core Curriculum"]
   }
 ]
