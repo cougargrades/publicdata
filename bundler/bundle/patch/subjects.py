@@ -2,6 +2,7 @@ import json
 import csv
 from pathlib import Path
 from .patchfile import Patchfile
+from . import util
 from time import time_ns
 from alive_progress import alive_bar
 
@@ -31,9 +32,10 @@ def generate(source: Path, destination: Path):
               "name": item["description"],
               "identifier": item["abbreviation"],
               "courses": [],
-              "keywords": [],
+              "keywords": [item for sublist in [util.createKeywords(w) for w in [item["abbreviation"], item["description"]]] for item in sublist], # gnarly one-liner to generate keywords
               "description": f'Courses from the \"{item["abbreviation"]}\" subject.',
-              "courses_count": 0
+              "courses_count": 0,
+              "categories": []
             })
           ))
           bar()

@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from .patchfile import Patchfile
+from . import util
 from time import time_ns
 from alive_progress import alive_bar
 
@@ -13,6 +14,8 @@ def generate(source: Path, destination: Path):
     data = json.loads(f.read())
     with alive_bar(len(data)) as bar:
       for item in data:
+        item["keywords"] = util.createKeywords(item["name"]) # gnarly one-liner to generate keywords
+        #item["keywords"] = [item for sublist in [util.createKeywords(w) for w in [item["name"], "maybe more??"]] for item in sublist],
         with open(destination / f'patch-0-groupdefaults-{time_ns()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/groups/{item["identifier"]}').write(item)

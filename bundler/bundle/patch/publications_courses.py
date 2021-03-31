@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
-from . import util
 from .patchfile import Patchfile
+from . import util
 from time import time_ns
 from alive_progress import alive_bar
 
