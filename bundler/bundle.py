@@ -4,7 +4,7 @@ import os
 import tarfile
 import argparse
 from time import time
-from shutil import rmtree, copyfile
+from shutil import rmtree, copyfile, move
 from pathlib import Path
 from bundle.patch import subjects, publications_courses, groups
 from bundle import patch
@@ -15,6 +15,7 @@ from colorama import Fore, Back, Style
 
 parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to generate the tar file')
+parser.add_argument('--skiptar', dest='skiptar', action='store_true', help='Should the tar file be compression be skipped')
 args = parser.parse_args()
 
 # total tasks
@@ -66,9 +67,13 @@ for fmt in documents_path.iterdir():
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
-with tarfile.open(exports_path / args.tarloc, 'w:gz') as tar:
-  for item in export_name.iterdir():
-    tar.add(name=item, arcname=item.name)
-rmtree(export_name)
+if(not args.skiptar):
+  with tarfile.open(exports_path / args.tarloc, 'w:gz') as tar:
+    for item in export_name.iterdir():
+      tar.add(name=item, arcname=item.name)
+  rmtree(export_name)
+else:
+  print('\tSkipped tar.gz compression')
+  move(export_name, exports_path / export_name.name)
 
 print(f'{Fore.MAGENTA}Done!{Style.RESET_ALL}')
