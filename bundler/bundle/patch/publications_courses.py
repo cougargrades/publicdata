@@ -14,16 +14,14 @@ def generate(source: Path, destination: Path):
     with alive_bar(util.file_len((source / 'pairs.csv').resolve())-1) as bar:
       reader = csv.DictReader(infile)
       for row in reader:
-        with open(destination / f'patch-2-{time_ns()}.json', 'w') as out:
+        with open(destination / f'patch-2-publicationlink-{time_ns()}.json', 'w') as out:
           out.write(str(
-            Patchfile(f'/catalog/{row["department"]} {row["catalogNumber"]}').merge({
-              "publication": {
-                "title": row["title"],
-                "catoid": row["catoid"],
-                "coid": row["coid"],
-                "classification": row["classification"],
-                "url": f'http://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else ""
-              }
+            Patchfile(f'/catalog/{row["department"]} {row["catalogNumber"]}').append('publication', 'object', {
+              "title": row["title"],
+              "catoid": row["catoid"],
+              "coid": row["coid"],
+              "classification": row["classification"],
+              "url": f'http://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else ""
             })
           ))
           bar()

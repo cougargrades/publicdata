@@ -13,7 +13,7 @@ def generate(source: Path, destination: Path):
     entries = json.loads(f.read())
     with alive_bar(len(entries)) as bar:
       for item in entries:
-        with open(destination / f'patch-1-{time_ns()}.json', 'w') as out:
+        with open(destination / f'patch-1-groupsbyabbreviation-{time_ns()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/groups/{item["abbreviation"]}').write({
               "name": item["description"],
