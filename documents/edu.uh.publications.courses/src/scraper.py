@@ -57,7 +57,7 @@ class CatalogIterator(object):
     res = httpx.get(self.uri(self.catoid, '1'))
     soup = BeautifulSoup(res.text, 'html.parser')
     # "Page: 1 | 2 | 3 | 4 | 5 | 6 | 7 … Forward 6 -> 416"
-    elem = soup.select_one('table.table_default td > a[href^="/search_advanced.php"]:last-child')
+    elem = soup.select_one('nav a[aria-label^="Page"]:last-child')
     return int(elem.string)
 
   # shorthand for generating the necessary url
