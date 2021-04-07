@@ -37,5 +37,6 @@ It was executed like so: `./main.py ../`
 
 - `33.csv` => _2019-2020 Graduate Catalog_
 - `34.csv` => _2019-2020 Undergraduate Catalog_
+- <sub><a href="http://publications.uh.edu/index.php?catoid=35">Wait, then what's 35 supposed to be?</a></sub>
 - `36.csv` => _2020-2021 Undergraduate Catalog_
 - `37.csv` => _2020-2021 Graduate Catalog_
