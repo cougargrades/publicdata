@@ -37,3 +37,5 @@ It was executed like so: `./main.py ../`
 
 - `33.csv` => _2019-2020 Graduate Catalog_
 - `34.csv` => _2019-2020 Undergraduate Catalog_
+- `36.csv` => _2020-2021 Undergraduate Catalog_
+- `37.csv` => _2020-2021 Graduate Catalog_
