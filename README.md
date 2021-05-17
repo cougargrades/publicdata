@@ -1,6 +1,8 @@
 publicdata
 ==========
 
+[![npm (scoped)](https://img.shields.io/npm/v/@cougargrades/publicdata)](https://www.npmjs.com/@cougargrades/publicdata)
+
 Centralized location for the public data used by CougarGrades.
 
 ## Bundles

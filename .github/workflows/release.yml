@@ -35,6 +35,7 @@ jobs:
         run: | 
           echo "::set-output name=timestamp::$(date +'%Y-%m-%d-%H%M%S')"
           echo "::set-output name=timestamptag::$(date +'%Y-%m-%d-%H%M%S')"
+          echo "::set-output name=npmtag::$(date +'%Y%m%d%H%M%S')"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -65,8 +66,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         run: |
           cd npm
-          node repackage.js ${{ steps.timestamp.outputs.timestamptag }}
-          npm publish --access public --dry-run
+          node repackage.js ${{ steps.timestamp.outputs.npmtag }}
+          npm publish --access public
       # Setup .npmrc file to publish to GitHub Packages
       - uses: actions/setup-node@v2
         with:
@@ -78,6 +79,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd npm
-          node repackage.js ${{ steps.timestamp.outputs.timestamptag }}
-          npm publish --dry-run
+          node repackage.js ${{ steps.timestamp.outputs.npmtag }}
+          npm publish
         
