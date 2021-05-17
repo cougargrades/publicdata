@@ -25,8 +25,9 @@ jobs:
           mkdir -p exports/
           VAR=$PWD/exports/publicdata-bundle-$(date +'%Y-%m-%d-%H%M%S').tar.gz
           ALT=$PWD/npm/bundle
-          python bundler/bundle.py -o "$VAR"
-          python bundler/bundle.py --skiptar --skipmove -o "$ALT"
+          VAR_TEMP=$(dirname $VAR)/$(basename $VAR .gz)
+          python bundler/bundle.py --skiprmtree -o "$VAR"
+          mv $VAR_TEMP/* $ALT
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Get current date and timestamp

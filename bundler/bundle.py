@@ -17,6 +17,7 @@ parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to generate the tar file')
 parser.add_argument('--skiptar', dest='skiptar', action='store_true', help='Should the tar file be compression be skipped')
 parser.add_argument('--skipmove', dest='skipmove', action='store_true', help='Should the resulting export files be moved to the \'export\' folder or kept in their described location')
+parser.add_argument('--skiprmtree', dest='skiprmtree', action='store_true', help='Should the temporary export file directory be preserved')
 args = parser.parse_args()
 
 # total tasks
@@ -70,7 +71,10 @@ if(not args.skiptar):
   with tarfile.open(exports_path / args.tarloc, 'w:gz') as tar:
     for item in export_name.iterdir():
       tar.add(name=item, arcname=item.name)
-  rmtree(export_name)
+  if(not args.skiprmtree):
+    rmtree(export_name)
+  else:
+    print('\tSkipped rmtree')
 else:
   print('\tSkipped tar.gz compression')
   if(not args.skipmove):
