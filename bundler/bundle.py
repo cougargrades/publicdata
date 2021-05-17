@@ -16,6 +16,7 @@ from colorama import Fore, Back, Style
 parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to generate the tar file')
 parser.add_argument('--skiptar', dest='skiptar', action='store_true', help='Should the tar file be compression be skipped')
+parser.add_argument('--skipmove', dest='skipmove', action='store_true', help='Should the resulting export files be moved to the \'export\' folder or kept in their described location')
 args = parser.parse_args()
 
 # total tasks
@@ -72,6 +73,9 @@ if(not args.skiptar):
   rmtree(export_name)
 else:
   print('\tSkipped tar.gz compression')
-  move(export_name, exports_path / export_name.name)
+  if(not args.skipmove):
+    move(export_name, exports_path / export_name.name)
+  else:
+    print('\tSkipped export move')
 
 print(f'{Fore.MAGENTA}Done!{Style.RESET_ALL}')

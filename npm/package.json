@@ -1,0 +1,20 @@
+{
+  "name": "@cougargrades/publicdata",
+  "version": "1.0.0",
+  "description": "Centralized location for public data",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "bundle/com.collegescheduler.uh.subjects/**",
+    "bundle/edu.uh.grade_distribution/**",
+    "bundle/edu.uh.publications.courses/**",
+    "bundle/io.cougargrades.groups/**"
+  ],
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cougargrades/publicdata/issues"
+  },
+  "homepage": "https://github.com/cougargrades/publicdata#readme"
+}

@@ -2,6 +2,8 @@
 
 on: 
   push:
+    branches:
+      - master
 
 name: Create Release
 
@@ -22,7 +24,9 @@ jobs:
           pip install -r bundler/requirements.txt
           mkdir -p exports/
           VAR=$PWD/exports/publicdata-bundle-$(date +'%Y-%m-%d-%H%M%S').tar.gz
+          ALT=$PWD/npm/bundle
           python bundler/bundle.py -o "$VAR"
+          python bundler/bundle.py --skiptar --skipmove -o "$ALT"
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Get current date and timestamp
@@ -50,3 +54,29 @@ jobs:
           asset_path: "${{ steps.makebundle.outputs.tarloc }}"
           asset_name: "${{ steps.makebundle.outputs.tarname }}"
           asset_content_type: application/gzip
+      # Publish to npm
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '15.x'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Publish to NPM
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: |
+          cd npm
+          node repackage.js ${{ steps.timestamp.outputs.timestamptag }}
+          npm publish --access public --dry-run
+      # Setup .npmrc file to publish to GitHub Packages
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '15.x'
+          registry-url: 'https://npm.pkg.github.com'
+      # Publish to GitHub Packages
+      - name: Publish to GitHub Packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd npm
+          node repackage.js ${{ steps.timestamp.outputs.timestamptag }}
+          npm publish --dry-run
+        
