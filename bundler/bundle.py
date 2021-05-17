@@ -6,7 +6,7 @@ import argparse
 from time import time
 from shutil import rmtree, copyfile, move
 from pathlib import Path
-from bundle.patch import subjects, publications_courses, groups
+from bundle.patch import publications_courses, groups
 from bundle import patch
 from bundle import grade_distribution, subjects, publications_courses
 from colorama import init
@@ -58,8 +58,6 @@ for fmt in documents_path.iterdir():
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   # actually do
-  if(fmt.name == 'com.collegescheduler.uh.subjects'):
-    patch.subjects.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
   if(fmt.name == 'edu.uh.publications.courses'):
     patch.publications_courses.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
   if(fmt.name == 'io.cougargrades.groups'):
