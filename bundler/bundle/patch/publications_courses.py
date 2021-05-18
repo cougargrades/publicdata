@@ -16,7 +16,7 @@ def generate(source: Path, destination: Path):
       for row in reader:
         with open(destination / f'patch-1-publicationlink-{time_ns()}.json', 'w') as out:
           out.write(str(
-            Patchfile(f'/catalog/{row["department"]} {row["catalogNumber"]}').append('publication', 'object', {
+            Patchfile(f'/catalog/{row["department"]} {row["catalogNumber"]}').append('publications', 'object', {
               "title": row["title"],
               "catoid": row["catoid"],
               "coid": row["coid"],
