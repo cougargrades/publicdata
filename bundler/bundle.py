@@ -61,7 +61,7 @@ for fmt in documents_path.iterdir():
     M += 1
   # actually do
   if(fmt.name == 'edu.uh.publications.courses'):
-    patch.publications_courses.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
+    patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patch')
   if(fmt.name == 'io.cougargrades.groups'):
     patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
 
