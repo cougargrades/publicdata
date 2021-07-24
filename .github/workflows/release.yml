@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: "${{ steps.timestamp.outputs.timestamptag }}"
-          release_name: "publicdata-bundle-${{ steps.makebundle.outputs.tarname }}"
+          #release_name: "publicdata-bundle-${{ steps.makebundle.outputs.tarname }}"
           draft: false
           prerelease: false
       - name: Make test bundle
