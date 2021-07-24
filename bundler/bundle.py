@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import csv
 import os
 import tarfile
 import argparse
@@ -18,6 +19,7 @@ parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to
 parser.add_argument('--skiptar', dest='skiptar', action='store_true', help='Should the tar file be compression be skipped')
 parser.add_argument('--skipmove', dest='skipmove', action='store_true', help='Should the resulting export files be moved to the \'export\' folder or kept in their described location')
 parser.add_argument('--skiprmtree', dest='skiprmtree', action='store_true', help='Should the temporary export file directory be preserved')
+parser.add_argument('--testbundle', dest='testbundle', type=str, required=False, default=None, help='Which CSV file to generate a test bundle off of')
 args = parser.parse_args()
 
 # total tasks
@@ -33,7 +35,7 @@ export_name.mkdir(exist_ok=True)
 
 # always process this first
 print(f'{Fore.CYAN}[{M} / {N}] Bundling edu.uh.grade_distribution{Style.RESET_ALL}')
-grade_distribution.process(documents_path / 'edu.uh.grade_distribution', export_name / 'edu.uh.grade_distribution')
+grade_distribution.process(documents_path / 'edu.uh.grade_distribution', export_name / 'edu.uh.grade_distribution', csv_path_pattern=args.testbundle)
 M += 1
 
 # process the raw data, generate intermediary format

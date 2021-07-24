@@ -6,7 +6,8 @@ from alive_progress import alive_bar
 Combines all CSV data for this dataset into
 a single records.csv file
 '''
-def process(source: Path, destination: Path):
+def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv') :
+  csv_path_pattern = '*.csv' if csv_path_pattern == None else csv_path_pattern
   destination.mkdir(exist_ok=True)
   with alive_bar() as bar:
     with open(destination / 'records.csv', 'w') as export:
@@ -19,7 +20,7 @@ def process(source: Path, destination: Path):
 
         # write the other rows
         for csvfile in source.iterdir():
-          if(csvfile.match('*.csv') and not csvfile.match('master.csv')):
+          if(csvfile.match(csv_path_pattern) and not csvfile.match('master.csv')):
             with open(csvfile, 'r') as f:
               reader = csv.DictReader(f)
               # DictReader already skips the header row
