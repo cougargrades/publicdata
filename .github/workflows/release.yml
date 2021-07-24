@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: "${{ steps.timestamp.outputs.timestamptag }}"
-          release_name: "${{ steps.makebundle.outputs.tarname }}"
+          release_name: "publicdata-bundle-${{ steps.makebundle.outputs.tarname }}"
           draft: false
           prerelease: false
       - name: Make test bundle
@@ -40,7 +40,7 @@ jobs:
           pip install -r bundler/requirements.txt
           mkdir -p exports/
           VAR=$PWD/exports/publicdata-testbundle-summer2020-$(date +'%Y-%m-%d-%H%M%S').tar.gz
-          python bundler/bundle.py --skiprmtree -o "$VAR" --testbundle "IR06861 Summer 2020 Grade distribution (S+NCR).csv"
+          python bundler/bundle.py -o "$VAR" --testbundle "IR06861 Summer 2020 Grade distribution (S+NCR).csv"
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Upload Release Asset (test bundle)
