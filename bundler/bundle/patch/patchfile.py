@@ -22,7 +22,7 @@ class Patchfile:
     }
     self.actions = []
 
-  def add_action(self, operation: str, payload, arrayfield=None, field=None, datatype=None):
+  def add_action(self, operation: str, payload, arrayfield=None, field=None, datatype=None, many=None):
     '''
     Add an action. Returns itself for chaining.
     '''
@@ -41,6 +41,7 @@ class Patchfile:
           "operation": operation,
           "arrayfield": arrayfield,
           "datatype": datatype,
+          "many": many,
           "payload": payload
         }]
         return self
@@ -79,13 +80,13 @@ class Patchfile:
     '''
     return self.add_action(operation='merge', payload=payload)
   
-  def append(self, arrayfield, datatype, payload):
+  def append(self, arrayfield, datatype, payload, many=False):
     '''
     Shorthand for add_action(operation='append')
     
     Adds the payload to the end of the an array within an existing Document
     '''
-    return self.add_action(operation='append', payload=payload, arrayfield=arrayfield, datatype=datatype)
+    return self.add_action(operation='append', payload=payload, arrayfield=arrayfield, datatype=datatype, many=many)
 
   def increment(self, field: str, payload):
     '''
