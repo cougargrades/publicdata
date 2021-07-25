@@ -33,7 +33,7 @@ def generate(generated: Path, source: Path, destination: Path):
                 item.attrs.clear()
                 item['href'] = quote(f'/c/{item.string.strip()}')
               # skip spammy tooltip divs
-              if item.name in ['div','span'] and item.has_attr('style') and item['style'] != None and 'display:none;' in "".join(item['style'].split()).lower():
+              if item.name != None and item.name != '' and item.has_attr('style') and item['style'] != None and 'display:none' in "".join(item['style'].split()).lower():
                 continue
               # replace the <hr /> with <br />
               if item.name == 'hr':
@@ -52,7 +52,7 @@ def generate(generated: Path, source: Path, destination: Path):
                 "classification": row["classification"],
                 "url": f'http://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else "",
                 "scrapeDate": scrapeDate,
-                "content": html_minify(bleach.clean(content, tags=bleach.sanitizer.ALLOWED_TAGS + ["br"]))
+                "content": html_minify(bleach.clean(content, tags=bleach.sanitizer.ALLOWED_TAGS + ["br","span","p"]))
               })
             ))
             bar()
