@@ -26,6 +26,6 @@ def generate(source: Path, destination: Path):
         coursesForGroup = [ item for item in core if item["coreCode"] == group]
         with open(destination / f'patch-1-coregroups-{time_ns()}.json', 'w') as out:
           out.write(str(
-            Patchfile(f'/groups/{row["coreCode"]}').append('courses', 'firebase.firestore.DocumentReference', [ f'/catalog/{item["department"]} {item["catalogNumber"]}' for item in coursesForGroup ], many=True)
+            Patchfile(f'/groups/{group}').append('courses', 'firebase.firestore.DocumentReference', [ f'/catalog/{item["department"]} {item["catalogNumber"]}' for item in coursesForGroup ], many=True)
           ))
         bar(incr=len(coursesForGroup))
