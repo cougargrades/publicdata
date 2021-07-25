@@ -7,7 +7,7 @@ import argparse
 from time import time
 from shutil import rmtree, copyfile, move
 from pathlib import Path
-from bundle.patch import publications_courses, groups
+from bundle.patch import publications_courses, groups, publications_core
 from bundle import patch
 from bundle import grade_distribution, subjects, publications_courses
 from colorama import init
@@ -23,7 +23,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 8
+N = 9
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -58,14 +58,18 @@ for fmt in documents_path.iterdir():
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
+  else:
+    continue
   # actually do
   if(fmt.name == 'edu.uh.publications.courses'):
     patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patch')
   if(fmt.name == 'io.cougargrades.groups'):
     patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
+  if(fmt.name == 'edu.uh.publications.core'):
+    patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patch')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
