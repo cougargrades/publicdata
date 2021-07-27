@@ -8,6 +8,7 @@
     "bundle/com.collegescheduler.uh.subjects/**",
     "bundle/edu.uh.grade_distribution/**",
     "bundle/edu.uh.publications.courses/**",
+    "bundle/edu.uh.publications.subjects/**",
     "bundle/io.cougargrades.groups/**"
   ],
   "scripts": {},
