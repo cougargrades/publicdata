@@ -9,7 +9,7 @@ from shutil import rmtree, copyfile, move
 from pathlib import Path
 from bundle.patch import publications_courses, groups, publications_core
 from bundle import patch
-from bundle import grade_distribution, subjects, publications_courses
+from bundle import grade_distribution, subjects, publications_courses, publications_subjects
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -23,7 +23,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 9
+N = 10
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -41,12 +41,14 @@ M += 1
 # process the raw data, generate intermediary format
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.subjects']):
     print(f'{Fore.CYAN}[{M} / {N}] Bundling {fmt.name}{Style.RESET_ALL}')
     M += 1
   # actually do
   if(fmt.name == 'com.collegescheduler.uh.subjects'):
     subjects.process(fmt.resolve(), export_name / fmt.name)
+  if(fmt.name == 'edu.uh.publications.subjects'):
+    publications_subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.courses'):
     publications_courses.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'io.cougargrades.groups'):
