@@ -4,7 +4,7 @@ A CSV representation of UH's core curriculus by component area.
 
 ## Format
 
-Identifier code: `edu.uh.core_by_component`
+Identifier code: `edu.uh.publications.core`
 
 *Markdown table to help visualize the data*
 | department | catalogNumber | description                                                                     | catoid | coid   | coreCode | coreArea                       |
