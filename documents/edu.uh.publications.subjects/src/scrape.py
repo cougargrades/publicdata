@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 
 # records[catoid][navoid]
 records = [
-  [36, 13221],
-  [37, 13813],
+  [36, 13221], # 2020-2021 Undergraduate
+  [37, 13813], # 2020-2021 Graduate
 ]
 
 RESULT = dict()
@@ -49,6 +49,7 @@ with open('../subjects.json', 'w') as export:
         # save our findings
         RESULT[subAcronym] = subName
         print(f'- {subAcronym} => {subName}')
+      # ensure writing to disk between pages
       export.seek(0)
       export.write(json.dumps(RESULT, indent=2, sort_keys=True))
       export.truncate()
