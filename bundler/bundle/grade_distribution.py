@@ -44,8 +44,22 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
                     result[field] = 0
                 writer.writerow(result)
                 bar()
+  print('Sorting records...')
+  sortedlist = []
+  with open(destination / 'records.csv', 'r') as records:
+    reader = csv.DictReader(records)
+    sortedlist = sorted(reader, key=lambda row: row['TERM'], reverse=False)
+  with open(destination / 'records.csv', 'w') as export:
+    with open(source / 'master.csv', 'r') as masterFile:
+      # declare writer
+      master = csv.DictReader(masterFile)
+      writer = csv.DictWriter(export, master.fieldnames)
+      # write the header row
+      writer.writeheader()
+      writer.writerows(sortedlist)
+  print('Done')
   print('Splitting records...')
-  split_csv(source_filepath=(destination / 'records.csv').absolute(), dest_folder=destination.absolute(), split_file_prefix='records_split', records_per_file=5000)
+  split_csv(source_filepath=(destination / 'records.csv').absolute(), dest_folder=destination.absolute(), split_file_prefix='records_split', records_per_file=15000)
   print('Done')
 
 def split_csv(source_filepath, dest_folder, split_file_prefix, records_per_file):
