@@ -23,7 +23,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 10
+N = 11
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -41,7 +41,7 @@ M += 1
 # process the raw data, generate intermediary format
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.subjects']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.subjects','edu.uh.publications.core']):
     print(f'{Fore.CYAN}[{M} / {N}] Bundling {fmt.name}{Style.RESET_ALL}')
     M += 1
   # actually do
@@ -51,6 +51,10 @@ for fmt in documents_path.iterdir():
     publications_subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.courses'):
     publications_courses.process(fmt.resolve(), export_name / fmt.name)
+  if(fmt.name == 'edu.uh.publications.core'):
+    (export_name / fmt.name).mkdir(exist_ok=True)
+    copyfile(fmt / 'core_curriculum.json', export_name / fmt.name / 'core_curriculum.json')
+    print('\t✔')
   if(fmt.name == 'io.cougargrades.groups'):
     (export_name / fmt.name).mkdir(exist_ok=True)
     copyfile(fmt / 'defaults.json', export_name / fmt.name / 'defaults.json')

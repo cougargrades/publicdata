@@ -1,0 +1,2396 @@
+[
+  {
+    "department": "ENGL",
+    "catalogNumber": "1303",
+    "description": "First Year Writing I",
+    "catoid": "36",
+    "coid": "171247",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "1304",
+    "description": "First Year Writing II",
+    "catoid": "36",
+    "coid": "171248",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "1370",
+    "description": "Freshman Composition II - Honors",
+    "catoid": "36",
+    "coid": "171251",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2361",
+    "description": "Western World Literature II - Honors",
+    "catoid": "36",
+    "coid": "171276",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "BUSI",
+    "catalogNumber": "2305",
+    "description": "Business Statistics",
+    "catoid": "36",
+    "coid": "184550",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1310",
+    "description": "College Algebra",
+    "catoid": "36",
+    "coid": "172365",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1311",
+    "description": "Elementary Mathematical Modeling",
+    "catoid": "36",
+    "coid": "172366",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1312",
+    "description": "Introduction to Mathematical Reasoning",
+    "catoid": "36",
+    "coid": "172367",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1313",
+    "description": "Finite Math with Applications",
+    "catoid": "36",
+    "coid": "172368",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1314",
+    "description": "Calculus for Business and the Life Sciences",
+    "catoid": "36",
+    "coid": "172369",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1330",
+    "description": "Precalculus",
+    "catoid": "36",
+    "coid": "172370",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1431",
+    "description": "Calculus I",
+    "catoid": "36",
+    "coid": "172372",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1450",
+    "description": "Accelerated Calculus",
+    "catoid": "36",
+    "coid": "172374",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2311",
+    "description": "Introduction to Probability and Statistics",
+    "catoid": "36",
+    "coid": "172377",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1305",
+    "description": "Human Biology for the Informed Citizen",
+    "catoid": "36",
+    "coid": "174355",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1309",
+    "description": "Human Genetics and Society",
+    "catoid": "36",
+    "coid": "170325",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1310",
+    "description": "General Biology 1",
+    "catoid": "36",
+    "coid": "170326",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1320",
+    "description": "General Biology 2",
+    "catoid": "36",
+    "coid": "170327",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1361",
+    "description": "Introduction to Biological Science 1",
+    "catoid": "36",
+    "coid": "170331",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1362",
+    "description": "Introduction to Biological Science 2",
+    "catoid": "36",
+    "coid": "170332",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "2315",
+    "description": "Biology of Food",
+    "catoid": "36",
+    "coid": "174435",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1301",
+    "description": "Foundations of Chemistry",
+    "catoid": "36",
+    "coid": "170495",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1331",
+    "description": "Fundamentals of Chemistry",
+    "catoid": "36",
+    "coid": "170497",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1332",
+    "description": "Fundamentals of Chemistry 2",
+    "catoid": "36",
+    "coid": "170498",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1302",
+    "description": "Introduction to Global Climate Change",
+    "catoid": "36",
+    "coid": "171497",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1330",
+    "description": "Physical Geology",
+    "catoid": "36",
+    "coid": "171498",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1340",
+    "description": "Earth Systems",
+    "catoid": "36",
+    "coid": "171499",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1350",
+    "description": "Introduction to Meteorology",
+    "catoid": "36",
+    "coid": "171500",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1360",
+    "description": "Introduction to Oceanography",
+    "catoid": "36",
+    "coid": "171501",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1370",
+    "description": "Natural Disasters",
+    "catoid": "36",
+    "coid": "174434",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1376",
+    "description": "Historical Geology",
+    "catoid": "36",
+    "coid": "171502",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "NUTR",
+    "catalogNumber": "2332",
+    "description": "Introduction To Human Nutrition",
+    "catoid": "36",
+    "coid": "172018",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHAR",
+    "catalogNumber": "2362",
+    "description": "Principles of Drug Action",
+    "catoid": "36",
+    "coid": "172729",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1301",
+    "description": "Introductory General Physics I",
+    "catoid": "36",
+    "coid": "172818",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1302",
+    "description": "Introductory General Physics II",
+    "catoid": "36",
+    "coid": "172819",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1305",
+    "description": "Introductory Astronomy - The Solar System",
+    "catoid": "36",
+    "coid": "172820",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1306",
+    "description": "Introductory Astronomy - Stellar and Galactic Systems",
+    "catoid": "36",
+    "coid": "172821",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1321",
+    "description": "University Physics I",
+    "catoid": "36",
+    "coid": "172822",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1322",
+    "description": "University Physics II",
+    "catoid": "36",
+    "coid": "172823",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "AAS",
+    "catalogNumber": "2320",
+    "description": "Introduction to African American Studies",
+    "catoid": "36",
+    "coid": "169923",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "AAS",
+    "catalogNumber": "2330",
+    "description": "Black Liberation Theology",
+    "catoid": "36",
+    "coid": "169925",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ARAB",
+    "catalogNumber": "3340",
+    "description": "Modernity and Rationalism in Islamic Tradition",
+    "catoid": "36",
+    "coid": "170062",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ARTH",
+    "catalogNumber": "1300",
+    "description": "Ways of Seeing: Art and Our Visual World",
+    "catoid": "36",
+    "coid": "170240",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ARTH",
+    "catalogNumber": "1380",
+    "description": "Art and Society: Prehistoric to Gothic",
+    "catoid": "36",
+    "coid": "170241",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CHNS",
+    "catalogNumber": "3352",
+    "description": "Chinese Culture and Society Through Modern Literature",
+    "catoid": "36",
+    "coid": "170561",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CHNS",
+    "catalogNumber": "3360",
+    "description": "A Look Into Modern China",
+    "catoid": "36",
+    "coid": "170563",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3307",
+    "description": "Greek and Roman Myths of Heroes",
+    "catoid": "36",
+    "coid": "170602",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3308",
+    "description": "Myths and Cult of the Greek Gods",
+    "catoid": "36",
+    "coid": "170603",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3366",
+    "description": "The Trojan War",
+    "catoid": "36",
+    "coid": "170606",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3374",
+    "description": "Women in the Ancient World",
+    "catoid": "36",
+    "coid": "170608",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2305",
+    "description": "Introduction to Fiction",
+    "catoid": "36",
+    "coid": "171257",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2306",
+    "description": "Introduction to Poetry",
+    "catoid": "36",
+    "coid": "171258",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2308",
+    "description": "Introduction to Nonfiction Prose",
+    "catoid": "36",
+    "coid": "171260",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2315",
+    "description": "Literature and Film",
+    "catoid": "36",
+    "coid": "171264",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2316",
+    "description": "Literature and Culture",
+    "catoid": "36",
+    "coid": "171265",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2323",
+    "description": "Literature and Identity",
+    "catoid": "36",
+    "coid": "171270",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2325",
+    "description": "Literary Traditions of the Nonwestern World",
+    "catoid": "36",
+    "coid": "171272",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2340",
+    "description": "Cosmic Narratives",
+    "catoid": "36",
+    "coid": "171274",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3306",
+    "description": "Shakespeare: The Major Works",
+    "catoid": "36",
+    "coid": "171285",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3324",
+    "description": "The Development of the Novel",
+    "catoid": "36",
+    "coid": "171297",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3325",
+    "description": "Structures of Poetry",
+    "catoid": "36",
+    "coid": "171298",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3327",
+    "description": "Masterpieces of British Literature to the Eighteenth Century",
+    "catoid": "36",
+    "coid": "171300",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3328",
+    "description": "Masterpieces of British Literature from the Eighteenth Century",
+    "catoid": "36",
+    "coid": "171301",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3350",
+    "description": "American Literature to 1865",
+    "catoid": "36",
+    "coid": "171311",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3351",
+    "description": "American Literature Since 1865",
+    "catoid": "36",
+    "coid": "171312",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "3360",
+    "description": "Survey of African American Literature",
+    "catoid": "36",
+    "coid": "171318",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ETHN",
+    "catalogNumber": "2300",
+    "description": "Introduction to Ethnic Studies",
+    "catoid": "36",
+    "coid": "174563",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3318",
+    "description": "History of French Cinema",
+    "catoid": "36",
+    "coid": "171439",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3319",
+    "description": "History of French Cinema",
+    "catoid": "36",
+    "coid": "171440",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3321",
+    "description": "Cinema of French-Speaking Africa",
+    "catoid": "36",
+    "coid": "171442",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3322",
+    "description": "Cinema of French-Speaking Africa",
+    "catoid": "36",
+    "coid": "171443",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3362",
+    "description": "Paris - Berlin: Tales of Two Cities",
+    "catoid": "36",
+    "coid": "171444",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "FREN",
+    "catalogNumber": "3364",
+    "description": "Writing Holocausts: The Literatures of Genocide",
+    "catoid": "36",
+    "coid": "171445",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3350",
+    "description": "Understanding the 20th Century through German Culture",
+    "catoid": "36",
+    "coid": "171599",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3362",
+    "description": "Paris - Berlin: Tales of Two Cities",
+    "catoid": "36",
+    "coid": "171602",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3364",
+    "description": "Writing Holocausts: The Literatures of Genocide",
+    "catoid": "36",
+    "coid": "171604",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3369",
+    "description": "World War I in Literature, Visual Arts, and Film",
+    "catoid": "36",
+    "coid": "171605",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HISP",
+    "catalogNumber": "2373",
+    "description": "Spanish Culture and Civilization",
+    "catoid": "36",
+    "coid": "174336",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HISP",
+    "catalogNumber": "2374",
+    "description": "Spanish American Culture and Civilization",
+    "catoid": "36",
+    "coid": "174337",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HISP",
+    "catalogNumber": "2375",
+    "description": "United States Hispanic Culture and Civilization",
+    "catoid": "36",
+    "coid": "174338",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2349",
+    "description": "Latina/o Jewish History",
+    "catoid": "36",
+    "coid": "174384",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2351",
+    "description": "Western Civilization to 1450",
+    "catoid": "36",
+    "coid": "171695",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2353",
+    "description": "Western Civilization From 1450",
+    "catoid": "36",
+    "coid": "171696",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2361",
+    "description": "The Study of Early Civilizations",
+    "catoid": "36",
+    "coid": "171697",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2363",
+    "description": "Study of Modern Civilizations",
+    "catoid": "36",
+    "coid": "171698",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2368",
+    "description": "Introduction to African Studies",
+    "catoid": "36",
+    "coid": "173722",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2371",
+    "description": "Latin America 1492-1820",
+    "catoid": "36",
+    "coid": "171699",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2372",
+    "description": "Latin American History Since 1820",
+    "catoid": "36",
+    "coid": "171700",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2373",
+    "description": "Environment in Latin America",
+    "catoid": "36",
+    "coid": "173597",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2374",
+    "description": "Popular Culture in Latin America",
+    "catoid": "36",
+    "coid": "174566",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3379",
+    "description": "World Civilizations to 1500",
+    "catoid": "36",
+    "coid": "171770",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3380",
+    "description": "World Civilization Since 1500",
+    "catoid": "36",
+    "coid": "171771",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "4330",
+    "description": "Flowering of the Middle Ages",
+    "catoid": "36",
+    "coid": "171807",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HON",
+    "catalogNumber": "2301",
+    "description": "The Human Situation: Antiquity",
+    "catoid": "36",
+    "coid": "171848",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "IART",
+    "catalogNumber": "1300",
+    "description": "The Arts in Society",
+    "catoid": "36",
+    "coid": "174580",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ILAS",
+    "catalogNumber": "2350",
+    "description": "Knowledge and Methods",
+    "catoid": "36",
+    "coid": "172132",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ILAS",
+    "catalogNumber": "2360",
+    "description": "Cosmic Narratives",
+    "catoid": "36",
+    "coid": "172133",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3305",
+    "description": "Italian Culture Through Films",
+    "catoid": "36",
+    "coid": "172203",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3306",
+    "description": "Italian Cinema",
+    "catoid": "36",
+    "coid": "172204",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3308",
+    "description": "Italian Heritage",
+    "catoid": "36",
+    "coid": "172205",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3335",
+    "description": "Survey of Italian Literature",
+    "catoid": "36",
+    "coid": "172207",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3336",
+    "description": "Survey of Italian Literature  in Translation",
+    "catoid": "36",
+    "coid": "172208",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "JWST",
+    "catalogNumber": "2372",
+    "description": "The Bible and Modern Pop Culture",
+    "catoid": "36",
+    "coid": "174588",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "JWST",
+    "catalogNumber": "2380",
+    "description": "Introduction to Jewish Studies",
+    "catoid": "36",
+    "coid": "173622",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "JWST",
+    "catalogNumber": "3371",
+    "description": "Women in the Hebrew Bible/Old Testament",
+    "catoid": "36",
+    "coid": "174589",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "MAS",
+    "catalogNumber": "3340",
+    "description": "The Development of the Mexican American Urban Community",
+    "catoid": "36",
+    "coid": "172541",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "PHIL",
+    "catalogNumber": "1301",
+    "description": "Introduction to Philosophy",
+    "catoid": "36",
+    "coid": "172730",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "PHIL",
+    "catalogNumber": "1305",
+    "description": "Introduction to Ethics",
+    "catoid": "36",
+    "coid": "172731",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3340",
+    "description": "Ancient and Medieval Political Thought",
+    "catoid": "36",
+    "coid": "172900",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3342",
+    "description": "Liberalism and Its Critics",
+    "catoid": "36",
+    "coid": "172902",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "1301",
+    "description": "Introduction to Religious Studies",
+    "catoid": "36",
+    "coid": "173027",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2310",
+    "description": "The Bible and Western Culture I",
+    "catoid": "36",
+    "coid": "173028",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2311",
+    "description": "The Bible and Western Culture II",
+    "catoid": "36",
+    "coid": "173029",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2330",
+    "description": "Judaism",
+    "catoid": "36",
+    "coid": "173030",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2372",
+    "description": "The Bible and Modern Pop Culture",
+    "catoid": "36",
+    "coid": "174416",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "3371",
+    "description": "Women in the Hebrew Bible/Old Testament",
+    "catoid": "36",
+    "coid": "174417",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3331",
+    "description": "Mexican-American Literature",
+    "catoid": "36",
+    "coid": "173155",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3373",
+    "description": "Spanish Culture and Civilization",
+    "catoid": "36",
+    "coid": "173162",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3374",
+    "description": "Spanish American Culture and Civilization",
+    "catoid": "36",
+    "coid": "173163",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3375",
+    "description": "United States Hispanic Culture and Civilization",
+    "catoid": "36",
+    "coid": "173164",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "2351",
+    "description": "World Cultures Through Literature and Art",
+    "catoid": "36",
+    "coid": "173404",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "2352",
+    "description": "World Cinema",
+    "catoid": "36",
+    "coid": "173405",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "2370",
+    "description": "Cultures of India",
+    "catoid": "36",
+    "coid": "173406",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "3351",
+    "description": "Introduction to Latino Cultural Studies",
+    "catoid": "36",
+    "coid": "173409",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "3377",
+    "description": "The Modern Middle East: Literature, Politics, and Ideas",
+    "catoid": "36",
+    "coid": "173421",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WGSS",
+    "catalogNumber": "2350",
+    "description": "Introduction To Women\u2019s Studies",
+    "catoid": "36",
+    "coid": "173708",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WGSS",
+    "catalogNumber": "2360",
+    "description": "Introduction to GLBT Studies",
+    "catoid": "36",
+    "coid": "173709",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ARCH",
+    "catalogNumber": "2350",
+    "description": "Survey of Architectural History I",
+    "catoid": "36",
+    "coid": "170070",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "ARTH",
+    "catalogNumber": "1381",
+    "description": "Art and Society: Renaissance to Modern",
+    "catoid": "36",
+    "coid": "170242",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3345",
+    "description": "Myth and Performance in Greek Tragedy",
+    "catoid": "36",
+    "coid": "170605",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "3381",
+    "description": "From Homer to Hollywood: Archaic and Classical Greek Themes in  Modern Cinema",
+    "catoid": "36",
+    "coid": "170611",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DAN",
+    "catalogNumber": "2307",
+    "description": "Introduction to Dance",
+    "catoid": "36",
+    "coid": "170968",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DAN",
+    "catalogNumber": "3310",
+    "description": "Dance History I",
+    "catoid": "36",
+    "coid": "170981",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2307",
+    "description": "Introduction to Drama",
+    "catoid": "36",
+    "coid": "171259",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2318",
+    "description": "Creation and Performance of Literature",
+    "catoid": "36",
+    "coid": "171266",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3363",
+    "description": "Themes in German Drama",
+    "catoid": "36",
+    "coid": "171603",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3381",
+    "description": "History of German Cinema",
+    "catoid": "36",
+    "coid": "171607",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3384",
+    "description": "Fascism and German Cinema",
+    "catoid": "36",
+    "coid": "171609",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "GERM",
+    "catalogNumber": "3385",
+    "description": "East German Cinema",
+    "catoid": "36",
+    "coid": "171610",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "4371",
+    "description": "Latin American History Through Film",
+    "catoid": "36",
+    "coid": "171828",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "INDS",
+    "catalogNumber": "2355",
+    "description": "Design History I",
+    "catoid": "36",
+    "coid": "172058",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUED",
+    "catalogNumber": "2342",
+    "description": "Music for Children",
+    "catoid": "36",
+    "coid": "172645",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "2302",
+    "description": "Listening to Jazz",
+    "catoid": "36",
+    "coid": "172595",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "2362",
+    "description": "History of Music I",
+    "catoid": "36",
+    "coid": "172598",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "3300",
+    "description": "Listening to Music Masterworks",
+    "catoid": "36",
+    "coid": "172613",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "3301",
+    "description": "Listening to World Music",
+    "catoid": "36",
+    "coid": "172614",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "PHIL",
+    "catalogNumber": "1361",
+    "description": "Philosophy and the Arts",
+    "catoid": "36",
+    "coid": "172734",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "2346",
+    "description": "The Politics of Greek Theatre",
+    "catoid": "36",
+    "coid": "172862",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3386",
+    "description": "Screen Memories: Spanish Culture Through Film",
+    "catoid": "36",
+    "coid": "173166",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "THEA",
+    "catalogNumber": "1331",
+    "description": "Introduction to the Theatre",
+    "catoid": "36",
+    "coid": "173273",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "THEA",
+    "catalogNumber": "1332",
+    "description": "Fundamentals of Theatre",
+    "catoid": "36",
+    "coid": "173274",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "3366",
+    "description": "Latin American and Latino Film Studies",
+    "catoid": "36",
+    "coid": "173414",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1376",
+    "description": "The United States To 1877",
+    "catoid": "36",
+    "coid": "171687",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1377",
+    "description": "The U S To 1877",
+    "catoid": "36",
+    "coid": "171688",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1378",
+    "description": "The U S Since 1877",
+    "catoid": "36",
+    "coid": "171689",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1379",
+    "description": "The United States Since 1877",
+    "catoid": "36",
+    "coid": "171690",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2348",
+    "description": "U.S. Latino/a Histories",
+    "catoid": "36",
+    "coid": "173619",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2341",
+    "description": "Texas To 1865",
+    "catoid": "36",
+    "coid": "171693",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2343",
+    "description": "Texas Since 1865",
+    "catoid": "36",
+    "coid": "171694",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "1107",
+    "description": "Texas Constitution and Government",
+    "catoid": "36",
+    "coid": "172855",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "1336",
+    "description": "U.S. and Texas Constitution and Politics",
+    "catoid": "36",
+    "coid": "172858",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "1337",
+    "description": "U.S. Government: Congress, President, and Courts",
+    "catoid": "36",
+    "coid": "172859",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "2336",
+    "description": "U.S. and Texas Constitutions, Politics, and Institutions",
+    "catoid": "36",
+    "coid": "173623",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "AAMS",
+    "catalogNumber": "2300",
+    "description": "Introduction to Asian American Studies",
+    "catoid": "36",
+    "coid": "170888",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "1300",
+    "description": "Introduction to Anthropology",
+    "catoid": "36",
+    "coid": "169973",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2301",
+    "description": "Introduction to Physical Anthropology",
+    "catoid": "36",
+    "coid": "169974",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2302",
+    "description": "Introduction to Cultural Anthropology",
+    "catoid": "36",
+    "coid": "169975",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2303",
+    "description": "Introduction to Archaeology",
+    "catoid": "36",
+    "coid": "169976",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "2301",
+    "description": "Global Economic Concepts",
+    "catoid": "36",
+    "coid": "171025",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "2304",
+    "description": "Microeconomic Principles",
+    "catoid": "36",
+    "coid": "171026",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "2305",
+    "description": "Macroeconomic Principles",
+    "catoid": "36",
+    "coid": "171027",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "HDFS",
+    "catalogNumber": "2317",
+    "description": "Introduction to Human Development and Interventions",
+    "catoid": "36",
+    "coid": "172000",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "HRMA",
+    "catalogNumber": "2365",
+    "description": "Tourism",
+    "catoid": "36",
+    "coid": "171877",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "KIN",
+    "catalogNumber": "1304",
+    "description": "Public Health Issues in Physical Activity and Obesity",
+    "catoid": "36",
+    "coid": "172229",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3311",
+    "description": "Introduction to Comparative Politics",
+    "catoid": "36",
+    "coid": "172864",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3354",
+    "description": "Law and Society",
+    "catoid": "36",
+    "coid": "172911",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "1300",
+    "description": "Introduction to Psychology",
+    "catoid": "36",
+    "coid": "172963",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2350",
+    "description": "Child Development",
+    "catoid": "36",
+    "coid": "172967",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2351",
+    "description": "Psychology of Adolescence",
+    "catoid": "36",
+    "coid": "172968",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "SOC",
+    "catalogNumber": "1300",
+    "description": "Introduction to Sociology",
+    "catoid": "36",
+    "coid": "173080",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "TECH",
+    "catalogNumber": "1313",
+    "description": "Impact of Modern Technology on Society",
+    "catoid": "36",
+    "coid": "173260",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2304",
+    "description": "Introduction to Language and Culture",
+    "catoid": "36",
+    "coid": "169977",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "3348",
+    "description": "Anthropology of Religion",
+    "catoid": "36",
+    "coid": "169991",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "3361",
+    "description": "Human Origins",
+    "catoid": "36",
+    "coid": "169994",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "3381",
+    "description": "Global Hinduism",
+    "catoid": "36",
+    "coid": "170003",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ARAB",
+    "catalogNumber": "3314",
+    "description": "Women and Gender in Arabic Literature",
+    "catoid": "36",
+    "coid": "170061",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ARCH",
+    "catalogNumber": "1359",
+    "description": "Design Since 1945",
+    "catoid": "36",
+    "coid": "170064",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ARTH",
+    "catalogNumber": "3312",
+    "description": "Pre-Columbian Art",
+    "catoid": "36",
+    "coid": "170255",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "BCHS",
+    "catalogNumber": "4311",
+    "description": "Biochemistry Lab II",
+    "catoid": "36",
+    "coid": "170307",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "3311",
+    "description": "Genetics Laboratory",
+    "catoid": "36",
+    "coid": "170342",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "BUSI",
+    "catalogNumber": "4350",
+    "description": "Business Law and Ethics",
+    "catoid": "36",
+    "coid": "171477",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "4305",
+    "description": "Fifth-Century Athens: Readings in Intellectual, Literary, and Political History",
+    "catoid": "36",
+    "coid": "170615",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "CLAS",
+    "catalogNumber": "4381",
+    "description": "Latin Classics in Translation",
+    "catoid": "36",
+    "coid": "170621",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "DAN",
+    "catalogNumber": "2307",
+    "description": "Introduction to Dance",
+    "catoid": "36",
+    "coid": "170968",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "DAN",
+    "catalogNumber": "3310",
+    "description": "Dance History I",
+    "catoid": "36",
+    "coid": "170981",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "3344",
+    "description": "History of Economic Doctrine",
+    "catoid": "36",
+    "coid": "171033",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "3350",
+    "description": "American Economic Growth",
+    "catoid": "36",
+    "coid": "171035",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ENGI",
+    "catalogNumber": "2304",
+    "description": "Technical Communications for Engineers",
+    "catoid": "36",
+    "coid": "171230",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2330",
+    "description": "Writing in the Discipline of English",
+    "catoid": "36",
+    "coid": "171273",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HDCS",
+    "catalogNumber": "1300",
+    "description": "Human Ecosystems and Technological Change",
+    "catoid": "36",
+    "coid": "171973",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HDFS",
+    "catalogNumber": "1300",
+    "description": "Development of Contemporary Families",
+    "catoid": "36",
+    "coid": "171998",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3314",
+    "description": "Liberals vs. Conservatives: FDR to the Present",
+    "catoid": "36",
+    "coid": "171714",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3333",
+    "description": "Chicano History Since 1910",
+    "catoid": "36",
+    "coid": "171733",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3351",
+    "description": "Work and Family Life in Modern Europe",
+    "catoid": "36",
+    "coid": "171749",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "3369",
+    "description": "Colonial Mexico",
+    "catoid": "36",
+    "coid": "171760",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "4321",
+    "description": "The History of Jewish Food",
+    "catoid": "36",
+    "coid": "174154",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HON",
+    "catalogNumber": "2341",
+    "description": "Classics of Modernity",
+    "catoid": "36",
+    "coid": "172861",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HON",
+    "catalogNumber": "3300",
+    "description": "Introduction to Social Medicine",
+    "catoid": "36",
+    "coid": "174138",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HRMA",
+    "catalogNumber": "3358",
+    "description": "Hospitality Industry Law",
+    "catoid": "36",
+    "coid": "171917",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "IDNS",
+    "catalogNumber": "4392",
+    "description": "History of 20th Century Science",
+    "catoid": "36",
+    "coid": "172148",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3307",
+    "description": "Italian Renaissance",
+    "catoid": "36",
+    "coid": "173621",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "3309",
+    "description": "Women Writers and Filmmakers of Modern Italy",
+    "catoid": "36",
+    "coid": "172206",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "ITAL",
+    "catalogNumber": "4308",
+    "description": "Dante and His World",
+    "catoid": "36",
+    "coid": "172217",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "JWST",
+    "catalogNumber": "3371",
+    "description": "Women in the Hebrew Bible/Old Testament",
+    "catoid": "36",
+    "coid": "174589",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "LAST",
+    "catalogNumber": "3300",
+    "description": "Latin American Studies: Interdisciplinary Perspectives",
+    "catoid": "36",
+    "coid": "172280",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "MAS",
+    "catalogNumber": "3342",
+    "description": "Mexican Immigration To the US",
+    "catoid": "36",
+    "coid": "172543",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "MAS",
+    "catalogNumber": "3345",
+    "description": "Latino Leadership, Activism & Organizing",
+    "catoid": "36",
+    "coid": "174398",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "4388",
+    "description": "History of Mathematics",
+    "catoid": "36",
+    "coid": "172430",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "3303",
+    "description": "Popular Music in the Americas Since 1840",
+    "catoid": "36",
+    "coid": "172615",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "NURS",
+    "catalogNumber": "4312",
+    "description": "Leadership and Management in Professional Nursing Practice",
+    "catoid": "36",
+    "coid": "173794",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PHIL",
+    "catalogNumber": "1334",
+    "description": "Minds and Machines",
+    "catoid": "36",
+    "coid": "172733",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "3313",
+    "description": "Advanced Laboratory I",
+    "catoid": "36",
+    "coid": "172831",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3310",
+    "description": "Introduction to Political Theory",
+    "catoid": "36",
+    "coid": "172863",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3348",
+    "description": "Left, Right, and Center",
+    "catoid": "36",
+    "coid": "173813",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3349",
+    "description": "Foundations in American Political Thought",
+    "catoid": "36",
+    "coid": "172904",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2344",
+    "description": "Cultural Psychology",
+    "catoid": "36",
+    "coid": "172966",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "3310",
+    "description": "Industrial-Organization Psychology",
+    "catoid": "36",
+    "coid": "172971",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "4321",
+    "description": "Abnormal Psychology",
+    "catoid": "36",
+    "coid": "172994",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2340",
+    "description": "Introduction to Hinduism",
+    "catoid": "36",
+    "coid": "173032",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2350",
+    "description": "Introduction to Islam",
+    "catoid": "36",
+    "coid": "173033",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2360",
+    "description": "Introduction to Buddhism",
+    "catoid": "36",
+    "coid": "173034",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "3370",
+    "description": "The Bible and Modern Science",
+    "catoid": "36",
+    "coid": "173041",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "3371",
+    "description": "Women in the Hebrew Bible/Old Testament",
+    "catoid": "36",
+    "coid": "174417",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "3381",
+    "description": "Global Hinduism",
+    "catoid": "36",
+    "coid": "173044",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "SOC",
+    "catalogNumber": "3300",
+    "description": "Introduction to Sociological Theory",
+    "catoid": "36",
+    "coid": "173085",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "SOC",
+    "catalogNumber": "3315",
+    "description": "Sexuality and Society",
+    "catoid": "36",
+    "coid": "173089",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "SOC",
+    "catalogNumber": "3351",
+    "description": "Social Class and Mobility in America",
+    "catoid": "36",
+    "coid": "173108",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "SOC",
+    "catalogNumber": "3360",
+    "description": "Sociology of Food",
+    "catoid": "36",
+    "coid": "173111",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "SPAN",
+    "catalogNumber": "3384",
+    "description": "Introduction to Hispanic Literature",
+    "catoid": "36",
+    "coid": "173165",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "TLIM",
+    "catalogNumber": "3363",
+    "description": "Technical Communications",
+    "catoid": "36",
+    "coid": "172684",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "THEA",
+    "catalogNumber": "2344",
+    "description": "American Drama",
+    "catoid": "36",
+    "coid": "173291",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "3348",
+    "description": "Enlightenment Stories",
+    "catoid": "36",
+    "coid": "174139",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "4351",
+    "description": "Frames of Modernity I",
+    "catoid": "36",
+    "coid": "173430",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "4352",
+    "description": "Frames of Modernity II - Postmodernity and Globalization",
+    "catoid": "36",
+    "coid": "173431",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "4356",
+    "description": "World Film & Film Theory",
+    "catoid": "36",
+    "coid": "173433",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "4365",
+    "description": "World Fiction & Reportage",
+    "catoid": "36",
+    "coid": "173436",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "4367",
+    "description": "Voices from Exile and Diaspora",
+    "catoid": "36",
+    "coid": "173437",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "BUSI",
+    "catalogNumber": "2305",
+    "description": "Business Statistics",
+    "catoid": "36",
+    "coid": "184550",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "COSC",
+    "catalogNumber": "1306",
+    "description": "Computer Science & Programming",
+    "catoid": "36",
+    "coid": "170801",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "CUIN",
+    "catalogNumber": "2320",
+    "description": "Mathematics for Elementary and Middle School Teachers",
+    "catoid": "36",
+    "coid": "174137",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "2370",
+    "description": "Introduction to Economic Data Analysis",
+    "catoid": "36",
+    "coid": "171028",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "ELET",
+    "catalogNumber": "2300",
+    "description": "Introduction to C++ Programming",
+    "catoid": "36",
+    "coid": "171173",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1312",
+    "description": "Introduction to Mathematical Reasoning",
+    "catoid": "36",
+    "coid": "172367",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1313",
+    "description": "Finite Math with Applications",
+    "catoid": "36",
+    "coid": "172368",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1314",
+    "description": "Calculus for Business and the Life Sciences",
+    "catoid": "36",
+    "coid": "172369",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1330",
+    "description": "Precalculus",
+    "catoid": "36",
+    "coid": "172370",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1431",
+    "description": "Calculus I",
+    "catoid": "36",
+    "coid": "172372",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1432",
+    "description": "Calculus II",
+    "catoid": "36",
+    "coid": "172373",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1450",
+    "description": "Accelerated Calculus",
+    "catoid": "36",
+    "coid": "172374",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1451",
+    "description": "Accelerated Calculus",
+    "catoid": "36",
+    "coid": "172375",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2311",
+    "description": "Introduction to Probability and Statistics",
+    "catoid": "36",
+    "coid": "172377",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "PHIL",
+    "catalogNumber": "1321",
+    "description": "Logic I",
+    "catoid": "36",
+    "coid": "172732",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3312",
+    "description": "Arguments, Data, and Politics",
+    "catoid": "36",
+    "coid": "172865",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "POLS",
+    "catalogNumber": "3316",
+    "description": "Statistics for Political Scientists",
+    "catoid": "36",
+    "coid": "172869",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "3301",
+    "description": "Introduction to Psychological Statistics",
+    "catoid": "36",
+    "coid": "172970",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "TMTH",
+    "catalogNumber": "3360",
+    "description": "Applied Technical Statistics",
+    "catoid": "36",
+    "coid": "173446",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  }
+]
