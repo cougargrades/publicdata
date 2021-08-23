@@ -18,7 +18,7 @@ def generate(generated: Path, source: Path, destination: Path):
     with alive_bar(util.file_len((generated / 'pairs.csv').resolve())-1) as bar:
       reader = csv.DictReader(infile)
       for row in reader:
-        with open(destination / f'patch_3_publicationlink_{time_ns()}.json', 'w') as out:
+        with open(destination / f'patch-3-publicationlink-{time_ns()}.json', 'w') as out:
           with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html') as htmlFile:
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')

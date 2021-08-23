@@ -15,7 +15,7 @@ def generate(source: Path, destination: Path):
     with alive_bar(len(data)) as bar:
       for item in data:
         item["keywords"] = list(set([item for sublist in [util.createKeywords(w) for w in [item["name"], item["name"].replace("&", "and"), item["identifier"]]] for item in sublist]))
-        with open(destination / f'patch_0_groupdefaults_{time_ns()}.json', 'w') as out:
+        with open(destination / f'patch-0-groupdefaults-{time_ns()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/groups/{item["identifier"]}').write(item)
           ))
