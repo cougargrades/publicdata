@@ -40,3 +40,5 @@ It was executed like so: `./main.py ../`
 - <sub><a href="http://publications.uh.edu/index.php?catoid=35">Wait, then what's 35 supposed to be?</a></sub>
 - `36.csv` => _2020-2021 Undergraduate Catalog_
 - `37.csv` => _2020-2021 Graduate Catalog_
+- `40.csv` => _2021-2022 Graduate Catalog_
+- `41.csv` => _2021-2022 Undergraduate Catalog_
