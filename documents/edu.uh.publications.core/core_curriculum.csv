@@ -265,3 +265,74 @@ POLS,3312,"Arguments, Data, and Politics",36,172865,91,Mathematics/Reasoning
 POLS,3316,Statistics for Political Scientists,36,172869,91,Mathematics/Reasoning
 PSYC,3301,Introduction to Psychological Statistics,36,172970,91,Mathematics/Reasoning
 TMTH,3360,Applied Technical Statistics,36,173446,91,Mathematics/Reasoning
+ENGL,1301,First Year Writing I,41,194604,10,Communication
+ENGL,1302,First Year Writing II,41,194605,10,Communication
+MATH,1324,Finite Math with Applications,41,195725,20,Mathematics
+MATH,1325,Calculus for Business & Social Sciences,41,195726,20,Mathematics
+MATH,1332,Elementary Mathematical Modeling,41,195723,20,Mathematics
+MATH,1342,Elementary Statistical Methods,41,195734,20,Mathematics
+MATH,1351,Introduction to Mathematical Reasoning,41,195724,20,Mathematics
+MATH,2312,Precalculus,41,195727,20,Mathematics
+MATH,2413,Calculus I,41,195729,20,Mathematics
+BIOL,1306,Biology for Science Majors I (lecture),41,193688,30,Life and Physical Sciences
+BIOL,1307,Biology for Science Majors II (lecture,41,193689,30,Life and Physical Sciences
+BIOL,1308,Biology for Non-Science Majors I (lecture),41,193683,30,Life and Physical Sciences
+BIOL,1319,Human Genetics and Society,41,193682,30,Life and Physical Sciences
+CHEM,1305,Foundations of Chemistry,41,193852,30,Life and Physical Sciences
+CHEM,1311,Fundamentals of Chemistry,41,193854,30,Life and Physical Sciences
+CHEM,1312,Fundamentals of Chemistry 2,41,193855,30,Life and Physical Sciences
+GEOL,1303,Physical Geology,41,194855,30,Life and Physical Sciences
+GEOL,1304,Historical Geology,41,194859,30,Life and Physical Sciences
+GEOL,1345,Introduction to Oceanography,41,194858,30,Life and Physical Sciences
+GEOL,1347,Introduction To Meteorology,41,194857,30,Life and Physical Sciences
+PHYS,1303,Stars and Galaxies,41,196178,30,Life and Physical Sciences
+PHYS,1304,Solar System,41,196177,30,Life and Physical Sciences
+PHYS,2325,University Physics I (lecture),41,196179,30,Life and Physical Sciences
+PHYS,2326,University Physics II (lecture),41,196180,30,Life and Physical Sciences
+ARTS,1303,Art History I (Prehistoric to the 14th Century),41,193598,40,"Language, Philosophy & Culture"
+CHIN,3352,Chin Cul & Soc Thru Mod Lit,41,193918,40,"Language, Philosophy & Culture"
+CHIN,3360,A Look Into Modern China,41,193920,40,"Language, Philosophy & Culture"
+ENGL,2314,Literature and Identity,41,194627,40,"Language, Philosophy & Culture"
+HIST,2311,Western Civilization to 1450,41,195052,40,"Language, Philosophy & Culture"
+HIST,2312,Western Civilization from 1450,41,195053,40,"Language, Philosophy & Culture"
+HIST,2321,The Study of Early Civilizations,41,195054,40,"Language, Philosophy & Culture"
+HIST,2322,Modern Civilizations,41,195055,40,"Language, Philosophy & Culture"
+RELS,2336,Introduction to Jewish Studies,41,201513,40,"Language, Philosophy & Culture"
+WCL,2380,Introduction to Jewish Studies,41,196764,40,"Language, Philosophy & Culture"
+ARED,2310,Introduction to Critical Visual Culture,41,201442,50,Creative Arts
+ARTS,1304,Art History II (15th Century to the Present),41,193599,50,Creative Arts
+DANC,2303,Introduction to Dance,41,194325,50,Creative Arts
+DANC,2323,Dance in Film and Cinematic Media,41,201455,50,Creative Arts
+DANC,3310,Dance History I,41,194338,50,Creative Arts
+DRAM,1310,Introduction to Theatre,41,196630,50,Creative Arts
+HON,3310,Poetics and Performance,41,195207,50,Creative Arts
+MUSI,1307,Listening to Classical Music,41,195970,50,Creative Arts
+HIST,2301,Texas History to 1865,41,195050,60,American History
+HIST,2302,Texas Since 1865,41,195051,60,American History
+GOVT,2305,"US Government: Congress, President, & Courts",41,196216,70,Government/Political Science
+GOVT,2306,US and Texas Constitution and Politics,41,196215,70,Government/Political Science
+ANTH,2346,Introduction to Anthropology,41,193330,80,Social and Behavioral Sciences
+ANTH,2351,Introduction to Cultural Anthropology,41,193332,80,Social and Behavioral Sciences
+ECON,2302,Principles of Microeconomics,41,194383,80,Social and Behavioral Sciences
+ENTR,3310,Entrepreneurship,41,194729,80,Social and Behavioral Sciences
+ENTR,3311,Technology Entrepreneurship,41,197504,80,Social and Behavioral Sciences
+HDFS,2314,Introduction to Human Development and Interventions,41,195357,80,Social and Behavioral Sciences
+PSYC,2301,Introduction to Psychology,41,196320,80,Social and Behavioral Sciences
+PSYC,2307,Psychology of Adolescence,41,196325,80,Social and Behavioral Sciences
+PSYC,2308,Child Development,41,196324,80,Social and Behavioral Sciences
+SOCI,1301,Introduction To Sociology,41,196437,80,Social and Behavioral Sciences
+CHIN,3354,Chinese Culture and Language,41,193919,81,Writing in the Disciplines
+DANC,2303,Introduction to Dance,41,194325,81,Writing in the Disciplines
+DANC,3310,Dance History I,41,194338,81,Writing in the Disciplines
+HIST,2328,Chicano History since 1910,41,195090,81,Writing in the Disciplines
+HON,3310,Poetics and Performance,41,195207,81,Writing in the Disciplines
+IART,2300,The Arts in Houston,41,201493,81,Writing in the Disciplines
+COSC,1336,Computer Science and Programming,41,194158,91,Mathematics/Reasoning
+CUIN,1350,Mathematics for Teachers 1,41,197493,91,Mathematics/Reasoning
+MATH,1324,Finite Math with Applications,41,195725,91,Mathematics/Reasoning
+MATH,1325,Calculus for Business & Social Sciences,41,195726,91,Mathematics/Reasoning
+MATH,1342,Elementary Statistical Methods,41,195734,91,Mathematics/Reasoning
+MATH,1351,Introduction to Mathematical Reasoning,41,195724,91,Mathematics/Reasoning
+MATH,2312,Precalculus,41,195727,91,Mathematics/Reasoning
+MATH,2413,Calculus I,41,195729,91,Mathematics/Reasoning
+MATH,2414,Calculus II,41,195730,91,Mathematics/Reasoning
