@@ -15,7 +15,7 @@ For this experiment:
 - [EC 3] remove common suffixes (Jr, PhD, II, III, IV)
 - [EC 4] only search using the first "segment" of firstName and lastName (["AA BB", "CC DD"] => "AA CC")
 
-measured __% success rate (__ of __)
+measured 50.79% success rate (2025 of 3987)
 '''
 def mapping(firstName: str, lastName: str) -> Tuple[int, str, str]:
   res = use_first_search_result(f'{firstName} {lastName}')
