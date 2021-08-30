@@ -1,6 +1,8 @@
 # UH Instructor RateMyProfessors mapping
 
-A table of UH instructors and their estimated IDs on RateMyProfessors
+A table of UH instructors and their estimated IDs on RateMyProfessors.
+
+The values in the `rmpId` column can be used like so: `https://www.ratemyprofessors.com/ShowRatings.jsp?tid={rmpId}`
 
 ## Format
 
