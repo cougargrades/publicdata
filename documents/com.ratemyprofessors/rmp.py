@@ -12,6 +12,7 @@ def get_graphql_key():
     return html[i:j]
 
 GRAPHQL_KEY = get_graphql_key()
+UH_SCHOOL_ID = 'U2Nob29sLTExMDk='
 
 def graphQL(query: str, variables: dict):
   res = requests.post('https://www.ratemyprofessors.com/graphql', headers={

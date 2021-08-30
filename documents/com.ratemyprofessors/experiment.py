@@ -1,10 +1,15 @@
+import os
 import csv
+import time
 from typing import Callable, Tuple
 from alive_progress import alive_bar
 
 func: Callable[[str, str], int] = lambda var1, var2: var1.index(var2)
 
-def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]]):
+'''
+Passed function must return a tuple of: (rmpId, rmpFirstName, rmpLastName)
+'''
+def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]], delay: int):
   print(f'{title} starting...')
   total_names = 0
   total_matches = 0
@@ -30,7 +35,12 @@ def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]])
         with alive_bar(total_names) as bar:
           for item in names:
             firstName, lastName = item
-            rmpId, rmpFirstName, rmpLastName = func(firstName, lastName)
+            try:
+              rmpId, rmpFirstName, rmpLastName = func(firstName, lastName)
+            except:
+              print('exception raised, waiting 10 seconds before retrying')
+              time.sleep(10)
+              rmpId, rmpFirstName, rmpLastName = func(firstName, lastName)
             row = {
               "sourceFirstName": firstName,
               "sourceLastName": lastName,
@@ -42,7 +52,9 @@ def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]])
               total_matches += 1
             writer.writerow(row)
             bar()
+            time.sleep(delay)
+            outfile.flush()
+            os.fsync(outfile.fileno())
   print(f'{title} completed with a {round(total_matches/total_names*100, 2)}% success rate ({total_matches} of {total_names})')
-  print(f'------------------------')
-    
+
     
