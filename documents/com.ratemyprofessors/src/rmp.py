@@ -124,4 +124,5 @@ def instructor_search(text: str, schoolID: str) -> list[InstructorSearchNode]:
   return [InstructorSearchNode(item['node']) for item in base]
 
 # example:
-# print(instructor_search('Carlos Alberto Rincon Castro', schoolID='U2Nob29sLTExMDk='))
+if __name__ == '__main__':
+  print(instructor_search('Kevin Long', schoolID='U2Nob29sLTExMDk='))

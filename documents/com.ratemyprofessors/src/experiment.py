@@ -13,8 +13,8 @@ def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]],
   print(f'{title} starting...')
   total_names = 0
   total_matches = 0
-  with open('master.csv', 'r') as masterFile:
-    with open('records.csv') as infile:
+  with open('../master.csv', 'r') as masterFile:
+    with open('../records.csv') as infile:
       with open(f'{title}.csv', 'w') as outfile:
         master = csv.DictReader(masterFile)
         reader = csv.DictReader(infile)

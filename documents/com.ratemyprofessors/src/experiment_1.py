@@ -20,4 +20,5 @@ def mapping(firstName: str, lastName: str) -> Tuple[int, str, str]:
   else:
     return (None, None, None)
 
-run_experiment('experiment_1', mapping, delay=0)
+if __name__ == '__main__':
+  run_experiment('../experiment_1', mapping, delay=0)

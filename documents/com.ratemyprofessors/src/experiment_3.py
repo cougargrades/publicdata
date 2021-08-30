@@ -13,8 +13,9 @@ For this experiment:
 - [EC 1] if a middle initial is provided in the first or last name, remove it
 - [EC 2] remove punctuation, except hyphens and apostrophes
 - [EC 3] remove common suffixes (Jr, PhD, II, III, IV)
+- [EC 4] only search using the first "segment" of firstName and lastName (["AA BB", "CC DD"] => "AA CC")
 
-measured 34.19% success rate (1363 of 3987)
+measured 50.79% success rate (2025 of 3987)
 '''
 def mapping(firstName: str, lastName: str) -> Tuple[int, str, str]:
   res = use_first_search_result(f'{firstName} {lastName}')
@@ -35,12 +36,13 @@ def mapping(firstName: str, lastName: str) -> Tuple[int, str, str]:
   firstName = remove_suffixes(firstName)
   lastName = remove_suffixes(lastName)
 
-  # if('Cooper' in lastName):
-  #   print(f'after: {firstName} {lastName}')
-  #return res
-
-  # try again
+  # try with EC 1-3
   res = use_first_search_result(f'{firstName} {lastName}')
+  if res != (None, None, None):
+    return res
+
+  # [EC 4] only search using the first "segment" of firstName and lastName (["AA BB", "CC DD"] => "AA CC")
+  res = use_first_search_result(f'{only_first_segment(firstName)} {only_first_segment(lastName)}')
   if res != (None, None, None):
     return res
 
@@ -71,6 +73,10 @@ def str_without(s: str, without: str) -> str:
 def remove_suffixes(s: str) -> str:
   return ' '.join([segment for segment in s.split(' ') if segment not in SUFFIXES])
 
+def only_first_segment(s: str) -> str:
+  return s.split(' ')[0]
+
 SUFFIXES = ['PhD', 'Jr', 'II', 'III', 'IV']
 
-run_experiment('experiment_2', mapping, delay=0)
+if __name__ == '__main__':
+  run_experiment('../experiment_3', mapping, delay=0)
