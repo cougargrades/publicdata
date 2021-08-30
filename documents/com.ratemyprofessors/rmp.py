@@ -20,7 +20,7 @@ def graphQL(query: str, variables: dict):
   }, json={
     "query": query,
     "variables": variables,
-  })
+  }, timeout=10)
   if res.status_code == 200:
     return json.loads(res.content.decode())
 

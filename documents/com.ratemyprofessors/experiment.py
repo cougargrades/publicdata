@@ -33,7 +33,7 @@ def run_experiment(title: str, func: Callable[[str, str], Tuple[int, str, str]],
         total_names = len(names)
         
         with alive_bar(total_names) as bar:
-          for item in names:
+          for item in sorted(list(names)):
             firstName, lastName = item
             try:
               rmpId, rmpFirstName, rmpLastName = func(firstName, lastName)
