@@ -48,3 +48,13 @@ def process(source: Path, destination: Path):
                   "title": row["catalog_title"]
                 })
             bar()
+  
+  # sort output file
+  sortedlist = []
+  with open(destination / 'pairs.csv', 'r') as infile:
+    reader = csv.DictReader(infile)
+    sortedlist = sorted(reader, key=lambda row: (row['catoid'], row['coid']), reverse=False)
+  with open(destination / 'pairs.csv', 'w') as outfile:
+    writer = csv.DictWriter(outfile, ['catoid', 'coid', 'classification', 'department', 'catalogNumber', 'title'])
+    writer.writeheader()
+    writer.writerows(sortedlist)
