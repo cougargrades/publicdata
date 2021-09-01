@@ -9,7 +9,7 @@ from shutil import rmtree, copyfile, move
 from pathlib import Path
 from bundle.patch import publications_courses, groups, publications_core
 from bundle import patch
-from bundle import grade_distribution, subjects, publications_courses, publications_subjects
+from bundle import grade_distribution, subjects, publications_courses, publications_subjects, generate_sitemap
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -23,7 +23,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 11
+N = 12
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -60,6 +60,11 @@ for fmt in documents_path.iterdir():
     copyfile(fmt / 'defaults.json', export_name / fmt.name / 'defaults.json')
     print('\t✔')
     
+# generate sitemap.txt
+print(f'{Fore.CYAN}[{M} / {N}] Generating io.cougargrades.sitemap{Style.RESET_ALL}')
+M += 1
+generate_sitemap.process(export_name / 'io.cougargrades.sitemap')
+print('\t✔')
 
 # generate patch files
 for fmt in documents_path.iterdir():
@@ -71,11 +76,11 @@ for fmt in documents_path.iterdir():
     continue
   # actually do
   if(fmt.name == 'edu.uh.publications.courses'):
-    patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patch')
+    patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.groups'):
-    patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patch')
+    patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.publications.core'):
-    patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patch')
+    patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
