@@ -15,7 +15,7 @@ def generate(source: Path, destination: Path):
     with alive_bar(util.file_len((source / 'instructors.csv').resolve())-1) as bar:
       reader = csv.DictReader(f)
       for row in reader:
-        if row['rmpId'] != None:
+        if row['rmpId'] != None and row['rmpId'] != "":
           with open(destination / f'patch-4-rmplink-{time_ns()}.json', 'w') as out:
             out.write(str(
               Patchfile(f'/instructors/{row["sourceLastName"]}, {row["sourceFirstName"]}').merge({
