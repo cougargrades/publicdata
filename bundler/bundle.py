@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-
-import csv
 import os
 import tarfile
 import argparse
 from time import time
 from shutil import rmtree, copyfile, move
 from pathlib import Path
-from bundle.patch import publications_courses, groups, publications_core
-from bundle import patch
-from bundle import grade_distribution, subjects, publications_courses, publications_subjects, generate_sitemap
+import bundle.grade_distribution
+import bundle.subjects
+import bundle.publications_courses
+import bundle.publications_subjects
+import bundle.generate_sitemap
+import bundle.patch.publications_courses
+import bundle.patch.groups
+import bundle.patch.publications_core
+import bundle.patch.ratemyprofessors
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -23,7 +27,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 12
+N = 13
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -35,7 +39,7 @@ export_name.mkdir(exist_ok=True)
 
 # always process this first
 print(f'{Fore.CYAN}[{M} / {N}] Bundling edu.uh.grade_distribution{Style.RESET_ALL}')
-grade_distribution.process(documents_path / 'edu.uh.grade_distribution', export_name / 'edu.uh.grade_distribution', csv_path_pattern=args.testbundle)
+bundle.grade_distribution.process(documents_path / 'edu.uh.grade_distribution', export_name / 'edu.uh.grade_distribution', csv_path_pattern=args.testbundle)
 M += 1
 
 # process the raw data, generate intermediary format
@@ -46,11 +50,11 @@ for fmt in documents_path.iterdir():
     M += 1
   # actually do
   if(fmt.name == 'com.collegescheduler.uh.subjects'):
-    subjects.process(fmt.resolve(), export_name / fmt.name)
+    bundle.subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.subjects'):
-    publications_subjects.process(fmt.resolve(), export_name / fmt.name)
+    bundle.publications_subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.courses'):
-    publications_courses.process(fmt.resolve(), export_name / fmt.name)
+    bundle.publications_courses.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.core'):
     (export_name / fmt.name).mkdir(exist_ok=True)
     copyfile(fmt / 'core_curriculum.json', export_name / fmt.name / 'core_curriculum.json')
@@ -63,24 +67,26 @@ for fmt in documents_path.iterdir():
 # generate sitemap.txt
 print(f'{Fore.CYAN}[{M} / {N}] Generating io.cougargrades.sitemap{Style.RESET_ALL}')
 M += 1
-generate_sitemap.process(export_name / 'io.cougargrades.sitemap')
+bundle.generate_sitemap.process(export_name / 'io.cougargrades.sitemap')
 print('\t✔')
 
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
     continue
   # actually do
   if(fmt.name == 'edu.uh.publications.courses'):
-    patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+    bundle.patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.groups'):
-    patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patchfile')
+    bundle.patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.publications.core'):
-    patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+    bundle.patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'com.ratemyprofessors'):
+    bundle.patch.ratemyprofessors.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
