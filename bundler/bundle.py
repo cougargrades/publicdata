@@ -14,6 +14,7 @@ import bundle.patch.publications_courses
 import bundle.patch.groups
 import bundle.patch.publications_core
 import bundle.patch.ratemyprofessors
+import bundle.patch.tccns
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -27,7 +28,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 13
+N = 14
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -73,7 +74,7 @@ print('\t✔')
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
@@ -87,6 +88,8 @@ for fmt in documents_path.iterdir():
     bundle.patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'com.ratemyprofessors'):
     bundle.patch.ratemyprofessors.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'edu.uh.academics.tccns'):
+    bundle.patch.tccns.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
