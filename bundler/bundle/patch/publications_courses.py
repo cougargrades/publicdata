@@ -35,6 +35,7 @@ def generate(generated: Path, source: Path, destination: Path):
       with open(destination / f'patch-3-publicationlink-{time_ns()}.json', 'w') as out:
         key = (department, catalogNumber)
         patchfile = Patchfile(f'/catalog/{department} {catalogNumber}')
+        insertions = []
         for row in courses[key]:
           with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html') as htmlFile:
             # get primary content area
@@ -61,7 +62,7 @@ def generate(generated: Path, source: Path, destination: Path):
             # convert elements to a single single
             content = ''.join([ str(item) for item in afterElems ]).strip()
 
-            patchfile.append('publications', 'object', {
+            insertions.append({
               "title": row["title"],
               "catoid": row["catoid"],
               "coid": row["coid"],
@@ -70,5 +71,6 @@ def generate(generated: Path, source: Path, destination: Path):
               "scrapeDate": scrapeDate,
               "content": html_minify(bleach.clean(content, tags=bleach.sanitizer.ALLOWED_TAGS + ["br","span","p"]))
             })
+        patchfile.append('publications', 'object', insertions, many=True)
         out.write(str(patchfile))
       bar()
