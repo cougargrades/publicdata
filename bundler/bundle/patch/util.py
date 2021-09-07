@@ -1,4 +1,6 @@
+import csv
 import math
+from pathlib import Path
 
 # see: https://stackoverflow.com/q/845058
 def file_len(fname):
@@ -10,6 +12,7 @@ def file_len(fname):
 import itertools
 
 # inspired by: https://medium.com/@ken11zer01/firebase-firestore-text-search-and-pagination-91a0df8131ef
+# excerpt from original python: https://github.com/cougargrades/importer-python/blob/5c4995ebad68ca28f8c00a43a6faf3d7d69f75e5/cougargrades/util.py
 def createKeywords(a_string):
   result = []
   partialWord = ''
@@ -28,4 +31,10 @@ def termString(termCode: int) -> str:
   }
   return f'{seasons[season]} {year}'
 
-# except from original python: https://github.com/cougargrades/importer-python/blob/5c4995ebad68ca28f8c00a43a6faf3d7d69f75e5/cougargrades/util.py
+def get_known_courses(destination: Path) -> set:
+  KNOWN_COURSES = set()
+  with open(destination / '..' / 'edu.uh.grade_distribution' / 'records.csv') as infile:
+    reader = csv.DictReader(infile)
+    for row in reader:
+      KNOWN_COURSES.add(f'{row["SUBJECT"].strip()} {row["CATALOG NBR"].strip()}')
+  return KNOWN_COURSES
