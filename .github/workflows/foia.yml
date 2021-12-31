@@ -2,14 +2,16 @@
 on:
   workflow_dispatch: ~
   schedule:
+    # end of Spring,Summer,Fall semester
+    - cron: '0 0 30 5,8,12 *'
     # end of Spring semester
-    - cron: '0 0 30 5 *'
+    #- cron: '0 0 30 5 *'
     # end of Summer semester
-    - cron: '0 0 30 8 *'
+    #- cron: '0 0 30 8 *'
     # end of Fall semester
-    - cron: '0 0 30 12 *'
+    #- cron: '0 0 30 12 *'
     # * is a special character in YAML so you have to quote this string
-    - cron:  '*/10 * * * *'
+    #- cron:  '*/10 * * * *'
 
 name: Send Data Email
 
@@ -39,8 +41,8 @@ jobs:
           # Required mail subject:
           subject: FOIA Request (${{ steps.timestamp.outputs.datestamp }})
           # Required recipients' addresses:
-          to: austinjckson@gmail.com
-          #to: publicinfo@uh.edu,austinjckson@gmail.com
+          #to: austinjckson@gmail.com
+          to: publicinfo@uh.edu,austinjckson@gmail.com
           # Required sender full name (address can be skipped):
           from: Austin Jackson
           # Optional whether this connection use TLS (default is true if server_port is 465)
@@ -79,8 +81,8 @@ jobs:
           # Required mail subject:
           subject: FOIA Request (${{ steps.timestamp.outputs.datestamp }})
           # Required recipients' addresses:
-          to: austinjckson@gmail.com
-          #to: publicinfo@uh.edu,austinjckson@gmail.com
+          #to: austinjckson@gmail.com
+          to: publicinfo@uh.edu,austinjckson@gmail.com
           # Required sender full name (address can be skipped):
           from: Austin Jackson
           # Optional whether this connection use TLS (default is true if server_port is 465)
@@ -119,8 +121,8 @@ jobs:
           # Required mail subject:
           subject: FOIA Request (${{ steps.timestamp.outputs.datestamp }})
           # Required recipients' addresses:
-          to: austinjckson@gmail.com
-          #to: publicinfo@uh.edu,austinjckson@gmail.com
+          #to: austinjckson@gmail.com
+          to: publicinfo@uh.edu,austinjckson@gmail.com
           # Required sender full name (address can be skipped):
           from: Austin Jackson
           # Optional whether this connection use TLS (default is true if server_port is 465)
