@@ -9,13 +9,13 @@ name: Send Data Email
 
 jobs:
   build:
-    name: Create Release
+    name: Send Data Email
     runs-on: ubuntu-latest
     steps:
       - name: Get current date and timestamp
         id: timestamp
         run: | 
-          echo "::set-output name=datestamp::$(date +'%Y-%m-%d)"
+          echo "::set-output name=datestamp::$(date +'%Y-%m-%d')"
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
         with:
