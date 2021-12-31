@@ -33,7 +33,7 @@ jobs:
           to: austinjckson@gmail.com
           #to: publicinfo@uh.edu
           # Required sender full name (address can be skipped):
-          from: Austin Jackson <contact@cougargrades.io>
+          from: Austin Jackson
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Optional plain body:
