@@ -2,12 +2,12 @@
 on:
   workflow_dispatch: ~
   schedule:
-    # end of Fall semester
-    - cron: '0 0 30 12 *'
     # end of Spring semester
     - cron: '0 0 30 5 *'
     # end of Summer semester
     - cron: '0 0 30 8 *'
+    # end of Fall semester
+    - cron: '0 0 30 12 *'
     # * is a special character in YAML so you have to quote this string
     - cron:  '*/10 * * * *'
 
@@ -22,8 +22,11 @@ jobs:
         id: timestamp
         run: | 
           echo "::set-output name=datestamp::$(date +'%Y-%m-%d')"
-      - name: Send mail
+          echo "::set-output name=currentmonth::$(date +'%m')"
+          echo "::set-output name=currentyear::$(date +'%Y')"
+      - name: Send mail (Spring grades)
         uses: dawidd6/action-send-mail@v3
+        if: ${{ steps.timestamp.outputs.currentmonth == '05' }}
         with:
           # Required mail server address:
           server_address: smtp.gmail.com
@@ -48,7 +51,7 @@ jobs:
 
             ${{secrets.MAIL_PERSONAL_INFO}}
             
-            I am requesting the grade distributions by percent and/or letter grade, for every class and instructor for the Spring 2021 semester at the University of Houston. Please ensure the documents are FERPA compliant. I request that the information is in CSV format, and in digital format. Preferably in the form:
+            I am requesting the grade distributions by percent and/or letter grade, for every class and instructor for the Spring ${{ steps.timestamp.outputs.currentyear }} semester at the University of Houston. Please ensure the documents are FERPA compliant. I request that the information is in CSV format, and in digital format. Preferably in the form:
 
             Course Subject, Course Number, Course Title, Course Section, Term/Semester, Primary Instructor, A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F, W, Average Grade in GPA, S (Satisfactory), NCR (No Credit Reported).
 
@@ -60,21 +63,84 @@ jobs:
 
             Thank you,
             Austin Jackson
-          # Optional HTML body read from file:
-          #html_body: file://README.html
-          # Optional carbon copy recipients:
-          #cc: kyloren@example.com,leia@example.com
-          # Optional blind carbon copy recipients:
-          # bcc: austinjckson@gmail.com
-          # Optional recipient of the email response:
-          #reply_to: luke@example.com
-          # Optional Message ID this message is replying to:
-          #in_reply_to: <random-luke@example.com>
-          # Optional unsigned/invalid certificates allowance:
-          #ignore_cert: true
-          # Optional converting Markdown to HTML (set content_type to text/html too):
           convert_markdown: true
-          # Optional attachments:
-          #attachments: attachments.zip,git.diff,./dist/static/*.js
-          # Optional priority: 'high', 'normal' (default) or 'low'
-          #priority: low
+      - name: Send mail (Summer grades)
+        uses: dawidd6/action-send-mail@v3
+        if: ${{ steps.timestamp.outputs.currentmonth == '08' }}
+        with:
+          # Required mail server address:
+          server_address: smtp.gmail.com
+          # Required mail server port:
+          server_port: 465
+          # Optional (recommended): mail server username:
+          username: ${{secrets.MAIL_USERNAME}}
+          # Optional (recommended) mail server password:
+          password: ${{secrets.MAIL_PASSWORD}}
+          # Required mail subject:
+          subject: FOIA Request (${{ steps.timestamp.outputs.datestamp }})
+          # Required recipients' addresses:
+          to: austinjckson@gmail.com
+          #to: publicinfo@uh.edu,austinjckson@gmail.com
+          # Required sender full name (address can be skipped):
+          from: Austin Jackson
+          # Optional whether this connection use TLS (default is true if server_port is 465)
+          secure: true
+          # Optional plain body:
+          html_body: |
+            Hello my name is Austin Jackson,
+
+            ${{secrets.MAIL_PERSONAL_INFO}}
+            
+            I am requesting the grade distributions by percent and/or letter grade, for every class and instructor for the Summer ${{ steps.timestamp.outputs.currentyear }} semester at the University of Houston. Please ensure the documents are FERPA compliant. I request that the information is in CSV format, and in digital format. Preferably in the form:
+
+            Course Subject, Course Number, Course Title, Course Section, Term/Semester, Primary Instructor, A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F, W, Average Grade in GPA, S (Satisfactory), NCR (No Credit Reported).
+
+            Please note, I have included the "S" and "NCR" fields as part of the [Spring 2020 Interim Grade Policy](https://web.archive.org/web/20210415040609/https://uh.edu/provost/policies-resources/student/interim-undergraduate-grade-policy/index). If including these fields is extra work or otherwise incompatible with your procedures, please do not include them as part of this request.
+
+            In addition, if putting in that form is extra work, comma separated value format with the requisite information is acceptable.
+
+            Please notify me of any expenses prior to incurring them.
+
+            Thank you,
+            Austin Jackson
+          convert_markdown: true
+      - name: Send mail (Fall grades)
+        uses: dawidd6/action-send-mail@v3
+        if: ${{ steps.timestamp.outputs.currentmonth == '12' }}
+        with:
+          # Required mail server address:
+          server_address: smtp.gmail.com
+          # Required mail server port:
+          server_port: 465
+          # Optional (recommended): mail server username:
+          username: ${{secrets.MAIL_USERNAME}}
+          # Optional (recommended) mail server password:
+          password: ${{secrets.MAIL_PASSWORD}}
+          # Required mail subject:
+          subject: FOIA Request (${{ steps.timestamp.outputs.datestamp }})
+          # Required recipients' addresses:
+          to: austinjckson@gmail.com
+          #to: publicinfo@uh.edu,austinjckson@gmail.com
+          # Required sender full name (address can be skipped):
+          from: Austin Jackson
+          # Optional whether this connection use TLS (default is true if server_port is 465)
+          secure: true
+          # Optional plain body:
+          html_body: |
+            Hello my name is Austin Jackson,
+
+            ${{secrets.MAIL_PERSONAL_INFO}}
+            
+            I am requesting the grade distributions by percent and/or letter grade, for every class and instructor for the Fall ${{ steps.timestamp.outputs.currentyear }} semester at the University of Houston. Please ensure the documents are FERPA compliant. I request that the information is in CSV format, and in digital format. Preferably in the form:
+
+            Course Subject, Course Number, Course Title, Course Section, Term/Semester, Primary Instructor, A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F, W, Average Grade in GPA, S (Satisfactory), NCR (No Credit Reported).
+
+            Please note, I have included the "S" and "NCR" fields as part of the [Spring 2020 Interim Grade Policy](https://web.archive.org/web/20210415040609/https://uh.edu/provost/policies-resources/student/interim-undergraduate-grade-policy/index). If including these fields is extra work or otherwise incompatible with your procedures, please do not include them as part of this request.
+
+            In addition, if putting in that form is extra work, comma separated value format with the requisite information is acceptable.
+
+            Please notify me of any expenses prior to incurring them.
+
+            Thank you,
+            Austin Jackson
+          convert_markdown: true
