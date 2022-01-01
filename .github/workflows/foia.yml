@@ -18,7 +18,7 @@ name: Send Data Email
 jobs:
   build:
     name: Send Data Email
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Get current date and timestamp
         id: timestamp
