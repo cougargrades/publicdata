@@ -39,7 +39,7 @@ jobs:
         run: |
           pip install -r bundler/requirements.txt
           mkdir -p exports/
-          VAR=$PWD/exports/publicdata-testbundle-summer2020-$(date +'%Y-%m-%d-%H%M%S').tar.gz
+          VAR=$PWD/exports/publicdata-testbundle-summer2020.tar.gz
           python bundler/bundle.py -o "$VAR" --testbundle "IR06861 Summer 2020 Grade distribution (S+NCR).csv"
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
@@ -58,7 +58,7 @@ jobs:
         run: |
           pip install -r bundler/requirements.txt
           mkdir -p exports/
-          VAR=$PWD/exports/publicdata-bundle-$(date +'%Y-%m-%d-%H%M%S').tar.gz
+          VAR=$PWD/exports/publicdata-bundle.tar.gz
           ALT=$PWD/npm/bundle
           VAR_TEMP=$(dirname $VAR)/$(basename $VAR .gz)
           python bundler/bundle.py --skiprmtree -o "$VAR"
