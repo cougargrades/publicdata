@@ -44,6 +44,7 @@ def process(destination: Path):
     # write basic stuff
     outfile.write('https://cougargrades.io/\n')
     outfile.write('https://cougargrades.io/about\n')
+    outfile.write('https://cougargrades.io/faq\n')
     print('Writing groups...')
     with alive_bar(len(KNOWN_GROUPS)) as bar:
       for item in sorted(list(KNOWN_GROUPS)):
