@@ -36,7 +36,10 @@ def generate(generated: Path, source: Path, destination: Path):
         key = (department, catalogNumber)
         patchfile = Patchfile(f'/catalog/{department} {catalogNumber}')
         insertions = []
-        for row in courses[key]:
+        # sort the publication infos in descending order by the year (new first)
+        sorted_pairs_of_course = sorted(courses[key], key=lambda d: d['title'], reverse=True)
+        # only make patchfiles concerning the latest 3
+        for row in sorted_pairs_of_course[:3]:
           with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html') as htmlFile:
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
