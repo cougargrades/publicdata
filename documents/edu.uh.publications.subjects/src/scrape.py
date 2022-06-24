@@ -9,7 +9,9 @@ from bs4 import BeautifulSoup
 # records[catoid][navoid]
 records = [
   [36, 13221], # 2020-2021 Undergraduate
-  [37, 13813], # 2020-2021 Graduate
+  [37, 13813], # 2020-2021 Graduate,
+  [41, 14820], # 2021-2022 Undergraduate,
+  [40, 14406], # 2021-2022 Graduate
 ]
 
 RESULT = dict()
