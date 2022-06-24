@@ -1,6 +1,8 @@
 import os
 import csv
+import json
 from pathlib import Path
+from typing import Dict, List, Set
 from alive_progress import alive_bar
 
 '''
@@ -61,6 +63,25 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
   print('Splitting records...')
   split_csv(source_filepath=(destination / 'records.csv').absolute(), dest_folder=destination.absolute(), split_file_prefix='records_split', records_per_file=15000)
   print('Done')
+  print('Generating count data...')
+  with open(destination / 'records.csv', 'r') as records:
+    with open(destination / 'counts.json', 'w') as metaFile:
+        reader = csv.DictReader(records)
+        rows = [row for row in reader]
+        meta = dict()
+        meta["num_terms"] = count_distinct_by_keys(rows,keys=['TERM']) # should be 25
+        meta["num_courses"] = count_distinct_by_keys(rows,keys=['SUBJECT', 'CATALOG NBR'])
+        meta["num_instructors"] = count_distinct_by_keys(rows,keys=['INSTR LAST NAME', 'INSTR FIRST NAME'])
+        meta["num_subjects"] = count_distinct_by_keys(rows,keys=['SUBJECT'])
+        meta["num_sections"] = count_distinct_by_keys(rows,keys=['TERM', 'SUBJECT', 'CATALOG NBR', 'CLASS SECTION'])
+        metaFile.write(json.dumps(meta, indent=2))
+  print('Done')
+
+def count_distinct_by_keys(rows: List[Dict], keys: List[str]) -> int:
+  selection = set()
+  for row in rows:
+    selection.add(tuple([row[k] for k in keys]))
+  return len(selection)
 
 def split_csv(source_filepath, dest_folder, split_file_prefix, records_per_file):
     """
