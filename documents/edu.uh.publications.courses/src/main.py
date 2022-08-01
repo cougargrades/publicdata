@@ -102,21 +102,23 @@ else:
 
 print(f'{Fore.CYAN}[4 / 4]{Style.RESET_ALL} Downloading rich HTML by coid value: ')
 for index in OUTDIR.glob('*.csv'):
-  TOTAL_ROWS = file_len(index)
+  TOTAL_ROWS = file_len(index) - 1
   with open(index, 'r') as infile:
     reader = csv.DictReader(infile)
     with alive_bar(TOTAL_ROWS) as bar:
       for line in reader:
-        # optional delay
-        time.sleep(args.delay / 1000.0)
-        # write to disk
+        # prepare to write to disk
         SUBDIR = OUTDIR / line["catoid"]
         SUBDIR.mkdir(exist_ok=True)
         OUTPUT_FILE = SUBDIR / clean_filename(f'{line["catoid"]}-{line["coid"]}.html')
-        if not args.overwite_existing_html:
-          if OUTPUT_FILE.exists():
-            bar()
-            continue
+        if OUTPUT_FILE.exists() and not args.overwrite_existing_html:
+          bar()
+          continue
+
+        # optional delay
+        time.sleep(args.delay / 1000.0)
+
+        # write to disk
         with open(OUTPUT_FILE, 'w') as outfile:
           outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
         bar()
