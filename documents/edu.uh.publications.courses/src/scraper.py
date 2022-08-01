@@ -94,7 +94,7 @@ class CatalogIterator(object):
         else:
           break
       else:
-        raise Exception()
+        raise Exception(f'{self.catoid} @ {self.uri(self.catoid, str(self.i))}')
     else:
       raise StopIteration()
   
