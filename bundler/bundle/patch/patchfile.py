@@ -85,6 +85,8 @@ class Patchfile:
     Shorthand for add_action(operation='append')
     
     Adds the payload to the end of the an array within an existing Document
+
+    Valid datatypes: 'number' | 'string' | 'object' | 'boolean' | 'firebase.firestore.DocumentReference'
     '''
     return self.add_action(operation='append', payload=payload, arrayfield=arrayfield, datatype=datatype, many=many)
 

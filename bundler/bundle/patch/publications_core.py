@@ -24,8 +24,17 @@ def generate(source: Path, destination: Path):
       groups = list(set([ item["coreCode"] for item in core ]))
       for group in groups:
         coursesForGroup = [ item for item in core if item["coreCode"] == group]
+        groupSources = [
+          { "title": f'{tup[0]}', "url": f'http://publications.uh.edu/content.php?catoid={tup[1]}&navoid={tup[2]}' } 
+          for tup in set([
+            (item["groupTitle"], item["catoid"], item["groupNavoid"])
+            for item in core if item["coreCode"] == group
+            ])
+          ]
         with open(destination / f'patch-1-coregroups-{time_ns()}.json', 'w') as out:
           out.write(str(
-            Patchfile(f'/groups/{group}').append('courses', 'firebase.firestore.DocumentReference', [ f'/catalog/{item["department"]} {item["catalogNumber"]}' for item in coursesForGroup ], many=True)
+            Patchfile(f'/groups/{group}')
+            .append('courses', 'firebase.firestore.DocumentReference', [ f'/catalog/{item["department"]} {item["catalogNumber"]}' for item in coursesForGroup ], many=True)
+            .append('sources', 'object', [ item for item in groupSources ], many=True)
           ))
         bar(incr=len(coursesForGroup))
