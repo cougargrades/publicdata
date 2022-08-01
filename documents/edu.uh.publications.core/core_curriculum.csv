@@ -305,7 +305,7 @@ DANC,2303,Introduction to Dance,41,194325,50,Creative Arts
 DANC,2323,Dance in Film and Cinematic Media,41,201455,50,Creative Arts
 DANC,3310,Dance History I,41,194338,50,Creative Arts
 DRAM,1310,Introduction to Theatre,41,196630,50,Creative Arts
-HON,3310,Poetics and Performance,41,195207,50,Creative Arts
+HON,3310,Creativity at Work,41,195207,50,Creative Arts
 MUSI,1307,Listening to Classical Music,41,195970,50,Creative Arts
 HIST,2301,Texas History to 1865,41,195050,60,American History
 HIST,2302,Texas Since 1865,41,195051,60,American History
@@ -325,7 +325,7 @@ CHIN,3354,Chinese Culture and Language,41,193919,81,Writing in the Disciplines
 DANC,2303,Introduction to Dance,41,194325,81,Writing in the Disciplines
 DANC,3310,Dance History I,41,194338,81,Writing in the Disciplines
 HIST,2328,Chicano History since 1910,41,195090,81,Writing in the Disciplines
-HON,3310,Poetics and Performance,41,195207,81,Writing in the Disciplines
+HON,3310,Creativity at Work,41,195207,81,Writing in the Disciplines
 IART,2300,The Arts in Houston,41,201493,81,Writing in the Disciplines
 COSC,1336,Computer Science and Programming,41,194158,91,Mathematics/Reasoning
 CUIN,1350,Mathematics for Teachers 1,41,197493,91,Mathematics/Reasoning
@@ -336,3 +336,17 @@ MATH,1351,Introduction to Mathematical Reasoning,41,195724,91,Mathematics/Reason
 MATH,2312,Precalculus,41,195727,91,Mathematics/Reasoning
 MATH,2413,Calculus I,41,195729,91,Mathematics/Reasoning
 MATH,2414,Calculus II,41,195730,91,Mathematics/Reasoning
+MATH,2450,Accelerated Calculus I,44,212300,20,Mathematics
+CHEM,1321,Honors Fundamentals of Chemistry 1,44,226239,30,Life and Physical Sciences
+CHEM,1322,Honors Fundamentals of Chemistry 2,44,226240,30,Life and Physical Sciences
+CHIN,3344,Modern and Contemporary Global Chinese Literature,44,214580,40,"Language, Philosophy & Culture"
+HIST,1301,The U.S. to 1877,44,211614,60,American History
+HIST,1302,The U.S. Since 1877,44,211615,60,American History
+GHL,2365,Tourism,44,211803,80,Social and Behavioral Sciences
+CHIN,3344,Modern and Contemporary Global Chinese Literature,44,214580,81,Writing in the Disciplines
+GHL,3358,Hospitality Industry Law,44,211843,81,Writing in the Disciplines
+PSYC,2320,Abnormal Psychology,44,212920,81,Writing in the Disciplines
+PSYC,4344,Cultural Psychology,44,212892,81,Writing in the Disciplines
+MATH,2450,Accelerated Calculus I,44,212300,91,Mathematics/Reasoning
+MATH,2451,Accelerated Calculus II,44,212301,91,Mathematics/Reasoning
+PSYC,2317,Introduction to Psychology Statistics,44,212896,91,Mathematics/Reasoning

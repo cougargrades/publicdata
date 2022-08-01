@@ -6,7 +6,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Mathematics",
@@ -15,7 +16,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Life & Physical Sciences",
@@ -24,7 +26,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Language, Philosophy, & Culture",
@@ -33,7 +36,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Creative Arts",
@@ -42,7 +46,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "American History",
@@ -51,7 +56,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Government/Political Science",
@@ -60,7 +66,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Social & Behavioral Sciences",
@@ -69,7 +76,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Writing in the Disciplines",
@@ -78,7 +86,8 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   },
   {
     "name": "Math/Reasoning",
@@ -87,6 +96,7 @@
     "keywords": [],
     "courses": [],
     "sections": [],
-    "categories": ["UH Core Curriculum"]
+    "categories": ["UH Core Curriculum"],
+    "sources": []
   }
 ]

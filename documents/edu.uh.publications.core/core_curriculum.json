@@ -2392,5 +2392,770 @@
     "coid": "173446",
     "coreCode": "91",
     "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "1301",
+    "description": "First Year Writing I",
+    "catoid": "41",
+    "coid": "194604",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "1302",
+    "description": "First Year Writing II",
+    "catoid": "41",
+    "coid": "194605",
+    "coreCode": "10",
+    "coreArea": "Communication"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1324",
+    "description": "Finite Math with Applications",
+    "catoid": "41",
+    "coid": "195725",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1325",
+    "description": "Calculus for Business & Social Sciences",
+    "catoid": "41",
+    "coid": "195726",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1332",
+    "description": "Elementary Mathematical Modeling",
+    "catoid": "41",
+    "coid": "195723",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1342",
+    "description": "Elementary Statistical Methods",
+    "catoid": "41",
+    "coid": "195734",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1351",
+    "description": "Introduction to Mathematical Reasoning",
+    "catoid": "41",
+    "coid": "195724",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2312",
+    "description": "Precalculus",
+    "catoid": "41",
+    "coid": "195727",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2413",
+    "description": "Calculus I",
+    "catoid": "41",
+    "coid": "195729",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1306",
+    "description": "Biology for Science Majors I (lecture)",
+    "catoid": "41",
+    "coid": "193688",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1307",
+    "description": "Biology for Science Majors II (lecture",
+    "catoid": "41",
+    "coid": "193689",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1308",
+    "description": "Biology for Non-Science Majors I (lecture)",
+    "catoid": "41",
+    "coid": "193683",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "BIOL",
+    "catalogNumber": "1319",
+    "description": "Human Genetics and Society",
+    "catoid": "41",
+    "coid": "193682",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1305",
+    "description": "Foundations of Chemistry",
+    "catoid": "41",
+    "coid": "193852",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1311",
+    "description": "Fundamentals of Chemistry",
+    "catoid": "41",
+    "coid": "193854",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1312",
+    "description": "Fundamentals of Chemistry 2",
+    "catoid": "41",
+    "coid": "193855",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1303",
+    "description": "Physical Geology",
+    "catoid": "41",
+    "coid": "194855",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1304",
+    "description": "Historical Geology",
+    "catoid": "41",
+    "coid": "194859",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1345",
+    "description": "Introduction to Oceanography",
+    "catoid": "41",
+    "coid": "194858",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "GEOL",
+    "catalogNumber": "1347",
+    "description": "Introduction To Meteorology",
+    "catoid": "41",
+    "coid": "194857",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1303",
+    "description": "Stars and Galaxies",
+    "catoid": "41",
+    "coid": "196178",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "1304",
+    "description": "Solar System",
+    "catoid": "41",
+    "coid": "196177",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "2325",
+    "description": "University Physics I (lecture)",
+    "catoid": "41",
+    "coid": "196179",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "PHYS",
+    "catalogNumber": "2326",
+    "description": "University Physics II (lecture)",
+    "catoid": "41",
+    "coid": "196180",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "ARTS",
+    "catalogNumber": "1303",
+    "description": "Art History I (Prehistoric to the 14th Century)",
+    "catoid": "41",
+    "coid": "193598",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CHIN",
+    "catalogNumber": "3352",
+    "description": "Chin Cul & Soc Thru Mod Lit",
+    "catoid": "41",
+    "coid": "193918",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "CHIN",
+    "catalogNumber": "3360",
+    "description": "A Look Into Modern China",
+    "catoid": "41",
+    "coid": "193920",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ENGL",
+    "catalogNumber": "2314",
+    "description": "Literature and Identity",
+    "catoid": "41",
+    "coid": "194627",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2311",
+    "description": "Western Civilization to 1450",
+    "catoid": "41",
+    "coid": "195052",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2312",
+    "description": "Western Civilization from 1450",
+    "catoid": "41",
+    "coid": "195053",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2321",
+    "description": "The Study of Early Civilizations",
+    "catoid": "41",
+    "coid": "195054",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2322",
+    "description": "Modern Civilizations",
+    "catoid": "41",
+    "coid": "195055",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "RELS",
+    "catalogNumber": "2336",
+    "description": "Introduction to Jewish Studies",
+    "catoid": "41",
+    "coid": "201513",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "WCL",
+    "catalogNumber": "2380",
+    "description": "Introduction to Jewish Studies",
+    "catoid": "41",
+    "coid": "196764",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "ARED",
+    "catalogNumber": "2310",
+    "description": "Introduction to Critical Visual Culture",
+    "catoid": "41",
+    "coid": "201442",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "ARTS",
+    "catalogNumber": "1304",
+    "description": "Art History II (15th Century to the Present)",
+    "catoid": "41",
+    "coid": "193599",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DANC",
+    "catalogNumber": "2303",
+    "description": "Introduction to Dance",
+    "catoid": "41",
+    "coid": "194325",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DANC",
+    "catalogNumber": "2323",
+    "description": "Dance in Film and Cinematic Media",
+    "catoid": "41",
+    "coid": "201455",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DANC",
+    "catalogNumber": "3310",
+    "description": "Dance History I",
+    "catoid": "41",
+    "coid": "194338",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "DRAM",
+    "catalogNumber": "1310",
+    "description": "Introduction to Theatre",
+    "catoid": "41",
+    "coid": "196630",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "HON",
+    "catalogNumber": "3310",
+    "description": "Creativity at Work",
+    "catoid": "41",
+    "coid": "195207",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "MUSI",
+    "catalogNumber": "1307",
+    "description": "Listening to Classical Music",
+    "catoid": "41",
+    "coid": "195970",
+    "coreCode": "50",
+    "coreArea": "Creative Arts"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2301",
+    "description": "Texas History to 1865",
+    "catoid": "41",
+    "coid": "195050",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2302",
+    "description": "Texas Since 1865",
+    "catoid": "41",
+    "coid": "195051",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "GOVT",
+    "catalogNumber": "2305",
+    "description": "US Government: Congress, President, & Courts",
+    "catoid": "41",
+    "coid": "196216",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "GOVT",
+    "catalogNumber": "2306",
+    "description": "US and Texas Constitution and Politics",
+    "catoid": "41",
+    "coid": "196215",
+    "coreCode": "70",
+    "coreArea": "Government/Political Science"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2346",
+    "description": "Introduction to Anthropology",
+    "catoid": "41",
+    "coid": "193330",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ANTH",
+    "catalogNumber": "2351",
+    "description": "Introduction to Cultural Anthropology",
+    "catoid": "41",
+    "coid": "193332",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ECON",
+    "catalogNumber": "2302",
+    "description": "Principles of Microeconomics",
+    "catoid": "41",
+    "coid": "194383",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ENTR",
+    "catalogNumber": "3310",
+    "description": "Entrepreneurship",
+    "catoid": "41",
+    "coid": "194729",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "ENTR",
+    "catalogNumber": "3311",
+    "description": "Technology Entrepreneurship",
+    "catoid": "41",
+    "coid": "197504",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "HDFS",
+    "catalogNumber": "2314",
+    "description": "Introduction to Human Development and Interventions",
+    "catoid": "41",
+    "coid": "195357",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2301",
+    "description": "Introduction to Psychology",
+    "catoid": "41",
+    "coid": "196320",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2307",
+    "description": "Psychology of Adolescence",
+    "catoid": "41",
+    "coid": "196325",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2308",
+    "description": "Child Development",
+    "catoid": "41",
+    "coid": "196324",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "SOCI",
+    "catalogNumber": "1301",
+    "description": "Introduction To Sociology",
+    "catoid": "41",
+    "coid": "196437",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "CHIN",
+    "catalogNumber": "3354",
+    "description": "Chinese Culture and Language",
+    "catoid": "41",
+    "coid": "193919",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "DANC",
+    "catalogNumber": "2303",
+    "description": "Introduction to Dance",
+    "catoid": "41",
+    "coid": "194325",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "DANC",
+    "catalogNumber": "3310",
+    "description": "Dance History I",
+    "catoid": "41",
+    "coid": "194338",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "2328",
+    "description": "Chicano History since 1910",
+    "catoid": "41",
+    "coid": "195090",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "HON",
+    "catalogNumber": "3310",
+    "description": "Creativity at Work",
+    "catoid": "41",
+    "coid": "195207",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "IART",
+    "catalogNumber": "2300",
+    "description": "The Arts in Houston",
+    "catoid": "41",
+    "coid": "201493",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "COSC",
+    "catalogNumber": "1336",
+    "description": "Computer Science and Programming",
+    "catoid": "41",
+    "coid": "194158",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "CUIN",
+    "catalogNumber": "1350",
+    "description": "Mathematics for Teachers 1",
+    "catoid": "41",
+    "coid": "197493",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1324",
+    "description": "Finite Math with Applications",
+    "catoid": "41",
+    "coid": "195725",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1325",
+    "description": "Calculus for Business & Social Sciences",
+    "catoid": "41",
+    "coid": "195726",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1342",
+    "description": "Elementary Statistical Methods",
+    "catoid": "41",
+    "coid": "195734",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "1351",
+    "description": "Introduction to Mathematical Reasoning",
+    "catoid": "41",
+    "coid": "195724",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2312",
+    "description": "Precalculus",
+    "catoid": "41",
+    "coid": "195727",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2413",
+    "description": "Calculus I",
+    "catoid": "41",
+    "coid": "195729",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2414",
+    "description": "Calculus II",
+    "catoid": "41",
+    "coid": "195730",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2450",
+    "description": "Accelerated Calculus I",
+    "catoid": "44",
+    "coid": "212300",
+    "coreCode": "20",
+    "coreArea": "Mathematics"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1321",
+    "description": "Honors Fundamentals of Chemistry 1",
+    "catoid": "44",
+    "coid": "226239",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHEM",
+    "catalogNumber": "1322",
+    "description": "Honors Fundamentals of Chemistry 2",
+    "catoid": "44",
+    "coid": "226240",
+    "coreCode": "30",
+    "coreArea": "Life and Physical Sciences"
+  },
+  {
+    "department": "CHIN",
+    "catalogNumber": "3344",
+    "description": "Modern and Contemporary Global Chinese Literature",
+    "catoid": "44",
+    "coid": "214580",
+    "coreCode": "40",
+    "coreArea": "Language, Philosophy & Culture"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1301",
+    "description": "The U.S. to 1877",
+    "catoid": "44",
+    "coid": "211614",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "HIST",
+    "catalogNumber": "1302",
+    "description": "The U.S. Since 1877",
+    "catoid": "44",
+    "coid": "211615",
+    "coreCode": "60",
+    "coreArea": "American History"
+  },
+  {
+    "department": "GHL",
+    "catalogNumber": "2365",
+    "description": "Tourism",
+    "catoid": "44",
+    "coid": "211803",
+    "coreCode": "80",
+    "coreArea": "Social and Behavioral Sciences"
+  },
+  {
+    "department": "CHIN",
+    "catalogNumber": "3344",
+    "description": "Modern and Contemporary Global Chinese Literature",
+    "catoid": "44",
+    "coid": "214580",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "GHL",
+    "catalogNumber": "3358",
+    "description": "Hospitality Industry Law",
+    "catoid": "44",
+    "coid": "211843",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2320",
+    "description": "Abnormal Psychology",
+    "catoid": "44",
+    "coid": "212920",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "4344",
+    "description": "Cultural Psychology",
+    "catoid": "44",
+    "coid": "212892",
+    "coreCode": "81",
+    "coreArea": "Writing in the Disciplines"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2450",
+    "description": "Accelerated Calculus I",
+    "catoid": "44",
+    "coid": "212300",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "MATH",
+    "catalogNumber": "2451",
+    "description": "Accelerated Calculus II",
+    "catoid": "44",
+    "coid": "212301",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
+  },
+  {
+    "department": "PSYC",
+    "catalogNumber": "2317",
+    "description": "Introduction to Psychology Statistics",
+    "catoid": "44",
+    "coid": "212896",
+    "coreCode": "91",
+    "coreArea": "Mathematics/Reasoning"
   }
 ]

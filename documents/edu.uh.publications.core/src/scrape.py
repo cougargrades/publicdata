@@ -24,6 +24,7 @@ from bs4 import BeautifulSoup
 
 # ids[catoid][coreCode][id]
 records = {
+  # 2020-2022 Undergraduate
   36: {
     10: 13121,
     20: 13122,
@@ -36,6 +37,7 @@ records = {
     81: 13129,
     91: 13128,
   },
+  # 2021-2022 Undergraduate
   41: {
     10: 14726, # http://publications.uh.edu/content.php?catoid=41&navoid=14726
     20: 14727, # http://publications.uh.edu/content.php?catoid=41&navoid=14727
@@ -47,6 +49,19 @@ records = {
     80: 14732, # http://publications.uh.edu/content.php?catoid=41&navoid=14732
     81: 14734, # http://publications.uh.edu/content.php?catoid=41&navoid=14734
     91: 14733, # http://publications.uh.edu/content.php?catoid=41&navoid=14733
+  },
+  # 2022-2023 Undergraduate
+  44: {
+    10: 15888, # http://publications.uh.edu/content.php?catoid=44&navoid=15888
+    20: 15889, # http://publications.uh.edu/content.php?catoid=44&navoid=15889
+    30: 15890, # http://publications.uh.edu/content.php?catoid=44&navoid=15890
+    40: 15887, # http://publications.uh.edu/content.php?catoid=44&navoid=15887
+    50: 15891, # http://publications.uh.edu/content.php?catoid=44&navoid=15891
+    60: 15892, # http://publications.uh.edu/content.php?catoid=44&navoid=15892
+    70: 15893, # http://publications.uh.edu/content.php?catoid=44&navoid=15893
+    80: 15894, # http://publications.uh.edu/content.php?catoid=44&navoid=15894
+    81: 15896, # http://publications.uh.edu/content.php?catoid=44&navoid=15896
+    91: 15895, # http://publications.uh.edu/content.php?catoid=44&navoid=15895
   }
 }
 
