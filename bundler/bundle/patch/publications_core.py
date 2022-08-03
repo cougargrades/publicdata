@@ -31,10 +31,14 @@ def generate(source: Path, destination: Path):
             for item in core if item["coreCode"] == group
             ])
           ]
-        with open(destination / f'patch-1-coregroups-{time_ns()}.json', 'w') as out:
+        with open(destination / f'patch-1a-coregroups-{time_ns()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/groups/{group}')
             .append('courses', 'firebase.firestore.DocumentReference', [ f'/catalog/{item["department"]} {item["catalogNumber"]}' for item in coursesForGroup ], many=True)
+          ))
+        with open(destination / f'patch-1b-coregroups-{time_ns()}.json', 'w') as out:
+          out.write(str(
+            Patchfile(f'/groups/{group}')
             .append('sources', 'object', [ item for item in groupSources ], many=True)
           ))
         bar(incr=len(coursesForGroup))
