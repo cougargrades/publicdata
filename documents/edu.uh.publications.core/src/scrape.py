@@ -114,7 +114,7 @@ with open('../core_curriculum.csv', 'w') as export:
 
               # used for de-duping (https://stackoverflow.com/a/12851143/4852536)
               # we don't care if a course with the same name appears in multiple catalogs
-              key = (result['department'], result['catalogNumber'], coreCode)
+              key = (result['department'], result['catalogNumber'], coreCode, id)
               if key not in entries:
                 writer.writerow(result)
                 entries.add(key)

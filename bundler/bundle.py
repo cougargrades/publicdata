@@ -83,7 +83,7 @@ for fmt in documents_path.iterdir():
   if(fmt.name == 'edu.uh.publications.courses'):
     bundle.patch.publications_courses.generate(export_name / fmt.name, fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.groups'):
-    bundle.patch.groups.generate(export_name / fmt.name, export_name / 'io.cougargrades.publicdata.patchfile')
+    bundle.patch.groups.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.publications.core'):
     bundle.patch.publications_core.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'com.ratemyprofessors'):
