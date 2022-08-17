@@ -2,10 +2,18 @@ import re
 import csv
 import json
 from pathlib import Path
+from typing import List
 from .patchfile import Patchfile
 from . import util
 from time import time_ns
 from alive_progress import alive_bar
+
+'''
+All this does is do `util.createKeywords()` for each element of root_keywords 
+into 1 flattened list that is deduplicated
+'''
+def create_deduped_sorted_keywords_set(root_keywords: List[str]) -> List[str]:
+  return sorted(list(set([item for sublist in [util.createKeywords(w) for w in root_keywords] for item in sublist])))
 
 '''
 Generates Patchfiles for the Core Curriculum
@@ -29,22 +37,32 @@ def generate(source: Path, destination: Path):
         # get history of coreCode
         history = [ ccc for ccc in core_curriculum_by_catalog if ccc["coreCode"] == default["identifier"] ]
         # initialize keywords
-        default["keywords"] = list(set([item for sublist in [util.createKeywords(w) for w in [default["name"], default["name"].replace("&", "and"), default["identifier"]]] for item in sublist]))
+        root_keywords = [
+          default["name"],
+          default["identifier"],
+          "Core Curriculum"
+        ] + util.generatePermutations(util.cleanSentenceForPermutations(default["name"]))
         with open(destination / f'patch-0a-groupdefaults-{time_ns()}.json', 'w') as out:
+          dInstance = dict(default)
+          dInstance["name"] = f'{default["name"]} (All)'
+          dInstance["description"] = f'Courses which satisfied the "{default["name"]}" component in the UH Core Curriculum at some point. Includes Undergraduate Catalogs from multiple different academic years. To see which catalogs are included, see the "Sources" below.'
+          dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
           out.write(str(
-            Patchfile(f'/groups/{default["identifier"]}').write(default)
+            Patchfile(f'/groups/{default["identifier"]}').write(dInstance)
           ))
           bar()
         # create "spin-off" groups from the defaults that are just for that particular catalog
         for cc in history:
           instance = dict(default)
           instance["identifier"] = f'{default["identifier"]}-{cc["groupNavoid"]}'
-          instance["description"] = f'{default["description"]} Uses courses from the {cc["groupTitle"]}.'
+          instance["description"] = f'Courses which satisfy the "{default["name"]}" component in the UH Core Curriculum for the {cc["groupTitle"]}.'
           regex = re.compile('(\d\d\d\d)-(\d\d\d\d)')
           match = regex.search(cc["groupTitle"])
           if match:
-            instance["name"] = f'{default["name"]} ({match.group(0)})'
-            instance["categories"] = ['#UHCoreCurriculum', f'UH Core Curriculum ({match.group(0)})']
+            year2year = match.group(0) # '2022-2023', guranteed to be in this format due to check above
+            instance["name"] = f'{default["name"]} ({year2year})'
+            instance["categories"] = ['#UHCoreCurriculum', f'UH Core Curriculum ({year2year})']
+            instance["keywords"] = create_deduped_sorted_keywords_set(root_keywords + [year2year] + year2year.split('-'))
             with open(destination / f'patch-0b-groupdefaults-{time_ns()}.json', 'w') as out:
               out.write(str(
                 Patchfile(f'/groups/{instance["identifier"]}').write(instance)
