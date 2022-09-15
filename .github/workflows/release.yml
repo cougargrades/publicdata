@@ -44,7 +44,7 @@ jobs:
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Upload Release Asset (Test Bundle Summer 2020)
-        id: upload-release-asset
+        id: upload-release-asset-testbundle202002
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Upload Release Asset (Test Bundle 2021 Year)
-        id: upload-release-asset
+        id: upload-release-asset-testbundle2021
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -85,7 +85,7 @@ jobs:
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
       - name: Upload Release Asset
-        id: upload-release-asset2
+        id: upload-release-asset-full
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
