@@ -34,24 +34,43 @@ jobs:
           #release_name: "publicdata-bundle-${{ steps.makebundle.outputs.tarname }}"
           draft: false
           prerelease: false
-      - name: Make test bundle
-        id: maketestbundle
+      - name: Make test bundle (Summer 2020)
+        id: maketestbundle202002
         run: |
           pip install -r bundler/requirements.txt
           mkdir -p exports/
           VAR=$PWD/exports/publicdata-testbundle-summer2020.tar.gz
-          python bundler/bundle.py -o "$VAR" --testbundle "IR06861 Summer 2020 Grade distribution (S+NCR).csv"
+          python bundler/bundle.py -o "$VAR" --testbundle "*2020-02*.csv"
           echo "::set-output name=tarloc::$VAR"
           echo "::set-output name=tarname::$(basename $VAR)"
-      - name: Upload Release Asset (test bundle)
+      - name: Upload Release Asset (Test Bundle Summer 2020)
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: "${{ steps.maketestbundle.outputs.tarloc }}"
-          asset_name: "${{ steps.maketestbundle.outputs.tarname }}"
+          asset_path: "${{ steps.maketestbundle202002.outputs.tarloc }}"
+          asset_name: "${{ steps.maketestbundle202002.outputs.tarname }}"
+          asset_content_type: application/gzip
+      - name: Make test bundle (2021 year)
+        id: maketestbundle2021
+        run: |
+          pip install -r bundler/requirements.txt
+          mkdir -p exports/
+          VAR=$PWD/exports/publicdata-testbundle-year2021.tar.gz
+          python bundler/bundle.py -o "$VAR" --testbundle "*2021*.csv"
+          echo "::set-output name=tarloc::$VAR"
+          echo "::set-output name=tarname::$(basename $VAR)"
+      - name: Upload Release Asset (Test Bundle 2021 Year)
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: "${{ steps.maketestbundle2021.outputs.tarloc }}"
+          asset_name: "${{ steps.maketestbundle2021.outputs.tarname }}"
           asset_content_type: application/gzip
       - name: Make bundle
         id: makebundle

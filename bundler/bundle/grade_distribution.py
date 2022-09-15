@@ -24,6 +24,7 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
         # write the other rows
         for csvfile in source.iterdir():
           if(csvfile.match(csv_path_pattern) and not csvfile.match('master.csv')):
+            print(f'Bundling matched CSV file: {csvfile.name}')
             with open(csvfile, 'r') as f:
               reader = csv.DictReader(f)
               # DictReader already skips the header row

@@ -24,7 +24,7 @@ parser.add_argument('-o', dest='tarloc', type=str, required=True, help='Where to
 parser.add_argument('--skiptar', dest='skiptar', action='store_true', help='Should the tar file be compression be skipped')
 parser.add_argument('--skipmove', dest='skipmove', action='store_true', help='Should the resulting export files be moved to the \'export\' folder or kept in their described location')
 parser.add_argument('--skiprmtree', dest='skiprmtree', action='store_true', help='Should the temporary export file directory be preserved')
-parser.add_argument('--testbundle', dest='testbundle', type=str, required=False, default=None, help='Which CSV file to generate a test bundle off of')
+parser.add_argument('--testbundle', dest='testbundle', type=str, required=False, default=None, help='A Path pattern to select matching CSV files to generate a test bundle off of')
 args = parser.parse_args()
 
 # total tasks
