@@ -76,6 +76,24 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
         meta["num_subjects"] = count_distinct_by_keys(rows,keys=['SUBJECT'])
         meta["num_sections"] = count_distinct_by_keys(rows,keys=['TERM', 'SUBJECT', 'CATALOG NBR', 'CLASS SECTION'])
         metaFile.write(json.dumps(meta, indent=2))
+  print('Generating all_courses data...')
+  with open(destination / 'records.csv', 'r') as records:
+    with open(destination / 'all_courses.json', 'w') as metaFile:
+        reader = csv.DictReader(records)
+        rows = [row for row in reader]
+        # ID based on:
+        # https://github.com/cougargrades/types/blob/b545a814fc0c68e3be3387152eb890cdeabc875e/src/GradeDistributionCSVRow.ts#L43-L59
+        meta = sorted(list(set([ f'{row["SUBJECT"]} {row["CATALOG NBR"]}' for row in rows ])))
+        metaFile.write(json.dumps(meta, indent=2))
+  print('Generating all_instructors data...')
+  with open(destination / 'records.csv', 'r') as records:
+    with open(destination / 'all_instructors.json', 'w') as metaFile:
+        reader = csv.DictReader(records)
+        rows = [row for row in reader]
+        # ID based on:
+        # https://github.com/cougargrades/types/blob/b545a814fc0c68e3be3387152eb890cdeabc875e/src/GradeDistributionCSVRow.ts#L43-L59
+        meta = sorted(list(set([ f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}' for row in rows ])))
+        metaFile.write(json.dumps(meta, indent=2))
   print('Done')
 
 def count_distinct_by_keys(rows: List[Dict], keys: List[str]) -> int:
