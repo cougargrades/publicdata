@@ -67,6 +67,7 @@ def process(source: Path, destination: Path):
     ) for row in records])))
 
     results = []
+    missing_desc_counter = 0
     with alive_bar(len(unique_courses_with_descriptions)) as bar:
       for (courseName, description) in unique_courses_with_descriptions:
         search_result_item = {
@@ -79,6 +80,8 @@ def process(source: Path, destination: Path):
         for matched_pair in matching_pairs:
           #break # TODO: maybe remove this if it proves useful
           with open(source / matched_pair["catoid"] / f'{matched_pair["catoid"]}-{matched_pair["coid"]}.html') as htmlFile:
+            # debug info
+            course_and_file = f'{matched_pair["department"]} {matched_pair["catalogNumber"]} -> {os.path.basename(htmlFile.name)}'
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
             # compute content
@@ -89,41 +92,51 @@ def process(source: Path, destination: Path):
               # print(str(list(strong.contents)[:1]).strip())
               #print(f'\"{strong.text}\"')
               if strong.text.strip() == 'Description':
-                #print(f'strong found! {htmlFile.name}')
-                #print('\tsibs: ', strong.next_siblings)
+                #print(f'strong found! {course_and_file}')
                 afterElems = []
-                for sib in strong.next_siblings:
-                  if sib.name == 'strong':
-                    break
-                  else:
-                    afterElems.append(sib)
-                content = ''.join([ str(item) for item in afterElems ]).strip()
-                textContent = ' '.join(BeautifulSoup(content, features='html5lib').find_all(text=True, recursive=True)).strip()
-                textContent2 = textContent.split('\n')[0] if textContent.find('\n') >= 0 else textContent
-                #print(f'\t\"{textContent2}\"')
+                content = ''.join([ str(item) for item in strong.next_siblings if item.name is None])
+                textContent = content.strip().split('\n')[0] if content.strip().find('\n') >= 0 else content.strip()
+                #print(f'\t\"{textContent}\"')
                 search_result_item["publicationTextContent"] = textContent
                 break
+                # for item in strong.next_siblings:
+                #   # change URLs that point to other courses to a CougarGrades URL
+                #   if item.name == 'a' and item['href'] != None and item['href'].startswith('preview_course_nopop.php'):
+                #     item.attrs.clear()
+                #     item['href'] = quote(f'/c/{item.string.strip()}')
+                #   # skip spammy tooltip divs
+                #   if item.name != None and item.name != '' and item.has_attr('style') and item['style'] != None and 'display:none' in "".join(item['style'].split()).lower():
+                #     continue
+                #   # replace the <hr /> with <br />
+                #   if item.name == 'hr':
+                #     item.name = 'br'
+                #   # add to list
+                #   afterElems += [ item ]
+                # content = ''.join([ str(item) for item in afterElems ]).strip()
+                # textContent = ' '.join(BeautifulSoup(content, features='html5lib').find_all(text=True, recursive=True)).strip()
+                # textContent2 = textContent.split('\n')[0] if textContent.find('\n') >= 0 else textContent
+                # for sib in strong.next_siblings:
+                #   if sib.name == 'strong':
+                #     break
+                #   elif sib.name == 'br':
+                #     continue
+                #   else:
+                #     afterElems.append(sib)
+                # print('\tnot broken! ', afterElems)
+                # content = ''.join([ str(item) for item in afterElems ]).strip()
+                # textContent = ' '.join(BeautifulSoup(content, features='html5lib').find_all(text=True, recursive=True)).strip()
+                # textContent2 = textContent.split('\n')[0] if textContent.find('\n') >= 0 else textContent
+                #print(f'\t\"{textContent2}\"')
+                # search_result_item["publicationTextContent"] = textContent
+                # break
                 # for i in range(0, len(afterElems)):
                 #   afterElems[i].name ==
                 # print('strong found!')
                 # print('sibs: ', list(strong.next_siblings)[:2])
             
-            if search_result_item["publicationTextContent"] != "":
-              print(f'no description found? {matched_pair["department"]} {matched_pair["catalogNumber"]} -> {os.path.basename(htmlFile.name)}')
-            # afterElems = []
-            # for item in h3.next_siblings:
-            #   # change URLs that point to other courses to a CougarGrades URL
-            #   if item.name == 'a' and item['href'] != None and item['href'].startswith('preview_course_nopop.php'):
-            #     item.attrs.clear()
-            #     item['href'] = quote(f'/c/{item.string.strip()}')
-            #   # skip spammy tooltip divs
-            #   if item.name != None and item.name != '' and item.has_attr('style') and item['style'] != None and 'display:none' in "".join(item['style'].split()).lower():
-            #     continue
-            #   # replace the <hr /> with <br />
-            #   if item.name == 'hr':
-            #     item.name = 'br'
-            #   # add to list
-            #   afterElems += [ item ]
+            if search_result_item["publicationTextContent"] == "":
+              #print(f'no description found? {course_and_file}')
+              missing_desc_counter += 1
 
             # # convert elements to a single single
             # content = ''.join([ str(item) for item in afterElems ]).strip()
@@ -137,6 +150,7 @@ def process(source: Path, destination: Path):
     
     # write the results to a file
     outfile.write(json.dumps({ "data": results }, indent=2))
+    print(f'Percentage of missing descriptions: {missing_desc_counter / len(unique_courses_with_descriptions) * 100}%')
 
 
     # with alive_bar(len(KNOWN_COURSES)) as bar:
