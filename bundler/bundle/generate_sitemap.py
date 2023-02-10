@@ -42,9 +42,24 @@ def process(destination: Path):
   # create the output file
   with open(destination / 'sitemap.txt', 'w') as outfile:
     # write basic stuff
-    outfile.write('https://cougargrades.io/\n')
-    outfile.write('https://cougargrades.io/about\n')
-    outfile.write('https://cougargrades.io/faq\n')
+    # outfile.write('https://cougargrades.io/\n')
+    # outfile.write('https://cougargrades.io/about\n')
+    # outfile.write('https://cougargrades.io/faq\n')
+    outfile.write('''https://cougargrades.io/
+https://cougargrades.io/about
+https://cougargrades.io/faq
+https://cougargrades.io/faq/data-accuracy
+https://cougargrades.io/faq/data-authenticity
+https://cougargrades.io/faq/data-updates
+https://cougargrades.io/faq/github-sponsors
+https://cougargrades.io/faq/instructor-shaming
+https://cougargrades.io/faq/interim-grading-theory
+https://cougargrades.io/faq/uh-affiliation
+https://cougargrades.io/top/enrolled-courses
+https://cougargrades.io/top/enrolled-instructors
+https://cougargrades.io/top/viewed-courses
+https://cougargrades.io/top/viewed-instructors
+''')
     print('Writing groups...')
     with alive_bar(len(KNOWN_GROUPS)) as bar:
       for item in sorted(list(KNOWN_GROUPS)):

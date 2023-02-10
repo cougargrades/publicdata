@@ -40,7 +40,7 @@ def createKeywordsWithPermutations(a_sentence):
 # excerpt from original python: https://github.com/cougargrades/importer-python/blob/5c4995ebad68ca28f8c00a43a6faf3d7d69f75e5/cougargrades/util.py
 def generatePermutations(a_sentence) -> List[str]:
   words = a_sentence.split(' ')
-  print(words)
+  #print(words)
   permutations = []
   results = []
   for i in range(1, len(words)+1):

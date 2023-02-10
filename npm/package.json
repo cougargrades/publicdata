@@ -10,7 +10,8 @@
     "bundle/edu.uh.publications.courses/**",
     "bundle/edu.uh.publications.core/**",
     "bundle/edu.uh.publications.subjects/**",
-    "bundle/io.cougargrades.groups/**"
+    "bundle/io.cougargrades.groups/**",
+    "bundle/io.cougargrades.searchable/**"
   ],
   "scripts": {},
   "author": "",

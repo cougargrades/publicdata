@@ -94,6 +94,23 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
         # https://github.com/cougargrades/types/blob/b545a814fc0c68e3be3387152eb890cdeabc875e/src/GradeDistributionCSVRow.ts#L43-L59
         meta = sorted(list(set([ f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}' for row in rows ])))
         metaFile.write(json.dumps(meta, indent=2))
+  print(f'Generating search-optimized data: instructors.json')
+  searchable_destination = destination / '..' / 'io.cougargrades.searchable'
+  searchable_destination.mkdir(exist_ok=True)
+  with open(searchable_destination / 'instructors.json', 'w') as metaFile, open(destination / 'records.csv', 'r') as records:
+    rows = [row for row in csv.DictReader(records)]
+    names = sorted(list(set([(row["INSTR FIRST NAME"].strip(), row["INSTR LAST NAME"].strip()) for row in rows])))
+    results = []
+    for (firstName, lastName) in names:
+      legalName = f'{lastName}, {firstName}'
+      search_result_item = {
+        "href": f'/i/{legalName}',
+        "firstName": firstName,
+        "lastName": lastName,
+        "legalName": legalName,
+      }
+      results.append(search_result_item)
+    metaFile.write(json.dumps({ "data": results }, indent=2))
   print('Done')
 
 def count_distinct_by_keys(rows: List[Dict], keys: List[str]) -> int:
