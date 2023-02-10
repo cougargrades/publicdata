@@ -65,6 +65,10 @@ def process(source: Path, destination: Path):
       f'{row["SUBJECT"].strip()} {row["CATALOG NBR"].strip()}',
       row["COURSE DESCR"]
     ) for row in records])))
+    # get a HashMap from a course name to the description
+    courseName2Description = dict(unique_courses_with_descriptions)
+    # de-duplicate by recreating
+    unique_courses_with_descriptions = sorted([(item, courseName2Description[item]) for item in courseName2Description.keys()])
 
     results = []
     missing_desc_counter = 0
