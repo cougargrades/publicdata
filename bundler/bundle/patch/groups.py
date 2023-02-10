@@ -44,9 +44,10 @@ def generate(source: Path, destination: Path):
         ] + util.generatePermutations(util.cleanSentenceForPermutations(default["name"]))
         with open(destination / f'patch-0a-groupdefaults-{time_ns()}.json', 'w') as out:
           dInstance = dict(default)
-          dInstance["name"] = f'{default["name"]} (All)'
+          dInstance["name"] = f'{default["name"]} (All) (Core)'
           dInstance["description"] = f'Courses which satisfied the "{default["name"]}" component in the UH Core Curriculum at some point. Includes Undergraduate Catalogs from multiple different academic years. To see which catalogs are included, see the "Sources" below.'
-          dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
+          #dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
+          dInstance["keywords"] = []
           out.write(str(
             Patchfile(f'/groups/{default["identifier"]}').write(dInstance)
           ))
@@ -60,9 +61,10 @@ def generate(source: Path, destination: Path):
           match = regex.search(cc["groupTitle"])
           if match:
             year2year = match.group(0) # '2022-2023', guranteed to be in this format due to check above
-            instance["name"] = f'{default["name"]} ({year2year})'
+            instance["name"] = f'{default["name"]} ({year2year}) (Core)'
             instance["categories"] = ['#UHCoreCurriculum', f'UH Core Curriculum ({year2year})']
-            instance["keywords"] = create_deduped_sorted_keywords_set(root_keywords + [year2year] + year2year.split('-'))
+            #instance["keywords"] = create_deduped_sorted_keywords_set(root_keywords + [year2year] + year2year.split('-'))
+            instance["keywords"] = []
             with open(destination / f'patch-0b-groupdefaults-{time_ns()}.json', 'w') as out:
               out.write(str(
                 Patchfile(f'/groups/{instance["identifier"]}').write(instance)
