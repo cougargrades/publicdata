@@ -1,3 +1,4 @@
+import os
 import csv
 import json
 from bundle import util
@@ -52,12 +53,12 @@ def process(source: Path, destination: Path):
                 })
             bar()
   
-  # TODO: create searchable courses
+  # create searchable courses
   print(f'\t{Style.DIM}Generating search-optimized data: courses.json{Style.RESET_ALL}')
   searchable_destination = destination / '..' / 'io.cougargrades.searchable'
   searchable_destination.mkdir(exist_ok=True)
   with open(searchable_destination / 'courses.json', 'w') as outfile, open(destination / 'pairs.csv', 'r') as pairs_file, open(destination / '..' / 'edu.uh.grade_distribution' / 'records.csv') as records_file:
-    pairs = [row for row in csv.DictReader(pairs_file)]
+    pairs = sorted([row for row in csv.DictReader(pairs_file)], key=lambda d: d["catoid"], reverse=True)
     records = [row for row in csv.DictReader(records_file)]
     
     unique_courses_with_descriptions = sorted(list(set([(
@@ -66,6 +67,7 @@ def process(source: Path, destination: Path):
     ) for row in records])))
 
     results = []
+    missing_desc_counter = 0
     with alive_bar(len(unique_courses_with_descriptions)) as bar:
       for (courseName, description) in unique_courses_with_descriptions:
         search_result_item = {
@@ -74,56 +76,35 @@ def process(source: Path, destination: Path):
           "description": description,
           "publicationTextContent": ""
         }
-        matching_pairs = [pair for pair in pairs if f'{pair["department"]} {pair["catalogNumber"]}' == courseName]
+        matching_pairs = [pair for pair in pairs if f'{pair["department"]} {pair["catalogNumber"]}' == courseName][:1]
         for matched_pair in matching_pairs:
-          break # TODO: maybe remove this if it proves useful
           with open(source / matched_pair["catoid"] / f'{matched_pair["catoid"]}-{matched_pair["coid"]}.html') as htmlFile:
+            # debug info
+            course_and_file = f'{matched_pair["department"]} {matched_pair["catalogNumber"]} -> {os.path.basename(htmlFile.name)}'
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
             # compute content
-            content = ""
             h3 = html.select_one('.coursepadding div h3')
-            afterElems = []
-            for item in h3.next_siblings:
-              # change URLs that point to other courses to a CougarGrades URL
-              if item.name == 'a' and item['href'] != None and item['href'].startswith('preview_course_nopop.php'):
-                item.attrs.clear()
-                item['href'] = quote(f'/c/{item.string.strip()}')
-              # skip spammy tooltip divs
-              if item.name != None and item.name != '' and item.has_attr('style') and item['style'] != None and 'display:none' in "".join(item['style'].split()).lower():
-                continue
-              # replace the <hr /> with <br />
-              if item.name == 'hr':
-                item.name = 'br'
-              # add to list
-              afterElems += [ item ]
-
-            # convert elements to a single single
-            content = ''.join([ str(item) for item in afterElems ]).strip()
-            innerHtml = BeautifulSoup(content, features='html5lib')
-            innerTextContent = ' '.join(innerHtml.find_all(text=True, recursive=True)).strip()
-            search_result_item["publicationTextContent"] += innerTextContent
-
+            for strong in html.select('strong'):
+              if strong.text.strip() == 'Description':
+                #print(f'strong found! {course_and_file}')
+                afterElems = []
+                content = ''.join([ str(item) for item in strong.next_siblings if item.name is None])
+                textContent = content.strip().split('\n')[0] if content.strip().find('\n') >= 0 else content.strip()
+                #print(f'\t\"{textContent}\"')
+                search_result_item["publicationTextContent"] = textContent
+                break
+            if search_result_item["publicationTextContent"] == "":
+              #print(f'no description found? {course_and_file}')
+              missing_desc_counter += 1
+          if search_result_item["publicationTextContent"] != "":
+            break
         results.append(search_result_item)
         bar()
     
     # write the results to a file
     outfile.write(json.dumps({ "data": results }, indent=2))
-
-
-    # with alive_bar(len(KNOWN_COURSES)) as bar:
-    #   for courseName in KNOWN_COURSES:
-        
-      # Output structure
-    sample = {
-      "href": "/c/AAMS 2300",
-      "courseName": "AAMS 2300",
-      "description": "Intro Asian American Studies",
-      "publicationTextContent": "",
-    }
-
-    # TODO: write the data
-    #outfile.write(json.dumps([], indent=2))
+    print(f'Percentage of missing descriptions: {missing_desc_counter / len(unique_courses_with_descriptions) * 100}%')
   
   # sort output file
   sortedlist = []
