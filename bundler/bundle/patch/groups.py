@@ -37,21 +37,34 @@ def generate(source: Path, destination: Path):
         # get history of coreCode
         history = [ ccc for ccc in core_curriculum_by_catalog if ccc["coreCode"] == default["identifier"] ]
         # initialize keywords
-        root_keywords = [
-          default["name"],
-          default["identifier"],
-          "Core Curriculum"
-        ] + util.generatePermutations(util.cleanSentenceForPermutations(default["name"]))
+        # root_keywords = [
+        #   default["name"],
+        #   default["identifier"],
+        #   "Core Curriculum"
+        # ] + util.generatePermutations(util.cleanSentenceForPermutations(default["name"]))
+
+        # perform initial write for Core Group
         with open(destination / f'patch-0a-groupdefaults-{time_ns()}.json', 'w') as out:
           dInstance = dict(default)
           dInstance["name"] = f'{default["name"]} (All) (Core)'
           dInstance["description"] = f'Courses which satisfied the "{default["name"]}" component in the UH Core Curriculum at some point. Includes Undergraduate Catalogs from multiple different academic years. To see which catalogs are included, see the "Sources" below.'
           #dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
           dInstance["keywords"] = []
+          dInstance["relatedGroups"] = []
           out.write(str(
-            Patchfile(f'/groups/{default["identifier"]}').write(dInstance)
+            Patchfile(f'/groups/{default["identifier"]}')
+              .write(dInstance)
           ))
           bar()
+        
+        # perform append that needs to be in a separate patchfile to function correctly
+        with open(destination / f'patch-0c-groupdefaults-{time_ns()}.json', 'w') as out:
+          out.write(str(
+            Patchfile(f'/groups/{default["identifier"]}')
+              .append('relatedGroups', 'firebase.firestore.DocumentReference', [ f'{default["identifier"]}-{cc["groupNavoid"]}' for cc in history ], many=True)
+          ))
+          bar()
+
         # create "spin-off" groups from the defaults that are just for that particular catalog
         for cc in history:
           instance = dict(default)
@@ -65,9 +78,24 @@ def generate(source: Path, destination: Path):
             instance["categories"] = ['#UHCoreCurriculum', f'UH Core Curriculum ({year2year})']
             #instance["keywords"] = create_deduped_sorted_keywords_set(root_keywords + [year2year] + year2year.split('-'))
             instance["keywords"] = []
+            dInstance["relatedGroups"] = []
             with open(destination / f'patch-0b-groupdefaults-{time_ns()}.json', 'w') as out:
               out.write(str(
-                Patchfile(f'/groups/{instance["identifier"]}').write(instance)
+                Patchfile(f'/groups/{instance["identifier"]}')
+                  .write(instance)
+              ))
+              bar()
+        
+        # perform append for "spin-off" groups
+        for cc in history:
+          GROUP_ID = f'{default["identifier"]}-{cc["groupNavoid"]}'
+          regex = re.compile('(\d\d\d\d)-(\d\d\d\d)')
+          match = regex.search(cc["groupTitle"])
+          if match:
+            with open(destination / f'patch-0d-groupdefaults-{time_ns()}.json', 'w') as out:
+              out.write(str(
+                Patchfile(f'/groups/{GROUP_ID}')
+                  .append('relatedGroups', 'firebase.firestore.DocumentReference', [ f'{default["identifier"]}-{cc2["groupNavoid"]}' for cc2 in history if cc2["groupNavoid"] != cc["groupNavoid"] ], many=True)
               ))
               bar()
         
