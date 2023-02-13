@@ -5,22 +5,6 @@ from urllib.parse import urlparse, parse_qs
 from time import sleep
 from bs4 import BeautifulSoup
 
-# http://publications.uh.edu/ajax/preview_page.php?catoid=36&id=13126&show
-# h2
-# document.querySelectorAll('h2 ~ ul li a:not(h4 ~ ul li a)')
-
-'''
-10 => Communication
-20 => Mathematics
-30 => Life & Physical Sciences
-40 => Language, Philosophy, & Culture
-50 => Creative Arts
-60 => American History
-70 => Government/Political Science
-80 => Social & Behavioral Sciences
-81 => Writing in the Disciplines
-91 => Math/Reasoning
-'''
 
 # TODO: grab hard-coded index per catalog
 '''

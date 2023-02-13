@@ -1,0 +1,300 @@
+[
+  {
+    "catoid": "44",
+    "groupEntoid": "3307",
+    "groupShortTitle": "Architecture and Design",
+    "groupLongTitle": "Gerald D. Hines College of Architecture and Design",
+    "officialCourseCount": "185",
+    "courseGlobs": [
+      "ARCH **",
+      "INAR **",
+      "INDS **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3373",
+    "groupShortTitle": "The Arts",
+    "groupLongTitle": "Kathrine G. McGovern College of the Arts",
+    "officialCourseCount": "7",
+    "courseGlobs": [
+      "ARLD **",
+      "IART **",
+      "ART **",
+      "ARTS **",
+      "ARTH **",
+      "MUSA **",
+      "MUSI **",
+      "MUTX **",
+      "MUED **",
+      "DAN **",
+      "DANC **",
+      "DRAM **",
+      "THEA **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3308",
+    "groupShortTitle": "Business",
+    "groupLongTitle": "C.T. Bauer College of Business",
+    "officialCourseCount": "229",
+    "courseGlobs": [
+      "ACCT **",
+      "BUSI **",
+      "BCIS **",
+      "BZAN **",
+      "ENTR **",
+      "FINA **",
+      "GENB **",
+      "INTB **",
+      "MANA **",
+      "MIS **",
+      "MARK **",
+      "STAT 3331",
+      "SCM **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3314",
+    "groupShortTitle": "Education",
+    "groupLongTitle": "College of Education",
+    "officialCourseCount": "148",
+    "courseGlobs": [
+      "ARED **",
+      "CUIN **",
+      "EDUC **",
+      "ELED **",
+      "HLT **",
+      "PHED 1306",
+      "HDFS **",
+      "SEDE **",
+      "SPEC **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3315",
+    "groupShortTitle": "Engineering",
+    "groupLongTitle": "Cullen College of Engineering",
+    "officialCourseCount": "352",
+    "courseGlobs": [
+      "BIOE **",
+      "CHEE **",
+      "CIVE **",
+      "CEA **",
+      "CNE **",
+      "COOP 00**",
+      "ECE **",
+      "ENGI **",
+      "EGRP **",
+      "INDE **",
+      "MECE **",
+      "PETR **",
+      "SYSE **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3369",
+    "groupShortTitle": "Exploratory Studies",
+    "groupLongTitle": "Exploratory Studies at UH",
+    "officialCourseCount": "1",
+    "courseGlobs": [
+      "CORE 1101"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3316",
+    "groupShortTitle": "Honors",
+    "groupLongTitle": "The Honors College",
+    "officialCourseCount": "45",
+    "courseGlobs": [
+      "ENRG 3**",
+      "ENGR 4**",
+      "HON **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3317",
+    "groupShortTitle": "Global Hospitality Leadership",
+    "groupLongTitle": "Conrad N. Hilton College of Global Hospitality Leadership",
+    "officialCourseCount": "92",
+    "courseGlobs": [
+      "GHL **",
+      "HRMA **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3318",
+    "groupShortTitle": "Law",
+    "groupLongTitle": "The UH Law Center",
+    "officialCourseCount": "0",
+    "courseGlobs": [
+      "LAW **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3319",
+    "groupShortTitle": "Liberal Arts & Social Sciences",
+    "groupLongTitle": "College of Liberal Arts & Social Sciences",
+    "officialCourseCount": "1508",
+    "courseGlobs": [
+      "AAMS **",
+      "AAS **",
+      "AFSC **",
+      "ASLI **",
+      "ANTH **",
+      "ARAB **",
+      "CHIN **",
+      "CLAS **",
+      "COMM **",
+      "SPCH 1318",
+      "COMD **",
+      "CCS **",
+      "ECON **",
+      "ENGL **",
+      "ETHN **",
+      "FREN **",
+      "GEOG **",
+      "GERM **",
+      "IGS **",
+      "GREK **",
+      "HIND **",
+      "HISP **",
+      "HIST **",
+      "HON 33**",
+      "HON 43**",
+      "NUTR **",
+      "INDI **",
+      "IRW **",
+      "ILAS **",
+      "ITAL **",
+      "JAPN **",
+      "JWST **",
+      "KIN **",
+      "LATI **",
+      "LAST **",
+      "MAS **",
+      "MSCI **",
+      "NSS **",
+      "NAVY **",
+      "PHIL **",
+      "PEB **",
+      "GOVT **",
+      "POLS **",
+      "PSYC **",
+      "QSS **",
+      "RELS **",
+      "RUSS **",
+      "SOC **",
+      "SOCI **",
+      "SPAN **",
+      "VIET **",
+      "WGSS **",
+      "WCL **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3320",
+    "groupShortTitle": "Natural Sciences and Mathematics",
+    "groupLongTitle": "College of Natural Sciences and Mathematics",
+    "officialCourseCount": "421",
+    "courseGlobs": [
+      "BCHS **",
+      "BIOL **",
+      "CHEM **",
+      "COSC **",
+      "GEOL **",
+      "IDNS **",
+      "MATH **",
+      "PHYS **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3372",
+    "groupNavoid": "15954",
+    "groupShortTitle": "College of Nursing",
+    "groupLongTitle": "College of Nursing",
+    "officialCourseCount": "38",
+    "courseGlobs": [
+      "NURS **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3321",
+    "groupShortTitle": "Optometry",
+    "groupLongTitle": "College of Optometry",
+    "officialCourseCount": "1",
+    "courseGlobs": [
+      "OPTO **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3376",
+    "groupShortTitle": "Public Affairs",
+    "groupLongTitle": "Hobby School of Public Affairs",
+    "officialCourseCount": "22",
+    "courseGlobs": [
+      "POLC **",
+      "PUBL **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3322",
+    "groupShortTitle": "Pharmacy",
+    "groupLongTitle": "College of Pharmacy",
+    "officialCourseCount": "1",
+    "courseGlobs": [
+      "PHAR **",
+      "PCEU **",
+      "PCOL **",
+      "PHCA **",
+      "PHLA **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3323",
+    "groupShortTitle": "Social Work",
+    "groupLongTitle": "The Graduate College of Social Work",
+    "officialCourseCount": "3",
+    "courseGlobs": [
+      "SOCW **"
+    ]
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3324",
+    "groupShortTitle": "Technology",
+    "groupLongTitle": "College of Technology",
+    "officialCourseCount": "306",
+    "courseGlobs": [
+      "BTEC **",
+      "CNST **",
+      "CPTT **",
+      "ELET **",
+      "ETIM **",
+      "FORE **",
+      "GRET **",
+      "HDCS **",
+      "HRD **",
+      "CIS **",
+      "MECT **",
+      "SCLT **",
+      "TECH **",
+      "TELS **",
+      "TEPM **"
+    ]
+  }
+]
