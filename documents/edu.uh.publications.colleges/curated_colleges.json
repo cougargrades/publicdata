@@ -2,6 +2,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3307",
+    "identifier": "college-architecture",
     "groupShortTitle": "Architecture and Design",
     "groupLongTitle": "Gerald D. Hines College of Architecture and Design",
     "officialCourseCount": "185",
@@ -14,6 +15,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3373",
+    "identifier": "college-arts",
     "groupShortTitle": "The Arts",
     "groupLongTitle": "Kathrine G. McGovern College of the Arts",
     "officialCourseCount": "7",
@@ -36,6 +38,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3308",
+    "identifier": "college-business",
     "groupShortTitle": "Business",
     "groupLongTitle": "C.T. Bauer College of Business",
     "officialCourseCount": "229",
@@ -58,6 +61,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3314",
+    "identifier": "college-education",
     "groupShortTitle": "Education",
     "groupLongTitle": "College of Education",
     "officialCourseCount": "148",
@@ -76,6 +80,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3315",
+    "identifier": "college-engineering",
     "groupShortTitle": "Engineering",
     "groupLongTitle": "Cullen College of Engineering",
     "officialCourseCount": "352",
@@ -98,6 +103,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3369",
+    "identifier": "college-exploratory",
     "groupShortTitle": "Exploratory Studies",
     "groupLongTitle": "Exploratory Studies at UH",
     "officialCourseCount": "1",
@@ -108,6 +114,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3316",
+    "identifier": "college-honors",
     "groupShortTitle": "Honors",
     "groupLongTitle": "The Honors College",
     "officialCourseCount": "45",
@@ -120,6 +127,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3317",
+    "identifier": "college-hilton",
     "groupShortTitle": "Global Hospitality Leadership",
     "groupLongTitle": "Conrad N. Hilton College of Global Hospitality Leadership",
     "officialCourseCount": "92",
@@ -131,6 +139,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3318",
+    "identifier": "college-law",
     "groupShortTitle": "Law",
     "groupLongTitle": "The UH Law Center",
     "officialCourseCount": "0",
@@ -141,6 +150,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3319",
+    "identifier": "college-liberal-arts",
     "groupShortTitle": "Liberal Arts & Social Sciences",
     "groupLongTitle": "College of Liberal Arts & Social Sciences",
     "officialCourseCount": "1508",
@@ -203,6 +213,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3320",
+    "identifier": "college-nsm",
     "groupShortTitle": "Natural Sciences and Mathematics",
     "groupLongTitle": "College of Natural Sciences and Mathematics",
     "officialCourseCount": "421",
@@ -220,6 +231,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3372",
+    "identifier": "college-nursing",
     "groupNavoid": "15954",
     "groupShortTitle": "College of Nursing",
     "groupLongTitle": "College of Nursing",
@@ -231,6 +243,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3321",
+    "identifier": "college-optometry",
     "groupShortTitle": "Optometry",
     "groupLongTitle": "College of Optometry",
     "officialCourseCount": "1",
@@ -241,6 +254,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3376",
+    "identifier": "college-public-affairs",
     "groupShortTitle": "Public Affairs",
     "groupLongTitle": "Hobby School of Public Affairs",
     "officialCourseCount": "22",
@@ -252,6 +266,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3322",
+    "identifier": "college-pharmacy",
     "groupShortTitle": "Pharmacy",
     "groupLongTitle": "College of Pharmacy",
     "officialCourseCount": "1",
@@ -266,6 +281,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3323",
+    "identifier": "college-social-work",
     "groupShortTitle": "Social Work",
     "groupLongTitle": "The Graduate College of Social Work",
     "officialCourseCount": "3",
@@ -276,6 +292,7 @@
   {
     "catoid": "44",
     "groupEntoid": "3324",
+    "identifier": "college-technology",
     "groupShortTitle": "Technology",
     "groupLongTitle": "College of Technology",
     "officialCourseCount": "306",
