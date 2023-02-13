@@ -10,6 +10,7 @@ import bundle.subjects
 import bundle.publications_courses
 import bundle.publications_subjects
 import bundle.generate_sitemap
+import bundle.publications_colleges
 import bundle.patch.publications_courses
 import bundle.patch.groups
 import bundle.patch.publications_core
@@ -28,7 +29,7 @@ parser.add_argument('--testbundle', dest='testbundle', type=str, required=False,
 args = parser.parse_args()
 
 # total tasks
-N = 14
+N = 15
 M = 1
 documents_path = Path(__file__).parent / '..' / 'documents'
 exports_path = Path(__file__).parent / '..' / 'exports'
@@ -56,6 +57,8 @@ for fmt in documents_path.iterdir():
     bundle.publications_subjects.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.courses'):
     bundle.publications_courses.process(fmt.resolve(), export_name / fmt.name)
+  if(fmt.name == 'edu.uh.publications.colleges'):
+    bundle.publications_colleges.process(fmt.resolve(), export_name / fmt.name)
   if(fmt.name == 'edu.uh.publications.core'):
     (export_name / fmt.name).mkdir(exist_ok=True)
     copyfile(fmt / 'core_curriculum.json', export_name / fmt.name / 'core_curriculum.json')
