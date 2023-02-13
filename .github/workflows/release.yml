@@ -8,9 +8,12 @@ on:
 name: Create Release
 
 jobs:
-  build:
+  prep:
     name: Create Release
     runs-on: ubuntu-latest
+    outputs:
+      release_upload_url: ${{ steps.create_release.outputs.upload_url }}
+      npmtag: ${{ steps.timestamp.outputs.npmtag }}
     steps:
       - name: Checkout code
         uses: actions/checkout@master
@@ -34,6 +37,18 @@ jobs:
           #release_name: "publicdata-bundle-${{ steps.makebundle.outputs.tarname }}"
           draft: false
           prerelease: false
+  
+  build_test_1:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: [ prep ]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
       - name: Make test bundle (Summer 2020)
         id: maketestbundle202002
         run: |
@@ -49,10 +64,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           asset_path: "${{ steps.maketestbundle202002.outputs.tarloc }}"
           asset_name: "${{ steps.maketestbundle202002.outputs.tarname }}"
           asset_content_type: application/gzip
+
+  build_test_2:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: [ prep ]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
       - name: Make test bundle (2021 year)
         id: maketestbundle2021
         run: |
@@ -68,10 +95,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           asset_path: "${{ steps.maketestbundle2021.outputs.tarloc }}"
           asset_name: "${{ steps.maketestbundle2021.outputs.tarname }}"
           asset_content_type: application/gzip
+
+  build_full:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: [ prep ]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
       - name: Make bundle
         id: makebundle
         run: |
@@ -90,7 +129,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           asset_path: "${{ steps.makebundle.outputs.tarloc }}"
           asset_name: "${{ steps.makebundle.outputs.tarname }}"
           asset_content_type: application/gzip
@@ -104,7 +143,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         run: |
           cd npm
-          node repackage.js ${{ steps.timestamp.outputs.npmtag }}
+          node repackage.js ${{ needs.prep.outputs.npmtag }}
           npm publish --access public
       # Setup .npmrc file to publish to GitHub Packages
       - uses: actions/setup-node@v2
@@ -117,6 +156,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd npm
-          node repackage.js ${{ steps.timestamp.outputs.npmtag }}
+          node repackage.js ${{ needs.prep.outputs.npmtag }}
           npm publish
         
