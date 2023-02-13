@@ -1,0 +1,138 @@
+[
+  {
+    "catoid": "44",
+    "groupEntoid": "3307",
+    "groupNavoid": "15950",
+    "groupShortTitle": "Architecture and Design",
+    "groupLongTitle": "Gerald D. Hines College of Architecture and Design",
+    "officialCourseCount": "185"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3373",
+    "groupNavoid": "15949",
+    "groupShortTitle": "The Arts",
+    "groupLongTitle": "Kathrine G. McGovern College of the Arts",
+    "officialCourseCount": "7"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3308",
+    "groupNavoid": "15940",
+    "groupShortTitle": "Business",
+    "groupLongTitle": "C.T. Bauer College of Business",
+    "officialCourseCount": "229"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3314",
+    "groupNavoid": "15951",
+    "groupShortTitle": "Education",
+    "groupLongTitle": "College of Education",
+    "officialCourseCount": "148"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3315",
+    "groupNavoid": "15746",
+    "groupShortTitle": "Engineering",
+    "groupLongTitle": "Cullen College of Engineering",
+    "officialCourseCount": "352"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3369",
+    "groupNavoid": "",
+    "groupShortTitle": "Exploratory Studies",
+    "groupLongTitle": "Exploratory Studies at UH",
+    "officialCourseCount": "1"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3316",
+    "groupNavoid": "15952",
+    "groupShortTitle": "Honors",
+    "groupLongTitle": "The Honors College",
+    "officialCourseCount": "45"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3317",
+    "groupNavoid": "15953",
+    "groupShortTitle": "Global Hospitality Leadership",
+    "groupLongTitle": "Conrad N. Hilton College of Global Hospitality Leadership",
+    "officialCourseCount": "92"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3318",
+    "groupNavoid": "",
+    "groupShortTitle": "Law",
+    "groupLongTitle": "The UH Law Center",
+    "officialCourseCount": "0"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3319",
+    "groupNavoid": "15756",
+    "groupShortTitle": "Liberal Arts & Social Sciences",
+    "groupLongTitle": "College of Liberal Arts & Social Sciences",
+    "officialCourseCount": "1508"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3320",
+    "groupNavoid": "15733",
+    "groupShortTitle": "Natural Sciences and Mathematics",
+    "groupLongTitle": "College of Natural Sciences and Mathematics",
+    "officialCourseCount": "421"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3372",
+    "groupNavoid": "15954",
+    "groupShortTitle": "College of Nursing",
+    "groupLongTitle": "College of Nursing",
+    "officialCourseCount": "38"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3321",
+    "groupNavoid": "",
+    "groupShortTitle": "Optometry",
+    "groupLongTitle": "College of Optometry",
+    "officialCourseCount": "1"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3376",
+    "groupNavoid": "",
+    "groupShortTitle": "Public Affairs",
+    "groupLongTitle": "Hobby School of Public Affairs",
+    "officialCourseCount": "22"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3322",
+    "groupNavoid": "745",
+    "groupShortTitle": "Pharmacy",
+    "groupLongTitle": "College of Pharmacy",
+    "officialCourseCount": "1"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3323",
+    "groupNavoid": "",
+    "groupShortTitle": "Social Work",
+    "groupLongTitle": "The Graduate College of Social Work",
+    "officialCourseCount": "3"
+  },
+  {
+    "catoid": "44",
+    "groupEntoid": "3324",
+    "groupNavoid": "15772",
+    "groupShortTitle": "Technology",
+    "groupLongTitle": "College of Technology",
+    "officialCourseCount": "306"
+  }
+]
