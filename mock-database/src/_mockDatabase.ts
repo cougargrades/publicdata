@@ -177,8 +177,9 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
        * - AVG of 0 (sus)
        * - totalEnrolled of 0
        */
+      //(record.AVG_GPA !== null)
       // TODO: use `GDR.safeToIncludeGPA(record)`
-      if (record.AVG_GPA !== null) {
+      if (GDR.safeToIncludeGPA(record) && record.AVG_GPA !== null) {
         // include in GPA
         GPA.include(courseData.GPA, record.AVG_GPA);
 
@@ -237,7 +238,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
     if (instructorExists) {
       // check if record has missing AVG
       // TODO: use `GDR.safeToIncludeGPA(record)`
-      if (record.AVG_GPA !== null) {
+      if (GDR.safeToIncludeGPA(record) && record.AVG_GPA !== null) {
         // include in GPA
         GPA.include(instructorData.GPA, record.AVG_GPA);
 
