@@ -64,17 +64,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
           ASSET_PATH: "${{ steps.maketestbundle202002.outputs.tarloc }}"
-        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "cougargrades/publicdata"
-      # - name: Upload Release Asset (Test Bundle Summer 2020)
-      #   id: upload-release-asset-testbundle202002
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-      #     asset_path: "${{ steps.maketestbundle202002.outputs.tarloc }}"
-      #     asset_name: "${{ steps.maketestbundle202002.outputs.tarname }}"
-      #     asset_content_type: application/gzip
+          REPO_NAME: ${{ github.repository }}
+        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "$REPO_NAME"
 
   build_test_2:
     name: Make test bundle (2021 year)
@@ -98,14 +89,12 @@ jobs:
           echo "tarname=$(basename $VAR)" >> $GITHUB_OUTPUT
       - name: Upload Release Asset (Test Bundle 2021 Year)
         id: upload-release-asset-testbundle2021
-        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: "${{ steps.maketestbundle2021.outputs.tarloc }}"
-          asset_name: "${{ steps.maketestbundle2021.outputs.tarname }}"
-          asset_content_type: application/gzip
+          RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
+          ASSET_PATH: "${{ steps.maketestbundle2021.outputs.tarloc }}"
+          REPO_NAME: ${{ github.repository }}
+        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "$REPO_NAME"
 
   build_full:
     name: Make full bundle + Publish
@@ -132,14 +121,12 @@ jobs:
           echo "tarname=$(basename $VAR)" >> $GITHUB_OUTPUT
       - name: Upload Release Asset
         id: upload-release-asset-full
-        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prep.outputs.release_upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: "${{ steps.makebundle.outputs.tarloc }}"
-          asset_name: "${{ steps.makebundle.outputs.tarname }}"
-          asset_content_type: application/gzip
+          RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
+          ASSET_PATH: "${{ steps.makebundle.outputs.tarloc }}"
+          REPO_NAME: ${{ github.repository }}
+        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "$REPO_NAME"
       # Publish to npm
       - uses: actions/setup-node@v3
         with:
