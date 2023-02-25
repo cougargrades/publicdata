@@ -156,7 +156,7 @@ jobs:
   make_mock_database:
     name: Build local copy of database
     runs-on: ubuntu-latest
-    needs: [ build_full ]
+    needs: [ prep, build_full ]
     defaults:
       run:
         working-directory: mock-database
