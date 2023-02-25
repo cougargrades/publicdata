@@ -27,27 +27,13 @@ for (let file of files.filter(e => e.split('/').reverse()[0].startsWith(`patch-0
 }
 
 // Do `records.csv`
-let pbar = terminal.progressBar({
-  title: 'Processing records.csv:',
-  eta: true,
-  percent: true
-})
 for (let i = 0; i < records.length; i++) {
   await whenUploadQueueAdded(records[i]);
-  //console.log(`Processed client-side: ${i+1} of ${records.length} (${((i+1)/records.length*100).toFixed(1)}%)`)
-  pbar.update(i/records.length)
+  console.log(`Processed record: ${i+1} of ${records.length} (${((i+1)/records.length*100).toFixed(1)}%)`)
 }
-pbar.stop()
 console.log(`Finished processing records (${records.length} processed)`)
 
 // Do remaining patchfiles
-let tally = 0
-const TOTAL_PATCH_FILES_AFTER_0 = files.length - files.filter(e => e.split('/').reverse()[0].startsWith(`patch-0`)).length;
-pbar = terminal.progressBar({
-  title: 'Processing Patch files:',
-  eta: true,
-  percent: true
-})
 for(let i = 1; i <= maxFilePhase; i++) {
   console.log(`phase ${i} queue starting...`);
   console.time(`phase ${i} time`);
@@ -55,11 +41,8 @@ for(let i = 1; i <= maxFilePhase; i++) {
 
   for(let file of filesForCurrentPhase) {
     await processPatchfile(file)
-    tally += 1;
-    pbar.update(tally/TOTAL_PATCH_FILES_AFTER_0)
   }
   
   console.log(`phase ${i} queue done!`);
   console.timeEnd(`phase ${i} time`);
 }
-pbar.stop()
