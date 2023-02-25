@@ -95,7 +95,7 @@ def generate(source: Path, destination: Path):
             with open(destination / f'patch-0d-groupdefaults-{time_ns()}.json', 'w') as out:
               out.write(str(
                 Patchfile(f'/groups/{GROUP_ID}')
-                  .append('relatedGroups', 'firebase.firestore.DocumentReference', [ f'/groups/{default["identifier"]}-{cc2["groupNavoid"]}' for cc2 in history if cc2["groupNavoid"] != cc["groupNavoid"] ], many=True)
+                  .append('relatedGroups', 'firebase.firestore.DocumentReference', [f'/groups/{default["identifier"]}'] + [ f'/groups/{default["identifier"]}-{cc2["groupNavoid"]}' for cc2 in history if cc2["groupNavoid"] != cc["groupNavoid"] ], many=True)
               ))
               bar()
         
