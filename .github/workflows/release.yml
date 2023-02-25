@@ -64,7 +64,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
           ASSET_PATH: "${{ steps.maketestbundle202002.outputs.tarloc }}"
-        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "@cougargrades/publicdata"
+        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "cougargrades/publicdata"
       # - name: Upload Release Asset (Test Bundle Summer 2020)
       #   id: upload-release-asset-testbundle202002
       #   uses: actions/upload-release-asset@v1
