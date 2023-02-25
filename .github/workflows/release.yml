@@ -154,7 +154,7 @@ jobs:
           npm publish
 
   make_mock_database:
-    name: Build a mock copy of the database
+    name: Build local copy of database
     runs-on: self-hosted
     needs: [ build_full ]
     defaults:
@@ -172,20 +172,20 @@ jobs:
         run: |
           npm install
           npm run build
-      # - name: Download latest public data bundle
-      #   run: node build/downloadBundle.js
-      # - name: Build local copy of the database
-      #   run: node build/createMockDatabase.js
-      # - name: Compress mock database
-      #   id: makemockdatabase
-      #   run: |
-      #     tar -czvf tmp/database.tar.gz -C tmp/firebaseFS/ $(ls tmp/firebaseFS/)
-      #     echo "tarloc=tmp/database.tar.gz" >> $GITHUB_OUTPUT
-      # - name: Upload Release Asset (Mock Database)
-      #   id: upload-release-asset-mockdb
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
-      #     ASSET_PATH: "${{ steps.makemockdatabase.outputs.tarloc }}"
-      #     REPO_NAME: ${{ github.repository }}
-      #   run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "$REPO_NAME"
+      - name: Download latest public data bundle
+        run: node build/downloadBundle.js
+      - name: Build local copy of the database
+        run: node build/createMockDatabase.js
+      - name: Compress mock database
+        id: makemockdatabase
+        run: |
+          tar -czvf tmp/database.tar.gz -C tmp/firebaseFS/ $(ls tmp/firebaseFS/)
+          echo "tarloc=tmp/database.tar.gz" >> $GITHUB_OUTPUT
+      - name: Upload Release Asset (Mock Database)
+        id: upload-release-asset-mockdb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ needs.prep.outputs.release_tag }}
+          ASSET_PATH: "${{ steps.makemockdatabase.outputs.tarloc }}"
+          REPO_NAME: ${{ github.repository }}
+        run: gh release upload "$RELEASE_TAG" "$ASSET_PATH" -R "$REPO_NAME"
