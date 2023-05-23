@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 bs4 = "==0.0.1"
-requests = "==2.26.0"
+requests = "==2.31.0"
 html5lib = "==1.1"
 
 [dev-packages]
