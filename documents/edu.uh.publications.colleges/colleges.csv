@@ -6,7 +6,7 @@ catoid,groupEntoid,groupNavoid,groupShortTitle,groupLongTitle,officialCourseCoun
 44,3315,15746,Engineering,Cullen College of Engineering,352
 44,3369,,Exploratory Studies,Exploratory Studies at UH,1
 44,3316,15952,Honors,The Honors College,45
-44,3317,15953,Global Hospitality Leadership,Conrad N. Hilton College of Global Hospitality Leadership,92
+44,3317,15953,Global Hospitality Leadership,Conrad N. Hilton College of Global Hospitality Leadership,90
 44,3318,,Law,The UH Law Center,0
 44,3319,15756,Liberal Arts & Social Sciences,College of Liberal Arts & Social Sciences,1508
 44,3320,15733,Natural Sciences and Mathematics,College of Natural Sciences and Mathematics,421
@@ -16,3 +16,20 @@ catoid,groupEntoid,groupNavoid,groupShortTitle,groupLongTitle,officialCourseCoun
 44,3322,745,Pharmacy,College of Pharmacy,1
 44,3323,,Social Work,The Graduate College of Social Work,3
 44,3324,15772,Technology,College of Technology,306
+52,3842,19793,Architecture and Design,Gerald D. Hines College of Architecture and Design,185
+52,3908,19792,The Arts,Kathrine G. McGovern College of the Arts,7
+52,3843,19783,Business,C.T. Bauer College of Business,236
+52,3849,19794,Education,College of Education,152
+52,3850,19570,Engineering,Cullen College of Engineering,365
+52,3851,19795,Honors,The Honors College,49
+52,3852,19796,Global Hospitality Leadership,Conrad N. Hilton College of Global Hospitality Leadership,90
+52,3853,,Law,The UH Law Center,0
+52,3854,19580,Liberal Arts & Social Sciences,College of Liberal Arts & Social Sciences,1558
+52,3855,19557,Natural Sciences and Mathematics,College of Natural Sciences and Mathematics,428
+52,3907,19797,Andy and Barbara Gessner College of Nursing,Andy and Barbara Gessner College of Nursing,38
+52,3856,,Optometry,College of Optometry,1
+52,3911,,Public Affairs,Hobby School of Public Affairs,22
+52,3857,745,Pharmacy,College of Pharmacy,1
+52,3858,,Social Work,The Graduate College of Social Work,2
+52,3859,19596,Engineering-Technology Division,Engineering - Technology Division,320
+52,3904,19798,Undergraduate Student Success,Undergraduate Student Success,3

@@ -24,11 +24,12 @@ TODO:
 # ids[catoid] => navoid
 records = {
   # 2022-2023 Undergraduate (45 is Graduate)
-  44: (45, 15948), # http://publications.uh.edu/content.php?catoid=44&navoid=15948
+  44: (45, 15948), # http://publications.uh.edu/content.php?catoid=44&navoid=15948,
+  52: (53, 19791), # http://publications.uh.edu/content.php?catoid=52&navoid=19791,
 }
 
 # short-hand method
-get_html = lambda url: BeautifulSoup(requests.get(url).content.decode(), features='html5lib')
+get_html = lambda url: BeautifulSoup(requests.get(url, verify=False).content.decode(), features='html5lib')
 
 with open('../colleges.csv', 'w') as exportColleges, open('../courses.csv', 'w') as exportCourses:
   with open('../master_colleges.csv', 'r') as masterFileColleges, open('../master_courses.csv', 'r') as masterFileCourses:
@@ -43,7 +44,7 @@ with open('../colleges.csv', 'w') as exportColleges, open('../courses.csv', 'w')
     for catoid in records.keys():
       GRADUATE_CATOID = records[catoid][0]
       # get the "Courses" page for a catalog
-      index_html = get_html(f'http://publications.uh.edu/content.php?catoid={catoid}&navoid={records[catoid][1]}')
+      index_html = get_html(f'https://publications.uh.edu/content.php?catoid={catoid}&navoid={records[catoid][1]}')
       # get entoid links to colleges
       college_links = index_html.select(f'a[href*="preview_entity.php?catoid={catoid}&ent_oid"]')
       # iterate over college links
@@ -74,12 +75,14 @@ with open('../colleges.csv', 'w') as exportColleges, open('../courses.csv', 'w')
         # grab the HTML for all the courses within this college
         for inner_catoid in (catoid, GRADUATE_CATOID):
           print(f'\tinner_catoid: {inner_catoid}')
-          course_list_html = get_html(f'http://publications.uh.edu/ajax/preview_filter_show_hide_data.php?&show_hide=show&cat_oid={inner_catoid}&nav_oid=0&ent_oid={entoid}&type=c&link_text=college')
+          course_list_html = get_html(f'https://publications.uh.edu/ajax/preview_filter_show_hide_data.php?&show_hide=show&cat_oid={inner_catoid}&nav_oid=0&ent_oid={entoid}&type=c&link_text=college')
           # grab course links
           course_links = course_list_html.select('ul li a[onclick^="showCourse"]')
           for course_link in course_links:
             #print('course link: ', course_link)
-            delimiter = course_link.text.index(' - ')
+            delimiter = course_link.text.find(' - ')
+            if delimiter == -1:
+              continue
             courseName = course_link.text[0:delimiter].strip()
             description = course_link.text[delimiter+3:].strip()
             #(courseName, description) = course_link.text.split(' - ')
