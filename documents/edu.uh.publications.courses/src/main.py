@@ -119,6 +119,6 @@ for index in OUTDIR.glob('*.csv'):
         time.sleep(args.delay / 1000.0)
 
         # write to disk
-        with open(OUTPUT_FILE, 'w') as outfile:
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as outfile:
           outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
         bar()
