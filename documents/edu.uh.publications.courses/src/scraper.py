@@ -8,15 +8,17 @@ MAX_RETRIES = 5
 
 def getCurrentUndergraduateCatalog() -> (str, str):
   # get currently available catalog
-  res = httpx.get('https://uh.edu/catalog-redirects/catalog-undergraduate')
+  res = httpx.get('https://uh.edu/catalog-redirects/catalog-undergraduate', verify=False)
   soup = BeautifulSoup(res.text, 'html.parser')
   # detect redirect
   redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=34"
   # extract the url specifically, then process the querystring
   qs = parse_qs(urlparse(redirection[(len("0;url=")):]).query)
   CATOID = qs["catoid"][0] # "34"
+  dest_url = redirection[redirection.index('http'):]
+  #print(f'dest_url: {dest_url}')
   # extract the url specifically, then go to it
-  res = httpx.get(redirection[(len("0;url=")):])
+  res = httpx.get(dest_url, verify=False)
   soup = BeautifulSoup(res.text, 'html.parser')
   # 2019-2020 Undergraduate Catalog
   TITLE = soup.select_one('select[name=catalog] option[selected]').string
@@ -24,7 +26,7 @@ def getCurrentUndergraduateCatalog() -> (str, str):
 
 def getCurrentGraduateCatalog() -> (str, str):
   # get currently available catalog
-  res = httpx.get('https://uh.edu/catalog-redirects/catalog-graduate')
+  res = httpx.get('https://uh.edu/catalog-redirects/catalog-graduate', verify=False)
   soup = BeautifulSoup(res.text, 'html.parser')
   # detect redirect
   redirection = soup.select_one('meta[http-equiv=refresh]')['content'] # "0;url=http://publications.uh.edu/index.php?catoid=33"
@@ -32,7 +34,9 @@ def getCurrentGraduateCatalog() -> (str, str):
   qs = parse_qs(urlparse(redirection[(len("0;url=")):]).query)
   CATOID = qs["catoid"][0] # "34"
   # extract the url specifically, then go to it
-  res = httpx.get(redirection[(len("0;url=")):])
+  dest_url = redirection[redirection.index('http'):]
+  #print(f'dest_url: {dest_url}')
+  res = httpx.get(dest_url, verify=False)
   soup = BeautifulSoup(res.text, 'html.parser')
   # 2019-2020 Undergraduate Catalog
   TITLE = soup.select_one('select[name=catalog] option[selected]').string
@@ -54,7 +58,7 @@ class CatalogIterator(object):
 
   # determine the number of pages to process
   def getPageCount(self) -> int:
-    res = httpx.get(self.uri(self.catoid, '1'))
+    res = httpx.get(self.uri(self.catoid, '1'), verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     # "Page: 1 | 2 | 3 | 4 | 5 | 6 | 7 … Forward 6 -> 416"
     elem = soup.select_one('nav a[aria-label^="Page"]:last-child')
@@ -62,7 +66,7 @@ class CatalogIterator(object):
 
   # shorthand for generating the necessary url
   def uri(self, catoid: str, cpage: str):
-    return f'http://publications.uh.edu/search_advanced.php?cur_cat_oid={catoid}&search_database=Search&search_db=Search&cpage={cpage}&location=3&filter[keyword]='
+    return f'https://publications.uh.edu/search_advanced.php?cur_cat_oid={catoid}&search_database=Search&search_db=Search&cpage={cpage}&location=3&filter[keyword]='
   
   # extract the "coid" querystring from the link
   def extractCoid(self, link: str) -> str:
@@ -81,7 +85,7 @@ class CatalogIterator(object):
       for _ in range(MAX_RETRIES):
         try:
           # make http call for the specified page number
-          res = httpx.get(self.uri(self.catoid, str(self.i)))
+          res = httpx.get(self.uri(self.catoid, str(self.i)), verify=False)
           soup = BeautifulSoup(res.text, 'html.parser')
           # select results
           data = soup.select('table.table_default td a[href^="preview_course_nopop.php"]')
@@ -103,17 +107,23 @@ def scrapeCourse(catoid: str, coid: str, catalog_title: str) -> str:
   # see: http://xion.io/post/code/python-retry-idiom.html
   for _ in range(MAX_RETRIES):
     try:
-      res = httpx.get(f'http://publications.uh.edu/ajax/preview_course.php?catoid={catoid}&coid={coid}&show')
+      res = httpx.get(f'https://publications.uh.edu/ajax/preview_course.php?catoid={catoid}&coid={coid}&show', verify=False)
       soup = BeautifulSoup(res.text, 'html.parser')
       ## remove UH spam
       # <br> after the first link
-      soup.select_one('a.link-open + br').decompose()
+      junk = soup.select_one('a.link-open + br')
+      if type(junk) != None:
+        junk.decompose()
       # first link
-      soup.select_one('a.link-open').decompose()
+      junk = soup.select_one('a.link-open')#.decompose()
+      if type(junk) != None:
+        junk.decompose()
       # social media junk
-      soup.select_one('.social-media-ajax').decompose()
+      junk = soup.select_one('.social-media-ajax')#.decompose()
+      if type(junk) != None:
+        junk.decompose()
       
-      scrape_url = f'http://publications.uh.edu/preview_course_nopop.php?catoid={catoid}&coid={coid}'
+      scrape_url = f'https://publications.uh.edu/preview_course_nopop.php?catoid={catoid}&coid={coid}'
       scrape_date = datetime.now()
       
       return str(BeautifulSoup(
@@ -135,7 +145,8 @@ def scrapeCourse(catoid: str, coid: str, catalog_title: str) -> str:
         </div>
         ''',
         'html.parser').prettify())
-    except Exception:
+    except Exception as e:
+      print(e)
       # in the event of a failure, wait 10 seconds before trying again
       time.sleep(10)
       continue
