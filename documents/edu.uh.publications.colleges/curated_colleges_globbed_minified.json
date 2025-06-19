@@ -53,6 +53,7 @@
       "MUED",
       "MUSA",
       "MUSI",
+      "MUTX",
       "THEA"
     ]
   },
@@ -151,14 +152,17 @@
     "courses": [],
     "subjects": [
       "BIOE",
+      "CEA",
       "CHEE",
       "CIVE",
+      "CNE",
       "ECE",
       "EGRP",
       "ENGI",
       "INDE",
       "MECE",
-      "PETR"
+      "PETR",
+      "SYSE"
     ]
   },
   {
@@ -207,6 +211,7 @@
     ],
     "courses": [],
     "subjects": [
+      "GHL",
       "HRMA"
     ]
   },

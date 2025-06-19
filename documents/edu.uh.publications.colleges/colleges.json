@@ -61,7 +61,7 @@
     "groupNavoid": "15953",
     "groupShortTitle": "Global Hospitality Leadership",
     "groupLongTitle": "Conrad N. Hilton College of Global Hospitality Leadership",
-    "officialCourseCount": "92"
+    "officialCourseCount": "90"
   },
   {
     "catoid": "44",
@@ -134,5 +134,141 @@
     "groupShortTitle": "Technology",
     "groupLongTitle": "College of Technology",
     "officialCourseCount": "306"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3842",
+    "groupNavoid": "19793",
+    "groupShortTitle": "Architecture and Design",
+    "groupLongTitle": "Gerald D. Hines College of Architecture and Design",
+    "officialCourseCount": "185"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3908",
+    "groupNavoid": "19792",
+    "groupShortTitle": "The Arts",
+    "groupLongTitle": "Kathrine G. McGovern College of the Arts",
+    "officialCourseCount": "7"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3843",
+    "groupNavoid": "19783",
+    "groupShortTitle": "Business",
+    "groupLongTitle": "C.T. Bauer College of Business",
+    "officialCourseCount": "236"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3849",
+    "groupNavoid": "19794",
+    "groupShortTitle": "Education",
+    "groupLongTitle": "College of Education",
+    "officialCourseCount": "152"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3850",
+    "groupNavoid": "19570",
+    "groupShortTitle": "Engineering",
+    "groupLongTitle": "Cullen College of Engineering",
+    "officialCourseCount": "365"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3851",
+    "groupNavoid": "19795",
+    "groupShortTitle": "Honors",
+    "groupLongTitle": "The Honors College",
+    "officialCourseCount": "49"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3852",
+    "groupNavoid": "19796",
+    "groupShortTitle": "Global Hospitality Leadership",
+    "groupLongTitle": "Conrad N. Hilton College of Global Hospitality Leadership",
+    "officialCourseCount": "90"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3853",
+    "groupNavoid": "",
+    "groupShortTitle": "Law",
+    "groupLongTitle": "The UH Law Center",
+    "officialCourseCount": "0"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3854",
+    "groupNavoid": "19580",
+    "groupShortTitle": "Liberal Arts & Social Sciences",
+    "groupLongTitle": "College of Liberal Arts & Social Sciences",
+    "officialCourseCount": "1558"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3855",
+    "groupNavoid": "19557",
+    "groupShortTitle": "Natural Sciences and Mathematics",
+    "groupLongTitle": "College of Natural Sciences and Mathematics",
+    "officialCourseCount": "428"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3907",
+    "groupNavoid": "19797",
+    "groupShortTitle": "Andy and Barbara Gessner College of Nursing",
+    "groupLongTitle": "Andy and Barbara Gessner College of Nursing",
+    "officialCourseCount": "38"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3856",
+    "groupNavoid": "",
+    "groupShortTitle": "Optometry",
+    "groupLongTitle": "College of Optometry",
+    "officialCourseCount": "1"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3911",
+    "groupNavoid": "",
+    "groupShortTitle": "Public Affairs",
+    "groupLongTitle": "Hobby School of Public Affairs",
+    "officialCourseCount": "22"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3857",
+    "groupNavoid": "745",
+    "groupShortTitle": "Pharmacy",
+    "groupLongTitle": "College of Pharmacy",
+    "officialCourseCount": "1"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3858",
+    "groupNavoid": "",
+    "groupShortTitle": "Social Work",
+    "groupLongTitle": "The Graduate College of Social Work",
+    "officialCourseCount": "2"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3859",
+    "groupNavoid": "19596",
+    "groupShortTitle": "Engineering-Technology Division",
+    "groupLongTitle": "Engineering - Technology Division",
+    "officialCourseCount": "320"
+  },
+  {
+    "catoid": "52",
+    "groupEntoid": "3904",
+    "groupNavoid": "19798",
+    "groupShortTitle": "Undergraduate Student Success",
+    "groupLongTitle": "Undergraduate Student Success",
+    "officialCourseCount": "3"
   }
 ]

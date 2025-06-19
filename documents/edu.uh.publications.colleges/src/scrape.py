@@ -29,9 +29,9 @@ records = {
 }
 
 # short-hand method
-get_html = lambda url: BeautifulSoup(requests.get(url, verify=False).content.decode(), features='html5lib')
+get_html = lambda url: BeautifulSoup(requests.get(url, verify=False).text, features='html5lib', from_encoding='utf8')
 
-with open('../colleges.csv', 'w') as exportColleges, open('../courses.csv', 'w') as exportCourses:
+with open('../colleges.csv', 'w', newline='', encoding='utf8') as exportColleges, open('../courses.csv', 'w', newline='', encoding='utf8') as exportCourses:
   with open('../master_colleges.csv', 'r') as masterFileColleges, open('../master_courses.csv', 'r') as masterFileCourses:
     # declare writer
     collegeWriter = csv.DictWriter(exportColleges, csv.DictReader(masterFileColleges).fieldnames)
@@ -98,11 +98,13 @@ with open('../colleges.csv', 'w') as exportColleges, open('../courses.csv', 'w')
             result["groupShortTitle"] = groupShortTitle
             result["groupLongTitle"] = groupLongTitle
             courseWriter.writerow(result)
+            exportCourses.flush()
             college_result["officialCourseCount"] = college_result.get("officialCourseCount", 0) + 1
             print(f'\t\tdepartment: {department}, catalogNumber: {catalogNumber}, description: {description.strip()}')
           # delay request attempts for a moment
-          sleep(1)
+          #sleep(1)
         # write our college
         collegeWriter.writerow(college_result)
+        exportColleges.flush()
 
       print(f'Done with catoid={catoid}!')
