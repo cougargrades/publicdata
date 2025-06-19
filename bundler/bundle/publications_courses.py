@@ -82,9 +82,10 @@ def process(source: Path, destination: Path):
         }
         matching_pairs = [pair for pair in pairs if f'{pair["department"]} {pair["catalogNumber"]}' == courseName][:1]
         for matched_pair in matching_pairs:
-          with open(source / matched_pair["catoid"] / f'{matched_pair["catoid"]}-{matched_pair["coid"]}.html') as htmlFile:
+          with open(source / matched_pair["catoid"] / f'{matched_pair["catoid"]}-{matched_pair["coid"]}.html', 'r', encoding='utf8') as htmlFile:
             # debug info
             course_and_file = f'{matched_pair["department"]} {matched_pair["catalogNumber"]} -> {os.path.basename(htmlFile.name)}'
+            #print(course_and_file)
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
             # compute content

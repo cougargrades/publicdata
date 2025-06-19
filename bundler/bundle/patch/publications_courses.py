@@ -40,7 +40,7 @@ def generate(generated: Path, source: Path, destination: Path):
         sorted_pairs_of_course = sorted(courses[key], key=lambda d: d['title'], reverse=True)
         # only make patchfiles concerning the latest 3
         for row in sorted_pairs_of_course[:3]:
-          with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html') as htmlFile:
+          with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html', 'r', encoding='utf8') as htmlFile:
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
             scrapeDate = html.select('span[title=scrape_date]')[0].decode_contents().strip()
@@ -70,7 +70,7 @@ def generate(generated: Path, source: Path, destination: Path):
               "catoid": row["catoid"],
               "coid": row["coid"],
               "classification": row["classification"],
-              "url": f'http://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else "",
+              "url": f'https://publications.uh.edu/preview_course_nopop.php?catoid={row["catoid"]}&coid={row["coid"]}' if row["catoid"] != None and row["coid"] != None else "",
               "scrapeDate": scrapeDate,
               "content": html_minify(bleach.clean(content, tags=bleach.sanitizer.ALLOWED_TAGS + ["br","span","p"]))
             })
