@@ -144,7 +144,7 @@ def scrapeCourse(catoid: str, coid: str, catalog_title: str) -> str:
           </div>
         </div>
         ''',
-        'html.parser').prettify())
+        'html.parser').prettify()).replace('\u00A0', ' ') # This was problematic and for some reason caused Windows to save the files as "Windows-1252" (???)
     except Exception as e:
       print(e)
       # in the event of a failure, wait 10 seconds before trying again

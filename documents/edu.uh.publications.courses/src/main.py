@@ -12,11 +12,14 @@ from alive_progress import alive_bar
 from colorama import init
 init()
 from colorama import Fore, Back, Style
+import threading
+from concurrent.futures import ThreadPoolExecutor
 
 parser = argparse.ArgumentParser(description='Do stuff')
 parser.add_argument('outdir', type=str, help='Directory where you want the generated files to appear.')
 parser.add_argument('--overwrite-existing-html', type=bool, default=False, help='Should HTML that already exists be downloaded again?')
 parser.add_argument('--delay', type=int, default=0, help='Manually add a delay (in milliseconds) between scraping requests to prevent HTTP timeouts.')
+parser.add_argument('--concurrent', type=int, default=10, help='How many scrapes to run concurrently')
 args = parser.parse_args()
 
 print(f'{Fore.CYAN}[1 / 4] Scraping which catalogs are current. Initializing iterators.{Style.RESET_ALL}')
@@ -104,21 +107,32 @@ print(f'{Fore.CYAN}[4 / 4]{Style.RESET_ALL} Downloading rich HTML by coid value:
 for index in OUTDIR.glob('*.csv'):
   TOTAL_ROWS = file_len(index) - 1
   with open(index, 'r') as infile:
-    reader = csv.DictReader(infile)
+    reader = csv.DictReader(infile)   
+
     with alive_bar(TOTAL_ROWS) as bar:
-      for line in reader:
+
+      def iterate(line):
+        #and line["coid"] in ["277573", "277574", "277589"]
+        # if not (line["catoid"] in ["52", "53"]):
+        #   #continue
+        #   bar()
+        #   return
+
         # prepare to write to disk
         SUBDIR = OUTDIR / line["catoid"]
         SUBDIR.mkdir(exist_ok=True)
         OUTPUT_FILE = SUBDIR / clean_filename(f'{line["catoid"]}-{line["coid"]}.html')
         if OUTPUT_FILE.exists() and not args.overwrite_existing_html:
           bar()
-          continue
+          #continue
+        else:
+          # optional delay
+          time.sleep(args.delay / 1000.0)
 
-        # optional delay
-        time.sleep(args.delay / 1000.0)
+          # write to disk
+          with open(OUTPUT_FILE, 'w', encoding='utf-8') as outfile:
+            outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
+          bar()
 
-        # write to disk
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as outfile:
-          outfile.write(scrapeCourse(line["catoid"], line["coid"], line["catalog_title"]))
-        bar()
+      with ThreadPoolExecutor(max_workers=args.concurrent) as executor:
+        executor.map(iterate, reader)
