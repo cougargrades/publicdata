@@ -1,0 +1,816 @@
+department,catalogNumber,description,catoid,coid,coreCode,coreArea,groupNavoid,groupTitle
+ENGL,1303,First Year Writing I,36,171247,10,Communication,13121,2020-2021 Undergraduate Catalog
+ENGL,1304,First Year Writing II,36,171248,10,Communication,13121,2020-2021 Undergraduate Catalog
+ENGL,1370,Freshman Composition II - Honors,36,171251,10,Communication,13121,2020-2021 Undergraduate Catalog
+ENGL,2361,Western World Literature II - Honors,36,171276,10,Communication,13121,2020-2021 Undergraduate Catalog
+BUSI,2305,Business Statistics,36,184550,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1310,College Algebra,36,172365,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1311,Elementary Mathematical Modeling,36,172366,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1312,Introduction to Mathematical Reasoning,36,172367,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1313,Finite Math with Applications,36,172368,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1314,Calculus for Business and the Life Sciences,36,172369,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1330,Precalculus,36,172370,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1431,Calculus I,36,172372,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,1450,Accelerated Calculus,36,172374,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+MATH,2311,Introduction to Probability and Statistics,36,172377,20,Mathematics,13122,2020-2021 Undergraduate Catalog
+BIOL,1305,Human Biology for the Informed Citizen,36,174355,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,1309,Human Genetics and Society,36,170325,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,1310,General Biology 1,36,170326,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,1320,General Biology 2,36,170327,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,1361,Introduction to Biological Science 1,36,170331,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,1362,Introduction to Biological Science 2,36,170332,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+BIOL,2315,Biology of Food,36,174435,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+CHEM,1301,Foundations of Chemistry,36,170495,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+CHEM,1331,Fundamentals of Chemistry,36,170497,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+CHEM,1332,Fundamentals of Chemistry 2,36,170498,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1302,Introduction to Global Climate Change,36,171497,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1330,Physical Geology,36,171498,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1340,Earth Systems,36,171499,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1350,Introduction to Meteorology,36,171500,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1360,Introduction to Oceanography,36,171501,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1370,Natural Disasters,36,174434,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+GEOL,1376,Historical Geology,36,171502,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+NUTR,2332,Introduction To Human Nutrition,36,172018,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHAR,2362,Principles of Drug Action,36,172729,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1301,Introductory General Physics I,36,172818,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1302,Introductory General Physics II,36,172819,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1305,Introductory Astronomy - The Solar System,36,172820,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1306,Introductory Astronomy - Stellar and Galactic Systems,36,172821,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1321,University Physics I,36,172822,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+PHYS,1322,University Physics II,36,172823,30,Life and Physical Sciences,13123,2020-2021 Undergraduate Catalog
+AAS,2320,Introduction to African American Studies,36,169923,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+AAS,2330,Black Liberation Theology,36,169925,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ARAB,3340,Modernity and Rationalism in Islamic Tradition,36,170062,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ARTH,1300,Ways of Seeing: Art and Our Visual World,36,170240,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ARTH,1380,Art and Society: Prehistoric to Gothic,36,170241,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CHNS,3352,Chinese Culture and Society Through Modern Literature,36,170561,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CHNS,3360,A Look Into Modern China,36,170563,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CLAS,3307,Greek and Roman Myths of Heroes,36,170602,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CLAS,3308,Myths and Cult of the Greek Gods,36,170603,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CLAS,3366,The Trojan War,36,170606,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+CLAS,3374,Women in the Ancient World,36,170608,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2305,Introduction to Fiction,36,171257,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2306,Introduction to Poetry,36,171258,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2308,Introduction to Nonfiction Prose,36,171260,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2315,Literature and Film,36,171264,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2316,Literature and Culture,36,171265,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2323,Literature and Identity,36,171270,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2325,Literary Traditions of the Nonwestern World,36,171272,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,2340,Cosmic Narratives,36,171274,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3306,Shakespeare: The Major Works,36,171285,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3324,The Development of the Novel,36,171297,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3325,Structures of Poetry,36,171298,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3327,Masterpieces of British Literature to the Eighteenth Century,36,171300,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3328,Masterpieces of British Literature from the Eighteenth Century,36,171301,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3350,American Literature to 1865,36,171311,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3351,American Literature Since 1865,36,171312,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ENGL,3360,Survey of African American Literature,36,171318,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ETHN,2300,Introduction to Ethnic Studies,36,174563,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3318,History of French Cinema,36,171439,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3319,History of French Cinema,36,171440,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3321,Cinema of French-Speaking Africa,36,171442,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3322,Cinema of French-Speaking Africa,36,171443,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3362,Paris - Berlin: Tales of Two Cities,36,171444,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+FREN,3364,Writing Holocausts: The Literatures of Genocide,36,171445,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+GERM,3350,Understanding the 20th Century through German Culture,36,171599,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+GERM,3362,Paris - Berlin: Tales of Two Cities,36,171602,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+GERM,3364,Writing Holocausts: The Literatures of Genocide,36,171604,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+GERM,3369,"World War I in Literature, Visual Arts, and Film",36,171605,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HISP,2373,Spanish Culture and Civilization,36,174336,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HISP,2374,Spanish American Culture and Civilization,36,174337,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HISP,2375,United States Hispanic Culture and Civilization,36,174338,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2349,Latina/o Jewish History,36,174384,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2351,Western Civilization to 1450,36,171695,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2353,Western Civilization From 1450,36,171696,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2361,The Study of Early Civilizations,36,171697,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2363,Study of Modern Civilizations,36,171698,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2368,Introduction to African Studies,36,173722,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2371,Latin America 1492-1820,36,171699,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2372,Latin American History Since 1820,36,171700,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2373,Environment in Latin America,36,173597,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,2374,Popular Culture in Latin America,36,174566,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,3379,World Civilizations to 1500,36,171770,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,3380,World Civilization Since 1500,36,171771,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HIST,4330,Flowering of the Middle Ages,36,171807,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+HON,2301,The Human Situation: Antiquity,36,171848,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+IART,1300,The Arts in Society,36,174580,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ILAS,2350,Knowledge and Methods,36,172132,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ILAS,2360,Cosmic Narratives,36,172133,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ITAL,3305,Italian Culture Through Films,36,172203,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ITAL,3306,Italian Cinema,36,172204,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ITAL,3308,Italian Heritage,36,172205,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ITAL,3335,Survey of Italian Literature,36,172207,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ITAL,3336,Survey of Italian Literature  in Translation,36,172208,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+JWST,2372,The Bible and Modern Pop Culture,36,174588,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+JWST,2380,Introduction to Jewish Studies,36,173622,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,36,174589,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+MAS,3340,The Development of the Mexican American Urban Community,36,172541,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+PHIL,1301,Introduction to Philosophy,36,172730,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+PHIL,1305,Introduction to Ethics,36,172731,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+POLS,3340,Ancient and Medieval Political Thought,36,172900,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+POLS,3342,Liberalism and Its Critics,36,172902,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,1301,Introduction to Religious Studies,36,173027,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,2310,The Bible and Western Culture I,36,173028,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,2311,The Bible and Western Culture II,36,173029,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,2330,Judaism,36,173030,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,2372,The Bible and Modern Pop Culture,36,174416,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,36,174417,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+SPAN,3331,Mexican-American Literature,36,173155,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+SPAN,3373,Spanish Culture and Civilization,36,173162,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+SPAN,3374,Spanish American Culture and Civilization,36,173163,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+SPAN,3375,United States Hispanic Culture and Civilization,36,173164,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WCL,2351,World Cultures Through Literature and Art,36,173404,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WCL,2352,World Cinema,36,173405,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WCL,2370,Cultures of India,36,173406,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WCL,3351,Introduction to Latino Cultural Studies,36,173409,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WCL,3377,"The Modern Middle East: Literature, Politics, and Ideas",36,173421,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WGSS,2350,Introduction To Women’s Studies,36,173708,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+WGSS,2360,Introduction to GLBT Studies,36,173709,40,"Language, Philosophy & Culture",13120,2020-2021 Undergraduate Catalog
+ARCH,2350,Survey of Architectural History I,36,170070,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+ARTH,1381,Art and Society: Renaissance to Modern,36,170242,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+CLAS,3345,Myth and Performance in Greek Tragedy,36,170605,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+CLAS,3381,From Homer to Hollywood: Archaic and Classical Greek Themes in  Modern Cinema,36,170611,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+DAN,2307,Introduction to Dance,36,170968,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+DAN,3310,Dance History I,36,170981,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+ENGL,2307,Introduction to Drama,36,171259,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+ENGL,2318,Creation and Performance of Literature,36,171266,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+GERM,3363,Themes in German Drama,36,171603,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+GERM,3381,History of German Cinema,36,171607,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+GERM,3384,Fascism and German Cinema,36,171609,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+GERM,3385,East German Cinema,36,171610,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+HIST,4371,Latin American History Through Film,36,171828,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+INDS,2355,Design History I,36,172058,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+MUED,2342,Music for Children,36,172645,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+MUSI,2302,Listening to Jazz,36,172595,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+MUSI,2362,History of Music I,36,172598,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+MUSI,3300,Listening to Music Masterworks,36,172613,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+MUSI,3301,Listening to World Music,36,172614,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+PHIL,1361,Philosophy and the Arts,36,172734,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+POLS,2346,The Politics of Greek Theatre,36,172862,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+SPAN,3386,Screen Memories: Spanish Culture Through Film,36,173166,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+THEA,1331,Introduction to the Theatre,36,173273,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+THEA,1332,Fundamentals of Theatre,36,173274,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+WCL,3366,Latin American and Latino Film Studies,36,173414,50,Creative Arts,13124,2020-2021 Undergraduate Catalog
+HIST,1376,The United States To 1877,36,171687,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,1377,The U S To 1877,36,171688,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,1378,The U S Since 1877,36,171689,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,1379,The United States Since 1877,36,171690,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,2348,U.S. Latino/a Histories,36,173619,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,2341,Texas To 1865,36,171693,60,American History,13125,2020-2021 Undergraduate Catalog
+HIST,2343,Texas Since 1865,36,171694,60,American History,13125,2020-2021 Undergraduate Catalog
+POLS,1107,Texas Constitution and Government,36,172855,70,Government/Political Science,13126,2020-2021 Undergraduate Catalog
+POLS,1336,U.S. and Texas Constitution and Politics,36,172858,70,Government/Political Science,13126,2020-2021 Undergraduate Catalog
+POLS,1337,"U.S. Government: Congress, President, and Courts",36,172859,70,Government/Political Science,13126,2020-2021 Undergraduate Catalog
+POLS,2336,"U.S. and Texas Constitutions, Politics, and Institutions",36,173623,70,Government/Political Science,13126,2020-2021 Undergraduate Catalog
+AAMS,2300,Introduction to Asian American Studies,36,170888,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ANTH,1300,Introduction to Anthropology,36,169973,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ANTH,2301,Introduction to Physical Anthropology,36,169974,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ANTH,2302,Introduction to Cultural Anthropology,36,169975,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ANTH,2303,Introduction to Archaeology,36,169976,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ECON,2301,Global Economic Concepts,36,171025,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ECON,2304,Microeconomic Principles,36,171026,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ECON,2305,Macroeconomic Principles,36,171027,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+HDFS,2317,Introduction to Human Development and Interventions,36,172000,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+HRMA,2365,Tourism,36,171877,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+KIN,1304,Public Health Issues in Physical Activity and Obesity,36,172229,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+POLS,3311,Introduction to Comparative Politics,36,172864,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+POLS,3354,Law and Society,36,172911,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+PSYC,1300,Introduction to Psychology,36,172963,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+PSYC,2350,Child Development,36,172967,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+PSYC,2351,Psychology of Adolescence,36,172968,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+SOC,1300,Introduction to Sociology,36,173080,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+TECH,1313,Impact of Modern Technology on Society,36,173260,80,Social and Behavioral Sciences,13127,2020-2021 Undergraduate Catalog
+ANTH,2304,Introduction to Language and Culture,36,169977,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ANTH,3348,Anthropology of Religion,36,169991,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ANTH,3361,Human Origins,36,169994,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ANTH,3381,Global Hinduism,36,170003,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ARAB,3314,Women and Gender in Arabic Literature,36,170061,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ARCH,1359,Design Since 1945,36,170064,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ARTH,3312,Pre-Columbian Art,36,170255,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+BCHS,4311,Biochemistry Lab II,36,170307,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+BIOL,3311,Genetics Laboratory,36,170342,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+BUSI,4350,Business Law and Ethics,36,171477,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+CLAS,4305,"Fifth-Century Athens: Readings in Intellectual, Literary, and Political History",36,170615,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+CLAS,4381,Latin Classics in Translation,36,170621,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+DAN,2307,Introduction to Dance,36,170968,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+DAN,3310,Dance History I,36,170981,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ECON,3344,History of Economic Doctrine,36,171033,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ECON,3350,American Economic Growth,36,171035,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ENGI,2304,Technical Communications for Engineers,36,171230,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ENGL,2330,Writing in the Discipline of English,36,171273,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HDCS,1300,Human Ecosystems and Technological Change,36,171973,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HDFS,1300,Development of Contemporary Families,36,171998,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HIST,3314,Liberals vs. Conservatives: FDR to the Present,36,171714,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HIST,3333,Chicano History Since 1910,36,171733,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HIST,3351,Work and Family Life in Modern Europe,36,171749,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HIST,3369,Colonial Mexico,36,171760,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HIST,4321,The History of Jewish Food,36,174154,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HON,2341,Classics of Modernity,36,172861,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HON,3300,Introduction to Social Medicine,36,174138,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+HRMA,3358,Hospitality Industry Law,36,171917,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+IDNS,4392,History of 20th Century Science,36,172148,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ITAL,3307,Italian Renaissance,36,173621,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ITAL,3309,Women Writers and Filmmakers of Modern Italy,36,172206,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+ITAL,4308,Dante and His World,36,172217,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,36,174589,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+LAST,3300,Latin American Studies: Interdisciplinary Perspectives,36,172280,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+MAS,3342,Mexican Immigration To the US,36,172543,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+MAS,3345,"Latino Leadership, Activism & Organizing",36,174398,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+MATH,4388,History of Mathematics,36,172430,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+MUSI,3303,Popular Music in the Americas Since 1840,36,172615,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+NURS,4312,Leadership and Management in Professional Nursing Practice,36,173794,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+PHIL,1334,Minds and Machines,36,172733,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+PHYS,3313,Advanced Laboratory I,36,172831,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+POLS,3310,Introduction to Political Theory,36,172863,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+POLS,3348,"Left, Right, and Center",36,173813,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+POLS,3349,Foundations in American Political Thought,36,172904,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+PSYC,2344,Cultural Psychology,36,172966,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+PSYC,3310,Industrial-Organization Psychology,36,172971,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+PSYC,4321,Abnormal Psychology,36,172994,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,2340,Introduction to Hinduism,36,173032,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,2350,Introduction to Islam,36,173033,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,2360,Introduction to Buddhism,36,173034,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,3370,The Bible and Modern Science,36,173041,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,36,174417,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+RELS,3381,Global Hinduism,36,173044,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+SOC,3300,Introduction to Sociological Theory,36,173085,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+SOC,3315,Sexuality and Society,36,173089,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+SOC,3351,Social Class and Mobility in America,36,173108,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+SOC,3360,Sociology of Food,36,173111,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+SPAN,3384,Introduction to Hispanic Literature,36,173165,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+TLIM,3363,Technical Communications,36,172684,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+THEA,2344,American Drama,36,173291,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,3348,Enlightenment Stories,36,174139,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,4351,Frames of Modernity I,36,173430,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,4352,Frames of Modernity II - Postmodernity and Globalization,36,173431,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,4356,World Film & Film Theory,36,173433,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,4365,World Fiction & Reportage,36,173436,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+WCL,4367,Voices from Exile and Diaspora,36,173437,81,Writing in the Disciplines,13129,2020-2021 Undergraduate Catalog
+BUSI,2305,Business Statistics,36,184550,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+COSC,1306,Computer Science & Programming,36,170801,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+CUIN,2320,Mathematics for Elementary and Middle School Teachers,36,174137,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+ECON,2370,Introduction to Economic Data Analysis,36,171028,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+ELET,2300,Introduction to C++ Programming,36,171173,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1312,Introduction to Mathematical Reasoning,36,172367,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1313,Finite Math with Applications,36,172368,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1314,Calculus for Business and the Life Sciences,36,172369,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1330,Precalculus,36,172370,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1431,Calculus I,36,172372,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1432,Calculus II,36,172373,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1450,Accelerated Calculus,36,172374,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,1451,Accelerated Calculus,36,172375,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+MATH,2311,Introduction to Probability and Statistics,36,172377,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+PHIL,1321,Logic I,36,172732,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+POLS,3312,"Arguments, Data, and Politics",36,172865,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+POLS,3316,Statistics for Political Scientists,36,172869,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+PSYC,3301,Introduction to Psychological Statistics,36,172970,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+TMTH,3360,Applied Technical Statistics,36,173446,91,Mathematics/Reasoning,13128,2020-2021 Undergraduate Catalog
+ENGL,1301,First Year Writing I,41,194604,10,Communication,14726,2021-2022 Undergraduate Catalog
+ENGL,1302,First Year Writing II,41,194605,10,Communication,14726,2021-2022 Undergraduate Catalog
+ENGL,1370,Freshman Composition II-Honors,41,194608,10,Communication,14726,2021-2022 Undergraduate Catalog
+ENGL,2361,Western World Lit II–Honors,41,194633,10,Communication,14726,2021-2022 Undergraduate Catalog
+BUSI,2305,Business Statistics,41,197988,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1314,College Algebra,41,195722,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1324,Finite Math with Applications,41,195725,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1325,Calculus for Business & Social Sciences,41,195726,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1332,Elementary Mathematical Modeling,41,195723,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1342,Elementary Statistical Methods,41,195734,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1351,Introduction to Mathematical Reasoning,41,195724,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,1450,Accelerated Calculus,41,195731,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,2312,Precalculus,41,195727,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+MATH,2413,Calculus I,41,195729,20,Mathematics,14727,2021-2022 Undergraduate Catalog
+BIOL,1305,Human Biology for the Informed Citizen,41,197709,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,1306,Biology for Science Majors I (lecture),41,193688,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,1307,Biology for Science Majors II (lecture,41,193689,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,1308,Biology for Non-Science Majors I (lecture),41,193683,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,1309,Biology for Non-Science Majors II (lecture),41,193684,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,1319,Human Genetics and Society,41,193682,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+BIOL,2315,Biology of Food,41,197789,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+CHEM,1305,Foundations of Chemistry,41,193852,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+CHEM,1311,Fundamentals of Chemistry,41,193854,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+CHEM,1312,Fundamentals of Chemistry 2,41,193855,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1302,Intro To Global Climate Change,41,194854,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1303,Physical Geology,41,194855,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1304,Historical Geology,41,194859,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1340,Earth Systems,41,194856,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1345,Introduction to Oceanography,41,194858,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1347,Introduction To Meteorology,41,194857,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+GEOL,1370,Natural Disasters,41,197788,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+NUTR,2332,Introduction To Human Nutrition,41,195375,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHAR,2362,Principles of Drug Action,41,196086,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,1301,College Physics I (lecture),41,196175,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,1302,College Physics II (lecture),41,196176,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,1303,Stars and Galaxies,41,196178,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,1304,Solar System,41,196177,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,2325,University Physics I (lecture),41,196179,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+PHYS,2326,University Physics II (lecture),41,196180,30,Life and Physical Sciences,14728,2021-2022 Undergraduate Catalog
+AAS,2320,Intro To African American Stdy,41,193280,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+AAS,2330,Black Liberation Theology,41,193282,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ARAB,3340,Modern & Rationalism in Islamic Tradition,41,193419,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ARTH,1300,Ways of Seeing: Art and Our Visual World,41,193597,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ARTS,1303,Art History I (Prehistoric to the 14th Century),41,193598,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CHIN,3352,Chin Cul & Soc Thru Mod Lit,41,193918,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CHIN,3360,A Look Into Modern China,41,193920,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CLAS,3307,Greek & Roman Myths of Heroes,41,193959,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CLAS,3308,Myths & Cult of the Greek Gods,41,193960,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CLAS,3366,Greek Art and Archaeology: In Search of the Trojan War,41,193963,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+CLAS,3374,Women in the Ancient World,41,193965,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2305,Intro To Fiction,41,194614,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2306,Intro To Poetry,41,194615,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2308,Intro-Non-Fiction Prose,41,194617,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2314,Literature and Identity,41,194627,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2315,Literature and Film,41,194621,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2316,Literature and Culture,41,194622,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2325,Lit Trad of Nonwestern World,41,194629,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,2340,Cosmic Narratives,41,194631,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3306,Shakespeare-Major Works,41,194642,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3324,The Development of the Novel,41,194654,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3325,Structures of Poetry,41,194655,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3327,Masterpieces of British Literature to the Eighteenth Century,41,194657,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3328,Masterpieces of British Literature from the Eighteenth Century,41,194658,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3350,American Literature to 1865,41,194668,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3351,Am Lit Since 1865,41,194669,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ENGL,3360,Survey of African-American Lit,41,194675,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ETHN,2300,Introduction to Ethnic Studies,41,197917,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3318,History of French Cinema,41,194796,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3319,History of the French Cinema,41,194797,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3321,Francophone African Cinema,41,194799,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3322,Francophone African Cinema,41,194800,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3362,Paris-Berlin: Tales of Two Cities,41,194801,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+FREN,3364,Writing Holocausts: The Literatures of Genocide,41,194802,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+GERM,3350,20Th C Thru German Culture,41,194956,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+GERM,3362,Paris-Berlin: Tales of Two Cities,41,194959,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+GERM,3364,Writing Holocausts,41,194961,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+GERM,3369,"World War I in Literature, Visual Arts, and Film",41,194962,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HISP,2373,Spanish Culture and Civilization,41,197690,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HISP,2374,Spanish American Culture and Civilization,41,197691,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HISP,2375,United States Hispanic Culture and Civilization,41,197692,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2311,Western Civilization to 1450,41,195052,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2312,Western Civilization from 1450,41,195053,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2321,The Study of Early Civilizations,41,195054,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2322,Modern Civilizations,41,195055,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2349,Latina/o Jewish History,41,197738,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2368,Introduction to African Studies,41,197079,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2371,Latin America 1492-1820,41,195056,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2372,Latin American Hist Since 1820,41,195057,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2373,Environment in Latin America,41,196954,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,2374,Popular Culture in Latin America,41,197920,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,3379,World Civ To 1500,41,195127,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,3380,World Civ Since 1500,41,195128,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HIST,4330,Flowering of the Middle Ages,41,195164,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+HON,2301,Human Situation: Antiquity,41,195205,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+IART,1300,The Arts in Society,41,197934,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ILAS,2350,Knowledge and Methods,41,195489,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ILAS,2360,Cosmic Narratives,41,195490,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ITAL,3305,Italian Culture Through Films,41,195560,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ITAL,3306,Italian Cinema,41,195561,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ITAL,3308,Italian Heritage,41,195562,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ITAL,3335,Survey of Italian Literature,41,195564,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ITAL,3336,Survey of Italian Literature  in Translation,41,195565,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+JWST,2372,The Bible and Modern Pop Culture,41,197942,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+JWST,2380,Introduction to Jewish Studies,41,196979,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,41,197943,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+MAS,3340,Mexican Amer Urban Communities,41,195898,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+PHIL,1301,Intro To Philosophy,41,196087,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+PHIL,1305,Intro To Ethics,41,196088,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+POLS,3340,Ancient and Medieval Political Thought,41,196257,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+POLS,3342,Liberalism and Its Critics,41,196259,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,1301,Introduction To Religious Studies,41,196384,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,2310,Bible and Western Culture I,41,196385,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,2311,Bible and Western Culture II,41,196386,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,2330,Judaism,41,196387,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,2336,Introduction to Jewish Studies,41,201513,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,2372,The Bible and Modern Pop Culture,41,197770,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,41,197771,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+SPAN,3331,Mexican American Literature,41,196512,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+SPAN,3373,Spanish Culture and Civilization,41,196519,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+SPAN,3374,Span American Culture & Civ,41,196520,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+SPAN,3375,United States Hispanic Culture and Civilization,41,196521,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,2351,World Cultures Thru Lit & Arts,41,196761,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,2352,World Cinema,41,196762,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,2370,Cultures of India,41,196763,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,2380,Introduction to Jewish Studies,41,196764,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,3351,Introduction to Latino Cultural Studies,41,196766,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WCL,3377,"The Modern Middle East: Literature, Politics, and Ideas",41,196778,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WGSS,2350,Introduction To Women’s Studies,41,197065,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+WGSS,2360,Introduction to LGBT Studies,41,197066,40,"Language, Philosophy & Culture",14725,2021-2022 Undergraduate Catalog
+ARCH,2350,Survey of Architectural History I,41,193427,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+ARED,2310,Introduction to Critical Visual Culture,41,201442,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+ARTS,1304,Art History II (15th Century to the Present),41,193599,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+CLAS,3345,Myth&Performance in Greek Trag,41,193962,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+CLAS,3381,From Homer To Hollywood,41,193968,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+DANC,2303,Introduction to Dance,41,194325,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+DANC,2323,Dance in Film and Cinematic Media,41,201455,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+DANC,3310,Dance History I,41,194338,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+DRAM,1310,Introduction to Theatre,41,196630,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+ENGL,2307,Intro To Drama,41,194616,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+ENGL,2318,Creation and Perform of Lit,41,194623,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+GERM,3363,Themes in German Drama,41,194960,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+GERM,3381,History of German Cinema,41,194964,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+GERM,3384,Fascism and German Cinema,41,194966,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+GERM,3385,East German Cinema,41,194967,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+HIST,4371,Latin American History Through Film,41,195185,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+HON,3310,Creativity at Work,41,195207,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+INDS,2355,Design History I,41,195415,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+MUED,2342,Music for Children,41,196002,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+MUSI,1307,Listening to Classical Music,41,195970,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+MUSI,2302,Listening to Jazz,41,195952,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+MUSI,2362,History of Music I,41,195955,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+MUSI,3301,Listening To World Music,41,195971,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+PHIL,1361,Philosophy and the Arts,41,196091,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+POLS,2346,Politics of Greek Theater,41,196219,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+SPAN,3386,Screen Memories: Spanish Culture Through Film,41,196523,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+THEA,1332,Fundamentals of Theatre,41,196631,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+WCL,3366,Latin American and Latino Film Studies,41,196771,50,Creative Arts,14729,2021-2022 Undergraduate Catalog
+HIST,1376,The United States To 1877,41,195044,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,1377,The U S To 1877,41,195045,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,1378,The U S Since 1877,41,195046,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,1379,The United States Since 1877,41,195047,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,2348,U.S. Latino/a Histories,41,196976,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,2301,Texas History to 1865,41,195050,60,American History,14730,2021-2022 Undergraduate Catalog
+HIST,2302,Texas Since 1865,41,195051,60,American History,14730,2021-2022 Undergraduate Catalog
+GOVT,2305,"US Government: Congress, President, & Courts",41,196216,70,Government/Political Science,14731,2021-2022 Undergraduate Catalog
+GOVT,2306,US and Texas Constitution and Politics,41,196215,70,Government/Political Science,14731,2021-2022 Undergraduate Catalog
+POLS,1107,Texas Constitution and Government,41,196212,70,Government/Political Science,14731,2021-2022 Undergraduate Catalog
+POLS,2336,"U.S. and Texas Constitutions, Politics, and Institutions",41,196980,70,Government/Political Science,14731,2021-2022 Undergraduate Catalog
+AAMS,2300,Introduction to Asian American Studies,41,194245,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ANTH,2301,Introduction to Physical Anthropology,41,193331,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ANTH,2302,Introduction to Archeology,41,193333,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ANTH,2346,Introduction to Anthropology,41,193330,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ANTH,2351,Introduction to Cultural Anthropology,41,193332,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ECON,2301,Principles of Macroeconomics,41,194384,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ECON,2302,Principles of Microeconomics,41,194383,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ENTR,3310,Entrepreneurship,41,194729,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ENTR,3311,Technology Entrepreneurship,41,197504,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+HDFS,2314,Introduction to Human Development and Interventions,41,195357,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+HRMA,2365,Tourism,41,195234,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+KIN,1304,Public Health Issues in Physical Activity and Obesity,41,195586,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+POLS,3311,Introduction to Comparative Politics,41,196221,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+POLS,3354,Law and Society,41,196268,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+PSYC,2301,Introduction to Psychology,41,196320,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+PSYC,2307,Psychology of Adolescence,41,196325,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+PSYC,2308,Child Development,41,196324,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+SOCI,1301,Introduction To Sociology,41,196437,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+TECH,1313,Impact of Modern Technology on Society,41,196617,80,Social and Behavioral Sciences,14732,2021-2022 Undergraduate Catalog
+ANTH,2304,Intro To Language and Culture,41,193334,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ANTH,3348,Anthropology of Religion,41,193348,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ANTH,3361,Human Origins,41,193351,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ANTH,3381,Global Hinduism,41,193360,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ARAB,3314,Women and Gender in Arabic Literature,41,193418,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ARCH,1359,Design Since 1945,41,193421,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ARTH,3312,Pre-Columbian Art,41,193612,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+BCHS,4311,Biochemistry Lab II,41,193664,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+BIOL,3311,Genetics Laboratory,41,193699,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+BUSI,4350,Business Law and Ethics,41,194834,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+CHIN,3354,Chinese Culture and Language,41,193919,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+CLAS,4305,"Fifth-Century Athens: Readings in Intellectual, Literary, and Political History",41,193972,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+CLAS,4381,Latin Classics in Translation,41,193978,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+DANC,2303,Introduction to Dance,41,194325,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+DANC,3310,Dance History I,41,194338,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ECON,3344,History of Economic Doctrine,41,194390,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ECON,3350,American Economic Growth,41,194392,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ENGI,2304,Technical Communications for Engineers,41,194587,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ENGL,2330,Writing in the Discipline of English,41,194630,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HDCS,1300,Human Ecosystems & Tech Change,41,195330,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HDFS,1300,Development of Contemporary Families,41,195355,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HIST,2328,Chicano History since 1910,41,195090,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HIST,3314,Liberals vs. Conservatives: FDR to the Present,41,195071,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HIST,3351,Work&Family-Modern Eur,41,195106,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HIST,3369,Colonial Mexico,41,195117,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HIST,4321,The History of Jewish Food,41,197510,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HON,2341,Classics of Modernity,41,196218,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HON,3300,Introduction to Social Medicine,41,197494,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HON,3310,Creativity at Work,41,195207,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+HRMA,3358,Hospitality Industry Law,41,195274,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+IART,2300,The Arts in Houston,41,201493,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+IDNS,4392,History of 20th Century Science,41,195505,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ITAL,3307,Italian Renaissance,41,196978,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ITAL,3309,Women Writers & Filmmakers of Modern Italy,41,195563,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+ITAL,4308,Dante and His World,41,195574,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,41,197943,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+LAST,3300,Latin American Studies: Interdisciplinary Perspectives,41,195637,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+MAS,3342,Mexican Immigration To the US,41,195900,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+MAS,3345,"Latino Leadership, Activism & Organizing",41,197752,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+MATH,4388,History of Mathematics,41,195787,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+MUSI,3303,Pop Music of Americas Sn 1840,41,195972,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+NURS,4312,Leadership and Management in Professional Nursing Practice,41,197151,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+PHIL,1334,Minds and Machines,41,196090,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+PHYS,3313,Advanced Laboratory I,41,196188,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+POLS,3310,Introduction to Political Theory,41,196220,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+POLS,3348,"Left, Right, and Center",41,197170,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+POLS,3349,Foundations in American Political Thought,41,196261,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+PSYC,2344,Cultural Psychology,41,196323,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+PSYC,3310,Industrial-Organizational Psychology,41,196328,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+PSYC,4321,Abnormal Psychology,41,196351,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,2340,Introduction to Hinduism,41,196389,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,2350,Introduction to Islam,41,196390,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,2360,Introduction to Buddhism,41,196391,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,3370,The Bible and Modern Science,41,196398,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,41,197771,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+RELS,3381,Global Hinduism,41,196401,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+SOC,3300,Introduction to Sociological Theory,41,196442,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+SOC,3315,Sexuality and Society,41,196446,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+SOC,3351,Soc Class&Mobilty in Am,41,196465,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+SOC,3360,Sociology of Food,41,196468,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+SPAN,3384,Introduction to Hispanic Literature,41,196522,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+THEA,2344,American Drama,41,196648,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+TLIM,3363,Technical Communications,41,196041,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,3348,Enlightenment Stories,41,197495,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,4351,Frames of Modernity I,41,196787,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,4352,Frames of Modernity II - Postmodernity and Globalization,41,196788,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,4356,World Film and Film Theory,41,196790,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,4365,World Fiction and Reportage,41,196793,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+WCL,4367,Voices from Exile and Diaspora,41,196794,81,Writing in the Disciplines,14734,2021-2022 Undergraduate Catalog
+BUSI,2305,Business Statistics,41,197988,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+COSC,1336,Computer Science and Programming,41,194158,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+CUIN,1350,Mathematics for Teachers 1,41,197493,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+ELET,2300,Introduction To C++ Programming,41,194530,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1324,Finite Math with Applications,41,195725,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1325,Calculus for Business & Social Sciences,41,195726,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1342,Elementary Statistical Methods,41,195734,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1351,Introduction to Mathematical Reasoning,41,195724,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1450,Accelerated Calculus,41,195731,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,1451,Accelerated Calculus,41,195732,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,2312,Precalculus,41,195727,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,2413,Calculus I,41,195729,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+MATH,2414,Calculus II,41,195730,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+PHIL,1321,Logic I,41,196089,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+POLS,3312,"Arguments, Data, and Politics",41,196222,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+POLS,3316,Statistics for Political Scientists,41,196226,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+PSYC,3301,Introduction to Psychological Statistics,41,196327,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+TMTH,3360,Applied Technical Statistics,41,196803,91,Mathematics/Reasoning,14733,2021-2022 Undergraduate Catalog
+ENGL,1301,First Year Writing I,44,211173,10,Communication,15888,2022-2023 Undergraduate Catalog
+ENGL,1302,First Year Writing II,44,211174,10,Communication,15888,2022-2023 Undergraduate Catalog
+ENGL,1370,Freshman Composition II-Honors,44,211177,10,Communication,15888,2022-2023 Undergraduate Catalog
+ENGL,2361,Western World Lit II–Honors,44,211202,10,Communication,15888,2022-2023 Undergraduate Catalog
+BUSI,2305,Business Statistics,44,214557,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1314,College Algebra,44,212291,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1324,Finite Math with Applications,44,212294,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1325,Calculus for Business & Social Sciences,44,212295,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1332,Contemporary Mathematics,44,212292,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1342,Elementary Statistical Methods,44,212303,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,1351,Introduction to Geometric Reasoning,44,212293,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,2312,Precalculus,44,212296,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,2413,Calculus I,44,212298,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+MATH,2450,Accelerated Calculus I,44,212300,20,Mathematics,15889,2022-2023 Undergraduate Catalog
+BIOL,1305,Human Biology for the Informed Citizen,44,214278,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,1306,Biology for Science Majors I (lecture),44,210257,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,1307,Biology for Science Majors II (lecture),44,210258,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,1308,Biology for Non-Science Majors I (lecture),44,210252,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,1309,Biology for Non-Science Majors II (lecture),44,210253,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,1319,Human Genetics and Society,44,210251,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+BIOL,2315,Biology of Food,44,214358,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+CHEM,1305,Foundations of Chemistry,44,210421,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+CHEM,1311,Fundamentals of Chemistry,44,210423,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+CHEM,1312,Fundamentals of Chemistry 2,44,210424,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+CHEM,1321,Honors Fundamentals of Chemistry 1,44,226239,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+CHEM,1322,Honors Fundamentals of Chemistry 2,44,226240,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1302,Intro To Global Climate Change,44,211423,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1303,Physical Geology,44,211424,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1304,Historical Geology,44,211428,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1340,Earth Systems,44,211425,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1345,Introduction to Oceanography,44,211427,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1347,Introduction To Meteorology,44,211426,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+GEOL,1370,Natural Disasters,44,214357,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+NUTR,2332,Introduction To Human Nutrition,44,211944,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHAR,2362,Principles of Drug Action,44,212655,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,1301,College Physics I (lecture),44,212744,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,1302,College Physics II (lecture),44,212745,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,1303,Stars and Galaxies,44,212747,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,1304,Solar System,44,212746,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,2325,University Physics I (lecture),44,212748,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+PHYS,2326,University Physics II (lecture),44,212749,30,Life and Physical Sciences,15890,2022-2023 Undergraduate Catalog
+AAS,2320,Intro To African American Stdy,44,209849,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+AAS,2330,Black Liberation Theology,44,209851,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ARAB,3340,Modern & Rationalism in Islamic Tradition,44,209988,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ARTH,1300,Ways of Seeing: Art and Our Visual World,44,210166,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ARTS,1303,Art History I (Prehistoric to the 14th Century),44,210167,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CHIN,3344,Modern and Contemporary Global Chinese Literature,44,214580,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CHIN,3352,Chin Cul & Soc Thru Mod Lit,44,210487,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CHIN,3360,A Look Into Modern China,44,210489,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CLAS,3307,Greek & Roman Myths of Heroes,44,210528,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CLAS,3308,Myths & Cult of the Greek Gods,44,210529,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CLAS,3366,Greek Art and Archaeology: In Search of the Trojan War,44,210532,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+CLAS,3374,Women in the Ancient World,44,210534,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2305,Intro To Fiction,44,211183,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2306,Intro To Poetry,44,211184,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2308,Intro-Non-Fiction Prose,44,211186,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2314,Literature and Identity,44,211196,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2315,Literature and Film,44,211190,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2316,Literature and Culture,44,211191,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2325,Lit Trad of Nonwestern World,44,211198,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,2340,Cosmic Narratives,44,211200,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3306,Shakespeare-Major Works,44,211211,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3324,The Development of the Novel,44,211223,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3325,Structures of Poetry,44,211224,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3327,Masterpieces of British Literature to the Eighteenth Century,44,211226,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3328,Masterpieces of British Literature from the Eighteenth Century,44,211227,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3350,American Literature to 1865,44,211237,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3351,Am Lit Since 1865,44,211238,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ENGL,3360,Survey of African-American Lit,44,211244,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ETHN,2300,Introduction to Ethnic Studies,44,214486,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3318,History of French Cinema,44,211365,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3319,History of the French Cinema,44,211366,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3321,Francophone African Cinema,44,211368,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3322,Francophone African Cinema,44,211369,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3362,Paris-Berlin: Tales of Two Cities,44,211370,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+FREN,3364,Writing Holocausts: The Literatures of Genocide,44,211371,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+GERM,3350,20Th C Thru German Culture,44,211525,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+GERM,3362,Paris-Berlin: Tales of Two Cities,44,211528,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+GERM,3364,Writing Holocausts,44,211530,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+GERM,3369,"World War I in Literature, Visual Arts, and Film",44,211531,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HISP,2373,Spanish Culture and Civilization,44,214259,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HISP,2374,Spanish American Culture and Civilization,44,214260,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HISP,2375,United States Hispanic Culture and Civilization,44,214261,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2311,Western Civilization to 1450,44,211621,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2312,Western Civilization from 1450,44,211622,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2321,The Study of Early Civilizations,44,211623,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2322,Modern Civilizations,44,211624,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2349,Latina/o Jewish History,44,214307,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2368,Introduction to African Studies,44,213648,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2371,Latin America 1492-1820,44,211625,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2372,Latin American Hist Since 1820,44,211626,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2373,Environment in Latin America,44,213523,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,2374,Popular Culture in Latin America,44,214489,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,3379,World Civ To 1500,44,211696,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,3380,World Civ Since 1500,44,211697,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HIST,4330,Flowering of the Middle Ages,44,211733,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+HON,2301,The Human Situation: Antiquity,44,211774,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+IART,1300,The Arts in Society,44,214503,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ILAS,2350,Knowledge and Methods,44,212058,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ILAS,2360,Cosmic Narratives,44,212059,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ITAL,3305,Italian Culture Through Films,44,212129,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ITAL,3306,Italian Cinema,44,212130,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ITAL,3308,Italian Heritage,44,212131,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ITAL,3335,Survey of Italian Literature,44,212133,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ITAL,3336,Survey of Italian Literature  in Translation,44,212134,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+JWST,2372,The Bible and Modern Pop Culture,44,214511,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+JWST,2380,Introduction to Jewish Studies,44,213548,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,44,214512,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+MAS,3340,Mexican Amer Urban Communities,44,212467,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+PHIL,1301,Intro To Philosophy,44,212656,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+PHIL,1305,Intro To Ethics,44,212657,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+POLS,3340,Ancient and Medieval Political Thought,44,212826,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+POLS,3342,Liberalism and Its Critics,44,212828,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,1301,Introduction To Religious Studies,44,212953,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,2310,Bible and Western Culture I,44,212954,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,2311,Bible and Western Culture II,44,212955,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,2330,Judaism,44,212956,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,2336,Introduction to Jewish Studies,44,214805,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,2372,The Bible and Modern Pop Culture,44,214339,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,44,214340,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+SPAN,3331,Mexican American Literature,44,213081,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+SPAN,3373,Spanish Culture and Civilization,44,213088,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+SPAN,3374,Span American Culture & Civ,44,213089,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+SPAN,3375,United States Hispanic Culture and Civilization,44,213090,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,2351,World Cultures Thru Lit & Arts,44,213330,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,2352,World Cinema,44,213331,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,2370,Cultures of India,44,213332,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,2380,Introduction to Jewish Studies,44,213333,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,3351,Introduction to Latino Cultural Studies,44,213335,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WCL,3377,"The Modern Middle East: Literature, Politics, and Ideas",44,213347,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WGSS,2350,Introduction To Women’s Studies,44,213634,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+WGSS,2360,Introduction to LGBT Studies,44,213635,40,"Language, Philosophy & Culture",15887,2022-2023 Undergraduate Catalog
+ARCH,2350,History of the Built Environment I,44,209996,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+ARED,2310,Introduction to Critical Visual Culture,44,214734,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+ARTS,1304,Art History II (15th Century to the Present),44,210168,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+CLAS,3345,Myth&Performance in Greek Trag,44,210531,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+CLAS,3381,From Homer To Hollywood,44,210537,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+DANC,2303,Introduction to Dance,44,210894,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+DANC,2323,Dance in Film and Cinematic Media,44,214747,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+DANC,3310,Dance History I,44,210907,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+DRAM,1310,Introduction to Theatre,44,213199,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+ENGL,2307,Intro To Drama,44,211185,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+ENGL,2318,Creation and Perform of Lit,44,211192,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+GERM,3363,Themes in German Drama,44,211529,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+GERM,3381,History of German Cinema,44,211533,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+GERM,3384,Fascism and German Cinema,44,211535,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+GERM,3385,East German Cinema,44,211536,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+HIST,4371,Latin American History Through Film,44,211754,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+HON,3310,Creativity at Work,44,211776,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+INDS,2355,Design History I,44,211984,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+MUED,2342,Music for Children,44,212571,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+MUSI,1307,Listening to Classical Music,44,212539,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+MUSI,2302,Listening to Jazz,44,212521,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+MUSI,2362,History of Music I,44,212524,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+MUSI,3301,Listening To World Music,44,212540,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+PHIL,1361,Philosophy and the Arts,44,212660,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+POLS,2346,Politics of Greek Theater,44,212788,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+SPAN,3386,Screen Memories: Spanish Culture Through Film,44,213092,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+THEA,1332,Fundamentals of Theatre,44,213200,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+WCL,3366,Latin American and Latino Film Studies,44,213340,50,Creative Arts,15891,2022-2023 Undergraduate Catalog
+HIST,1301,The U.S. to 1877,44,211614,60,American History,15892,2022-2023 Undergraduate Catalog
+HIST,1302,The U.S. Since 1877,44,211615,60,American History,15892,2022-2023 Undergraduate Catalog
+HIST,2348,U.S. Latino/a Histories,44,213545,60,American History,15892,2022-2023 Undergraduate Catalog
+HIST,2301,Texas History to 1865,44,211619,60,American History,15892,2022-2023 Undergraduate Catalog
+HIST,2302,Texas Since 1865,44,211620,60,American History,15892,2022-2023 Undergraduate Catalog
+GOVT,2305,"US Government: Congress, President, & Courts",44,212785,70,Government/Political Science,15893,2022-2023 Undergraduate Catalog
+GOVT,2306,US and Texas Constitution and Politics,44,212784,70,Government/Political Science,15893,2022-2023 Undergraduate Catalog
+POLS,1107,Texas Constitution and Government,44,212781,70,Government/Political Science,15893,2022-2023 Undergraduate Catalog
+POLS,2336,"U.S. and Texas Constitutions, Politics, and Institutions",44,213549,70,Government/Political Science,15893,2022-2023 Undergraduate Catalog
+AAMS,2300,Introduction to Asian American Studies,44,210814,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ANTH,2301,Introduction to Physical Anthropology,44,209900,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ANTH,2302,Introduction to Archeology,44,209902,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ANTH,2346,Introduction to Anthropology,44,209899,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ANTH,2351,Introduction to Cultural Anthropology,44,209901,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ECON,2301,Principles of Macroeconomics,44,210953,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ECON,2302,Principles of Microeconomics,44,210952,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ENTR,3310,Entrepreneurship,44,211298,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ENTR,3311,Technology Entrepreneurship,44,214073,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+GHL,2365,Tourism,44,211803,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+HDFS,2314,Introduction to Human Development and Interventions,44,211926,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+KIN,1304,Public Health Issues in Physical Activity and Obesity,44,212155,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+POLS,3311,Introduction to Comparative Politics,44,212790,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+POLS,3354,Law and Society,44,212837,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+PSYC,2301,Introduction to Psychology,44,212889,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+PSYC,2307,Psychology of Adolescence,44,212894,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+PSYC,2308,Child Development,44,212893,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+SOCI,1301,Introduction To Sociology,44,213006,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+TECH,1313,Impact of Modern Technology on Society,44,213186,80,Social and Behavioral Sciences,15894,2022-2023 Undergraduate Catalog
+ANTH,2304,Intro To Language and Culture,44,209903,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ANTH,3348,Anthropology of Religion,44,209917,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ANTH,3361,Human Origins,44,209920,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ANTH,3381,Global Hinduism,44,209929,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ARAB,3314,Women and Gender in Arabic Literature,44,209987,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ARTH,3312,Pre-Columbian Art,44,210181,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+BCHS,4311,Biochemistry Lab II,44,210233,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+BIOL,3311,Advanced Methods and Writing in Genetics Laboratory,44,210268,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+BUSI,4350,Business Law and Ethics,44,211403,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+CHIN,3344,Modern and Contemporary Global Chinese Literature,44,214580,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+CHIN,3354,Chinese Culture and Language,44,210488,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+CLAS,4305,"Fifth-Century Athens: Readings in Intellectual, Literary, and Political History",44,210541,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+CLAS,4381,Latin Classics in Translation,44,210547,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+DANC,2303,Introduction to Dance,44,210894,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+DANC,3310,Dance History I,44,210907,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ECON,3344,History of Economic Doctrine,44,210959,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ECON,3350,American Economic Growth,44,210961,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ENGI,2304,Technical Communications for Engineers,44,211156,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ENGL,2330,Writing in the Discipline of English,44,211199,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+GHL,3358,Hospitality Industry Law,44,211843,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HDCS,1300,Human Ecosystems & Tech Change,44,211899,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HDFS,1300,Development of Contemporary Families,44,211924,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HIST,2328,Chicano History since 1910,44,211659,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HIST,3314,Liberals vs. Conservatives: FDR to the Present,44,211640,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HIST,3351,Work&Family-Modern Eur,44,211675,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HIST,3369,Colonial Mexico,44,211686,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HIST,4321,The History of Jewish Food,44,214079,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HON,2341,Classics of Modernity,44,212787,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HON,3300,Introduction to Healthcare Systems,44,214063,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+HON,3310,Creativity at Work,44,211776,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+IART,2300,The Arts in Houston,44,214785,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+IDNS,4392,History of 20th Century Science,44,212074,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ITAL,3307,Italian Renaissance,44,213547,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ITAL,3309,Women Writers & Filmmakers of Modern Italy,44,212132,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+ITAL,4308,Dante and His World,44,212143,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+JWST,3371,Women in the Hebrew Bible/Old Testament,44,214512,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+LAST,3300,Latin American Studies: Interdisciplinary Perspectives,44,212206,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+MAS,3342,Mexican Immigration To the US,44,212469,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+MAS,3345,"Latino Leadership, Activism & Organizing",44,214321,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+MATH,4388,History of Mathematics,44,212356,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+MUSI,3303,Pop Music of Americas Sn 1840,44,212541,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+NURS,4312,Leadership and Management in Professional Nursing Practice,44,213720,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+PHIL,1334,Minds and Machines,44,212659,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+PHYS,3313,Advanced Laboratory I,44,212757,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+POLS,3310,Introduction to Political Theory,44,212789,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+POLS,3348,"Left, Right, and Center",44,213739,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+POLS,3349,Foundations in American Political Thought,44,212830,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+PSYC,2320,Abnormal Psychology,44,212920,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+PSYC,3310,Industrial-Organizational Psychology,44,212897,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+PSYC,4344,Cultural Psychology,44,212892,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,2340,Introduction to Hinduism,44,212958,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,2350,Introduction to Islam,44,212959,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,2360,Introduction to Buddhism,44,212960,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,3370,The Bible and Modern Science,44,212967,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,3371,Women in the Hebrew Bible/Old Testament,44,214340,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+RELS,3381,Global Hinduism,44,212970,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+SOC,3300,Introduction to Sociological Theory,44,213011,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+SOC,3315,Sexuality and Society,44,213015,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+SOC,3351,Soc Class&Mobilty in Am,44,213034,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+SOC,3360,Sociology of Food,44,213037,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+SPAN,3384,Introduction to Hispanic Literature,44,213091,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+THEA,2344,American Drama,44,213217,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+TLIM,3363,Technical Communications,44,212610,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,3348,Enlightenment Stories,44,214064,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,4351,Frames of Modernity I,44,213356,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,4352,Frames of Modernity II - Postmodernity and Globalization,44,213357,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,4356,World Film and Film Theory,44,213359,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,4365,World Fiction and Reportage,44,213362,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+WCL,4367,Voices from Exile and Diaspora,44,213363,81,Writing in the Disciplines,15896,2022-2023 Undergraduate Catalog
+BUSI,2305,Business Statistics,44,214557,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+COSC,1336,Computer Science and Programming,44,210727,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+CUIN,1350,Mathematics for Teachers 1,44,214062,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+ELET,2300,Introduction To C++ Programming,44,211099,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,1324,Finite Math with Applications,44,212294,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,1325,Calculus for Business & Social Sciences,44,212295,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,1342,Elementary Statistical Methods,44,212303,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,1351,Introduction to Geometric Reasoning,44,212293,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,2312,Precalculus,44,212296,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,2413,Calculus I,44,212298,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,2414,Calculus II,44,212299,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,2450,Accelerated Calculus I,44,212300,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+MATH,2451,Accelerated Calculus II,44,212301,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+PHIL,1321,Logic I,44,212658,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+POLS,3312,"Arguments, Data, and Politics",44,212791,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+POLS,3316,Statistics for Political Scientists,44,212795,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+PSYC,2317,Introduction to Psychology Statistics,44,212896,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
+TMTH,3360,Applied Technical Statistics,44,213372,91,Mathematics/Reasoning,15895,2022-2023 Undergraduate Catalog
