@@ -10,6 +10,8 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   // create all references
   const coursePath = `catalog/${GDR.getCourseMoniker(record)}`;
   const sectionPath = `sections/${GDR.getSectionMoniker(record)}`
+  // In @cougargrades/types v0.1.0 and above, this will be lowercase
+  // This is for: https://github.com/cougargrades/web/issues/128
   const instructorPath = `instructors/${GDR.getInstructorMoniker(record)}`
   const groupPath = `groups/${GDR.getGroupMoniker(record)}`
   const coreCurriculumPaths = getCoreCurriculumDocPaths(GDR.getCourseMoniker(record));
@@ -224,7 +226,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
 
   //console.time('\tupdate instructor GPA')
   // If the section doesn't exist (first instructor) OR if the proposed instructor isn't included in Section.instructorNames (2nd and onward instructor)
-  if (!sectionExists || (Array.isArray(sectionData.instructorNames) && sectionData.instructorNames.findIndex(e => e.firstName === record.INSTR_FIRST_NAME && e.lastName === record.INSTR_LAST_NAME) === -1)) {
+  if (!sectionExists || (Array.isArray(sectionData.instructorNames) && sectionData.instructorNames.findIndex(e => e.firstName.toLowerCase() === record.INSTR_FIRST_NAME.toLowerCase() && e.lastName.toLowerCase() === record.INSTR_LAST_NAME.toLowerCase()) === -1)) {
 
     /**
      * @cougargrades/types will initialize the Instructor.GPA field, 
@@ -324,7 +326,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   //console.time('\tupdate instructor Enrollment')
   
   // If the section doesn't exist (first instructor) OR if the proposed instructor isn't included in Section.instructorNames (2nd and onward instructor)
-  if (!sectionExists || (Array.isArray(sectionData.instructorNames) && sectionData.instructorNames.findIndex(e => e.firstName === record.INSTR_FIRST_NAME && e.lastName === record.INSTR_LAST_NAME) === -1)) {
+  if (!sectionExists || (Array.isArray(sectionData.instructorNames) && sectionData.instructorNames.findIndex(e => e.firstName.toLowerCase() === record.INSTR_FIRST_NAME.toLowerCase() && e.lastName.toLowerCase() === record.INSTR_LAST_NAME.toLowerCase()) === -1)) {
 
     /**
      * Now that we've determined that this section hasn't been submitted before with this instructor,
