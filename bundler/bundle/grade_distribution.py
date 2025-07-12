@@ -98,19 +98,28 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
   searchable_destination = destination / '..' / 'io.cougargrades.searchable'
   searchable_destination.mkdir(exist_ok=True)
   with open(searchable_destination / 'instructors.json', 'w') as metaFile, open(destination / 'records.csv', 'r') as records:
-    rows = [row for row in csv.DictReader(records)]
-    names = sorted(list(set([(row["INSTR FIRST NAME"].strip(), row["INSTR LAST NAME"].strip()) for row in rows])))
-    results = []
-    for (firstName, lastName) in names:
+    rows = [row for row in csv.DictReader(records)]    
+    # here we use a dictionary because it's an easy way to ensure that duplicates don't get added by some arbitrary check
+    results = dict()
+    # iterate over all rows
+    for row in rows:
+      # extract some basic fields from the instructor
+      firstName = row["INSTR FIRST NAME"].strip()
+      lastName = row["INSTR LAST NAME"].strip()
       legalName = f'{lastName}, {firstName}'
-      search_result_item = {
-        "href": f'/i/{legalName}'.lower(),
-        "firstName": firstName,
-        "lastName": lastName,
-        "legalName": legalName,
-      }
-      results.append(search_result_item)
-    metaFile.write(json.dumps({ "data": results }, indent=2))
+      key_href = f'/i/{lastName}, {firstName}'.lower()
+
+      # set the item result if the key is unique
+      if key_href not in results:
+        results[key_href] = {
+          "href": key_href,
+          "firstName": firstName,
+          "lastName": lastName,
+          "legalName": legalName,
+        }
+    
+    # now that we've built a hashmap/dict of the results, we just want to dump the output as an array
+    metaFile.write(json.dumps({ "data": list(results.values()) }, indent=2))
   print('Done')
 
 def count_distinct_by_keys(rows: List[Dict], keys: List[str]) -> int:
