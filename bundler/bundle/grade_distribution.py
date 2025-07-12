@@ -82,7 +82,7 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
         reader = csv.DictReader(records)
         rows = [row for row in reader]
         # ID based on:
-        # https://github.com/cougargrades/types/blob/b545a814fc0c68e3be3387152eb890cdeabc875e/src/GradeDistributionCSVRow.ts#L43-L59
+        # https://github.com/cougargrades/types/blob/bcf4d9b075b3b4b09d14bcf5641a31b947bc3c87/src/GradeDistributionCSVRow.ts#L43-L60
         meta = sorted(list(set([ f'{row["SUBJECT"]} {row["CATALOG NBR"]}' for row in rows ])))
         metaFile.write(json.dumps(meta, indent=2))
   print('Generating all_instructors data...')
@@ -91,8 +91,8 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
         reader = csv.DictReader(records)
         rows = [row for row in reader]
         # ID based on:
-        # https://github.com/cougargrades/types/blob/b545a814fc0c68e3be3387152eb890cdeabc875e/src/GradeDistributionCSVRow.ts#L43-L59
-        meta = sorted(list(set([ f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}' for row in rows ])))
+        # https://github.com/cougargrades/types/blob/bcf4d9b075b3b4b09d14bcf5641a31b947bc3c87/src/GradeDistributionCSVRow.ts#L43-L60
+        meta = sorted(list(set([ f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}'.lower() for row in rows ])))
         metaFile.write(json.dumps(meta, indent=2))
   print(f'Generating search-optimized data: instructors.json')
   searchable_destination = destination / '..' / 'io.cougargrades.searchable'
@@ -104,7 +104,7 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
     for (firstName, lastName) in names:
       legalName = f'{lastName}, {firstName}'
       search_result_item = {
-        "href": f'/i/{legalName}',
+        "href": f'/i/{legalName}'.lower(),
         "firstName": firstName,
         "lastName": lastName,
         "legalName": legalName,
@@ -116,7 +116,7 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
 def count_distinct_by_keys(rows: List[Dict], keys: List[str]) -> int:
   selection = set()
   for row in rows:
-    selection.add(tuple([row[k] for k in keys]))
+    selection.add(tuple([(f'{row[k]}'.lower() if type(row[k]) == str else row[k]) for k in keys]))
   return len(selection)
 
 def split_csv(source_filepath, dest_folder, split_file_prefix, records_per_file):

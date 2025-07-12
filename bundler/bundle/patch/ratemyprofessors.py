@@ -17,8 +17,9 @@ def generate(source: Path, destination: Path):
       for row in reader:
         if row['rmpId'] != None and row['rmpId'] != "":
           with open(destination / f'patch-4-rmplink-{time_ns()}.json', 'w') as out:
+            # Per https://github.com/cougargrades/web/issues/128, instructor names should be lowercase
             out.write(str(
-              Patchfile(f'/instructors/{row["sourceLastName"]}, {row["sourceFirstName"]}').merge({
+              Patchfile(f'/instructors/{row["sourceLastName"]}, {row["sourceFirstName"]}'.lower()).merge({
                 "rmpLegacyId": row["rmpId"]
               })
             ))

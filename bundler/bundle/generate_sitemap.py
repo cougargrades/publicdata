@@ -28,7 +28,8 @@ def process(destination: Path):
     reader = csv.DictReader(infile)
     for row in reader:
       KNOWN_COURSES.add(f'{row["SUBJECT"].strip()} {row["CATALOG NBR"].strip()}')
-      KNOWN_INSTRUCTORS.add(f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}')
+      # Per https://github.com/cougargrades/web/issues/128, instructor names should be lowercase
+      KNOWN_INSTRUCTORS.add(f'{row["INSTR LAST NAME"].strip()}, {row["INSTR FIRST NAME"].strip()}'.lower())
   with open(destination / '..' / 'io.cougargrades.groups' / 'defaults.json') as infile:
     defaults = list(json.load(infile))
     for item in [item['identifier'] for item in defaults]:
