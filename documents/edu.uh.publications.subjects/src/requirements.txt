@@ -2,3 +2,4 @@ bs4==0.0.1
 requests==2.26.0
 html5lib==1.1
 colorama==0.4.3
+-e file:///../../_common

@@ -25,8 +25,8 @@ records = [
 
 RESULT = dict()
 # resume our progress between runs
-# with open('../subjects.json', 'r') as f:
-#   RESULT = json.loads(f.read())
+with open('../subjects.json', 'r') as f:
+  RESULT = json.loads(f.read())
 
 with open('../subjects.json', 'w') as export:
   for i in range(0, len(records)):
