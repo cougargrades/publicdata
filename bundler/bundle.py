@@ -6,6 +6,7 @@ from time import time
 from shutil import rmtree, copyfile, move
 from pathlib import Path
 import bundle.grade_distribution
+import bundle.patch.publications_subjects
 import bundle.subjects
 import bundle.publications_courses
 import bundle.publications_subjects
@@ -77,7 +78,7 @@ print('\t✔')
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
@@ -93,6 +94,8 @@ for fmt in documents_path.iterdir():
     bundle.patch.ratemyprofessors.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.academics.tccns'):
     bundle.patch.tccns.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'edu.uh.publications.subjects'):
+    bundle.patch.publications_subjects.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')

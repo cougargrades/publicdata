@@ -8,12 +8,34 @@ from . import util
 from time import time_ns
 from alive_progress import alive_bar
 
-'''
-All this does is do `util.createKeywords()` for each element of root_keywords 
-into 1 flattened list that is deduplicated
-'''
+
 def create_deduped_sorted_keywords_set(root_keywords: List[str]) -> List[str]:
+  '''
+  All this does is do `util.createKeywords()` for each element of root_keywords 
+  into 1 flattened list that is deduplicated
+  '''
   return sorted(list(set([item for sublist in [util.createKeywords(w) for w in root_keywords] for item in sublist])))
+
+
+def append_to_group_searchable_json(destination: Path, item: dict):
+  '''
+  href: 'string', \n
+  identifier: 'string', \n
+  name: 'string', \n
+  description: 'string', \n
+  '''
+  searchable_destination = destination / '..' / 'io.cougargrades.searchable'
+  searchable_destination.mkdir(exist_ok=True)
+  groupsJson = searchable_destination / 'groups.json'
+  if not groupsJson.exists():
+    data = []
+  else:
+    with open(groupsJson, 'r') as infile:
+      data = json.loads(infile.read())
+  with open(groupsJson, 'w') as outfile:
+    if type(data) == list:
+      data.append(item)
+    outfile.write(json.dumps(data, indent=2))
 
 '''
 Generates Patchfiles for the Core Curriculum
@@ -51,6 +73,16 @@ def generate(source: Path, destination: Path):
           #dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
           dInstance["keywords"] = []
           dInstance["relatedGroups"] = []
+
+          # used for creating searchable "groups.json"
+          append_to_group_searchable_json(destination, {
+            "href": f'/groups/{dInstance["identifier"]}',
+            "identifier": dInstance["identifier"],
+            "name": dInstance["name"],
+            "description": dInstance["description"],
+            "categories": dInstance["categories"],
+          })
+
           out.write(str(
             Patchfile(f'/groups/{default["identifier"]}')
               .write(dInstance)
@@ -78,7 +110,17 @@ def generate(source: Path, destination: Path):
             instance["categories"] = ['#UHCoreCurriculum', f'UH Core Curriculum ({year2year})']
             #instance["keywords"] = create_deduped_sorted_keywords_set(root_keywords + [year2year] + year2year.split('-'))
             instance["keywords"] = []
-            dInstance["relatedGroups"] = []
+            instance["relatedGroups"] = []
+
+            # used for creating searchable "groups.json"
+            append_to_group_searchable_json(destination, {
+              "href": f'/groups/{instance["identifier"]}',
+              "identifier": instance["identifier"],
+              "name": instance["name"],
+              "description": instance["description"],
+              "categories": instance["categories"],
+            })
+
             with open(destination / f'patch-0b-groupdefaults-{time_ns()}.json', 'w') as out:
               out.write(str(
                 Patchfile(f'/groups/{instance["identifier"]}')
