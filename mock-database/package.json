@@ -30,8 +30,8 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@cougargrades/publicdata": "^1.0.0-20250619215910",
-    "@cougargrades/types": "^0.1.0",
+    "@cougargrades/publicdata": "^1.0.0-20250713102106",
+    "@cougargrades/types": "^0.1.1",
     "async-sema": "^3.1.1",
     "chalk": "^5.2.0",
     "csv-parse": "^5.0.4",
