@@ -33,7 +33,7 @@ def generate(source: Path, destination: Path):
 
           # used for creating searchable "groups.json"
           append_to_group_searchable_json(destination, {
-            "href": f'/groups/{group["identifier"]}',
+            "href": f'/g/{group["identifier"]}',
             "identifier": group["identifier"],
             "name": group["name"],
             "description": group["description"],
