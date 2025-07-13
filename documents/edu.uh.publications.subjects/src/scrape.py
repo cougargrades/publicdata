@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 import os
 import json
-import requests
 from urllib.parse import urlparse, parse_qs
 from time import sleep
 from bs4 import BeautifulSoup
 import urllib3
 urllib3.disable_warnings()
+from colorama import init
+init()
+from colorama import Fore, Back, Style
 import acalog # From: `../../_common/`
 
 # records[catoid][navoid]
@@ -36,22 +38,24 @@ with open('../subjects.json', 'w') as export:
     catalog_id = shallow_catalog["id"]
 
     # Iterate over all courses
-    iterator = acalog.get_courses(catalog_id=catalog_id)
-    for shallow_course in iterator:
-      print(f'--- Catalog {i+1} of {len(records)} / Course {iterator.i} of {iterator.n} ---')
+    for (shallow_course, j, n) in acalog.get_courses(catalog_id=catalog_id):
+      if j % 10 == 0:
+        print(f'--- Catalog {i+1} of {len(records)} / Course {j} of {n} ---')
       #deep_course = acalog.get_course(catalog_id=catalog_id, course_id=shallow_course["id"])
       # shallow_course["title"] => "AAMS 2300 -  Introduction to Asian American Studies"
       # "AAMS"
       #prefix = deep_course["prefix"]
       prefix, *_ = shallow_course["title"].strip().split(' ')
-      print(f'- {shallow_course["title"]}')
+      print(f'{Fore.LIGHTBLACK_EX}- {shallow_course["title"]}{Style.RESET_ALL}')
 
       if len(shallow_course["course_types"]) > 0 and "name" in shallow_course["course_types"][0]:
         # "Asian American Studies"
         subject_description = shallow_course["course_types"][0]["name"]
         # if this is a new prefix, or a change in verbiage
-        if prefix not in RESULT or RESULT[prefix] != subject_description:
-          print(f'[+] {prefix} => {subject_description}')
+        if prefix not in RESULT:
+          print(f'{Fore.GREEN}[+] {prefix} => {subject_description}{Style.RESET_ALL}')
+        elif RESULT[prefix] != subject_description:
+          print(f'{Fore.CYAN}[~] {prefix} => {subject_description}{Style.RESET_ALL}')
         RESULT[prefix] = subject_description
         
       

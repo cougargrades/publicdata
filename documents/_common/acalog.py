@@ -3,9 +3,8 @@
 import urllib.request
 from urllib.request import *
 import urllib.parse
-# urlencode({"hello": "world", "age": 22}, doseq=False) => 'hello=world&age=22'
 from urllib.parse import urlparse, parse_qs, urlencode
-from typing import Generic, TypeVar, Union
+from typing import Generator, Generic, TypeVar, Union
 import http.client
 import json
 import math
@@ -40,34 +39,44 @@ def http_request_json(req: Union[Request, str]) -> any:
 DOMAIN-SPECIFIC FUNCTIONS
 '''
 
-# Get catalog information by its legacy_id (catoid)
 def get_catalog(legacy_catalog_id: int) -> any:
+  '''
+  Get catalog information by its legacy_id (catoid)
+  '''
   matching_catalogs = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalogs/?legacy-id={legacy_catalog_id}')
   return matching_catalogs['catalog-list'][0] if matching_catalogs['count'] >= 1 else None
 
-# Get extended catalog information by its API ID
 def get_catalog_ext(catalog_id: int) -> any:
+  '''
+  Get extended catalog information by its API ID
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/')
   if is_ok(res):
     return json.load(res)
   else:
     return None
 
-# Get page information by its legacy_id (navoid)
 def get_page(catalog_id: int, legacy_page_id: int) -> any:
+  '''
+  Get page information by its legacy_id (navoid)
+  '''
   matching_pages = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/pages/?legacy-id={legacy_page_id}')
   return matching_pages['page-list'][0] if matching_pages['count'] >= 1 else None
 
-# Get extended page information by its API ID
 def get_page_ext(catalog_id: int, page_id: int) -> any:
+  '''
+  Get extended page information by its API ID
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/page/{page_id}/')
   if is_ok(res):
     return json.load(res)
   else:
     return None
   
-# Get extended program information by its API ID
 def get_program_ext(catalog_id: int, program_id: int) -> any:
+  '''
+  Get extended program information by its API ID
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/program/{program_id}/')
   if is_ok(res):
     return json.load(res)
@@ -75,6 +84,8 @@ def get_program_ext(catalog_id: int, program_id: int) -> any:
     return None
   
 def get_core(catalog_id: int, core_id: int) -> any:
+  '''
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
   if is_ok(res):
     return json.load(res)
@@ -82,14 +93,18 @@ def get_core(catalog_id: int, core_id: int) -> any:
     return None
 
 def get_course(catalog_id: int, course_id: int) -> any:
+  '''
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/course/{course_id}/')
   if is_ok(res):
     return json.load(res)
   else:
     return None
 
-# Get all courses in a program (including children)
 def get_core_courses(catalog_id: int, core_id: int) -> list[any]:
+  '''
+  Get all courses in a program (including children)
+  '''
   res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
   if is_ok(res):
     data = json.load(res)
@@ -100,74 +115,22 @@ def get_core_courses(catalog_id: int, core_id: int) -> list[any]:
   else:
     return None
 
-class PaginationIterator(Generic[TypeVar('T')]):
-  def __init__(self, base_url: str, result_field: str, page_size = 20):
-    self.i = 0
-    self.page = 1
-    self.base_url = base_url
-    self.result_field = result_field
-    self.page_size = page_size
-    self.n = self.getTotalResultCount()
-    self.max_page = math.ceil(float(self.n) / self.page_size)
-    self.cache = []
+def get_courses(catalog_id: int) -> Generator[any, None, None]:
+  '''
+  Get all courses in a catalog (results will be yielded as they are found)
+  '''
+  i = 0
+  page = 1
+  data = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/courses/?page-size=20&page={page}')
+  n = data["count"]
   
-  def __iter__(self):
-    return self
-  
-  def __len__(self):
-    return self.n
-
-  # determine the number of pages to process
-  def getTotalResultCount(self) -> int:
-    data = http_request_json(f'{self.uri(page_size=1, page=1)}')
-    return int(data["count"])
-
-  # shorthand for generating the necessary url
-  def uri(self, **params: any) -> str:
-    url = urlparse(self.base_url)
-    query = parse_qs(url.query)
-    for (k,v) in params.items():
-      query[k.replace('_', '-')] = v
-    url._replace(query=urlencode(query, doseq=False))
-    #url.query = urlencode(query, doseq=False)
-    return url.geturl()
-  
-  # extract the "coid" querystring from the link
-  def extractCoid(self, link: str) -> str:
-    # http://publications.uh.edu/preview_course_nopop.php?catoid=34&coid=165991
-    href = parse_qs(urlparse(link).query)
-    return href['coid'][0] if 'coid' in href and len(href['coid']) > 0 else None
-
-  # Python3 compatibility
-  def __next__(self):
-    return self.next()
-
-  ## FIX THIS
-
-  def next(self):
-    if self.i < self.n:
-      if len(self.cache) > 0:
-        self.i += 1
-        return self.cache.pop(0)
-      else:
-        data = http_request_json(self.uri(page_size=self.page_size, page=self.page))
-        items = data[self.result_field]
-        if len(items) > 0:
-          self.page += 1
-        else:
-          raise StopIteration()
-        for item in items:
-          self.cache.append(item)
-        return self.cache.pop(0)
-    else:
-      raise StopIteration()
-
-def get_courses(catalog_id: int) -> PaginationIterator:
-  iterator = PaginationIterator(
-    base_url=f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/courses/',
-    result_field="course-list"
-  )
-  return iterator
+  # Loop until the API returns no more data
+  while len(data["course-list"]) > 0:
+    for item in data["course-list"]:
+      yield (item, i, n)
+      i += 1 
+    page += 1
+    data = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/courses/?page-size=20&page={page}')
 
 
 # '''
