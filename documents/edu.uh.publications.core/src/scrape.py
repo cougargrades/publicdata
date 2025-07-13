@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+
 import csv
 import requests
 from urllib.parse import urlparse, parse_qs
 from time import sleep
 from bs4 import BeautifulSoup
-import analyze
+import acalog # From: `../../_common/`
 
 # http://publications.uh.edu/ajax/preview_page.php?catoid=36&id=13126&show
 # h2
@@ -85,7 +86,7 @@ with open('../core_curriculum_old.csv', 'r') as legacyFile:
       for catoid in records.keys():
 
         # get catalog information
-        shallow_catalog = analyze.get_catalog(legacy_catalog_id=catoid)
+        shallow_catalog = acalog.get_catalog(legacy_catalog_id=catoid)
         catalog_id = shallow_catalog["id"]
         catalogName = shallow_catalog["name"]
         groupNavoid = records[catoid]["root_navoid"]
@@ -96,8 +97,8 @@ with open('../core_curriculum_old.csv', 'r') as legacyFile:
         for coreCode in records[catoid]["core"].keys():
           core_id = records[catoid]["core"][coreCode]
           # fetch data for a `core`
-          deep_core = analyze.get_core(catalog_id=catalog_id, core_id=core_id)
-          core_courses = analyze.get_core_courses(catalog_id=catalog_id, core_id=core_id)
+          deep_core = acalog.get_core(catalog_id=catalog_id, core_id=core_id)
+          core_courses = acalog.get_core_courses(catalog_id=catalog_id, core_id=core_id)
           coreArea = deep_core["name"]
 
           # iterate over courses
