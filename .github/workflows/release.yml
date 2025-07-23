@@ -21,7 +21,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Get current date and timestamp
         id: timestamp
         run: | 
@@ -48,7 +48,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Make test bundle (Summer 2020)
         id: maketestbundle202002
         run: |
@@ -77,7 +77,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Make test bundle (2021 year)
         id: maketestbundle2021
         run: |
@@ -106,7 +106,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: 3.12
       - name: Make bundle
         id: makebundle
         run: |
