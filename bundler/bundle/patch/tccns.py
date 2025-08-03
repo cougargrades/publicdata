@@ -20,6 +20,7 @@ def generate(source: Path, destination: Path):
   all_courses = set()
   with open(destination / '..' / 'edu.uh.grade_distribution' / 'all_courses.json', 'r') as f:
     all_courses = set(json.load(f))
+  num_skipped = 0
   with open(source / 'tccns_updates.csv', 'r') as f:
     with alive_bar(util.file_len((source / 'tccns_updates.csv').resolve())-1) as bar:
       reader = csv.DictReader(f)
@@ -27,8 +28,10 @@ def generate(source: Path, destination: Path):
 
         # confirm that both old and new exist (don't make broken links)
         if row["FormerUHCourseNumber"] not in all_courses:
+          num_skipped += 1
           continue
         if row["ReplacementUHCourseNumber"] not in all_courses:
+          num_skipped += 1
           continue
 
         old2new_longMessage = ""
@@ -68,3 +71,5 @@ def generate(source: Path, destination: Path):
           ))
           
         bar()
+  
+  print(f'{num_skipped} TCCNS updates were skipped because either the former or replacement UH Course Number was not a course we had grade data for')
