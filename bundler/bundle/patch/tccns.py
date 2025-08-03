@@ -1,7 +1,7 @@
 import csv
 import json
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Set, Tuple
 from .patchfile import Patchfile
 from . import util
 from time import time_ns
@@ -29,6 +29,7 @@ def generate(source: Path, destination: Path):
   with open(source / 'tccns_updates.csv', 'r') as f:
     with alive_bar(util.file_len((source / 'tccns_updates.csv').resolve())-1) as bar:
       reader = csv.DictReader(f)
+      old2new_pairs: Set[Tuple[str, str]] = set()
       for row in reader:
 
         # confirm that both old and new exist (don't make broken links)
@@ -41,6 +42,13 @@ def generate(source: Path, destination: Path):
         if f'{row["FormerUHCourseNumber"]}'.lower().strip() == f'{row["ReplacementUHCourseNumber"]}'.lower().strip():
           increment_dict(skipped, "Former and replacement course are the same course")
           continue
+        # this will favor the earlier ones over the later ones if there's any duplicates, which seems valid because the "manual" ones are first
+        if (row["FormerUHCourseNumber"], row["ReplacementUHCourseNumber"]) in old2new_pairs:
+          increment_dict(skipped, "The pair of (Former, Replacement) has already had patches generated.")
+          continue
+
+        # mark this pair as seen
+        old2new_pairs.add((row["FormerUHCourseNumber"], row["ReplacementUHCourseNumber"]))
 
         old2new_longMessage = ""
         new2old_longMessage = ""
