@@ -59,13 +59,15 @@ class TCCNSUpdate:
 
     def __init__(self, dict_data: any = None):
         if type(dict_data) == dict:
-            self.SemesterEffective = dict_data["SemesterEffective"]
-            self.FormerUHCourseNumber = dict_data["FormerUHCourseNumber"]
-            self.FormerUHCourseTitle = dict_data["FormerUHCourseTitle"]
-            self.ReplacementUHCourseNumber = dict_data["ReplacementUHCourseNumber"]
-            self.ReplacementUHCourseTitle = dict_data["ReplacementUHCourseTitle"]
-            self.Reference = dict_data["Reference"]
+            self.Acquisition = dict_data.get("Acquisition", "")
+            self.SemesterEffective = dict_data.get("SemesterEffective", "")
+            self.FormerUHCourseNumber = dict_data.get("FormerUHCourseNumber", "")
+            self.FormerUHCourseTitle = dict_data.get("FormerUHCourseTitle", "")
+            self.ReplacementUHCourseNumber = dict_data.get("ReplacementUHCourseNumber", "")
+            self.ReplacementUHCourseTitle = dict_data.get("ReplacementUHCourseTitle", "")
+            self.Reference = dict_data.get("Reference", "")
         else:
+            self.Acquisition = ""
             self.SemesterEffective = 0
             self.FormerUHCourseNumber = ""
             self.FormerUHCourseTitle = ""
@@ -76,6 +78,11 @@ class TCCNSUpdate:
     
     def to_dict(self) -> dict:
         return self.__dict__
+
+    Acquisition: str = ""
+    '''
+    One of: `Manual`, `FormerlyField`
+    '''
 
     SemesterEffective: int = 0
     '''

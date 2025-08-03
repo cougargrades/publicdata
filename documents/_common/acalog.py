@@ -6,6 +6,7 @@ import urllib.parse
 from urllib.parse import urlparse, parse_qs, urlencode
 from typing import Generator, Generic, Set, Tuple, TypeVar, Union
 import http.client
+from datetime import datetime
 import json
 import math
 import os
@@ -221,11 +222,14 @@ def read_effective_term_code_for_catalog(shallow_catalog: any) -> Union[int, Non
       except:
         return None
   return None
-      
-    
 
+class AcalogCustomFieldValue():
+  content = ""
+  category = ""
+  modified = datetime.min
+  created = datetime.min
 
-def read_field_for_deep_course(deep_course: any, field_names: Set[str]) -> Union[str, None]:
+def read_field_for_deep_course(deep_course: any, field_names: Set[str]) -> Union[AcalogCustomFieldValue, None]:
   '''
   Iterates over the `fields` property and returns the value of one that matches the names in `field_names`
   '''
@@ -241,7 +245,13 @@ def read_field_for_deep_course(deep_course: any, field_names: Set[str]) -> Union
     if len(field_names.intersection(all_field_names)):
       # extract value
       value = str(field["content"]) if "content" in field else None
-      return value
+      
+      result = AcalogCustomFieldValue()
+      result.content = value
+      result.category = field["custom_field"]["category"]
+      result.modified = datetime.fromisoformat(field["modified"])
+      result.created = datetime.fromisoformat(field["created"])
+      return result
   
   # otherwise, return `None` because nothing could be found
   return None
