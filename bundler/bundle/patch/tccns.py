@@ -17,7 +17,7 @@ Generates Patchfiles for TCCNS Updates
 def generate(source: Path, destination: Path):
   destination.mkdir(exist_ok=True)
   all_courses = set()
-  with open(source / '..' / 'edu.uh.grade_distribution' / 'all_courses.json', 'r') as f:
+  with open(destination / '..' / 'edu.uh.grade_distribution' / 'all_courses.json', 'r') as f:
     all_courses = set(json.load(f))
   with open(source / 'tccns_updates.csv', 'r') as f:
     with alive_bar(util.file_len((source / 'tccns_updates.csv').resolve())-1) as bar:
