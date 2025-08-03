@@ -4,11 +4,13 @@ import urllib.request
 from urllib.request import *
 import urllib.parse
 from urllib.parse import urlparse, parse_qs, urlencode
-from typing import Generator, Generic, TypeVar, Union
+from typing import Generator, Generic, Set, Tuple, TypeVar, Union
 import http.client
+from datetime import datetime
 import json
 import math
 import os
+import re
 import time
 
 '''
@@ -50,7 +52,7 @@ def http_request_json(req: Union[Request, str]) -> any:
 DOMAIN-SPECIFIC FUNCTIONS
 '''
 
-def get_catalogs(legacy_id: int = None, type: str = None, name: str = None) -> Generator[any, None, None]:
+def get_catalogs(legacy_id: int = None, type: str = None, name: str = None) -> Generator[Tuple[any, int, int], None, None]:
   '''
   Get all courses in a catalog (results will be yielded as they are found)
   :param legacy_id: Acalog legacy ID visible in the website
@@ -162,7 +164,7 @@ def get_core_courses(catalog_id: int, core_id: int) -> list[any]:
   else:
     return None
 
-def get_courses(catalog_id: int, legacy_id: int = None, type: str = None, prefix: str = None, code: str = None, name: str = None) -> Generator[any, None, None]:
+def get_courses(catalog_id: int, legacy_id: int = None, type: str = None, prefix: str = None, code: str = None, name: str = None) -> Generator[Tuple[any, int, int], None, None]:
   '''
   Get all courses in a catalog (results will be yielded as they are found)
   :param legacy_id: Acalog legacy ID visible in the website
@@ -196,6 +198,67 @@ def get_courses(catalog_id: int, legacy_id: int = None, type: str = None, prefix
     query["page"] += 1
     data = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/courses/?page-size=100&{urlencode(query)}')
 
+def compose_url_for_catalog(legacy_catalog_id: int) -> str:
+  return f'https://publications.uh.edu/index.php?catoid={legacy_catalog_id}'
+
+def compose_url_for_course(legacy_catalog_id: int, legacy_course_id: int) -> str:
+  return f'https://publications.uh.edu/preview_course_nopop.php?catoid={legacy_catalog_id}&coid={legacy_course_id}'
+
+def read_effective_term_code_for_catalog(shallow_catalog: any) -> Union[int, None]:
+  '''
+  Based on a catalog's `name` field and the "20XX-20XX" pattern, return a term_code in the Fall of the starting year
+  '''
+  catalog_name = shallow_catalog["name"]
+  matches = re.findall(r'\d{4}\-\d{4}', catalog_name)
+  if len(matches) > 0:
+    # '2013-2014'
+    year_range = matches[0]
+    # ['2013', '2024']
+    year_parts = re.findall(r'\d{4}', year_range)
+    if len(year_parts) > 0:
+      # The first part of the year range is always Fall, so concat `03` and parse as an int
+      try:
+        return int(f'{year_parts[0]}03')
+      except:
+        return None
+  return None
+
+class AcalogCustomFieldValue():
+  content = ""
+  category = ""
+  modified = datetime.min
+  created = datetime.min
+
+def read_field_for_deep_course(deep_course: any, field_names: Set[str]) -> Union[AcalogCustomFieldValue, None]:
+  '''
+  Iterates over the `fields` property and returns the value of one that matches the names in `field_names`
+  '''
+  if "fields" not in deep_course:
+    return None
+  
+   # look over every field
+  for field in deep_course["fields"]:
+    # create a list of all the names this field has and has ever had
+    all_field_names = set([field["custom_field"]["name"]] + [item for item in field["custom_field"]["name-history"]])
+
+    # if any of the names we provided match at least one in the entire history, return the value
+    if len(field_names.intersection(all_field_names)):
+      # extract value
+      value = str(field["content"]) if "content" in field else None
+      
+      result = AcalogCustomFieldValue()
+      result.content = value
+      result.category = field["custom_field"]["category"]
+      result.modified = datetime.fromisoformat(field["modified"])
+      result.created = datetime.fromisoformat(field["created"])
+      return result
+  
+  # otherwise, return `None` because nothing could be found
+  return None
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # '''
 # Testing out stuff
