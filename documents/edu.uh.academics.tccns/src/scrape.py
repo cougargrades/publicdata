@@ -9,6 +9,12 @@ from concurrent.futures import ThreadPoolExecutor
 from models import TCCNSUpdate, FIELD_FORMERLY, extract_course_name, DISABLED_CATALOGS
 import acalog # From: `../../_common/`
 
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--concurrency', dest='concurrency', type=int, default=4)
+args = parser.parse_args()
+
+print(f'Concurrency: {args.concurrency}')
 
 
 # prepare the files
@@ -100,7 +106,7 @@ with (
         print(f'-- Done --')
 
         # Do processing for each course in the catalog concurrently
-        with ThreadPoolExecutor(max_workers=4) as executor:
+        with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
             def iterate(tup: Tuple[any, int, int]):
                 (shallow_course, course_i, course_n) = tup
                 if course_i == 0 or course_i == (course_n - 1) or course_i % 10 == 0:

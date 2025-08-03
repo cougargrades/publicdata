@@ -264,13 +264,14 @@ def read_field_for_deep_course(deep_course: any, field_names: Set[str]) -> Union
 # Testing out stuff
 # '''
 
-import argparse
-parser = argparse.ArgumentParser(description='Pull data from the UH Acalog API for human analysis')
-#parser.add_argument('--page', type=str, help='The page detailing info about the UH Core Curriculum for a particular catalog. Example: https://publications.uh.edu/content.php?catoid=52&navoid=20440')
-args = parser.parse_args()
-
 # allows above functions to be re-used without running the code below every time
 if __name__ == "__main__":
+
+  import argparse
+  parser = argparse.ArgumentParser(description='Pull data from the UH Acalog API for human analysis')
+  #parser.add_argument('--page', type=str, help='The page detailing info about the UH Core Curriculum for a particular catalog. Example: https://publications.uh.edu/content.php?catoid=52&navoid=20440')
+  args = parser.parse_args()
+
   # Run it
 
   # shallow_catalog = get_catalog(55)
