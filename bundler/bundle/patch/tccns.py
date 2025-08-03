@@ -1,6 +1,7 @@
 import csv
 import json
 from pathlib import Path
+from typing import Dict
 from .patchfile import Patchfile
 from . import util
 from time import time_ns
@@ -12,6 +13,9 @@ def file_id():
   _file_id_ += 1
   return _file_id_
 
+def increment_dict(d: dict, key):
+  d[key] = d.get(key, 0) + 1
+
 '''
 Generates Patchfiles for TCCNS Updates
 '''
@@ -20,7 +24,8 @@ def generate(source: Path, destination: Path):
   all_courses = set()
   with open(destination / '..' / 'edu.uh.grade_distribution' / 'all_courses.json', 'r') as f:
     all_courses = set(json.load(f))
-  num_skipped = 0
+  # number skipped by reason
+  skipped: Dict[str, int] = dict()
   with open(source / 'tccns_updates.csv', 'r') as f:
     with alive_bar(util.file_len((source / 'tccns_updates.csv').resolve())-1) as bar:
       reader = csv.DictReader(f)
@@ -28,10 +33,13 @@ def generate(source: Path, destination: Path):
 
         # confirm that both old and new exist (don't make broken links)
         if row["FormerUHCourseNumber"] not in all_courses:
-          num_skipped += 1
+          increment_dict(skipped, "Missing grade data for former course")
           continue
         if row["ReplacementUHCourseNumber"] not in all_courses:
-          num_skipped += 1
+          increment_dict(skipped, "Missing grade data for replacement course")
+          continue
+        if f'{row["FormerUHCourseNumber"]}'.lower().strip() == f'{row["ReplacementUHCourseNumber"]}'.lower().strip():
+          increment_dict(skipped, "Former and replacement course are the same course")
           continue
 
         old2new_longMessage = ""
@@ -45,6 +53,7 @@ def generate(source: Path, destination: Path):
           new2old_longMessage = f'Based on UH Publications, {row["ReplacementUHCourseNumber"]} was formerly known as {row["FormerUHCourseNumber"]}'
         elif row["Acquisition"] == "TccnsEquivalentField":
           # For now, do nothing. We're going to reconsider how to work this in the future.
+          increment_dict(skipped, "\'tccns_equivalent\' is not being used at this time")
           continue
 
         # TODO Issue #49: If we don't have an approximate time for when this happened, change the verbiage to be more generic
@@ -72,4 +81,7 @@ def generate(source: Path, destination: Path):
           
         bar()
   
-  print(f'{num_skipped} TCCNS updates were skipped because either the former or replacement UH Course Number was not a course we had grade data for')
+  print(f'{sum(skipped.values())} TCCNS updates were skipped:')
+  for (k,v) in skipped.items():
+    print(f'- {v} skipped because: {k}')
+
