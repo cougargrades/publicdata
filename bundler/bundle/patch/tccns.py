@@ -8,6 +8,7 @@ from alive_progress import alive_bar
 
 _file_id_ = 0
 def file_id():
+  global _file_id_
   _file_id_ += 1
   return _file_id_
 
@@ -45,7 +46,7 @@ def generate(source: Path, destination: Path):
 
         # TODO Issue #49: If we don't have an approximate time for when this happened, change the verbiage to be more generic
         # This could be indicated when "SemesterEffective" == -1
-        with open(destination / f'patch-5-tccnsOld2New-{file_id():03d}.json', 'w') as out:
+        with open(destination / f'patch-5-tccnsOld2New-{file_id()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/catalog/{row["FormerUHCourseNumber"]}').append('tccnsUpdates', 'object', {
               "shortMessage": f'Renamed to {row["ReplacementUHCourseNumber"]}',
@@ -55,7 +56,7 @@ def generate(source: Path, destination: Path):
               "isSourceReliable": True if int(row["SemesterEffective"]) > 0 else False,
             })
           ))
-        with open(destination / f'patch-6-tccnsNew2Old-{file_id():03d}.json', 'w') as out:
+        with open(destination / f'patch-6-tccnsNew2Old-{file_id()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/catalog/{row["ReplacementUHCourseNumber"]}').append('tccnsUpdates', 'object', {
               "shortMessage": f'Previously known as {row["FormerUHCourseNumber"]}',
