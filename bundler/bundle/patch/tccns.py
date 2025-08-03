@@ -56,8 +56,6 @@ def generate(source: Path, destination: Path):
           increment_dict(skipped, "\'tccns_equivalent\' is not being used at this time")
           continue
 
-        # TODO Issue #49: If we don't have an approximate time for when this happened, change the verbiage to be more generic
-        # This could be indicated when "SemesterEffective" == -1
         with open(destination / f'patch-5-tccnsOld2New-{file_id()}.json', 'w') as out:
           out.write(str(
             Patchfile(f'/catalog/{row["FormerUHCourseNumber"]}').append('tccnsUpdates', 'object', {

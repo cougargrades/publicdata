@@ -33,4 +33,6 @@ SemesterEffective,FormerUHCourseNumber,FormerUHCourseTitle,ReplacementUHCourseNu
 
 ## Data Aquisition
 
-Core curriculum data is manually acquired from the UH on their [website](https://uh.edu/academics/courses-enrollment/course-number-updates/index.php).
+- Entries where the "Acquisition" is "Manual" are from: https://web.archive.org/web/20250717171033/https://www.uh.edu/enrollment-services/registrar/courses-enrollment/course-number-updates/index.php
+- Entries where the "Acquisition" is "FormerlyField", the "formerly" custom field from the Acalog API is used. See scraping source code in `src/scrape.py`
+    - Research about this field was conducted here: https://github.com/cougargrades/publicdata/issues/49
