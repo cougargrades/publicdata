@@ -117,6 +117,9 @@ with (
                 # confirm that the extraction worked and that we haven't already logged this pair
                 # (THIS MAKES A BIG ASSUMPTION THAT A FORMER COURSE DOESN'T BECOME THE REPLACEMENT MORE THAN ONCE)
                 if extracted_former_course != None and (extracted_former_course, course_name) not in seen_former_pairs:
+                    # mark this combination as seen
+                    seen_former_pairs.add((extracted_former_course, course_name))
+                    
                     # compose result
                     row = TCCNSUpdate()
                     row.Acquisition = "FormerlyField"
