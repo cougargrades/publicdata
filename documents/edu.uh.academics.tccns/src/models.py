@@ -1,16 +1,8 @@
 
-#SemesterEffective
-# FormerUHCourseNumber
-# FormerUHCourseTitle
-# ReplacementUHCourseNumber
-# ReplacementUHCourseTitle
-# Reference
-
-#202103,ANTH 1300,Introduction to Anthropology,ANTH 2346,Introduction to Anthropology,https://web.archive.org/web/20210415084338/https://uh.edu/academics/courses-enrollment/course-number-updates/index.php
-
 import re
 from typing import Union
 
+# The 2012-2013 catalog was the first year of the Acalog system and there's disclaimers all over the place
 DISABLED_CATALOGS = set(['2012-2013'])
 
 FIELD_TCCNS_EQUIVALENT = set([
