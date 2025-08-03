@@ -6,7 +6,11 @@ import urllib.parse
 from urllib.parse import urlparse, parse_qs, urlencode
 from typing import Generator, Generic, Set, Tuple, TypeVar, Union
 import http.client
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+import tempfile
+import hashlib
+import gzip
 import json
 import math
 import os
@@ -17,7 +21,24 @@ import time
 HTTP REQUEST HELPERS
 '''
 
-IS_DEBUGGING = "DEBUG" in os.environ and f'{os.environ["DEBUG"]}'.lower() == "true"
+LOCAL_HTTP_CACHE_TTL = timedelta(days=30)
+LOCAL_HTTP_CACHE_DIR = Path(tempfile.gettempdir()) / 'io.cougargrades.publicdata.acalog_cache'
+LOCAL_TZ = datetime.now(timezone.utc).astimezone().tzinfo
+
+# cleanup expired cached files
+for cached_file in LOCAL_HTTP_CACHE_DIR.iterdir():
+  age: timedelta = datetime.now(LOCAL_TZ) - datetime.fromtimestamp(cached_file.stat().st_mtime, tz=timezone.utc)
+  # check if expired
+  if age > LOCAL_HTTP_CACHE_TTL:
+    cached_file.unlink()
+
+# --------------------------------------------------------
+
+def debug_check_env_flag(flagName: str) -> bool:
+  return flagName in os.environ and f'{os.environ[flagName]}'.lower() == "true"
+
+IS_DEBUGGING: bool = debug_check_env_flag("DEBUG")
+CACHE_DISABLED: bool = debug_check_env_flag("DEBUG_CACHE_DISABLED")
 
 def http_request(req: Union[Request, str]) -> http.client.HTTPResponse:
   method = req.method if type(req) == Request else 'GET'
@@ -40,13 +61,50 @@ def http_request_json(req: Union[Request, str]) -> any:
   '''
   if type(req) == str:
     req = Request(method='GET', url=req)
+
+  # do some cache prep
+  # should be a 40 character sha1 hash (chosen to minimize file length)
+  req_url_hash = hashlib.sha1(req.get_full_url().encode('utf-8')).hexdigest()
+  LOCAL_HTTP_CACHE_DIR.mkdir(exist_ok=True)
+  cached_file_path = LOCAL_HTTP_CACHE_DIR / f'{req_url_hash}.json.gz'
+
+  # check if request is eligible to cache
+  if req.method == 'GET':
+    cache_hit: bool = False
+    # check if cache is allowed and a file was found
+    if CACHE_DISABLED == False and cached_file_path.exists():
+      age: timedelta = datetime.now(LOCAL_TZ) - datetime.fromtimestamp(cached_file_path.stat().st_mtime, tz=timezone.utc)
+      # check if cached file is still valid (age < TTL)
+      cache_hit = age < LOCAL_HTTP_CACHE_TTL
+      
+      if cache_hit:
+        if IS_DEBUGGING:
+          print(f'[CACHE {('HIT' if cache_hit else 'MISS')}] HTTP {req.method} <-> {req.get_full_url()} / {cached_file_path.name}')
+        # cache is still valid
+        # open, decompress gzip, parse json, return
+        with open(cached_file_path, 'rb') as f:
+          return json.loads(gzip.decompress(f.read()))
+      else:
+        # cache is invalid, so we delete it
+        cached_file_path.unlink()
+    
+    if IS_DEBUGGING:
+      print(f'[CACHE {('HIT' if cache_hit else 'MISS')}] HTTP {req.method} <-> {req.get_full_url()} / {cached_file_path.name}')
+    
+  # request wasn't cached, so we do the real thing
   res = http_request(req)
-  #urlopen(req) as
-  with res:
-    if type(res) == http.client.HTTPResponse:
-      return json.load(res)
-    else:
-      return None
+  if is_ok(res):  
+    with res:
+      if type(res) == http.client.HTTPResponse:
+        result = json.load(res)
+        if CACHE_DISABLED == False:
+          with open(cached_file_path, 'wb') as f:
+            f.write(gzip.compress(json.dumps(result).encode('utf-8')))
+        return result
+      else:
+        return None
+  else:
+    return None
 
 '''
 DOMAIN-SPECIFIC FUNCTIONS
@@ -99,11 +157,7 @@ def get_catalog_ext(catalog_id: int) -> any:
   '''
   Get extended catalog information by its API ID
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/')
-  if is_ok(res):
-    return json.load(res)
-  else:
-    return None
+  return http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/')
 
 def get_page(catalog_id: int, legacy_page_id: int) -> any:
   '''
@@ -116,47 +170,30 @@ def get_page_ext(catalog_id: int, page_id: int) -> any:
   '''
   Get extended page information by its API ID
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/page/{page_id}/')
-  if is_ok(res):
-    return json.load(res)
-  else:
-    return None
+  return http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/page/{page_id}/')
   
 def get_program_ext(catalog_id: int, program_id: int) -> any:
   '''
   Get extended program information by its API ID
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/program/{program_id}/')
-  if is_ok(res):
-    return json.load(res)
-  else:
-    return None
+  return http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/program/{program_id}/')
   
 def get_core(catalog_id: int, core_id: int) -> any:
   '''
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
-  if is_ok(res):
-    return json.load(res)
-  else:
-    return None
+  return http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
 
 def get_course(catalog_id: int, course_id: int) -> any:
   '''
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/course/{course_id}/')
-  if is_ok(res):
-    return json.load(res)
-  else:
-    return None
+  http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/course/{course_id}/')
 
 def get_core_courses(catalog_id: int, core_id: int) -> list[any]:
   '''
   Get all courses in a program (including children)
   '''
-  res = http_request(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
-  if is_ok(res):
-    data = json.load(res)
+  data = http_request_json(f'https://uh.catalog.acalog.com/widget-api/catalog/{catalog_id}/core/{core_id}/')
+  if data != None:
     result = data["courses"]
     for child in data["children"]:
       result += child["courses"]
