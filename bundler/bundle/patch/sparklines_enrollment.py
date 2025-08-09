@@ -12,6 +12,7 @@ from . import util
 from .util import zero_if_nan
 from time import time_ns
 import math
+import statistics
 from alive_progress import alive_bar
 
 _file_id_ = 0
@@ -124,10 +125,24 @@ def generate(source: Path, destination: Path):
   FULL_DOMAIN: list[int] = sorted(list(FULL_DOMAIN)) # defaults in ascending order (correct)
 
   # calculate global range so we have the option of keeping all charts on the same y-scale
-  GLOBAL_COURSE_RANGE_LOWER = min(COURSE_SPARKLINE_DATA.values())
-  GLOBAL_COURSE_RANGE_UPPER = max(COURSE_SPARKLINE_DATA.values())
-  GLOBAL_INSTRUCTOR_RANGE_LOWER = min(INSTRUCTOR_SPARKLINE_DATA.values())
-  GLOBAL_INSTRUCTOR_RANGE_UPPER = max(INSTRUCTOR_SPARKLINE_DATA.values())
+  COURSE_YAXIS = {
+    "min": min(COURSE_SPARKLINE_DATA.values()),
+    "max": max(COURSE_SPARKLINE_DATA.values()),
+    "avg": statistics.mean(COURSE_SPARKLINE_DATA.values()),
+    "stddev": statistics.stdev(COURSE_SPARKLINE_DATA.values()),
+    "median": statistics.median(COURSE_SPARKLINE_DATA.values()),
+  }
+  INSTRUCTOR_YAXIS = {
+    "min": min(INSTRUCTOR_SPARKLINE_DATA.values()),
+    "max": max(INSTRUCTOR_SPARKLINE_DATA.values()),
+    "avg": statistics.mean(INSTRUCTOR_SPARKLINE_DATA.values()),
+    "stddev": statistics.stdev(INSTRUCTOR_SPARKLINE_DATA.values()),
+    "median": statistics.median(INSTRUCTOR_SPARKLINE_DATA.values()),
+  }
+  # GLOBAL_COURSE_RANGE_LOWER = min(COURSE_SPARKLINE_DATA.values())
+  # GLOBAL_COURSE_RANGE_UPPER = max(COURSE_SPARKLINE_DATA.values())
+  # GLOBAL_INSTRUCTOR_RANGE_LOWER = min(INSTRUCTOR_SPARKLINE_DATA.values())
+  # GLOBAL_INSTRUCTOR_RANGE_UPPER = max(INSTRUCTOR_SPARKLINE_DATA.values())
 
   # Iterate over all courses
   
@@ -139,7 +154,7 @@ def generate(source: Path, destination: Path):
       sparklineData = {
         "data": [COURSE_SPARKLINE_DATA.get((termCode, courseName), 0) for termCode in FULL_DOMAIN],
         "xAxis": FULL_DOMAIN,
-        "yAxis": [GLOBAL_COURSE_RANGE_LOWER, GLOBAL_COURSE_RANGE_UPPER],
+        "yAxis": COURSE_YAXIS,
       }
 
       # create a patchfile
@@ -147,7 +162,7 @@ def generate(source: Path, destination: Path):
         # Per https://github.com/cougargrades/web/issues/128, instructor names should be lowercase
         out.write(str(
           Patchfile(f'/catalog/{courseName}').merge({
-            "sparklineData": sparklineData
+            "enrollmentSparklineData": sparklineData
           })
         ))
       bar()
@@ -161,7 +176,7 @@ def generate(source: Path, destination: Path):
       sparklineData = {
         "data": [INSTRUCTOR_SPARKLINE_DATA.get((termCode, instructorName), 0) for termCode in FULL_DOMAIN],
         "xAxis": FULL_DOMAIN,
-        "yAxis": [GLOBAL_INSTRUCTOR_RANGE_LOWER, GLOBAL_INSTRUCTOR_RANGE_UPPER],
+        "yAxis": INSTRUCTOR_YAXIS,
       }
 
       # create a patchfile
@@ -169,7 +184,7 @@ def generate(source: Path, destination: Path):
         # Per https://github.com/cougargrades/web/issues/128, instructor names should be lowercase
         out.write(str(
           Patchfile(f'/instructors/{instructorName}').merge({
-            "sparklineData": sparklineData
+            "enrollmentSparklineData": sparklineData
           })
         ))
       bar()

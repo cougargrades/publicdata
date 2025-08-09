@@ -79,7 +79,7 @@ print('\t✔')
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines.enrollment']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
