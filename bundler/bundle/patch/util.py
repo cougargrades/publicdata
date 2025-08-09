@@ -113,4 +113,3 @@ def zero_if_nan(value) -> int:
     return int(value)
   except ValueError:
     return 0
-    

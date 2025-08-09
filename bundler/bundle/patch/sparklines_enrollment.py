@@ -123,8 +123,11 @@ def generate(source: Path, destination: Path):
     x = util.term_code_increment(x)
   FULL_DOMAIN: list[int] = sorted(list(FULL_DOMAIN)) # defaults in ascending order (correct)
 
-  # sparklineData?: SparklineData;
-  # { data: number[]; xAxis: number[]; }
+  # calculate global range so we have the option of keeping all charts on the same y-scale
+  GLOBAL_COURSE_RANGE_LOWER = min(COURSE_SPARKLINE_DATA.values())
+  GLOBAL_COURSE_RANGE_UPPER = max(COURSE_SPARKLINE_DATA.values())
+  GLOBAL_INSTRUCTOR_RANGE_LOWER = min(INSTRUCTOR_SPARKLINE_DATA.values())
+  GLOBAL_INSTRUCTOR_RANGE_UPPER = max(INSTRUCTOR_SPARKLINE_DATA.values())
 
   # Iterate over all courses
   
@@ -136,6 +139,7 @@ def generate(source: Path, destination: Path):
       sparklineData = {
         "data": [COURSE_SPARKLINE_DATA.get((termCode, courseName), 0) for termCode in FULL_DOMAIN],
         "xAxis": FULL_DOMAIN,
+        "yAxis": [GLOBAL_COURSE_RANGE_LOWER, GLOBAL_COURSE_RANGE_UPPER],
       }
 
       # create a patchfile
@@ -157,6 +161,7 @@ def generate(source: Path, destination: Path):
       sparklineData = {
         "data": [INSTRUCTOR_SPARKLINE_DATA.get((termCode, instructorName), 0) for termCode in FULL_DOMAIN],
         "xAxis": FULL_DOMAIN,
+        "yAxis": [GLOBAL_INSTRUCTOR_RANGE_LOWER, GLOBAL_INSTRUCTOR_RANGE_UPPER],
       }
 
       # create a patchfile

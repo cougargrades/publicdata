@@ -17,7 +17,7 @@ import bundle.patch.groups
 import bundle.patch.publications_core
 import bundle.patch.ratemyprofessors
 import bundle.patch.tccns
-import bundle.patch.sparklines
+import bundle.patch.sparklines_enrollment
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -97,8 +97,8 @@ for fmt in documents_path.iterdir():
     bundle.patch.tccns.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.publications.subjects'):
     bundle.patch.publications_subjects.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
-  if(fmt.name == 'io.cougargrades.sparklines'):
-    bundle.patch.sparklines.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'io.cougargrades.sparklines.enrollment'):
+    bundle.patch.sparklines_enrollment.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
