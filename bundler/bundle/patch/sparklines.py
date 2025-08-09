@@ -118,7 +118,7 @@ def generate(source: Path, destination: Path):
   # using our domain stuff, we need to compute every semester between upper and lower
   FULL_DOMAIN: set[int] = set()
   x = DOMAIN_LOWER
-  while x < DOMAIN_UPPER:
+  while x <= DOMAIN_UPPER:
     FULL_DOMAIN.add(x)
     x = util.term_code_increment(x)
   FULL_DOMAIN: list[int] = sorted(list(FULL_DOMAIN)) # defaults in ascending order (correct)
