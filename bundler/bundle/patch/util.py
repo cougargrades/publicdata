@@ -66,3 +66,51 @@ def get_known_courses(destination: Path) -> set:
     for row in reader:
       KNOWN_COURSES.add(f'{row["SUBJECT"].strip()} {row["CATALOG NBR"].strip()}')
   return KNOWN_COURSES
+
+def term_code(term):
+  return int(f'{term[term.find(" ")+1:]}{season_code(term[:term.find(" ")])}')
+
+def season_code(season):
+  if season == "Spring":
+    return "01"
+  if season == "Summer":
+    return "02"
+  if season == "Fall":
+    return "03"
+
+def term_code_increment(term_code: int) -> int:
+  '''
+  202302 => 202303
+  202303 => 202401
+  '''
+  year = math.floor(term_code / 100)
+  season = math.floor(term_code % 100)
+  if season >= 3:
+    year += 1
+    season = 1
+  else:
+    season += 1
+  # '{9:03}'
+  return int(f'{year}{season:02}')
+
+def term_code_decrement(term_code: int) -> int:
+  '''
+  202302 => 202301
+  202301 => 202203
+  '''
+  year = math.floor(term_code / 100)
+  season = math.floor(term_code % 100)
+  if season > 1:
+    season -= 1
+  else:
+    year -= 1
+    season = 3
+  # '{9:03}'
+  return int(f'{year}{season:02}')
+
+def zero_if_nan(value) -> int:
+  try:
+    return int(value)
+  except ValueError:
+    return 0
+    
