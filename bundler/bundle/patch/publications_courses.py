@@ -10,6 +10,11 @@ from htmlmin.minify import html_minify
 from bs4 import BeautifulSoup
 import bleach
 
+# this was 3 for a long time, and I don't remember why I told it to store more.
+# maybe there was going to be a way to view previous versions of the description?
+# either way, we're only going to store the latest now
+CATALOG_KEEP_COUNT = 2 # formerly 3
+
 '''
 Generates Patchfiles for connections to the UH Publications official course catalog
 '''
@@ -38,8 +43,8 @@ def generate(generated: Path, source: Path, destination: Path):
         insertions = []
         # sort the publication infos in descending order by the year (new first)
         sorted_pairs_of_course = sorted(courses[key], key=lambda d: d['title'], reverse=True)
-        # only make patchfiles concerning the latest 3
-        for row in sorted_pairs_of_course[:3]:
+        # only make patchfiles concerning the latest 3 (CATALOG_KEEP_COUNT)
+        for row in sorted_pairs_of_course[:CATALOG_KEEP_COUNT]:
           with open(source / row["catoid"] / f'{row["catoid"]}-{row["coid"]}.html', 'r', encoding='utf8') as htmlFile:
             # get primary content area
             html = BeautifulSoup(htmlFile.read(), features='html5lib')
