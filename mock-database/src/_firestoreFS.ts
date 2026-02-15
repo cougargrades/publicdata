@@ -157,7 +157,8 @@ export const FS_DOC_REF_SENTINEL = 'firebase.firestore.DocumentReference'
 export type FSDocumentReference<T = any> = `FSDR://${string}`
 
 export function docRef<T = any>(documentPath: string): FSDocumentReference {
-  return `FSDR://${documentPath}`
+  //return `FSDR://${documentPath}`
+  return `FSDR:///${_.trimStart(documentPath, '/')}`
 }
 
 export function isObject(obj: unknown): obj is Record<string, unknown> {
