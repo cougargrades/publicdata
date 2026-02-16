@@ -1,0 +1,15 @@
+{
+  "format": "io.cougargrades.publicdata.patch",
+  "target": {
+    "archetype": "document",
+    "path": "/test/hello"
+  },
+  "actions": [
+    {
+      "operation": "write",
+      "payload": {
+        "hello": "world"
+      }
+    }
+  ]
+}

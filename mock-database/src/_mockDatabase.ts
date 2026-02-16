@@ -3,6 +3,7 @@ import { GradeDistributionCSVRow } from '@cougargrades/types/dist/GradeDistribut
 import { getCoreCurriculumDocPaths } from './_dataHelper.js';
 import { arrayUnion, arrayUnionComplex, docRef, exists, get, increment, merge, mergeByPaths, set } from './_firestoreFS.js';
 import { NestedKeyOf } from './_keyof.js';
+import { DEFAULT_META, MetaDocument } from './MetaDocument.js';
 
 // Pasted from @cougargrades/api > whenUploadQueueAdded
 export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
@@ -15,6 +16,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   const instructorPath = `instructors/${GDR.getInstructorMoniker(record)}`
   const groupPath = `groups/${GDR.getGroupMoniker(record)}`
   const coreCurriculumPaths = getCoreCurriculumDocPaths(GDR.getCourseMoniker(record));
+  const metaPath = `meta/meta`
 
   // perform all reads
   //console.time('\tcheck existence')
@@ -22,6 +24,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   const sectionExists = await exists(sectionPath);
   const instructorExists = await exists(instructorPath);
   const groupExists = await exists(groupPath);
+  const metaExists = await exists(metaPath);
 
   // bonus reads: check which core curriculum groups exist
   const coreCurriculumPathsThatExist: string[] = [];
@@ -38,6 +41,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   let courseData: Course;
   let sectionData: Section;
   let instructorData: Instructor;
+  let metaDocData: MetaDocument;
 
   /**
    * Variables to hold the updates we're going to compose, then send off
@@ -108,6 +112,14 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
     // if group already exists
     // save group data
     //groupData = groupSnap.data() as Group;
+  }
+
+  if (!metaExists) {
+    await set(metaPath, DEFAULT_META);
+    metaDocData = DEFAULT_META;
+  }
+  else {
+    metaDocData = await get(metaPath);
   }
 
   //console.timeEnd('\tset defaults')
@@ -378,7 +390,11 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
     lastTaught: Math.max(instructorData.lastTaught, Util.termCode(record.TERM)),
   })
 
-  
+  // Record the latest and earliest term
+  await merge<MetaDocument>(metaPath, {
+    earliestTerm: Math.min(metaDocData.earliestTerm, Util.termCode(record.TERM)),
+    latestTerm: Math.max(metaDocData.latestTerm, Util.termCode(record.TERM)),
+  })
   /**
    * ----------------
    * Update department count stuff

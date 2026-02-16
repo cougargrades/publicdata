@@ -18,6 +18,8 @@ import bundle.patch.publications_core
 import bundle.patch.ratemyprofessors
 import bundle.patch.tccns
 import bundle.patch.sparklines_enrollment
+import bundle.patch.default_patchfiles
+import bundle.patch.other_data
 from colorama import init
 init()
 from colorama import Fore, Back, Style
@@ -79,7 +81,7 @@ print('\t✔')
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines.enrollment']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines.enrollment', 'io.cougargrades.publicdata.patch.defaults', 'io.cougargrades.publicdata.other']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
@@ -99,6 +101,10 @@ for fmt in documents_path.iterdir():
     bundle.patch.publications_subjects.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.sparklines.enrollment'):
     bundle.patch.sparklines_enrollment.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'io.cougargrades.publicdata.patch.defaults'):
+    bundle.patch.default_patchfiles.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'io.cougargrades.publicdata.other'):
+    bundle.patch.other_data.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
 
 # generate the export file
 print(f'{Fore.CYAN}[{M} / {N}] Compressing tarfile: {export_name}{Style.RESET_ALL}')
