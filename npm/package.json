@@ -6,8 +6,6 @@
   "types": "index.d.ts",
   "files": [
     "bundle/com.collegescheduler.uh.subjects/**",
-    "bundle/edu.uh.grade_distribution/**",
-    "bundle/edu.uh.publications.courses/**",
     "bundle/edu.uh.publications.core/**",
     "bundle/edu.uh.publications.subjects/**",
     "bundle/edu.uh.publications.colleges/**",
