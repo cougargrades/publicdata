@@ -156,7 +156,7 @@ jobs:
         run: |
           cd npm
           node repackage.js ${{ needs.prep.outputs.npmtag }}
-          npm publish
+          npm publish --access public --tag latest
 
   make_mock_database:
     name: Build local copy of database
