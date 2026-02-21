@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  id-token: write
+
 name: Create Release
 
 jobs:
@@ -130,19 +133,19 @@ jobs:
       # Publish to npm
       - uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
-      # - name: Publish to NPM
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-      #   run: |
-      #     cd npm
-      #     node repackage.js ${{ needs.prep.outputs.npmtag }}
-      #     npm publish --access public
+      - name: Publish to NPM
+        # env:
+        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: |
+          cd npm
+          node repackage.js ${{ needs.prep.outputs.npmtag }}
+          npm publish --access public
       # Setup .npmrc file to publish to GitHub Packages
       - uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '24.x'
           registry-url: 'https://npm.pkg.github.com'
       # Publish to GitHub Packages
       - name: Publish to GitHub Packages
@@ -166,7 +169,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Install + Compile
         run: |
