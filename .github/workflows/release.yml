@@ -143,7 +143,7 @@ jobs:
         run: |
           cd npm
           node repackage.js ${{ needs.prep.outputs.npmtag }}
-          npm publish --access public
+          npm publish --access public --tag latest
       # Setup .npmrc file to publish to GitHub Packages
       - uses: actions/setup-node@v3
         with:
