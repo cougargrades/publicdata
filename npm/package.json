@@ -15,6 +15,10 @@
   "scripts": {},
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cougargrades/publicdata.git"
+  },
   "bugs": {
     "url": "https://github.com/cougargrades/publicdata/issues"
   },
