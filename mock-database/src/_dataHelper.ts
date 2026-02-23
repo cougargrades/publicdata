@@ -1,5 +1,5 @@
 
-import core_curriculum from '@cougargrades/publicdata/bundle/edu.uh.publications.core/core_curriculum.json'
+import core_curriculum from '@cougargrades/publicdata/bundle/edu.uh.publications.core/core_curriculum.json' with { type: "json" };
 // import { Group } from '@cougargrades/types';
 // import { firebase } from './_firebaseHelper.js';
 
