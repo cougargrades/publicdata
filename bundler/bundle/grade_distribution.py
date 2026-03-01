@@ -52,7 +52,7 @@ def process(source: Path, destination: Path, csv_path_pattern: str = '*.csv'):
   with open(destination / 'records.csv', 'r') as records:
     reader = csv.DictReader(records)
     sortedlist = sorted(reader, key=lambda row: row['TERM'], reverse=False)
-  with open(destination / 'records.csv', 'w') as export:
+  with open(destination / 'records.csv', 'w', newline='', encoding='utf8') as export:
     with open(source / 'master.csv', 'r') as masterFile:
       # declare writer
       master = csv.DictReader(masterFile)
