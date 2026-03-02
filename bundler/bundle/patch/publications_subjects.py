@@ -53,6 +53,7 @@ def generate(source: Path, destination: Path):
         if abbreviation in subjects:
           name = subjects[abbreviation]
           group["name"] = f'{name} (Subject)' if name not in HAS_DUPLICATES else f'{name} ("{abbreviation.upper()}") (Subject)'
+          group["shortName"] = f'{name} ({abbreviation})'
         else:
           group["name"] = f'"{abbreviation}" (Subject)'
         group["identifier"] = abbreviation
