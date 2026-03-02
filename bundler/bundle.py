@@ -6,15 +6,17 @@ from time import time
 from shutil import rmtree, copyfile, move
 from pathlib import Path
 import bundle.grade_distribution
-import bundle.patch.publications_subjects
+
 import bundle.subjects
 import bundle.publications_courses
 import bundle.publications_subjects
 import bundle.generate_sitemap
 import bundle.publications_colleges
-import bundle.patch.publications_courses
-import bundle.patch.groups
 import bundle.patch.publications_core
+import bundle.patch.publications_courses
+import bundle.patch.publications_subjects
+import bundle.patch.publications_colleges
+import bundle.patch.groups
 import bundle.patch.ratemyprofessors
 import bundle.patch.tccns
 import bundle.patch.sparklines_enrollment
@@ -81,7 +83,7 @@ print('\t✔')
 # generate patch files
 for fmt in documents_path.iterdir():
   # print thing
-  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines.enrollment', 'io.cougargrades.publicdata.patch.defaults', 'io.cougargrades.publicdata.other']):
+  if(fmt.name in ['com.collegescheduler.uh.subjects', 'edu.uh.publications.courses', 'io.cougargrades.groups', 'edu.uh.publications.core', 'com.ratemyprofessors', 'edu.uh.academics.tccns', 'edu.uh.publications.subjects', 'io.cougargrades.sparklines.enrollment', 'io.cougargrades.publicdata.patch.defaults', 'io.cougargrades.publicdata.other', 'edu.uh.publications.colleges']):
     print(f'{Fore.CYAN}[{M} / {N}] Patching {fmt.name}{Style.RESET_ALL}')
     M += 1
   else:
@@ -99,6 +101,8 @@ for fmt in documents_path.iterdir():
     bundle.patch.tccns.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'edu.uh.publications.subjects'):
     bundle.patch.publications_subjects.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
+  if(fmt.name == 'edu.uh.publications.colleges'):
+    bundle.patch.publications_colleges.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.sparklines.enrollment'):
     bundle.patch.sparklines_enrollment.generate(fmt.resolve(), export_name / 'io.cougargrades.publicdata.patchfile')
   if(fmt.name == 'io.cougargrades.publicdata.patch.defaults'):

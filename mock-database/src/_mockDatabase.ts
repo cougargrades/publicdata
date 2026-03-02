@@ -14,6 +14,9 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   // In @cougargrades/types v0.1.0 and above, this will be lowercase
   // This is for: https://github.com/cougargrades/web/issues/128
   const instructorPath = `instructors/${GDR.getInstructorMoniker(record)}`
+  /**
+   * This points to the Subject group for this course
+   */
   const groupPath = `groups/${GDR.getGroupMoniker(record)}`
   const coreCurriculumPaths = getCoreCurriculumDocPaths(GDR.getCourseMoniker(record));
   const metaPath = `meta/meta`
@@ -23,7 +26,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
   const courseExists = await exists(coursePath);
   const sectionExists = await exists(sectionPath);
   const instructorExists = await exists(instructorPath);
-  const groupExists = await exists(groupPath);
+  //const groupExists = await exists(groupPath);
   const metaExists = await exists(metaPath);
 
   // bonus reads: check which core curriculum groups exist
@@ -101,18 +104,19 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
     instructorData = await get(instructorPath)
   }
 
+  // 2026-03-01: We don't want to create the "subject" group here. It should be left to the Patchfiles.
   // if group doesn't exist
-  if (!groupExists) {
-    // create default group with record data
-    await set(groupPath, GDR.toGroup(record))
-    //groupData = GDR.toGroup(record); // TODO: why was this commented out in the original code? what do we do with it here?
-  }
-  else {
-    // TODO: why was this commented out in the original code? what do we do with it here? was it because it went unused?
-    // if group already exists
-    // save group data
-    //groupData = groupSnap.data() as Group;
-  }
+  // if (!groupExists) {
+  //   // create default group with record data
+  //   await set(groupPath, GDR.toGroup(record))
+  //   //groupData = GDR.toGroup(record); // TODO: why was this commented out in the original code? what do we do with it here?
+  // }
+  // else {
+  //   // TODO: why was this commented out in the original code? what do we do with it here? was it because it went unused?
+  //   // if group already exists
+  //   // save group data
+  //   //groupData = groupSnap.data() as Group;
+  // }
 
   if (!metaExists) {
     await set(metaPath, DEFAULT_META);

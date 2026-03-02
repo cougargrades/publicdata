@@ -2,8 +2,8 @@ import fs from 'fs/promises'
 import path from 'path'
 import _ from 'lodash'
 import { is } from '@cougargrades/types';
-import { AppendAction, CreateAction, IncrementAction, MergeAction, Patchfile, WriteAction } from '@cougargrades/types/dist/Patchfile';
-import { arrayUnion, docRef, exists, get, increment, merge, set } from './_firestoreFS.js';
+import { AppendAction, ArrayUnionAction, CreateAction, IncrementAction, MergeAction, Patchfile, WriteAction } from '@cougargrades/types/dist/Patchfile';
+import { arrayUnion, docRef, exists, get, increment, merge, mergeByPaths, set } from './_firestoreFS.js';
 
 /**
  * Patchfile operations actually used in practice
@@ -36,12 +36,12 @@ export async function processPatchfile(file: string): Promise<void> {
 export async function executePatchFile(patch: Patchfile) {
   // check for actions which require something to already exist
   for(const action of patch.actions) {
-    if (action.operation === 'append')
-      if(! await checkPossiblePatchAppendOperation(patch, action as AppendAction))
-        throw `[PatchfileUtil] Patchfile execution isn't possible: ${action.operation} won't be able complete.`;
-      if (action.operation === 'increment')
-        if(! await checkPossiblePatchIncrementOperation(patch, action as IncrementAction))
-          throw `[PatchfileUtil] Patchfile execution isn't possible: ${action.operation} won't be able complete.`;
+    if (action.operation === 'append' && ! await checkPossiblePatchAppendOperation(patch, action as AppendAction))
+      throw `[PatchfileUtil] Patchfile execution isn't possible: ${action.operation} won't be able complete.`;
+    if (action.operation === 'arrayUnion' && ! await checkPossiblePatchArrayUnionOperation(patch, action as ArrayUnionAction))
+      throw `[PatchfileUtil] Patchfile execution isn't possible: ${action.operation} won't be able complete.`;
+    if (action.operation === 'increment' && ! await checkPossiblePatchIncrementOperation(patch, action as IncrementAction))
+      throw `[PatchfileUtil] Patchfile execution isn't possible: ${action.operation} won't be able complete.`;
   }
   // execute actions
   for (const action of patch.actions) {
@@ -51,6 +51,8 @@ export async function executePatchFile(patch: Patchfile) {
       await commitPatchMergeOperation(patch, action as MergeAction);
     if (action.operation === 'append')
       await commitPatchAppendOperation(patch, action as AppendAction);
+    if (action.operation === 'arrayUnion')
+      await commitPatchArrayUnionOperation(patch, action as ArrayUnionAction);
     if (action.operation === 'increment')
       await commitPatchIncrementOperation(patch, action as IncrementAction);
     if (action.operation === 'create')
@@ -122,6 +124,34 @@ async function commitPatchAppendOperation(
   }
 }
 
+async function commitPatchArrayUnionOperation(
+  patch: Patchfile,
+  action: ArrayUnionAction,
+) {
+  const targetExists = await exists(patch.target.path);
+
+  if (!targetExists) throw "ArrayUnion operation failed: Target was undefined.";
+  if (!Array.isArray(action.payload)) throw "ArrayUnion operation failed: Payload was not an array";
+
+  const existingData = await get(patch.target.path);
+  const fieldData = _.get(existingData, action.arrayfield);
+
+  if (!Array.isArray(fieldData)) throw "ArrayUnion operation failed: Target field was not an array";
+
+  // Works with primitive semantics only
+  const dedupedFieldData = new Set(fieldData);
+
+  // Add from payload
+  for(let item of action.payload) {
+    dedupedFieldData.add(item);
+  }
+
+  // Perform the merge
+  await mergeByPaths(patch.target.path, {
+    [action.arrayfield]: Array.from(dedupedFieldData),
+  });
+}
+
 async function checkPossiblePatchAppendOperation(
   patch: Patchfile,
   action: AppendAction,
@@ -141,6 +171,29 @@ async function checkPossiblePatchAppendOperation(
   }
   else {
     console.warn('[PatchfileUtil] Append operation would have failed: Target was undefined.');
+    return false;
+  }
+}
+
+async function checkPossiblePatchArrayUnionOperation(
+  patch: Patchfile,
+  action: ArrayUnionAction,
+): Promise<boolean> {
+  const targetExists = await exists(patch.target.path)
+  
+  if(targetExists) {
+    const existingData = await get(patch.target.path);
+
+    if(Array.isArray(_.get(existingData, action.arrayfield))) {
+      return true;
+    }
+    else {
+      console.warn('[PatchfileUtil] ArrayUnion operation would have failed: Target field was not an array');
+      return false;
+    }
+  }
+  else {
+    console.warn('[PatchfileUtil] ArrayUnion operation would have failed: Target was undefined.');
     return false;
   }
 }

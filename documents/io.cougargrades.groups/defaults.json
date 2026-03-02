@@ -108,5 +108,16 @@
     "relatedGroups": [],
     "categories": ["#UHCoreCurriculum", "#ShowInSidebar", "UH Core Curriculum (All)"],
     "sources": []
+  },
+  {
+    "name": "All Subjects",
+    "identifier": "all-subjects",
+    "description": "Every Subject available at the University of Houston.",
+    "keywords": [],
+    "courses": [],
+    "sections": [],
+    "relatedGroups": [],
+    "categories": ["Other Groups", "#ShowInSidebar", "#layout:RelatedGroupList"],
+    "sources": []
   }
 ]
