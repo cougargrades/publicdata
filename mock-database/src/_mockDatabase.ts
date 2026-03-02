@@ -18,7 +18,7 @@ export async function whenUploadQueueAdded(record: GradeDistributionCSVRow) {
    * This points to the Subject group for this course
    */
   const groupPath = `groups/${GDR.getGroupMoniker(record)}`
-  const coreCurriculumPaths = await getCoreCurriculumDocPaths(GDR.getCourseMoniker(record));
+  const coreCurriculumPaths = getCoreCurriculumDocPaths(GDR.getCourseMoniker(record));
   const metaPath = `meta/meta`
 
   // perform all reads
