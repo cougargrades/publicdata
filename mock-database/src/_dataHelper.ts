@@ -1,4 +1,4 @@
-
+import fs from 'node:fs'
 //import core_curriculum from '@cougargrades/publicdata/bundle/edu.uh.publications.core/core_curriculum.json' with { type: "json" };
 //import core_curriculum from '../tmp/test/edu.uh.publications.core/core_curriculum.json' with { type: "json" };
 
@@ -10,9 +10,8 @@
 //   return getCoreCurriculumDocPaths(courseName).map(path => db.doc(path) as FirebaseFirestore.DocumentReference<Group>);
 // }
 
-export async function getCoreCurriculumDocPaths(courseName: string): Promise<string[]> {
-
-  const { default: core_curriculum } = await import('../tmp/test/edu.uh.publications.core/core_curriculum.json', { with: { type: 'json' } });
+export function getCoreCurriculumDocPaths(courseName: string): Promise<string[]> {
+  const core_curriculum = JSON.parse(fs.readFileSync('../tmp/test/edu.uh.publications.core/core_curriculum.json',  { encoding: 'utf-8' }));
 
   const [department, catalogNumber] = courseName.trim().split(' ')
   return core_curriculum
