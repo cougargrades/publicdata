@@ -67,12 +67,15 @@ def generate(source: Path, destination: Path):
 
         # perform initial write for Core Group
         with open(destination / f'patch-0a-groupdefaults-{time_ns()}.json', 'w') as out:
+          # Copy all values from default
           dInstance = dict(default)
-          dInstance["name"] = f'{default["name"]} (All) (Core)'
-          dInstance["description"] = f'Courses which satisfied the "{default["name"]}" component in the UH Core Curriculum at some point. Includes Undergraduate Catalogs from multiple different academic years. To see which catalogs are included, see the "Sources" below.'
-          #dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
-          dInstance["keywords"] = []
-          dInstance["relatedGroups"] = []
+          # For "#UHCoreCurriculum" defaults, update the values programmatically
+          if "#UHCoreCurriculum" in list(default["categories"]):
+            dInstance["name"] = f'{default["name"]} (All) (Core)'
+            dInstance["description"] = f'Courses which satisfied the "{default["name"]}" component in the UH Core Curriculum at some point. Includes Undergraduate Catalogs from multiple different academic years. To see which catalogs are included, see the "Sources" below.'
+            #dInstance["keywords"] = create_deduped_sorted_keywords_set(root_keywords)
+            dInstance["keywords"] = []
+            dInstance["relatedGroups"] = []
 
           # used for creating searchable "groups.json"
           append_to_group_searchable_json(destination, {
@@ -84,18 +87,19 @@ def generate(source: Path, destination: Path):
           })
 
           out.write(str(
-            Patchfile(f'/groups/{default["identifier"]}')
+            Patchfile(f'/groups/{dInstance["identifier"]}')
               .write(dInstance)
           ))
           bar()
         
-        # perform append that needs to be in a separate patchfile to function correctly
-        with open(destination / f'patch-0c-groupdefaults-{time_ns()}.json', 'w') as out:
-          out.write(str(
-            Patchfile(f'/groups/{default["identifier"]}')
-              .append('relatedGroups', 'firebase.firestore.DocumentReference', [ f'/groups/{default["identifier"]}-{cc["groupNavoid"]}' for cc in history ], many=True)
-          ))
-          bar()
+        if "#UHCoreCurriculum" in default["categories"]:
+          # perform append that needs to be in a separate patchfile to function correctly
+          with open(destination / f'patch-0c-groupdefaults-{time_ns()}.json', 'w') as out:
+            out.write(str(
+              Patchfile(f'/groups/{default["identifier"]}')
+                .append('relatedGroups', 'firebase.firestore.DocumentReference', [ f'/groups/{default["identifier"]}-{cc["groupNavoid"]}' for cc in history ], many=True)
+            ))
+            bar()
 
         # create "spin-off" groups from the defaults that are just for that particular catalog
         for cc in history:
